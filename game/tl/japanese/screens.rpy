@@ -1,24 +1,24 @@
 translate japanese strings:
     old "Back"
-    new "Назад"
+    new "戻る"
 
     old "History"
-    new "История"
+    new "履歴"
 
     old "Skip"
-    new "Пропуск"
+    new "スキップ"
 
     old "Auto"
-    new "Авто"
+    new "オート"
 
     old "Save"
-    new "Сохранить"
+    new "セーブ"
 
     old "Q.Save"
-    new "Б.Сохр"
+    new "クイックセーブ"
 
     old "Q.Load"
-    new "Б.Загр"
+    new "クイックロード"
 
     old "Start"
     new "ニューゲーム"
@@ -27,220 +27,220 @@ translate japanese strings:
     new "ロードゲーム"
 
     old "End Replay"
-    new "Завершить повтор"
+    new "リプレイ終了"
 
     old "Main Menu"
-    new "Главное меню"
+    new "メインメニュー"
 
     old "About"
-    new "Об игре"
+    new "ゲームについて"
 
     old "Help"
-    new "Помощь"
+    new "ヘルプ"
 
     old "Quit"
-    new "Выход"
+    new "終了"
 
     old "Return"
-    new "Вернуться"
+    new "戻る"
 
     old "Version [config.version!t]\n"
-    new "Версия [config.version!t]\n"
+    new "バージョン [config.version!t]\n"
 
     old "Page {}"
-    new "{} страница"
+    new "{} ページ"
 
     old "Automatic saves"
-    new "Автосохранения"
+    new "オートセーブ"
 
     old "Quick saves"
-    new "Быстрые сохранения"
+    new "クイックセーブ"
 
     old "{#file_time}%A, %d %B %Y, %H:%M"
     new "{#file_time}%A, %d %B %Y, %H:%M"
 
     old "Empty Slot"
-    new "Пустой слот"
+    new "空スロット"
 
     old "<"
     new "<"
 
     old "{#auto_page}A"
-    new "{#auto_page}А"
+    new "{#auto_page}A"
 
     old "{#quick_page}Q"
-    new "{#quick_page}Б"
+    new "{#quick_page}Q"
 
     old ">"
     new ">"
 
     old "Upload Sync"
-    new "Синхронизация загрузки"
+    new "アップロード同期"
 
     old "Download Sync"
-    new "Скачать Sync"
+    new "ダウンロード同期"
 
     old "Display Mode"
-    new "Режим экрана"
+    new "表示モード"
 
     old "Window"
-    new "Оконный"
+    new "ウィンドウ"
 
     old "Fullscreen"
-    new "Полный"
+    new "フルスクリーン"
 
     old "All Text"
-    new "Всего текста"
+    new "全テキスト"
 
     old "After Choices"
-    new "После выборов"
+    new "選択肢後"
 
     old "Transitions"
-    new "Переходов"
+    new "トランジション"
 
     old "Text Speed"
-    new "Скорость текста"
+    new "テキスト速度"
 
     old "Auto-Forward Time"
-    new "Скорость авточтения"
+    new "オートフォワード速度"
 
     old "Music Volume"
-    new "Громкость музыки"
+    new "BGM音量"
 
     old "Sound Volume"
-    new "Громкость звуков"
+    new "効果音音量"
 
     old "Test"
-    new "Тест"
+    new "テスト"
 
     old "Voice Volume"
-    new "Громкость голоса"
+    new "ボイス音量"
 
     old "Mute All"
-    new "Без звука"
+    new "全ミュート"
 
     old "Language"
-    new "Язык"
+    new "言語"
 
     old "The dialogue history is empty."
-    new "История диалогов пуста."
+    new "会話履歴がありません。"
 
     old "Keyboard"
-    new "Клавиатура"
+    new "キーボード"
 
     old "Mouse"
-    new "Мышь"
+    new "マウス"
 
     old "Gamepad"
-    new "Геймпад"
+    new "ゲームパッド"
 
     old "Enter"
-    new "Войти"
+    new "エンター"
 
     old "Advance dialogue and activate interface."
-    new "Прохождение диалогов, активация интерфейса."
+    new "会話の進行とインターフェースの操作"
 
     old "Space"
-    new "Пробел"
+    new "スペース"
 
     old "Advance dialogue without making choices."
-    new "Прохождение диалогов без возможности делать выбор."
+    new "選択肢なしで会話を進める"
 
     old "Arrow Keys"
-    new "Стрелки"
+    new "矢印キー"
 
     old "Navigate the interface."
-    new "Навигация по интерфейсу."
+    new "インターフェースの操作"
 
     old "Esc"
     new "Esc"
 
     old "Enter game menu."
-    new "Вход в игровое меню."
+    new "ゲームメニューを開く"
 
     old "Ctrl"
     new "Ctrl"
 
     old "Skip dialogue while held down."
-    new "Пропускает диалоги, пока зажат."
+    new "長押しで会話をスキップ"
 
     old "Tab"
     new "Tab"
 
     old "Toggle skip mode."
-    new "Включает режим пропуска."
+    new "スキップモードの切り替え"
 
     old "Page Up"
-    new "Страница вверху"
+    new "ページアップ"
 
     old "Roll back to earlier story point."
-    new "Откат назад по сюжету игры."
+    new "以前のストーリーポイントに戻る"
 
     old "Page Down"
-    new "Страница вниз"
+    new "ページダウン"
 
     old "Roll forward to later story point."
-    new "Откатывает предыдущее действие вперёд."
+    new "後のストーリーポイントに進む"
 
     old "Hide user interface."
-    new "Скрывает интерфейс пользователя."
+    new "ユーザーインターフェースを非表示"
 
     old "Take screenshot."
-    new "Делает снимок экрана."
+    new "スクリーンショットを撮影"
 
     old "Enable supported {a=https://www.renpy.org/l/voicing}text-to-speech{/a}."
-    new "Включает поддерживаемый {a=https://www.renpy.org/l/voicing}синтезатор речи{/a}."
+    new "対応する{a=https://www.renpy.org/l/voicing}テキスト読み上げ{/a}を有効化"
 
     old "Open accessibility menu."
-    new "Открывает меню специальных возможностей."
+    new "アクセシビリティメニューを開く"
 
     old "Left Click"
-    new "Левый клик"
+    new "左クリック"
 
     old "Middle Click"
-    new "Клик колёсиком"
+    new "中クリック"
 
     old "Right Click"
-    new "Правый клик"
+    new "右クリック"
 
     old "Wheel Up"
-    new "Колёсико вверх"
+    new "ホイール上"
 
     old "Wheel Down"
-    new "Колёсико вниз"
+    new "ホイール下"
 
     old "Right Trigger\nA/Bottom Button"
-    new "Правый триггер\nA/Нижняя кнопка"
+    new "右トリガー\nA/下部ボタン"
 
     old "Left Trigger\nLeft Bumper"
-    new "Левый Триггер\nЛевый Бампер"
+    new "左トリガー\n左バンパー"
 
     old "Right Bumper"
-    new "Правый бампер"
+    new "右バンパー"
 
     old "D-Pad, Sticks"
-    new "Крестовина, Стики"
+    new "D-パッド、スティック"
 
     old "Start, Guide, B/Right Button"
-    new "Старт, Гид, B/кнопка вправо"
+    new "スタート、ガイド、B/右ボタン"
 
     old "Y/Top Button"
-    new "Y/Верхняя кнопка"
+    new "Y/上部ボタン"
 
     old "Calibration"
-    new "Калибровка"
+    new "キャリブレーション"
 
     old "Yes"
-    new "Да"
+    new "はい"
 
     old "No"
-    new "Нет"
+    new "いいえ"
 
     old "Skipping"
-    new "Пропускаю"
+    new "スキップ中"
 
     old "Menu"
-    new "Меню"
+    new "メニュー"
 
     old "Gallery"
     new "ビジュアルモード"
@@ -250,3 +250,33 @@ translate japanese strings:
 
     old "Options"
     new "オプション"
+
+    # progress bar
+    old "Dere"
+    new "デレ"
+
+    old "Tsun"
+    new "ツン"
+
+    old "Sympathy level"
+    new "好感度"
+
+    # battle-menu
+
+    old "Battle Preparation"
+    new "戦闘準備"
+
+    old "Items"
+    new "アイテム"
+
+    old "Characters"
+    new "キャラクター"
+
+    old "Return to Title"
+    new "タイトルに戻る"
+
+    old "Battle Participants"
+    new "バトル参加者"
+
+    old "Start Battle"
+    new "戦闘開始"

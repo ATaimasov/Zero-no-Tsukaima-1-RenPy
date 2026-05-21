@@ -1,11 +1,21 @@
 label louise_outfit_choice:
     menu:
         "I thoughts it's good!":
-            $ choice_result = "good"
+            $ outfit_result = "good"
         "I don't care":
-            $ choice_result = "neutral"
+            $ outfit_result = "neutral"
         "It's terrible!":
-            $ choice_result = "bad"
+            $ outfit_result = "bad"
+    return
+
+label mage_dialog:
+    menu:
+        "Let me think for a moment.":
+            $ mage_result = "neutral"
+        "Like hell I'd do that!":
+            $ mage_result = "good"
+        "Alright... I'll hand her over.":
+            $ mage_result = "bad" 
     return
 
 label ch1_main:
@@ -111,7 +121,7 @@ label ch1_main:
     #choise
     call louise_outfit_choice
 
-    if choice_result == "good":
+    if outfit_result == "good":
 
         voice "ch1_s_009"
         s "I thoughts it's great! You've got good looks to begin with. So paying more attention to your appearance is totally fine."
@@ -120,11 +130,11 @@ label ch1_main:
         voice "ch1_l_010"
         l "I-is that so...?"
 
-        $ update_sympathy(20)
+        $ update_sympathy(20, showProgressBar=True)
 
         voice "ch1_s_010"
         s "But why do girls take so long just picking out clothes? I just don't get it at all..."
-    elif choise_result == "neutral": 
+    elif outfit_result == "neutral": 
 
         ## симпатия луизы не меняется
 
@@ -133,13 +143,13 @@ label ch1_main:
 
         voice "ch1_s_012"
         s "Just one thing though: don't go dumping any extra hassle on me, alright?"
-    elif choise_result == "bad":
+    elif outfit_result == "bad":
 
         scene cg l_s_forest_s_speak at bg_center with dissolve
         voice "ch1_s_013"
         s "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
 
-        $ update_sympathy(-20)
+        $ update_sympathy(-20, showProgressBar=True)
     else:
         "ERR"
 
@@ -205,7 +215,7 @@ label ch1_main:
     voice "ch1_d_005"
 
     # !!!
-    if choice_result == "good":
+    if outfit_result == "good":
         d "See? That’s it. A real man knows to offer a gentle word when it counts—that’s what being a man’s all about, huh?"
     else:
         d "C'mon, partner — a real man at least offers a gentle word when it counts, yeah?"
@@ -229,9 +239,10 @@ label ch1_main:
     thoughts "But sometimes she's unexpectedly gentle... and honestly, she looks pretty cute at times."
     thoughts "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
 
+    # ==== SUBCHAPTER 2 ====
+
     scene cg l_s_forest_l_s_speak at bg_center with fade
     play music audio.t27 fadein 1.0
-
     
     thoughts "Hm...? Someone's collapsed."
 
@@ -289,8 +300,173 @@ label ch1_main:
     voice "ch1_l_023"
     l "Saito, what do you think you're doing?! Trying to take off a girl's clothes?!"
 
+    voice "ch1_s_024"
+    s "Huh!? I-It's a misunderstanding! I was just trying to take care of this girl!"
 
+    voice "ch1_l_024"
+    l "It doesn't look that way at all! I'll examine her myself, so you just go away!"
 
+    voice "ch1_s_025"
+    s "...Yeah, yeah."
 
+    voice "ch1_l_025"
+    l "It looks like she's just unconscious. No head trauma... Saito, hurry and head to the academy!"
+
+    # !!! Эээ - сайто
+    voice "ch1_s_026"
+    s "Eh?"
+
+    voice "ch1_l_026"
+    l "No time for 'Eh?' — we can't exactly drag an unconscious person along, can we?"
+
+    voice "ch1_l_027"
+    l "I meant we should call for reinforcements! Surely you don't need me to spell out every last detail before you get it, right?"
+
+    voice "ch1_s_027"
+    s "Ah, yeah... You're right."
+
+    thoughts "There's a lot I want to ask... but first things first — her condition."
+
+    # ==== SUBCHAPTER 3 ====
+
+    scene bg forest at bg_center with fade
+    play music audio.t17 fadein 1.0
+
+    show mage at slide_left_to_center_in
+    pause(0.5)
+    voice "ch1_mage_001"
+    mage "So there you are."
+
+    show mage at slide_center_to_left #slide_center_to_left
+    pause(0.2)
+    show s 1 angry at slide_center_to_right with dissolve #slide_center_to_right
+    # !!! удивление вздох - сайто
+    voice "ch1_s_028"
+    s "Gah?!"
+
+    hide s with dissolve
+    pause(0.2)
+    show l 1 angry at slide_center_to_right with dissolve
+    voice "ch1_l_028"
+    l "What?! Who are you people?!"
+
+    voice "ch1_mage_002"
+    mage "Hand over that girl."
+
+    hide l with dissolve
+    pause(0.2)
+    show s 1 angry at slide_center_to_right with dissolve
+    voice "ch1_s_029"
+    s "Who are you people? Do you know this girl?"
+
+    voice "ch1_mage_003"
+    mage "You have no need to know. Leave quietly, and we'll spare your lives."
+
+    voice "ch1_s_030"
+    s "What did you just say?!"
+
+    #choise
+    call mage_dialog
+
+    if mage_result == "good":
+        voice "ch1_s_036"
+        s "Like hell I can do that! You just pop out of nowhere, dressed all suspiciously — did you really think I'd just hand her over without a second thought?!"
+
+        show mage at slide_right_out with dissolve
+        pause(0.1)
+        hide mage
+
+        show l 1 sad at slide_left_in with dissolve
+        voice "ch1_l_031"
+        l "Saito..."
+        pause(1)
+        $ update_sympathy(20, showProgressBar=True)
+    elif mage_result == "neutral": 
+        show s 1 sad at normal_right with dissolve
+        pause(0.2)
+        voice "ch1_s_031"
+        s "W-wait... let me think for a moment."
         
+        show mage at slide_right_out with dissolve
+        pause(0.1)
+        hide mage
+        show l 1 angry at slide_left_in with dissolve
+        voice "ch1_l_029"
+        l "What are you even thinking about?! This is obviously a 'no way' situation, got it?!"
+
+        show s 3 sad at normal_right with dissolve
+        pause(0.1)
+        voice "ch1_s_032"
+        s "Ah, yeah... You're right.{#var_2}"
+
+    elif mage_result == "bad":
+        voice "ch1_s_037"
+        s "Understood. You can have this girl."
+
+        show mage at slide_right_out with dissolve
+        pause(0.1)
+        hide mage
+
+        show l 3 angry at slide_left_in with dissolve
+        voice "ch1_l_032"
+        l "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
+        $ update_sympathy(-20, showProgressBar=True)
+
+        show s 3 sad at normal_right with dissolve
+        voice "ch1_s_038"
+        s "Huh? Ah, no... Um, well, you see... I was just testing them, okay?!"
+
+        show l 1 at normal_left with dissolve
+        voice "ch1_l_033"
+        l "Is that so...?"
+
+    show s 1 angry at normal_right with dissolve
+    voice "ch1_s_033"
+    s "Hey, you guys! Listen up good."
+
+    voice "ch1_s_034"
+    s "I'm not handing this girl over to you. Leave — now!"
+
+    show d 1 happy at slide_left_to_center_in
+    voice "ch1_d_007"
+    d "Heh heh heh... That's what I like to see, partner! Thought my edge'd never see action again."
+
+    if mage_result == "good":
+        show l 1 sad at slide_left_out with dissolve
+    elif mage_result == "neutral":
+        show l 1 angry at slide_left_out with dissolve
+    elif mage_result == "bad":
+        show l 1 at slide_left_out with dissolve
+    pause(0.1)
+    hide l
+    
+    show mage at slide_left_in with dissolve
+    voice "ch1_mage_004"
+    mage "Hmph... How foolish. A mere commoner dares to stand in our way? Very well — then you shall receive a fitting recompense."
+
+    show d 1 happy at slide_center_to_right_out with dissolve
+    pause(0.2)
+    hide d
+
+    # !!! звук доставания меча
+    show s 7 angry at normal_right with dissolve
+    voice "ch1_s_035"
+    s "Louise! I'm counting on you!"
+
+    show mage at slide_left_out with dissolve
+    pause(0.1)
+    hide mage
+
+    show l 2 angry at slide_left_in with dissolve
+    voice "ch1_l_030"
+    l "I know! Getting dragged into something like this... Saito, you're going to pay for this later!"
+
+    thoughts "Like hell I'd give this important clue to getting back to Japan to these sketchy characters!"
+
+    voice "ch1_d_008"
+    d "Seems like the other side's fixin' to act, partner."  
+
+    call screen battle_menu
+
+    
     return

@@ -251,3 +251,112 @@ translate japanese strings:
 
     old "Saito, what do you think you're doing?! Trying to take off a girl's clothes?!"
     new "サイト、なにやってんのよ!女の子の服を脱がそうとするなんて!"
+
+    old "Huh!? I-It's a misunderstanding! I was just trying to take care of this girl!"
+    new "へ!?ご、誤解だ!俺はこの娘を介抱しようとしただけで!"
+
+    old "It doesn't look that way at all! I'll examine her myself, so you just go away!"
+    new "全然そうには見えないわよ!わたしが診るからあんたはあっちに行って。"
+
+    old "...Yeah, yeah."
+    new "......はいはい。"
+
+    old "It looks like she's just unconscious. No head trauma... Saito, hurry and head to the academy!"
+    new "意識を失ってるだけのようね。頭に損傷は無いみたい......。サイト、急いで学院に向かって!"
+
+    old "Eh?"
+    new "へ?"
+
+    old "No time for 'Eh?' — we can't exactly drag an unconscious person along, can we?"
+    new "「へっ」じゃないわよ。わたし達は馬なんだから、倒れてる人を連れていけるわけないでしょ?"
+
+    old "I meant we should call for reinforcements! Surely you don't need me to spell out every last detail before you get it, right?"
+    new "応援を呼んでって意味よ。まさか、最後まで話さないと分からないってことはないでしょ?"
+
+    old "Ah, yeah... You're right."
+    new "あ、ああ......。そうだな。"
+
+    old "There's a lot I want to ask... but first things first — her condition."
+    new "(いろいろ聞きたいことはあるけど、 まずは容態だよな)"
+
+    old "So there you are."
+    new "ここにいたか。"
+
+    old "Gah?!"
+    new "っ!?"
+
+    old "What?! Who are you people?!"
+    new "なっ!?なに、あんた達!"
+
+    old "Hand over that girl."
+    new "その娘を渡してもらおう。"
+
+    old "Who are you people? Do you know this girl?"
+    new "何者だ、おまえら。この娘の知り合いか?"
+
+    old "You have no need to know. Leave quietly, and we'll spare your lives."
+    new "貴様らが知る必要はない。黙ってここから立ち去れば、命までは奪わんでおいてやる。"
+
+    old "What did you just say?!"
+    new "なんだと?"
+
+    #mage dialog
+    old "Let me think for a moment."
+    new "ちょっと考えさせてくれ"
+
+    old "Like hell I'd do that!"
+    new "そんなことできるか"
+
+    old "Alright... I'll hand her over."
+    new "分かった、渡そう"
+
+    old "W-wait... let me think for a moment."
+    new "ちょ、ちょっと考えさせてくれ。"
+
+    old "What are you even thinking about?! This is obviously a 'no way' situation, got it?!"
+    new "何、考えこんでるのよ!この場合は断固拒否、でしょ!"
+
+    old "Ah, yeah... You're right.{#var_2}"
+    new "あ、ああ......そうだな。"
+
+    old "Hey, you guys! Listen up good."
+    new "おい、あんたら。よーく聞けよ。"
+
+    old "I'm not handing this girl over to you. Leave — now!"
+    new "おまえらにこの娘は渡せない。今すぐ立ち去れ!"
+
+    old "Heh heh heh... That's what I like to see, partner! Thought my edge'd never see action again."
+    new "へへへっ、やる気だなぁ相棒。最近暇で暇で刃がなまっちまうかと思ってたぜ。"
+
+    old "Hmph... How foolish. A mere commoner dares to stand in our way? Very well — then you shall receive a fitting recompense."
+    new "ふん......愚かな。平民ごときが、我らを邪魔だてする気か。ならば、それ相応の報いを受けてもらおう。"
+
+    old "Louise! I'm counting on you!"
+    new "ルイズ!頼むぞ。"
+
+    old "I know! Getting dragged into something like this... Saito, you're going to pay for this later!"
+    new "分かってるわよ!こんなことに巻き込んで......。サイト、後で覚えてなさいよ!"
+
+    old "Like hell I'd give this important clue to getting back to Japan to these sketchy characters!"
+    new "(日本に戻るための大事な手がかりを、 こんな怪しい連中に渡せるかよ!)"
+
+    old "Seems like the other side's fixin' to act, partner."
+    new "向こうもそろそろ動くみたいだぜ、相棒。"
+
+    old "Like hell I can do that! You just pop out of nowhere, dressed all suspiciously — did you really think I'd just hand her over without a second thought?!"
+    new "そんなことできるか!突然現れて、怪しい格好をしてるおまえらに素直に預けられると思ってんのか。"
+
+    old "Saito..."
+    new "サイト......。"
+
+    old "Understood. You can have this girl."
+    new "分かった、この娘は渡そう。"
+
+    old "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
+    new "ちょっとサイト!どこの誰だか分からない連中にこの娘を預けちゃうつもり!?"
+
+    old "Huh? Ah, no... Um, well, you see... I was just testing them, okay?!"
+    new "へ?あ、いや......そ、その、あれだ。ちょっとカマをかけただけだってば。"
+
+    old "Is that so...?"
+    new "ふーん?"

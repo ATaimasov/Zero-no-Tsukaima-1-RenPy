@@ -259,3 +259,33 @@ translate russian strings:
 
     old "Display"
     new "Отображение"
+
+    # progress bar
+    old "Dere"
+    new "Дере"
+
+    old "Tsun"
+    new "Цун"
+
+    old "Sympathy level"
+    new "Уровень симпатии"
+
+    # battle-menu
+
+    old "Battle Preparation"
+    new "Подготовка к бою"
+
+    old "Items"
+    new "Инвентарь"
+
+    old "Characters"
+    new "Персонажи"
+
+    old "Return to Title"
+    new "Вернуться к заглавному экрану"
+
+    old "Battle Participants"
+    new "Участники боя"
+
+    old "Start Battle"
+    new "Начать бой"

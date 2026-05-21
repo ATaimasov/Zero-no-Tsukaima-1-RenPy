@@ -38,3 +38,6 @@ translate japanese strings:
     old "Сommander"
     new "指揮官"
 
+    old "Mage"
+    new "魔導士"
+

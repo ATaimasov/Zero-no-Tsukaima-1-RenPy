@@ -13,9 +13,9 @@ label ch0_main:
     voice "ch0_npc1_001"
     npc1 "Where did the explosion happen?"
 
-    show npc 1 angry as npc_left at close_left
+    show npc 1 angry as npc_left at close_left_npc
 
-    show npc 1 angry as npc_right at close_right with dissolve
+    show npc 1 angry as npc_right at close_right_npc with dissolve
     voice "ch0_npc1_002"
     npc2 "Sir—on the street facing the main avenue, multiple explosions involving explosive materials have been confirmed."
 
@@ -31,17 +31,17 @@ label ch0_main:
     call overlay_screen(None,  "My name is Louise Françoise Le Blanc de La Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001")
     scene bg town_square_night at bg_center with dissolve
 
-    show npc 1 as npc_left at close_left with dissolve
-    show npc 1 as npc_right at close_right with dissolve
+    show npc 1 as npc_left at close_left_npc with dissolve
+    show npc 1 as npc_right at close_right_npc with dissolve
 
     voice "ch0_un_001"
     unknown "Hahahaha. You're always working hard."
 
-    show npc 1 sad as npc_left at close_left
+    show npc 1 sad as npc_left at close_left_npc
     voice "ch0_npc1_005"
     npc1 "Where is he?"
 
-    show npc 1 angry as npc_right at close_right
+    show npc 1 angry as npc_right at close_right_npc
     voice "ch0_npc1_006"
     npc2 "Sir, he's on top of that mansion."
 

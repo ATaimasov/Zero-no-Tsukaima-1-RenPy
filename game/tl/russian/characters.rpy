@@ -38,3 +38,6 @@ translate russian strings:
     old "Сommander"
     new "Командир"
 
+    old "Mage"
+    new "Маг"
+

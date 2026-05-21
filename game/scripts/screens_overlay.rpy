@@ -1,59 +1,3 @@
-# #show overlay img with text
-
-# # overlay styles
-# style chapter_title_style:
-#     #  font "gui/Leotaro.otf"          # ️ Замени на путь к своему шрифту
-#     size 64
-#     bold True
-#     color "#fff3e0"              # Тёплый кремовый цвет
-#     outlines [ 
-#         (2, "#000", 0, 0),       # Чёрная обводка для читаемости
-#         (1, "#000", 2, 2)        # Мягкое свечение/тень (эффект как на PS2)
-#     ]
-#     xalign 0.5
-#     yalign 0.35
-#     text_align 0.5
-#     antialias True
-
-# # overlay screen
-# screen chapter_title_overlay(title_text):
-#     zorder 100
-#     text title_text style "chapter_title_style" xalign 0.5 yalign 0.5
-
-# # overlay func
-# label overlay_screen(scene_name=None, title_text="", delay=2.0, isUseBlur=True):
-#     # clear old
-#     hide screen chapter_title_overlay
-#     pause 0.05
-
-#     # show bg (black or blurred)
-#     if scene_name is None:
-#         scene black with dissolve
-#     elif isUseBlur is True:
-#         scene expression "bg " + scene_name + "_blurred" at bg_center with dissolve
-#     else:
-#         scene expression "bg " + scene_name at bg_center with dissolve
-#     pause 0.2
-
-#     # show title
-#     show screen chapter_title_overlay(title_text=title_text)
-#     with dissolve
-    
-#     # pause
-#     $ renpy.pause(delay, hard=True)
-
-#     # hide title
-#     hide screen chapter_title_overlay
-#     with dissolve
-#     pause 0.2
-
-#     # return original scene
-#     if scene_name is not None and isUseBlur is True:
-#         scene expression "bg " + scene_name with dissolve
-#         pause 0.2
-#     return
-
-
 #show overlay img with text
 
 # styles presets
@@ -72,7 +16,12 @@ default overlay_styles = {
         'title': { 'size': 78, 'color': "#000000", 'outlines': [(2, "#d9dac6", 0, 0), (1, "#d9dac6", 2, 2)] },
         'subtitle': { 'size': 50, 'color': "#000000", 'outlines': [(1, "#d9dac6", 0, 0)] },
         'line': { 'color': "#000000", 'outline_color': "#d9dac6", 'thickness': 6, 'width': 1000 }
-    }
+    },
+    'orange': {
+        'title': { 'size': 78, 'color': "#fe9e5e", 'outlines': [(2, "#875109", 0, 0), (1, "#875109", 2, 2)] },
+        'subtitle': { 'size': 50, 'color': "#fe9e5e", 'outlines': [(1, "#875109", 0, 0)] },
+        'line': { 'color': "#fd9754", 'outline_color': "#875109", 'thickness': 6, 'width': 1000 }
+    },
 }
 
 

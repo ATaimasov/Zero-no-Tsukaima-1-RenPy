@@ -254,3 +254,111 @@ translate russian strings:
     old "Saito, what do you think you're doing?! Trying to take off a girl's clothes?!"
     new "Сайто, ты что творишь?! Ты что, пытаешься раздеть девушку?!"
 
+    old "Huh!? I-It's a misunderstanding! I was just trying to take care of this girl!"
+    new "Э!? Э-это недоразумение! Я просто пытался ей помочь!"
+
+    old "It doesn't look that way at all! I'll examine her myself, so you just go away!"
+    new "Совсем не похоже! Я сама её осмотрю, а ты иди отсюда!"
+
+    old "...Yeah, yeah."
+    new "...Ладно-ладно"
+
+    old "It looks like she's just unconscious. No head trauma... Saito, hurry and head to the academy!"
+    new "Похоже, она просто без сознания. Повреждений головы нет... Сайто, срочно направляйся в академию!"
+
+    old "Eh?"
+    new "Э?"
+
+    old "No time for 'Eh?' — we can't exactly drag an unconscious person along, can we?"
+    new "Какой ещё \"э?\"! Мы не сможем унести её сами, в конце концов!"
+
+    old "I meant we should call for reinforcements! Surely you don't need me to spell out every last detail before you get it, right?"
+    new "Я имела в виду — нужно позвать подмогу! Неужели ты не поймёшь, пока я не разжую всё до самого конца?"
+
+    old "Ah, yeah... You're right."
+    new "А, ага... Точно."
+    
+    old "There's a lot I want to ask... but first things first — her condition."
+    new "Хоть вопросов у меня куча... но сначала нужно узнать её состояние."
+
+    old "So there you are."
+    new "Так вот ты где."
+
+    old "Gah?!"
+    new "А?!"
+
+    old "What?! Who are you people?!"
+    new "Что?! Кто вы такие?!"
+
+    old "Hand over that girl."
+    new "Отдайте нам эту девушку."
+
+    old "Who are you people? Do you know this girl?"
+    new "Кто вы такие? Вы знакомы с этой девушкой?"
+
+    old "You have no need to know. Leave quietly, and we'll spare your lives."
+    new "Вам не нужно этого знать. Если тихо уберётесь отсюда — оставим вас в живых."
+
+    old "What did you just say?!"
+    new "Что ты сказал?"
+
+    #mage dialog
+    old "Let me think for a moment."
+    new "Дай мне немного подумать."
+
+    old "Like hell I'd do that!"
+    new "Как бы не так!"
+
+    old "Alright... I'll hand her over."
+    new "Понял... отдам её."
+
+    old "W-wait... let me think for a moment."
+    new "П-подожди... дай мне немного подумать."
+
+    old "What are you even thinking about?! This is obviously a 'no way' situation, got it?!"
+    new "О чём ты вообще думаешь?! В такой ситуации нужен решительный отказ, ясно?!"
+
+    old "Ah, yeah... You're right.{#var_2}"
+    new "А, да... Ты права."
+
+    old "Hey, you guys! Listen up good."
+    new "Эй, вы! Слушайте внимательно."
+
+    old "I'm not handing this girl over to you. Leave — now!"
+    new "Я не отдам вам эту девушку. Убирайтесь отсюда немедленно!"
+
+    old "Heh heh heh... That's what I like to see, partner! Thought my edge'd never see action again."
+    new "Хе-хе-хе... Вот это настрой, приятель! А я уж думал, от скуки мое лезвие совсем затупится."
+
+    old "Hmph... How foolish. A mere commoner dares to stand in our way? Very well — then you shall receive a fitting recompense."
+    new "Хм... Какая глупость. Неужто простолюдин вроде тебя смеет преграждать нам путь? Что ж, тогда ты получишь по заслугам."
+
+    old "Louise! I'm counting on you!"
+    new "Луиза! Рассчитываю на тебя!"
+
+    old "I know! Getting dragged into something like this... Saito, you're going to pay for this later!"
+    new "Я знаю! Вляпаться во всё это... Сайто, ты мне за это ответишь!"
+
+    old "Like hell I'd give this important clue to getting back to Japan to these sketchy characters!"
+    new "Как будто я отдам эту важную зацепку для возвращения в Японию таким мутным типам!"
+
+    old "Seems like the other side's fixin' to act, partner."
+    new "Чую, противник вот-вот начнёт, напарник."
+
+    old "Like hell I can do that! You just pop out of nowhere, dressed all suspiciously — did you really think I'd just hand her over without a second thought?!"
+    new "Как бы не так! Вы вдруг появляетесь из ниоткуда, в каких-то странных одеждах — неужели вы думали, что я вот так просто отдам вам девушку?!"
+
+    old "Saito..."
+    new "Сайто..."
+
+    old "Understood. You can have this girl."
+    new "Понял... я отдам вам эту девушку."
+
+    old "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
+    new "Подожди, Сайто! Ты правда собираешься доверить эту девушку каким-то непонятным типам, которых мы даже не знаем?!"
+
+    old "Huh? Ah, no... Um, well, you see... I was just testing them, okay?!"
+    new "Э? А, нет... Понимаешь, это... Я просто хотел их прощупать, вот и всё!"
+    
+    old "Is that so...?"
+    new "Да ну?"

@@ -11,6 +11,7 @@ define d = Character(_("Derflinger"), color="#9d996b")
 define o = Character(_("Osmond"), color="#ddd7d4")
 define npc1 = Character(_("Сommander"), color="#756f9c")
 define npc2 = Character(_("Soldier"), color="#756f9c")
+define mage = Character(_("Mage"), color="#423559")
 
 define unknown = Character(_("???"), color="#756f9c")
 
