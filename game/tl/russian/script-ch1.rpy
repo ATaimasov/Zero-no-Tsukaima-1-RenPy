@@ -362,3 +362,109 @@ translate russian strings:
     
     old "Is that so...?"
     new "Да ну?"
+
+    old "To think I'd struggle against such a little girl and a commoner... Retreat!"
+    new "Подумать только, что я буду испытывать трудности с мелкой девчонкой и простолюдином... Отступаем!"
+
+    old "Hey, wait! Don't you run away!"
+    new "Эй, постой! Не смей бежать!"
+
+    old "Ah!?"
+    new "Э!?"
+
+    old "Hey now. They've escaped."
+    new "Ну вот. Они от нас улизнули."
+
+    old "As if I'd let them get away! We're pursuing them, Saito!"
+    new "Ещё чего! Не позволю им уйти! В погоню, Сайто!"
+    
+    old "Hey, hold on, cool it."
+    new "Эй, подожди, остынь."
+
+    old "Hey, are you really planning to just leave them alone?"
+    new "Эй, ты что, собираешься просто оставить их в покое?"
+
+    old "If we go charging after them without thinking and they've got reinforcements waiting, we could end up on the receiving end. Let's call it good that we scared them off and leave it at that."
+    new "Если рванём за ними сломя голову, а у них там ещё подмога — сами нарвёмся на ответный удар. Ладно, считай, что мы их отогнали, и на том спасибо. Оставим как есть."
+
+    old "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
+    new "...Ну, может, ты и прав. Но всё равно как-то неприятно на душе. Не нравится мне, что они просто так ушли."
+
+    old "There, there. But more importantly, I think what we really need here is artificial respiration..."
+    new "Ну-ну, успокойся. А вообще, знаешь, тут, пожалуй, всё-таки стоит прибегнуть к искусственному дыханию..."
+
+    old "You're so persistent!"
+    new "Какой назойливый!"
+
+    old "Ooow! My head hurts like hell, like it's about to burst!"
+    new "У-у-ух! Голова вот-вот лопнет от боли!"
+
+    old "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
+    new "Если ещё раз такое повторится, я тебе голову действительно расколю. Но ладно, Сайто. Что будем делать дальше?"
+
+    old "Huh? What do you mean, \"what do we do\"?... About what, exactly?"
+    new "А? Что значит «что делать»?... В смысле, что именно?"
+
+    old "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."
+    new "Если те ребята целенаправленно охотились за ней, значит, она не такая уж и простая девчонка, верно? Вполне возможно, что нам с этим не справиться."
+
+    old "There's also the option of heading back to town once and asking them to put this girl under protection, right?"
+    new "Есть же вариант вернуться в город и попросить, чтобы её взяли под охрану, верно?"
+
+    old "Well, that's the common-sense judgment, I suppose."
+    new "Ну, это, пожалуй, самое разумное решение."
+
+    old "N-no, we can't! We can't just abandon this girl halfway!"
+    new "Н-нет, нельзя! Мы не можем просто бросить эту девочку на полпути!"
+
+    old "...Why do you care so much about her, anyway?"
+    new "...С чего ты так за неё переживаешь?"
+
+    old "W-well, that's... Once we've gotten involved, it's only right to see things through to the end and take care of her, isn't it?"
+    new "Н-ну, это... Раз уж мы в это ввязались, то по-человечески правильно — довести дело до конца и позаботиться о ней до самого финала, разве нет?"
+
+    old "Besides, who knows... maybe this could give me a clue on how to get back to Japan."
+    new "К тому же, кто знает... вдруг это даст мне зацепку, как вернуться в Японию?"
+
+    old "Something's fishy here! Saito, spill it — what have you done to her?!"
+    new "Подозрительно! Сайто, живо рассказывай, что ты с ней натворил!"
+
+    old "N-no, hold on! What are you even saying I did to this girl we just found a moment ago?!"
+    new "Н-нет, погоди-погоди! С чего ты взяла, что я что-то сделал этой девочке, которую мы только что нашли?!"
+
+    old "You've known her for five minutes and you're already acting like this! She's got a big chest — which is exactly what you like — AND black hair just like Siesta's! Coincidence? I think not!"
+    new "Ты с ней пять минут знаком, а уже глаза не отводишь! Грудь пышная — прям твоя слабость, да ещё и волосы чёрные, как у Сиесты! Совпадение? Не думаю!"
+
+    old "Uh! If you put it that way... I suppose you're right."
+    new "Ух! Если так сказать... то, пожалуй, ты права."
+    
+    old "Alright, spill it! What exactly have you done to her, huh?!"
+    new "Давай-давай, выкладывай всю правду! Что именно ты с ней натворил, а?!"
+
+    #choise
+    old "I don't recall"
+    new "Не припоминаю"
+
+    old "I didn't do anything!"
+    new "Я ничего не делал!"
+
+    old "...It's exactly that way of speaking that makes me unable to trust you. You don't even intend to answer seriously, do you? Is that how it is?"
+    new "...Вот именно такая манера говорить и не вызывает доверия. Ты, похоже, даже не собираешься отвечать серьёзно. Так ведь?"
+
+    old "No, wait, really! I'm telling you, I'm not lying! Please calm down, Louise-san."
+    new "Нет, погоди, правда! Я же говорю, это не ложь! Пожалуйста, успокойтесь, Луиза-сан."
+
+    old "No arguments!"
+    new "Никаких возражений!"
+
+    old "Nooooooo!"
+    new "Нееееет-о-о-о-!"
+
+    old "Haa... haa... haa..."
+    new "Ха-а... ха-а... ха-а..."
+
+    old "...Haa. Hey, you still alive there, partner?"
+    new "...Ха-а. Эй, ты жив ещё, приятель?"
+
+    old "...I'm dead."
+    new "...Мёртв."

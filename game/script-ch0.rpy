@@ -1,6 +1,6 @@
 label ch0_main:
     stop music fadeout 2.0
-    call overlay_screen("town_square_night", "Tristania")
+    call overlay_screen("town_square_night", "Tristania") from _call_overlay_screen
     play sound blow
     scene bg town_square_night at bg_center
     with flash
@@ -28,7 +28,7 @@ label ch0_main:
     hide npc_left with dissolve
     hide npc_right with dissolve
 
-    call overlay_screen(None,  "My name is Louise Françoise Le Blanc de La Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001")
+    call overlay_screen(None,  "My name is Louise Françoise Le Blanc de La Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001") from _call_overlay_screen_1
     scene bg town_square_night at bg_center with dissolve
 
     show npc 1 as npc_left at close_left_npc with dissolve
@@ -48,7 +48,7 @@ label ch0_main:
     hide npc_left
     hide npc_right
     
-    call overlay_screen(None, "The Pentagon that governs the five powers", text_mode="white", delay=3.5, sound_path="ch0_l_002")
+    call overlay_screen(None, "The Pentagon that governs the five powers", text_mode="white", delay=3.5, sound_path="ch0_l_002") from _call_overlay_screen_2
     scene cg terrorist at bg_center with dissolve
 
     voice "ch0_un_002"
@@ -77,9 +77,9 @@ label ch0_main:
     voice "ch0_npc1_011"
     npc2 "Yes, Sir!"
 
-    call overlay_screen(None, "Bestow blessings upon this one, and make them my familiar", delay=4.5, text_mode="white", sound_path="ch0_l_003")
+    call overlay_screen(None, "Bestow blessings upon this one, and make them my familiar", delay=4.5, text_mode="white", sound_path="ch0_l_003") from _call_overlay_screen_3
     pause(1)
     stop music
-    call intro
+    call intro from _call_intro_1
 
     jump ch1_main

@@ -9,7 +9,7 @@ label splashscreen:
     pause(2)
     scene black with fade
     pause(1)
-    call intro
+    call intro from _call_intro
     return       
 
 

@@ -18,14 +18,41 @@ label mage_dialog:
             $ mage_result = "bad" 
     return
 
+label forest_battle:
+    call screen battle_menu
+    
+    if _return == "start_battle":
+        # Initialize battle state
+        $ init_battle(["mage", "mage"])
+        
+        # Show battle screen and get result
+        call screen battle_screen
+        
+        if _return == "victory":
+            return 
+        elif _return == "defeat":
+            "Game Over..."
+            
+    elif _return == "cancel":
+        "test"
+        # action Rollback()
+    return
+
+label what_did_you_do_choise:
+    menu:
+        "I don't recall":
+            $ what_did_you_do_result = "bad"
+        "I didn't do anything!":
+            $ what_did_you_do_result = "neutral"
+    return
 label ch1_main:
 
-    call overlay_screen("overlay",  "Chapter 1 \"Louise of Zero\"", isUseBlur=False, text_mode="black")
+    call overlay_screen("overlay",  "Chapter 1 \"Louise of Zero\"", isUseBlur=False, text_mode="black") from _call_overlay_screen_4
     pause(2)
     play music audio.t18 fadein 1.0
     scene bg forest at bg_center with dissolve
     
-    call overlay_screen("forest",  "The Road (Highway)")
+    call overlay_screen("forest",  "The Road (Highway)") from _call_overlay_screen_5
     pause(2)
     scene cg l_s_forest at bg_center with dissolve
 
@@ -119,7 +146,7 @@ label ch1_main:
     thoughts "Louise actually looks really nice..."
 
     #choise
-    call louise_outfit_choice
+    call louise_outfit_choice from _call_louise_outfit_choice
 
     if outfit_result == "good":
 
@@ -130,7 +157,7 @@ label ch1_main:
         voice "ch1_l_010"
         l "I-is that so...?"
 
-        $ update_sympathy(20, showProgressBar=True)
+        $ update_sympathy(20)
 
         voice "ch1_s_010"
         s "But why do girls take so long just picking out clothes? I just don't get it at all..."
@@ -149,9 +176,11 @@ label ch1_main:
         voice "ch1_s_013"
         s "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
 
-        $ update_sympathy(-20, showProgressBar=True)
+        $ update_sympathy(-20)
     else:
         "ERR"
+
+    $ show_sympathy_hud()
 
     ## louise shows tsun-tsun side in any case :)
 
@@ -366,7 +395,7 @@ label ch1_main:
     s "What did you just say?!"
 
     #choise
-    call mage_dialog
+    call mage_dialog from _call_mage_dialog
 
     if mage_result == "good":
         voice "ch1_s_036"
@@ -380,7 +409,7 @@ label ch1_main:
         voice "ch1_l_031"
         l "Saito..."
         pause(1)
-        $ update_sympathy(20, showProgressBar=True)
+        $ update_sympathy(20)
     elif mage_result == "neutral": 
         show s 1 sad at normal_right with dissolve
         pause(0.2)
@@ -410,7 +439,7 @@ label ch1_main:
         show l 3 angry at slide_left_in with dissolve
         voice "ch1_l_032"
         l "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
-        $ update_sympathy(-20, showProgressBar=True)
+        $ update_sympathy(-20)
 
         show s 3 sad at normal_right with dissolve
         voice "ch1_s_038"
@@ -466,7 +495,177 @@ label ch1_main:
     voice "ch1_d_008"
     d "Seems like the other side's fixin' to act, partner."  
 
-    call screen battle_menu
+    # call screen battle_menu
 
+    #battle
+
+    hide s
+    hide l
+    call forest_battle from _call_forest_battle
+
+    # ==== SUBCHAPTER 4 ====
+
+    play music audio.t24 fadein 1.0
+    show bg forest at bg_center with fade
+
+    show mage at normal_left with dissolve
+    show s 1 angry at normal_right with dissolve
+
+    voice "ch1_mage_005"
+    mage "To think I'd struggle against such a little girl and a commoner... Retreat!"
+
+    voice "ch1_s_039"
+    s "Hey, wait! Don't you run away!"
+
+    show bg forest at bg_center with flash
+    hide mage
+    show l 3 angry at normal_left
+
+    # !!! Сайто восклицает э VOICE_ID.BIN_00002A44.wav
+    voice "ch1_s_040"
+    s "Ah!?"
+
+    show d 1 angry at slide_left_to_center_in with dissolve
+    voice "ch1_d_009"
+    d "Hey now. They've escaped."
+
+    voice "ch1_l_034"
+    l "As if I'd let them get away! We're pursuing them, Saito!"
+
+    show d 1 at normal_center with dissolve
+    voice "ch1_d_010"
+    d "Hey, hold on, cool it."
+
+    voice "ch1_l_035"
+    l "Hey, are you really planning to just leave them alone?"
+
+    show d 1 happy at normal_center with dissolve
+    voice "ch1_d_011"
+    d "If we go charging after them without thinking and they've got reinforcements waiting, we could end up on the receiving end. Let's call it good that we scared them off and leave it at that."
+
+    # Луиза на первый план
+    show l 1 sad at normal_left with dissolve
+    voice "ch1_l_036"
+    l "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
+
+    hide l
+    hide d
+    hide s
+    scene cg ha_forest at bg_center with fade
+    pause(1)
+
+    voice "ch1_s_040"
+    s "There, there. But more importantly, I think what we really need here is artificial respiration..."
+
+    voice "ch1_l_037"
+    l "You're so persistent!"
+
+    # !!!
+    play sound "audio/sfx/punch.ogg"
+    scene cg ha_forest at bg_center with hit_shake
+    pause(0.5)
+
+    voice "ch1_s_041"
+    s "Ooow! My head hurts like hell, like it's about to burst!"
+
+    voice "ch1_l_038"
+    l "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
+
+    show bg forest at bg_center with fade
+    show l 1 sad at normal_left with dissolve
+    show s 1 at normal_right with dissolve
+
+    voice "ch1_s_042"
+    s "Huh? What do you mean, \"what do we do\"?... About what, exactly?"
+
+    voice "ch1_s_043"
+    l "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."
+
+    show l 3 sad at normal_left with dissolve
+    voice "ch1_l_039"
+    l "There's also the option of heading back to town once and asking them to put this girl under protection, right?"
+
+    show d at slide_left_to_center_in with dissolve
+    voice "ch1_d_012"
+    d "Well, that's the common-sense judgment, I suppose."
+
+    show d at slide_center_to_right_out   
+    pause 0.4                   
+    hide d 
+
+    show s 1 angry at normal_right with dissolve
+    voice "ch1_s_044"
+    s "N-no, we can't! We can't just abandon this girl halfway!"
+
+    voice "ch1_l_040"
+    l "...Why do you care so much about her, anyway?"
+
+    pause(0.2)
+    show s 3 sad at normal_right with dissolve
+    pause(0.2)
+    voice "ch1_s_045"
+    s "W-well, that's... Once we've gotten involved, it's only right to see things through to the end and take care of her, isn't it?"
+
+    thoughts "Besides, who knows... maybe this could give me a clue on how to get back to Japan."
+
+    show l 3 angry at normal_left with dissolve
+    voice "ch1_l_041"
+    l "Something's fishy here! Saito, spill it — what have you done to her?!"
+
+    show s 3 angry at normal_right with dissolve
+    voice "ch1_s_046"
+    s "N-no, hold on! What are you even saying I did to this girl we just found a moment ago?!"
+
+    show l 1 angry at normal_left with dissolve
+    voice "ch1_l_042"
+    l "You've known her for five minutes and you're already acting like this! She's got a big chest — which is exactly what you like — AND black hair just like Siesta's! Coincidence? I think not!"    
     
+    voice "ch1_s_047"
+    s "Uh! If you put it that way... I suppose you're right."
+
+    show l 3 angry at normal_left with dissolve
+    voice "ch1_l_043"
+    l "Alright, spill it! What exactly have you done to her, huh?!"
+
+    call what_did_you_do_choise from _call_what_did_you_do_choise
+
+    if what_did_you_do_result == "bad":
+        show s 4 happy at normal_right with dissolve
+        voice "ch1_s_048"
+        s "I have absolutely no recollection of that. No, truly. Seriously!"
+
+        show l 1 angry at normal_left with dissolve
+        voice "ch1_l_044"
+        l "...It's exactly that way of speaking that makes me unable to trust you. You don't even intend to answer seriously, do you? Is that how it is?"
+        $ update_sympathy(-20)
+
+        voice "ch1_s_049"
+        s "No, wait, really! I'm telling you, I'm not lying! Please calm down, Louise-san."
+
+        voice "ch1_l_045"
+        l "No arguments!"
+        
+        # !!!
+        play sound "audio/sfx/punch.ogg"
+        scene cg ha_forest at bg_center with hit_shake
+        pause(0.2)
+        show s 3 angry at normal_right
+        voice "ch1_s_050"
+        s "Nooooooo!"
+
+        voice "ch1_l_046"
+        l "Haa... haa... haa..."
+
+        show d 1 at slide_left_to_center_in
+        voice "...Haa. Hey, you still alive there, partner?"
+
+        show d 1 happy at slide_center_to_right_out with dissolve
+        pause(0.2)
+        hide d
+
+        show s 1 sad at normal_right with dissolve
+        voice "ch1_s_051"
+        s "...I'm dead."
+
+
     return

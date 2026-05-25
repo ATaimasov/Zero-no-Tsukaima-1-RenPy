@@ -360,3 +360,113 @@ translate japanese strings:
 
     old "Is that so...?"
     new "ふーん?"
+
+    old "To think I'd struggle against such a little girl and a commoner... Retreat!"
+    new "こんな小娘と平民に苦戦するとは......。引き上げるぞ!"
+
+    old "Hey, wait! Don't you run away!"
+    new "あ、待て!逃げるな!"
+
+    old "Ah!?"
+    new "うっ!?"
+
+    old "Hey now. They've escaped."
+    new "おいおい。逃げられちまったぞ。"
+
+    old "As if I'd let them get away! We're pursuing them, Saito!"
+    new "逃がすもんですか!追うわよ、サイト!"
+
+    old "Hey, hold on, cool it."
+    new "まあ待て、落ち着け。"
+
+    old "Hey, are you really planning to just leave them alone?"
+    new "ちょっと、あいつらを放っておく気?"
+
+    old "If we go charging after them without thinking and they've got reinforcements waiting, we could end up on the receiving end. Let's call it good that we scared them off and leave it at that."
+    new "下手に追いかけて、仲間でもいた日にゃ、返り討ちになる可能性だってあるしな。ここは、追っ払っただけでよしとしとこうぜ。"
+
+    old "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
+    new "......まあ、そうかもしれないけど。でも、なーんか気分が収まらないわね。"
+
+    old "There, there. But more importantly, I think what we really need here is artificial respiration..."
+    new "まあまあ。それよりここは、やっぱり人工呼吸で......。"
+
+    old "You're so persistent!"
+    new "しつこい!"
+
+    old "Ooow! My head hurts like hell, like it's about to burst!"
+    new "ぐおおっ!頭が割れるように痛い!"
+
+    old "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
+    new "今度やったら、本当に割るからね。それより、サイト。これからどうするの?"
+
+    old "Huh? What do you mean, \"what do we do\"?... About what, exactly?"
+    new "え、どうするって......なにが?"
+
+    old "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."
+    new "あんな連中が狙う理由なり事情があるってことは、ただの娘じゃないんでしょ?わたし達の手に負えるとは限らないわ。"
+
+    old "There's also the option of heading back to town once and asking them to put this girl under protection, right?"
+    new "一度街まで引き返して、この娘を保護してもらうって手もあるでしょ?"
+
+    old "Well, that's the common-sense judgment, I suppose."
+    new "ま、それが常識的な判断だあな。"
+
+    old "N-no, we can't! We can't just abandon this girl halfway!"
+    new "だ、駄目だ!この娘を途中で放り出すなんて!"
+
+    old "...Why do you care so much about her, anyway?"
+    new "......なんで、そんなにこの娘にこだわるのよ。"
+
+    old "W-well, that's... Once we've gotten involved, it's only right to see things through to the end and take care of her, isn't it?"
+    new "そ、それは......。一度かかわった以上、最後まで面倒を見るのが筋ってもんだろ?"
+
+    old "Besides, who knows... maybe this could give me a clue on how to get back to Japan."
+    new "(それに、もしかしてもしかすると、 日本に帰る手がかりが分かるかもしれない)"
+
+    old "Something's fishy here! Saito, spill it — what have you done to her?!"
+    new "あやしい!サイト。この娘に何をしたのか、白状しなさい!"
+
+    old "N-no, hold on! What are you even saying I did to this girl we just found a moment ago?!"
+    new "い、いや、ちょっと待て!?さっき見つけたばかりの娘を相手に、俺が何をしてるって言うんだ、おまえは。"
+
+    old "You've known her for five minutes and you're already acting like this! She's got a big chest — which is exactly what you like — AND black hair just like Siesta's! Coincidence? I think not!"
+    new "初めて会った割にはずいぶんとご執心だし、大きい胸はあんたの好みだし、そのうえ、あのメイドと同じ黒い髪だし!"
+
+    old "Uh! If you put it that way... I suppose you're right."
+    new "うっ!そう言われたら、確かにそのとおり。"
+
+    old "Alright, spill it! What exactly have you done to her, huh?!"
+    new "さーあ、白状なさい!この娘にいったい何をしたの!?"
+
+    #choise
+    old "I don't recall"
+    new "記憶にありません"
+
+    old "I didn't do anything!"
+    new "なにもしていない！"
+
+
+    old "I have absolutely no recollection of that. No, truly. Seriously!"
+    new "記憶にございません。いや本当に。マジで。"
+
+    old "...It's exactly that way of speaking that makes me unable to trust you. You don't even intend to answer seriously, do you? Is that how it is?"
+    new "......その言い方が、信用できないっていうのよ。真面目に話す気がないのね。そうなのね?"
+
+    old "No, wait, really! I'm telling you, I'm not lying! Please calm down, Louise-san."
+    new "いや待て本当、嘘じゃないんだってば。落ち着いてください、ルイズさん。"
+
+    old "No arguments!"
+    new "問答無用ー!"
+
+    old "Nooooooo!"
+    new "のぉぉぉーっ!"
+
+    old "Haa... haa... haa..."
+    new "はあ、はあ、はあ......。"
+
+    old "...Haa. Hey, you still alive there, partner?"
+    new "......はぁ。おーい、生きてるか相棒。"
+
+    old "...I'm dead."
+    new "......死んでる"

@@ -17,6 +17,9 @@ translate russian strings:
     old "Q.Save"
     new "Б.Сохр"
 
+    old "Prefs"
+    new "Настройки"
+
     old "Q.Load"
     new "Б.Загр"
 
@@ -260,7 +263,7 @@ translate russian strings:
     old "Display"
     new "Отображение"
 
-    # progress bar
+    # === SYMPATHY ===
     old "Dere"
     new "Дере"
 
@@ -269,6 +272,12 @@ translate russian strings:
 
     old "Sympathy level"
     new "Уровень симпатии"
+
+    old "No characters unlocked yet"
+    new "Пока нет известных персонажей"
+
+    old "Close"
+    new "Закрыть"
 
     # battle-menu
 
@@ -289,3 +298,182 @@ translate russian strings:
 
     old "Start Battle"
     new "Начать бой"
+
+    old "Unknown"
+    new "Неизвестный"
+
+    old "Squad selection"
+    new "Выбор отряда"
+
+    old "Select a character to view information"
+    new "Выберите персонажа для просмотра информации"
+
+    old "Start battle?"
+    new "Начать бой?"
+
+    old "Info"
+    new "Информация"
+
+    #battle 
+
+    old "Turns Wait"
+    new "Ожидание ходов"
+
+    old "Attack Power"
+    new "Сила атаки"
+
+    old "Defense"
+    new "Защита"
+
+    old "Agility"
+    new "Ловкость"
+
+    old "Accuracy"
+    new "Меткость"
+
+    # ==== CHARACTERS DESCRIPTION
+
+    old "Magic",
+    new "Магия"
+
+    old "Attack",
+    new "Атака"
+
+
+    old "A maid working at Tristain Academy of Magic.\nSince she is a commoner, she cannot use magic.\nShe has feelings for Saito."
+    new "Горничная, работающая в Академии магии Тристейна. Не может использовать магию, так как простолюдинка. Испытывает чувства к Сайто."
+
+    old "The magician who summoned Saito.\nAlthough she can use Void magic,\nits true nature remains unknown."
+    new "Маг, призвавший Сайта.\nХотя она способна использовать магию пустоты,\nеё истинная природа (или истинные возможности) до сих пор неизвестна."
+
+    old "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise."
+    new "Японский юноша, который был призван в этот мир Луизой.\nЛуиза обращается с ним как с фамильяром."
+
+    old "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\"."
+    new "Одноклассница Луизы.\nСпециалист по магии ветра.\nЕё прозвище — «Табита Снежный Ветер»."
+    
+    old "Louise's classmate.\nSpecializes in fire magic.\nHer nickname is \"Kirche of the Mild Fever\"."
+    new "Одноклассница Луизы.\nСпециалист по магии огня.\nЕё прозвище — «Кирхе Страстного Жара»"
+
+    old "Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecializes in water magic."
+    new "Принцесса Тристании.\nДруг детства Луизы.\nСпециалист по магии воды."
+
+    # ==== SPELS ====
+
+    old "Consume"
+    new "Потребление"
+
+
+    old "Attacks a single enemy"
+    new "Атакует одного врага"
+
+    old "Attacks all enemies"
+    new "Атакует всех врагов"
+
+    #support
+
+    old "Increases accuracy of 1 ally"
+    new "Повышает точность 1 союзника"
+
+    old "Increases speed of 1 ally"
+    new "Повышает скорость 1 союзника"
+
+    old "Increases attack power of 1 ally"
+    new "Повышает силу атаки 1 союзника"
+
+    old "Recovers HP of 1 ally"
+    new "Восстанавливает здоровье (HP) 1 союзника"
+
+    old "Increases defense of 1 ally"
+    new "Повышает защиту 1 союзника"
+
+    old "Heal"
+    new "Лечение"
+
+    #void
+
+    old "Heroism"
+    new "Героизм"
+
+    old "Meteor"
+    new "Метеор"
+
+    old "Dispel Magic"
+    new "Рассеивание магии"
+    
+    old "Magic Arrow"
+    new "Магическая стрела"
+
+    # sword
+
+    old "Slash"
+    new "Рассечение"
+
+    old "Double Slash"
+    new "Двойное рассечение"
+
+    old "Wind Moon Slash"
+    new "Рассечение ветра и луны"
+
+    # wind
+
+    old "Wing"
+    new "Крыло"
+
+    old "Air Needle"
+    new "Воздушная игла"
+
+    old "Wind Break"
+    new "Разрыв ветра"
+
+    old "Air Force"
+    new "Воздушный поток"
+
+    #fire
+
+    old "Fire"
+    new "Огонь"
+
+    old "Fire Needle"
+    new "Огненная игла"
+
+    old "Fire Arrow"
+    new "Огненная стрела"
+
+    old "Fire Shield"
+    new "Огненный щит"
+
+    #water
+    old "Water"
+    new "Вода"
+
+    old "Water Needle"
+    new "Водяная игла"
+
+    old "Water Hazard"
+    new "Водяной шторм"
+
+    old "Water Blade"
+    new "Водяное лезвие"
+
+    # === ITEMS ====
+    old "Quantity"
+    new "Количество"
+
+    old "Bread"
+    new "Хлеб"
+
+    old "Elixir"
+    new "Эликсир"
+
+    old "Restore HP"
+    new "Восстановить HP (здоровье)"
+
+    old "Herb"
+    new "Трава"
+
+    old "Restore MP"
+    new "Восстановить MP (ману)"
+
+    old "Restore HP and MP"
+    new "Восстановить HP и MP (здоровье и ману)"

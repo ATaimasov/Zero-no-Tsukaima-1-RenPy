@@ -14,6 +14,9 @@ translate japanese strings:
     old "Save"
     new "セーブ"
 
+    old "Prefs"
+    new "設定"
+
     old "Q.Save"
     new "クイックセーブ"
 
@@ -251,7 +254,7 @@ translate japanese strings:
     old "Options"
     new "オプション"
 
-    # progress bar
+    # === SYMPATHY ===
     old "Dere"
     new "デレ"
 
@@ -260,6 +263,12 @@ translate japanese strings:
 
     old "Sympathy level"
     new "好感度"
+
+    old "No characters unlocked yet"
+    new "キャラクターがまだ解放されていません"
+
+    old "Close"
+    new "閉じる"
 
     # battle-menu
 
@@ -280,3 +289,180 @@ translate japanese strings:
 
     old "Start Battle"
     new "戦闘開始"
+
+    old "Unknown"
+    new "未知"
+
+    old "Squad selection"
+    new "部隊選択"
+
+    old "Select a character to view information"
+    new "情報を表示するキャラクターを選択してください"
+
+    old "Start battle?"
+    new "戦闘を開始しますか？"
+
+    old "Info"
+    new "情報"
+
+    #battle 
+
+    old "Turns Wait"
+    new "ターン待ち"
+
+    old "Attack Power"
+    new "攻撃力"
+
+    old "Defense"
+    new "防御力"
+
+    old "Agility"
+    new "機敏"
+
+    old "Accuracy"
+    new "命中率"
+
+    # ==== CHARACTERS DESCRIPTION
+
+    old "Magic",
+    new "魔法"
+
+    old "Attack",
+    new "攻撃"
+
+    old "A maid working at Tristain Academy of Magic.\nSince she is a commoner, she cannot use magic.\nShe has feelings for Saito."
+    new "トリステイン魔法学院に勤めているメイド。 平民であるため、魔法は使えない。 サイトに想いを寄せている。"
+
+    old "The magician who summoned Saito.\nAlthough she can use Void magic,\nits true nature remains unknown."
+    new "サイトを召喚した魔法使い。\n虚無の魔法を使えるも、\nその実態はいまだ不明。"
+
+    old "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise."
+    new "ルイズによって、この世界に召喚された 日本の少年。\nルイズからは使い魔扱いをされている。"
+
+    old "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\"."
+    new "ルイズのクラスメイト。\n風の系統の魔法が得意。\n二つ名は「雪風のタバサ」。"
+
+    old "Louise's classmate.\nSpecializes in fire magic.\nHer nickname is \"Kirche of the Mild Fever\"."
+    new "ルイズのクラスメイト。\n火の系統の魔法が得意。\n二つ名は「微熱のキュルケ」。"
+
+    old "Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecializes in water magic."
+    new "トリステイン王国の王女。\nルイズとは幼馴染。\n水の系統の魔法が得意。"
+
+    # ==== SPELS ====
+
+    old "Consume"
+    new "消費"
+
+    old "Attacks a single enemy"
+    new "敵単体を攻撃"
+
+    old "Attacks all enemies"
+    new "敵全体を攻撃"
+
+    #support
+
+    old "Increases accuracy of 1 ally"
+    new "味方１人の命中率をUP"
+
+    old "Recovers HP of 1 ally"
+    new "味方１人の体力を回復"
+
+    old "Increases speed of 1 ally"
+    new "味方１人の速度をUP"
+
+    old "Increases defense of 1 ally"
+    new "味方１人の防御力をUP"
+
+    old "Increases attack power of 1 ally"
+    new "味方１人の攻撃力をUP"
+
+    old "Heal"
+    new "ヒール"
+
+    # void
+
+    old "Magic Arrow"
+    new "マジックアロー"
+
+    old "Heroism"
+    new "ヒロイズム"
+
+    old "Meteor"
+    new "メテオ"
+
+    old "Dispel Magic"
+    new "ディスペルマジック"
+
+    # sword
+
+    old "Slash"
+    new "斬り"
+
+    old "二段斬り"
+    new "Двойное рассечение"
+
+    old "風月斬り"
+    new "Рассечение ветра и луны"
+
+    #wind
+
+    old "Wing"
+    new "ウイング"
+
+    old "Air Needle"
+    new "エアーニードル"
+
+    old "Wind Break"
+    new "敵全体を攻撃"
+
+    old "Air Force"
+    new "エアーフォース"
+
+    # fire
+    old "Fire"
+    new "ファイアー"
+
+    old "Fire Needle"
+    new "ファイアーニードル"
+
+    old "Fire Arrow"
+    new "ファイアーアロー"
+
+    old "Fire Shield"
+    new "ファイアシールド"
+
+    #water
+    old "Water"
+    new "ウォーター"
+
+    old "Water Needle"
+    new "ウォーターニードル"
+
+    old "Water Hazard"
+    new "ウォーターハザード"
+
+    old "Water Blade"
+    new "ウォーターブレード"
+
+
+    # === ITEMS ====
+    old "Quantity"
+    new "所有数"
+
+    old "Bread"
+    new "パン"
+
+    old "Elixir"
+    new "エリクサー"
+
+    old "Restore HP"
+    new "HPを回復"
+
+    old "Herb"
+    new "ハーブ"
+
+    old "Restore MP"
+    new "MPを回復"
+
+    old "Restore HP and MP"
+    new "HPとMPを回復"
