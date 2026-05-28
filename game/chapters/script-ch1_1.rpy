@@ -43,9 +43,9 @@ label what_did_you_do_choise:
         "I don't recall":
             $ what_did_you_do_result = "bad"
         "I didn't do anything!":
-            $ what_did_you_do_result = "neutral"
+            $ what_did_you_do_result = "good"
     return
-label ch1_main:
+label ch1:
 
     call overlay_screen("overlay",  "Chapter 1 \"Louise of Zero\"", isUseBlur=False, text_mode="black") from _call_overlay_screen_4
     pause(2)
@@ -292,7 +292,7 @@ label ch1_main:
     scene cg l_forest at bg_center with dissolve
 
     voice "ch1_l_019"
-    s "Ah—wait, Saito! Ugh, what is wrong with you?!"
+    l "Ah—wait, Saito! Ugh, what is wrong with you?!"
 
     scene cg ha_forest at bg_center with fade
 
@@ -497,7 +497,7 @@ label ch1_main:
 
     # call screen battle_menu
 
-    #battle
+    #BATTLE 
 
     hide s
     hide l
@@ -519,7 +519,7 @@ label ch1_main:
 
     show bg forest at bg_center with flash
     hide mage
-    show l 3 angry at normal_left
+    show l 3 angry at slide_left_in with dissolve
 
     # !!! Сайто восклицает э VOICE_ID.BIN_00002A44.wav
     voice "ch1_s_040"
@@ -548,10 +548,10 @@ label ch1_main:
     voice "ch1_l_036"
     l "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
 
+    scene cg ha_forest at bg_center with fade
     hide l
     hide d
     hide s
-    scene cg ha_forest at bg_center with fade
     pause(1)
 
     voice "ch1_s_040"
@@ -585,11 +585,11 @@ label ch1_main:
     voice "ch1_l_039"
     l "There's also the option of heading back to town once and asking them to put this girl under protection, right?"
 
-    show d at slide_left_to_center_in with dissolve
+    show d 1 at slide_left_to_center_in with dissolve
     voice "ch1_d_012"
     d "Well, that's the common-sense judgment, I suppose."
 
-    show d at slide_center_to_right_out   
+    show d 1 at slide_center_to_right_out   
     pause 0.4                   
     hide d 
 
@@ -667,5 +667,99 @@ label ch1_main:
         voice "ch1_s_051"
         s "...I'm dead."
 
+        voice "ch1_l_047"
+        l "Oh well, it's fine. I was planning to do that anyway, so let's just take her to the academy for now."
+
+        voice "ch1_s_052"
+        s "...Please."
+
+        show l 3 angry at normal_left with dissolve
+        voice "ch1_l_048"
+        l "It's not like I'm doing this for you, you know. If you so much as lay a finger on this girl, I won't hold back next time — got it?"
+
+        show s 3 sad at normal_right with dissolve
+        pause(0.2)
+        voice "ch1_s_053"
+        s "I'm telling you, it's a misunderstanding!"
+
+    if what_did_you_do_result == "good":
+        show s 3 angry at normal_right with dissolve
+        voice "ch1_s_056"
+        s "I didn't do anything! This girl — I swear, I just met her for the first time!"
+
+        show l 3 sad at normal_left with dissolve
+        voice "ch1_l_053"
+        l "...Really? Then why are you so eager about it, hmm?"
+
+        show s 1 at normal_right with dissolve
+        voice "ch1_s_057"
+        s "This girl... she really reminds me of a classmate from my hometown."
+        voice "ch1_s_058"
+        s "So basically... if this isn't just some crazy person's prank, then..."
+        show s 1 sad at normal_right with dissolve
+        voice "ch1_s_059"
+        s "There's a chance she holds a key to my world... that's what I'm thinking."
+
+        pause(0.2)
+        show l 1 sad at normal_left with dissolve
+        voice "ch1_l_054"
+        l "Ah..."
+
+        ## тут 3 раза подряд если повысили то уже максимум должен быть
+        $ update_sympathy(20)
+        show s 1 angry at normal_right with dissolve
+        voice "ch1_s_060"
+        s "I want any clue I can get to return to my original world. ...Ah, but of course, it's also true that I really do want to help her. That part's completely genuine."
+
+        voice "ch1_l_055"
+        l "..."
+
+        show s 1 at normal_right with dissolve
+        voice "ch1_s_061"
+        s "It's the honest-to-god truth."
+
+        show l 1 angry at normal_left with dissolve
+        voice "ch1_l_056"
+        l "Ugh, fine, I get it! I was planning to do that anyway, so let's just take her to the Academy for now."
+
+        voice "ch1_s_062"
+        s "I'm sorry to ask, but... please."
+
+
+    show l 1 at normal_left with dissolve
+    voice "ch1_l_049"
+    l "Those people from earlier might attack again, so I'm putting this girl on my horse. I'll move the luggage attached here over to your side, alright?"
+
+    
+    # !!! Если ответ положительный то вместо хаи он охает
+    if what_did_you_do_result == "good":
+        voice "ch1_s_063" # Звук добавить
+        s "Yeah."
+    if what_did_you_do_result == "bad":
+        voice "ch1_s_054"
+        s "...Alright..."
+
+    voice "ch1_l_050"
+    l "But, I know the circumstances are... well, complicated. Still, just letting a commoner into the academy on our own — if the teachers find out, that could be real trouble, probably."
+
+    voice "ch1_l_051"
+    l "She does need treatment, but... I wonder what we should do about it."
+
+    voice "ch1_s_055"
+    s "About that... let's think it over once we get back."
+
+    voice "ch1_l_052"
+    l "Honestly... why am I the one stuck doing this...?"
+
+    ## анимация, все персонажи слайдятся в право за экран
+    ##и черный экран
+
+    hide l with dissolve
+    hide s with dissolve
+
+    scene black with dissolve
+    stop music fadeout 1.0
+
+    jump ch1_2
 
     return

@@ -187,6 +187,7 @@ image bg cafe_entrance_night = "bg/cafe_entrance_night.png"
 image bg yard = "bg/yard.png"
 image bg yard_evening = "bg/yard_evening.png"
 image bg yard_night = "bg/yard_night.png"
+image bg yard_night_blurred = "bg/yard_night_blurred.png"
 image bg yard_ruined = "bg/yard_ruined.png"
 image bg yard_ruined_evening = "bg/yard_ruined_evening.png"
 image bg yard_ruined_night = "bg/yard_ruined_night.png"
@@ -216,12 +217,19 @@ image bg library_table = "bg/library_table.png"
 image bg library_table_evening = "bg/library_table_evening.png"
 image bg library_table_night = "bg/library_table_night.png"
 
+# siesta room
+image bg si_room = "bg/si_room.png"
+image bg si_room_evening = "bg/si_room_evening.png"
+image bg si_room_night = "bg/si_room_night.png"
+
+
+
 
 # ==== CG ==== 
 
 image cg terrorist = "cg/terrorist.png"
 image cg terrorist2 = "cg/terrorist2.png"
-image cg terrorist2 = "cg/terrorist3.png"
+image cg terrorist3 = "cg/terrorist3.png"
 
 image cg l_s_forest_l_speak = "cg/l_s_forest_l_speak.png"
 image cg l_s_forest_l_s_speak = "cg/l_s_forest_l_s_speak.png"
@@ -229,9 +237,15 @@ image cg l_s_forest = "cg/l_s_forest.png"
 image cg l_forest = "cg/l_forest.png"
 image cg l_s_forest_s_speak = "cg/l_s_forest_s_speak.png"
 
-
 image cg ha_forest = "cg/ha_forest.png"
 image cg ha_forest_open = "cg/ha_forest_open.png"
+
+image cg ha_sick = "cg/ha_sick.png"
+image cg ha_sick_2 = "cg/ha_sick_2.png"
+image cg ha_sick_3 = "cg/ha_sick_3.png"
+image cg ha_sick_4 = "cg/ha_sick_4.png"
+image cg ha_sick_5 = "cg/ha_sick_5.png"
+
 
 
 

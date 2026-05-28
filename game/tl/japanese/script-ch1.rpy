@@ -470,3 +470,81 @@ translate japanese strings:
 
     old "...I'm dead."
     new "......死んでる"
+
+    old "Oh well, it's fine. I was planning to do that anyway, so let's just take her to the academy for now."
+    new "まあ、いいわ。元々そのつもりだったわけだし、いったん学院に連れて行きましょ。"
+
+    old "...Please."
+    new "......お願いします。"
+
+    old "It's not like I'm doing this for you, you know. If you so much as lay a finger on this girl, I won't hold back next time — got it?"
+    new "あんたのためじゃないわよ。あんたがこの娘にちょっかい出したら、今度は手加減なしだからね。"
+
+    old "I'm telling you, it's a misunderstanding!"
+    new "だから、誤解だってばよー。"
+
+    old "Those people from earlier might attack again, so I'm putting this girl on my horse. I'll move the luggage attached here over to your side, alright?"
+    new "さっきの人達がまた襲ってくるかもしれないし、この娘はわたしの馬に乗せるわ。こっちにつけてる荷物そっちに移すわね。"
+
+    old "...Alright..."
+    new "......はいぃ。"
+
+    old "But, I know the circumstances are... well, complicated. Still, just letting a commoner into the academy on our own — if the teachers find out, that could be real trouble, probably."
+    new "でも、事情が事情だけど、平民を勝手に学院に入れるのって先生達に知られるのもまずいわよね、多分。"
+
+    old "She does need treatment, but... I wonder what we should do about it."
+    new "手当ての必要はあるんだけど、どうしたらいいのかしら。"
+
+    old "About that... let's think it over once we get back."
+    new "それは......、帰ってから考えよう。"
+
+    old "Honestly... why am I the one stuck doing this...?"
+    new "まったく、なんでわたしがこんなこと......。"
+
+    old "In the end, Siesta kindly let us keep the girl we'd brought back hidden in her room."
+    new "(結局、俺達が連れて帰った娘は、 シエスタの部屋にかくまってもらった)"
+
+    old "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
+    new "(まさか医者に頼るわけにもいかず、容態はモンモランシーに診てもらうことにした)"
+
+    old "Hey, how'd it go? Is she hurt anywhere? Any signs of illness? Nothing... serious, right?"
+    new "なあ、どうだった?どこか怪我してるとか、なにか病気とか、大変なことになってないか?"
+
+    old "Saito, calm down. I gave her a quick check-up, and there's nothing particularly wrong. I think she's just exhausted from built-up fatigue."
+    new "サイト、落ち着きなさい。軽く診察したけど、特に異常はないわ。単に疲労がたまってるだけだと思うの。"
+
+    old "I didn't do anything! This girl — I swear, I just met her for the first time!"
+    new "なにもしてない!この娘は、本当に初めて会ったんだよ!"
+
+    old "...Really? Then why are you so eager about it, hmm?"
+    new "......本当に?じゃあなんでそんなに熱心なのよ。"
+
+    old "This girl... she really reminds me of a classmate from my hometown."
+    new "この娘は俺の故郷のクラスメイトに良く似ているんだ。"
+
+    old "So basically... if this isn't just some crazy person's prank, then..."
+    new "つまり、だ。誰かの酔狂ないたずらじゃなければ......、"
+
+    old "There's a chance she holds a key to my world... that's what I'm thinking."
+    new "この娘は俺のいた世界の手がかりを知ってるかもしれないんだ。"
+
+    old "Ah..."
+    new "あ......。"
+
+    old "I want any clue I can get to return to my original world. ...Ah, but of course, it's also true that I really do want to help her. That part's completely genuine."
+    new "元の世界に戻る手がかりが、俺は欲しい。あ、もちろん倒れてる人を助けたいっていうのも本当だけどな。"
+
+    old "..."
+    new "......。"
+
+    old "It's the honest-to-god truth."
+    new "正真正銘、本当のことだ。"
+
+    old "Ugh, fine, I get it! I was planning to do that anyway, so let's just take her to the Academy for now."
+    new "もうっ、分かったわよ!元々そのつもりだったわけだし、いったん学院に連れて行きましょ。"
+
+    old "I'm sorry to ask, but... please."
+    new "すまないけど、頼む。"
+
+    old "Yeah."
+    new "ああ。"

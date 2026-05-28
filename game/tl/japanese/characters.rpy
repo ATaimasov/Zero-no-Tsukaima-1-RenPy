@@ -41,3 +41,6 @@ translate japanese strings:
     old "Mage"
     new "魔導士"
 
+    old "Montmorency"
+    new "モンモランシー"
+

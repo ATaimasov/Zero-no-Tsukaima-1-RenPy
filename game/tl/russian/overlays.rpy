@@ -19,3 +19,6 @@ translate russian strings:
 
     old "The Road (Highway)"
     new "Дорога (Тракт)"
+
+    old "Tristain Academy of Magic"
+    new "Магическая академия Тристейна"

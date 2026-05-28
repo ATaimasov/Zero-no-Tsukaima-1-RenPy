@@ -14,4 +14,4 @@ label splashscreen:
 
 
 label start:
-    jump ch0_main
+    jump ch0

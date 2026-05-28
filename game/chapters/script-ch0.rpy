@@ -1,4 +1,4 @@
-label ch0_main:
+label ch0:
     stop music fadeout 2.0
     call overlay_screen("town_square_night", "Tristania") from _call_overlay_screen
     play sound blow
@@ -78,8 +78,8 @@ label ch0_main:
     npc2 "Yes, Sir!"
 
     call overlay_screen(None, "Bestow blessings upon this one, and make them my familiar", delay=4.5, text_mode="white", sound_path="ch0_l_003") from _call_overlay_screen_3
+    stop music fadeout 1.0
     pause(1)
-    stop music
     call intro from _call_intro_1
 
-    jump ch1_main
+    jump ch1

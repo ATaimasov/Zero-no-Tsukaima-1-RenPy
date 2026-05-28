@@ -468,3 +468,81 @@ translate russian strings:
 
     old "...I'm dead."
     new "...Мёртв."
+
+    old "Oh well, it's fine. I was planning to do that anyway, so let's just take her to the academy for now."
+    new "Ну, ладно. Я всё равно собиралась так поступить, так что давай пока отвезём её в академию."
+
+    old "...Please."
+    new "...Прошу тебя."
+
+    old "It's not like I'm doing this for you, you know. If you so much as lay a finger on this girl, I won't hold back next time — got it?"
+    new "Не думай, что я ради тебя стараюсь, ясно? Если хоть пальцем тронешь эту девушку — в следующий раз пощады не жди."
+
+    old "I'm telling you, it's a misunderstanding!"
+    new "Да говорю же тебе — это недоразумение!"
+
+    old "Those people from earlier might attack again, so I'm putting this girl on my horse. I'll move the luggage attached here over to your side, alright?"
+    new "Те люди могут снова напасть, так что эта девушка поедет на моей лошади. А груз, что закреплён здесь, я переложу на твою, хорошо?"
+
+    old "...Alright..."
+    new "...Хорошо-о..."
+
+    old "But, I know the circumstances are... well, complicated. Still, just letting a commoner into the academy on our own — if the teachers find out, that could be real trouble, probably."
+    new "Но, я понимаю, обстоятельства есть обстоятельства... И всё же, если мы самовольно приведём простолюдинку в Академию и об этом узнают преподаватели — это, пожалуй, ни к чему хорошему не приведёт."
+
+    old "She does need treatment, but... I wonder what we should do about it."
+    new "Ей, конечно, нужно оказать помощь, но вот как лучше поступить — не знаю..."
+
+    old "About that... let's think it over once we get back."
+    new "Это... давай решим, когда вернёмся."
+
+    old "Honestly... why am I the one stuck doing this...?"
+    new "Вот зачем... зачем мне всё это..."
+
+    old "In the end, Siesta kindly let us keep the girl we'd brought back hidden in her room."
+    new "В итоге Сиеста любезно согласилась приютить привезённую нами девушку у себя в комнате."
+
+    old "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
+    new "Поскольку обратиться к врачу было невозможно, мы решили доверить её осмотр Монморанси."
+    
+    old "Hey, how'd it go? Is she hurt anywhere? Any signs of illness? Nothing... serious, right?"
+    new "Эй, ну как? У неё есть где-нибудь травмы? Может, какая-то болезнь? Ведь ничего серьёзного, да?"
+
+    old "Saito, calm down. I gave her a quick check-up, and there's nothing particularly wrong. I think she's just exhausted from built-up fatigue."
+    new "Сайто, успокойся. Я бегло осмотрела её — никаких особых отклонений нет. Думаю, она просто сильно устала."
+    
+    old "I didn't do anything! This girl — I swear, I just met her for the first time!"
+    new "Я ничего не делал! С этой девушкой я правда впервые встретился, честное слово!"
+
+    old "...Really? Then why are you so eager about it, hmm?"
+    new "...Правда? Тогда почему ты так стараешься ради неё, а?"
+
+    old "This girl... she really reminds me of a classmate from my hometown."
+    new "Эта девушка... она очень похожа на одну мою одноклассницу из родного города."
+
+    old "So basically... if this isn't just some crazy person's prank, then..."
+    new "То есть... если это не чья-то безумная шутка, тогда..."
+
+    old "There's a chance she holds a key to my world... that's what I'm thinking."
+    new "Она может знать зацепку... ключ к моему миру, понимаешь?"
+
+    old "Ah..."
+    new "А..."
+
+    old "I want any clue I can get to return to my original world. ...Ah, but of course, it's also true that I really do want to help her. That part's completely genuine."
+    new "Мне нужны любые зацепки, чтобы вернуться в свой мир. ...А, ну конечно, я и вправду хочу ей помочь. Она ведь потеряла сознание — это чистая правда, честное слово."
+
+    old "..."
+    new "..."
+
+    old "It's the honest-to-god truth."
+    new "Честно-пречестно, ни капли не вру!"
+
+    old "Ugh, fine, I get it! I was planning to do that anyway, so let's just take her to the Academy for now."
+    new "Ну ладно, ладно, поняла я! Я и так собиралась это сделать, так что давай пока отвезём её в Академию."
+
+    old "I'm sorry to ask, but... please."
+    new "Извини, что нагружаю, но... очень прошу"
+
+    old "Yeah."
+    new "Ага."

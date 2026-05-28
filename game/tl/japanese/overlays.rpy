@@ -19,3 +19,6 @@ translate japanese strings:
 
     old "The Road (Highway)"
     new "街道"
+
+    old "Tristain Academy of Magic"
+    new "トリステイン魔法学院"

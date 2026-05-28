@@ -41,3 +41,6 @@ translate russian strings:
     old "Mage"
     new "Маг"
 
+    old "Montmorency"
+    new "Монморанси"
+
