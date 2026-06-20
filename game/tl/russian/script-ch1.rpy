@@ -50,19 +50,7 @@ translate russian strings:
     old "W-well, it's not like it's a bad thing! What's so wrong with me dressing up!?"
     new "Н-ну, в этом же нет ничего плохого! Разве плохо, что я решила нарядиться!?"
 
-    old "Louise actually looks really nice..."
-    new "Луиза-то какая нарядная..."
-
     #choise
-
-    old "I thoughts it's good!"
-    new "Думаю, неплохо!"
-
-    old "I don't care"
-    new "Мне всё равно"
-
-    old "It's terrible!"
-    new "Ужасно!"
 
     old "I thoughts it's great! You've got good looks to begin with. So paying more attention to your appearance is totally fine."
     new "По-моему, отлично! У тебя и так хорошая внешность от природы. Так что уделять больше внимания своему виду — это вполне нормально."
@@ -75,39 +63,6 @@ translate russian strings:
 
 
     # thoughs
-
-    old "My name is Hiraga Saito. I was supposed to be just an ordinary high school student... or so I thought."
-    new "Моё имя — Хирага Сайто. Я был самым обычным старшеклассником… или, по крайней мере, должен был быть."
-
-    old "But now, I'm with this willful master — Louise Françoise Le Blanc de La Vallière..."
-    new "А теперь я при этой капризной хозяйке — Луизе Франсуазе Ле Блан де ла Вальер…"
-
-    old "Long story short: thanks to Louise's summoning spell, I — who got called here as a familiar — am now living in her room."
-    new "Если коротко: из-за призывного заклинания Луизы я, которого вызвали в качестве фамильяра, теперь живу в её комнате."
-
-    old "In another world, \"Halkeginia\", where mages rule the land as nobility... It was a world entirely unlike Japan."
-    new "В ином мире под названием «Халкегиния», где маги правят страной в качестве знати… Это был мир, совершенно непохожий на Японию."
-
-    old "What's more, the country we live in—Tristain—suddenly came under invasion from \"Reconquista\"."
-    new "Более того, страна, в которой мы живём — Тристейн — внезапно подверглась вторжению со стороны «Реконкисты»."
-
-    old "Using the Zero fighter found in Siesta's hometown and the power of Louise's \"Void\" magic, we somehow managed to repel Reconquista's massive fleet."
-    new "С помощью истребителя «Зеро», найденного в родной деревне Сиесты, и силы «Пустоты» Луизы, нам чудом удалось отбить атаку огромного флота Реконкисты."
-
-    old "Having suffered devastating losses, Reconquista won't be launching another invasion anytime soon."
-    new "После столь серьёзных потерь Реконкиста вряд ли скоро предпримет новое вторжение."
-
-    old "Well, I guess this is what they call a fleeting moment of peace…"
-    new "Ну что ж, наверное, это и есть то, что называют «недолгим затишьем»…"
-
-    old "But when will I ever be able to return to Japan..."
-    new "Но когда же я смогу вернуться в Японию…"
-
-    old "Well, I guess it'll all work out somehow… It's always been like that up to now, anyway…"
-    new "Ну что ж, как-нибудь всё уладится… В конце концов, так было всегда…"
-
-    old "Then again, my lower back really aches… I still haven't gotten used to riding a horse…"
-    new "И всё-таки, поясница просто ноет… Так и не привык я ездить верхом…"
 
     old "Either one's fine. It's got nothing to do with me, anyway."
     new "Мне без разницы, любой вариант подойдёт. Меня это всё равно не касается."
@@ -130,9 +85,6 @@ translate russian strings:
     old "Yeah yeah, sure thing~"
     new "Да-да, слушаюсь-слушаюсь~"
 
-    old "Jeez... She's got such a cute look going for her. If only her personality had even a tiny bit of that same charm, I wouldn't have a single complaint..."
-    new "Эх... У нее такая милая внешность. Если бы ещё характер хоть чуточку был помягче да поуютнее — цены бы ей не было..."
-
     old "Did you say something!?"
     new "Ты что-то сказал!?"
 
@@ -147,15 +99,6 @@ translate russian strings:
 
     old "I'm NOT being bossed around, okay?!"
     new "Да не под каблуком я, ясно?!"
-
-    old "This is Derflinger. As you can see, a talking sword. Well, he's my partner, I guess."
-    new "Это Дерфлингер. Как видишь, это говорящий меч. Ну, можно сказать, он мой напарник."
-
-    old "It's good that he told me I'm the legendary familiar 'Gandálfr', but he just won't give me any details."
-    new "Конечно, хорошо, что он прояснил, что я легендарный фамильяр „Гандальв“, но вот полной картины это всё равно не рисует."
-
-    old "Partner says he's simply forgotten everything, but... I wonder if he'll remember anything at all..."
-    new "Напарник говорит, что просто все забыл, но… интересно, вспомнит ли он хоть что-нибудь…"
 
     old "Well, well, you two are getting along nicely, huh? I was starting to sweat, wondering when my turn would ever come!"
     new "О-о-о, да вы тут уже душа в душу, а? Я уж забеспокоился — когда, думаю, моя очередь говорить наступит… аж вспотел от напряжения!"
@@ -182,20 +125,7 @@ translate russian strings:
     old "Sheesh..."
     new "Эх..."
 
-    old "My master, Louise... she's stubborn, fiercely proud, and quick to anger..."
-    new "Моя хозяйка Луиза... она упрямая, гордая до невозможности и вспыльчивая..."
-
-    old "Well, regarding the fact that she... ahem, has no chest... since she seriously stresses over it, I'd better keep quiet..."
-    new "Ну, касательно того факта, что у неё... кхм, нет груди... поскольку она сильно загоняется из-за этого, лучше промолчу..."
-
-    old "But sometimes she's unexpectedly gentle... and honestly, she looks pretty cute at times."
-    new "Но иногда она бывает неожиданно нежной... и честно, порой она выглядит правда мило."
-
-    old "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
-    new "В любом случае, не могу я её бросить... Должно быть, классическое проклятие влюблённого мужика."
-
-    old "Hm...? Someone's collapsed."
-    new "Хм...? Кто-то лежит..."
+  
 
     old "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
     new "Это же очевидно плохо, разве нет? Неужели ты так хочешь нарядиться, что готова доставить мне столько хлопот, а?"
@@ -224,23 +154,7 @@ translate russian strings:
     old "This girl... she's wearing such unfamiliar clothes. Just what country could she be from, I wonder?"
     new "Эта девушка одета в нечто совершенно незнакомое... Из какой же она страны, интересно?"
 
-    old "That blazer she's wearing... now that I look closer, isn't that the uniform from the school I used to go to?"
-    new "Пиджак, который одет на ней... если присмотреться, это же форма из моей школы!"
-
-    old "Why is this girl wearing these clothes? Could it be... she's from Japan too, just like me...?"
-    new "Почему на ней эта одежда? Неужели она, как и я, из Японии...?"
-
-    old "No, no... this girl... It’s like I’ve met her somewhere before..."
-    new "Нет, нет... эта девушка... Такое чувство, будто где-то я уже видел её..."
-
-    old "Where, exactly? Back at my school in Japan?"
-    new "Где именно? Неужели в школе... в Японии?"
-
-    old "I remember now. No doubt about it. She’s \"Haruna Takana\", our class representative...?"
-    new "Вспомнил. Ошибки нет. Это же «Такана Харуна», наша староста класса...?"
-
-    old "No, wait... Get a grip, me. What the hell is Takana-san doing in this world?"
-    new "Стоп, нет... Возьми себя в руки. Какого чёрта Такана-сан оказалась в этом мире?"
+ 
 
     old "Hey, Saito. What's with you staring at this girl so intently?"
     new "Эй, Сайто. Чего это ты так уставился на эту девушку?"
@@ -338,9 +252,6 @@ translate russian strings:
 
     old "I know! Getting dragged into something like this... Saito, you're going to pay for this later!"
     new "Я знаю! Вляпаться во всё это... Сайто, ты мне за это ответишь!"
-
-    old "Like hell I'd give this important clue to getting back to Japan to these sketchy characters!"
-    new "Как будто я отдам эту важную зацепку для возвращения в Японию таким мутным типам!"
 
     old "Seems like the other side's fixin' to act, partner."
     new "Чую, противник вот-вот начнёт, напарник."
@@ -442,11 +353,6 @@ translate russian strings:
     new "Давай-давай, выкладывай всю правду! Что именно ты с ней натворил, а?!"
 
     #choise
-    old "I don't recall"
-    new "Не припоминаю"
-
-    old "I didn't do anything!"
-    new "Я ничего не делал!"
 
     old "...It's exactly that way of speaking that makes me unable to trust you. You don't even intend to answer seriously, do you? Is that how it is?"
     new "...Вот именно такая манера говорить и не вызывает доверия. Ты, похоже, даже не собираешься отвечать серьёзно. Так ведь?"
@@ -499,12 +405,6 @@ translate russian strings:
     old "Honestly... why am I the one stuck doing this...?"
     new "Вот зачем... зачем мне всё это..."
 
-    old "In the end, Siesta kindly let us keep the girl we'd brought back hidden in her room."
-    new "В итоге Сиеста любезно согласилась приютить привезённую нами девушку у себя в комнате."
-
-    old "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
-    new "Поскольку обратиться к врачу было невозможно, мы решили доверить её осмотр Монморанси."
-    
     old "Hey, how'd it go? Is she hurt anywhere? Any signs of illness? Nothing... serious, right?"
     new "Эй, ну как? У неё есть где-нибудь травмы? Может, какая-то болезнь? Ведь ничего серьёзного, да?"
 
@@ -546,3 +446,43 @@ translate russian strings:
 
     old "Yeah."
     new "Ага."
+
+    old "Wouldn't it be fine to just let her sleep like this?"
+    new "Может, просто оставим её спать вот так?"
+
+    old "I see... That's a relief. Thanks, Monmon."
+    new "Понятно... Ну и хорошо. Спасибо, Монмон."
+
+    old "My name is Montmorency! I've told you not to make up weird nicknames for me!"
+    new "Мое имя — Монморанси! Я же говорила, не смей придумывать мне дурацкие сокращения!"
+
+    old "Ah, yeah. But seriously, thanks."
+    new "А, да. Но всё равно, правда, спасибо."
+
+    old "You're welcome. It's not like I'm under any obligation to do this, but I simply can't abandon someone who's sick."
+    new "Пожалуйста. Я, конечно, не обязана была брать это на себя, но бросить больного человека я просто не могу."
+
+    old "Anyway, Siesta. I apologize for dragging a sick person into the room without warning."
+    new "Кстати, Сиеста, прости, что мы так внезапно притащили больного прямо в комнату."
+
+    old "Oh, it's quite alright. Please don't worry about it, Miss Vallière. After all, it's for the sake of helping someone in need."
+    new "Ах, что вы, всё в порядке. Не беспокойтесь об этом, мисс Вальер. Ведь это же ради того, чтобы помочь человеку в беде."
+
+
+    old "Besides... it's what Saito asked for."
+    new "К тому же... это же просьба Сайто."
+
+    old "...I see."
+    new "...Вот как."
+
+    old "But this girl... I don't recognize her from the academy. Just where on earth did you pick up this commoner?"
+    new "Но эта девушка... Я не припомню, чтобы видела её в академии. И где это вы подобрали эту простолюдинку?"
+
+    old "Don't just 'eh' at me. I'll have you know I remember the faces of almost all the commoners working at the academy."
+    new "И нечего мне тут \"э\"кать. Я всё-таки помню в лицо почти всех простолюдинов, что работают в академии."
+
+    old "Listen... Saito. Where exactly did you bring this girl from?"
+    new "Эй... Сайто. Откуда ты её вообще притащил?"
+
+    old "Uh, um..."
+    new "Э, это..."

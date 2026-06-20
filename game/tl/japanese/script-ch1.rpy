@@ -52,15 +52,6 @@ translate japanese strings:
 
     #choise
 
-    old "I thoughts it's good!"
-    new "いいと思うぜ"
-
-    old "I don't care"
-    new "どっちでもいい"
-
-    old "It's terrible!"
-    new "悪い！"
-
     old "I thoughts it's great! You've got good looks to begin with. So paying more attention to your appearance is totally fine."
     new "いいと思うぜ。おまえ、元がいいもん。もっと外見に気を配るってのはアリだろ。"
 
@@ -73,42 +64,6 @@ translate japanese strings:
     old "But why do girls take so long just picking out clothes? I just don't get it at all..."
     new "けど、なんで女の子は服を選ぶだけでそんなに時間がかかるんだ？さっぱり分からねぇ……。"
 
-    #thougs
-    old "My name is Hiraga Saito. I was supposed to be just an ordinary high school student... or so I thought."
-    new "（俺の名前は『平賀　才人』。　平凡な高校生……だったはずなのに）"
-
-    old "But now, I'm with this willful master — Louise Françoise Le Blanc de La Vallière..."
-    new "（今は、このワガママなご主人様－　ルイズ・フランソワーズ・ル・ブラン・　ド・ラ・ヴァリエール……）"
-
-    old "Long story short: thanks to Louise's summoning spell, I — who got called here as a familiar — am now living in her room."
-    new "（略すと『ルイズ』の召喚魔法のせいで、　使い魔として召喚されてしまった俺は、　今、ルイズの部屋で暮らしてる）"
-
-    old "In another world, \"Halkeginia\", where mages rule the land as nobility... It was a world entirely unlike Japan."
-    new "（魔法を使うメイジが貴族として国を支配する　異世界、『ハルケギニア』……。　そこは日本とはまったく違う世界だった）"
-
-    old "What's more, the country we live in—Tristain—suddenly came under invasion from \"Reconquista\"."
-    new "（しかも、俺達が住んでる国　『トリステイン』は、突然、　『レコン・キスタ』からの侵略を受けた）"
-
-    old "Using the Zero fighter found in Siesta's hometown and the power of Louise's \"Void\" magic, we somehow managed to repel Reconquista's massive fleet."
-    new "（シエスタの故郷で見つけたゼロ戦と、　ルイズの『虚無』の力をもって、俺達は　レコン・キスタの大艦隊をなんとか撃退）"
-
-    old "Having suffered devastating losses, Reconquista won't be launching another invasion anytime soon."
-    new "（大損害を受けたレコン・キスタから　次の侵略はない）"
-
-    old "Well, I guess this is what they call a fleeting moment of peace…"
-    new "（まぁ、これが、つかの間の平和という　ヤツなんだろうな）"
-
-    old "But when will I ever be able to return to Japan..."
-    new "（しかし、いつになったら、　俺は日本に帰ることができるんだろう……）"
-
-    old "Well, I guess it'll all work out somehow… It's always been like that up to now, anyway…"
-    new "（まぁ、なるようになるか……。　今までもずっとそうだったし……）"
-
-    old "Then again, my lower back really aches… I still haven't gotten used to riding a horse…"
-    new "（それにしても、腰が痛いなぁ……。　馬に乗るのは未だに慣れないよ……）"
-
-    old "Louise actually looks really nice..."
-    new "（ルイズがオシャレねえ……）"
 
     old "Just one thing though: don't go dumping any extra hassle on me, alright?"
     new "ただ、俺に余計な苦労をかけさせんなとは言いたいね。"
@@ -128,9 +83,6 @@ translate japanese strings:
     old "Yeah yeah, sure thing~"
     new "へいへい。"
 
-    old "Jeez... She's got such a cute look going for her. If only her personality had even a tiny bit of that same charm, I wouldn't have a single complaint..."
-    new "(ったく、せっかく外見は可愛いんだから、 性格がもうちょっとだけでも 可愛げがあれば文句ないんだけどなあ)"
-
     old "Did you say something!?"
     new "なにか言った!?"
 
@@ -145,15 +97,6 @@ translate japanese strings:
 
     old "I'm NOT being bossed around, okay?!"
     new "敷かれてないっつーの!"
-
-    old "This is Derflinger. As you can see, a talking sword. Well, he's my partner, I guess."
-    new "(こいつは『デルフリンガー』。 見た通り、しゃべる剣。 まぁ、俺の相棒だな)"
-    
-    old "It's good that he told me I'm the legendary familiar 'Gandálfr', but he just won't give me any details."
-    new "(俺が伝説の使い魔-『ガンダールヴ』 だと教えてくれたのはいいけど、 どうにも詳しいことを教えてくれない)"
-
-    old "Partner says he's simply forgotten everything, but... I wonder if he'll remember anything at all..."
-    new "(本人(本剣?)は忘れてるだけだと 言ってるけど、いつ思い出して くれるんだろう......)"
 
     old "Well, well, you two are getting along nicely, huh? I was starting to sweat, wondering when my turn would ever come!"
     new "おーおー、仲良しじゃねーか。いつ、俺っちの出番があるかと思って、ひやひやしたぜ。"
@@ -179,21 +122,6 @@ translate japanese strings:
 
     old "Sheesh..."
     new "やれやれ......。"
-
-    old "My master, Louise... she's stubborn, fiercely proud, and quick to anger..."
-    new "(俺のご主人様-ルイズは、 意地っ張りでプライドが高くて 怒りっぽくて......)"
-
-    old "Well, regarding the fact that she... ahem, has no chest... since she seriously stresses over it, I'd better keep quiet..."
-    new "(まぁ、胸がないところについては......、 本人が本気で気にしてるので おいておいて......)"
-
-    old "But sometimes she's unexpectedly gentle... and honestly, she looks pretty cute at times."
-    new "(だけど、ときどき妙に優しくって、 可愛く見えるときがあるんだよな)"
-
-    old "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
-    new "(まぁ、なんだかんだ言っても、 ルイズのことはほっとけないし、 これは惚れた男のサガなんだろうなぁ)"
-
-    old "Hm...? Someone's collapsed."
-    new "(ん......? 誰か、倒れてる)"
 
     old "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
     new "悪いに決まってるだろ?俺にこんだけ苦労かけてまでオシャレしたいのか、おまえ。"
@@ -221,24 +149,6 @@ translate japanese strings:
 
     old "This girl... she's wearing such unfamiliar clothes. Just what country could she be from, I wonder?"
     new "この娘、見慣れない格好をしてるけど、一体、どこの国の人かしら。"
-
-    old "That blazer she's wearing... now that I look closer, isn't that the uniform from the school I used to go to?"
-    new "(この娘が着てるブレザー、 よく見たら俺の通ってた学校の制服じゃん)"
-
-    old "Why is this girl wearing these clothes? Could it be... she's from Japan too, just like me...?"
-    new "(なんでこの娘がこの服を着てるんだ? もしかして、俺と同じ日本から......?)"
-
-    old "No, no... this girl... It’s like I’ve met her somewhere before..."
-    new "(いやいや、この娘......。 どっかで会ったことがあるような......)"
-
-    old "Where, exactly? Back at my school in Japan?"
-    new "(どこ? 日本の学校で?)"
-
-    old "I remember now. No doubt about it. She’s \"Haruna Takana\", our class representative...?"
-    new "(思い出した。 間違いない。 クラスの委員長だった「高凪 春奈」さん?)"
-
-    old "No, wait... Get a grip, me. What the hell is Takana-san doing in this world?"
-    new "(いやいや......。 落ち着け、俺。 なんで高凪さんがこの世界に来ているんだよ)"
 
     old "Hey, Saito. What's with you staring at this girl so intently?"
     new "ちょっとサイト。なに、この娘をじーっと見つめてるのよ。"
@@ -275,9 +185,6 @@ translate japanese strings:
 
     old "Ah, yeah... You're right."
     new "あ、ああ......。そうだな。"
-
-    old "There's a lot I want to ask... but first things first — her condition."
-    new "(いろいろ聞きたいことはあるけど、 まずは容態だよな)"
 
     old "So there you are."
     new "ここにいたか。"
@@ -336,9 +243,6 @@ translate japanese strings:
 
     old "I know! Getting dragged into something like this... Saito, you're going to pay for this later!"
     new "分かってるわよ!こんなことに巻き込んで......。サイト、後で覚えてなさいよ!"
-
-    old "Like hell I'd give this important clue to getting back to Japan to these sketchy characters!"
-    new "(日本に戻るための大事な手がかりを、 こんな怪しい連中に渡せるかよ!)"
 
     old "Seems like the other side's fixin' to act, partner."
     new "向こうもそろそろ動くみたいだぜ、相棒。"
@@ -440,12 +344,6 @@ translate japanese strings:
     new "さーあ、白状なさい!この娘にいったい何をしたの!?"
 
     #choise
-    old "I don't recall"
-    new "記憶にありません"
-
-    old "I didn't do anything!"
-    new "なにもしていない！"
-
 
     old "I have absolutely no recollection of that. No, truly. Seriously!"
     new "記憶にございません。いや本当に。マジで。"
@@ -501,12 +399,6 @@ translate japanese strings:
     old "Honestly... why am I the one stuck doing this...?"
     new "まったく、なんでわたしがこんなこと......。"
 
-    old "In the end, Siesta kindly let us keep the girl we'd brought back hidden in her room."
-    new "(結局、俺達が連れて帰った娘は、 シエスタの部屋にかくまってもらった)"
-
-    old "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
-    new "(まさか医者に頼るわけにもいかず、容態はモンモランシーに診てもらうことにした)"
-
     old "Hey, how'd it go? Is she hurt anywhere? Any signs of illness? Nothing... serious, right?"
     new "なあ、どうだった?どこか怪我してるとか、なにか病気とか、大変なことになってないか?"
 
@@ -548,3 +440,42 @@ translate japanese strings:
 
     old "Yeah."
     new "ああ。"
+
+    old "Wouldn't it be fine to just let her sleep like this?"
+    new "このまま寝かせておけばいいんじゃないかしら。"
+
+    old "I see... That's a relief. Thanks, Monmon."
+    new "そっか......良かった。ありがとな、モンモン。"
+
+    old "My name is Montmorency! I've told you not to make up weird nicknames for me!"
+    new "わたしの名前はモンモランシー!勝手に変な省略しないでって言ってるでしょ。"
+
+    old "Ah, yeah. But seriously, thanks."
+    new "ああ、うん。でも、本当にありがとうな。"
+
+    old "You're welcome. It's not like I'm under any obligation to do this, but I simply can't abandon someone who's sick."
+    new "どういたしまして。わたしが引き受ける義理なんてないんだけど、病人を見捨てる真似なんてできないしね。"
+
+    old "Anyway, Siesta. I apologize for dragging a sick person into the room without warning."
+    new "それより、シエスタ。いきなり部屋に病人を担ぎ込んじゃってすまなかったわね。"
+
+    old "Oh, it's quite alright. Please don't worry about it, Miss Vallière. After all, it's for the sake of helping someone in need."
+    new "ああ、いいんです。気にしないでくださいミス・ヴァリエール。困ってる人を助けるためですもの。"
+
+    old "Besides... it's what Saito asked for."
+    new "それに......サイトさんの頼みですし。"
+
+    old "...I see."
+    new "......ほおお。"
+
+    old "But this girl... I don't recognize her from the academy. Just where on earth did you pick up this commoner?"
+    new "でも、この娘。学院じゃ見ない顔よね。いったいどこの平民を拾ってきたの?"
+
+    old "Don't just 'eh' at me. I'll have you know I remember the faces of almost all the commoners working at the academy."
+    new "え、じゃないわよ。わたしだって、学院で働いてる平民の顔くらいはだいたい覚えてるつもりよ。"
+
+    old "Listen... Saito. Where exactly did you bring this girl from?"
+    new "ねぇ......サイト。この娘、いったいどこから連れてきたの?"
+
+    old "Uh, um..."
+    new "え、ええと......。"

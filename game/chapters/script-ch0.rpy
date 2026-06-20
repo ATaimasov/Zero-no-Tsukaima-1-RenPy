@@ -2,14 +2,15 @@ label ch0:
     stop music fadeout 2.0
     call overlay_screen("town_square_night", "Tristania") from _call_overlay_screen
     play sound blow
-    scene bg town_square_night at bg_center
-    with flash
+    $ flash_clear("town_square_night")
     with explosion_shake
     pause(0.5)
 
     play music audio.t23 fadein 1.0
     
     show npc 1 angry as npc_left at close_center with dissolve
+
+    #$ show_sprites("npc 1 angry", mode="big", anim="slide")
     voice "ch0_npc1_001"
     npc1 "Where did the explosion happen?"
 
@@ -38,6 +39,7 @@ label ch0:
     unknown "Hahahaha. You're always working hard."
 
     show npc 1 sad as npc_left at close_left_npc
+    #! задержка звука долгая
     voice "ch0_npc1_005"
     npc1 "Where is he?"
 
@@ -45,9 +47,6 @@ label ch0:
     voice "ch0_npc1_006"
     npc2 "Sir, he's on top of that mansion."
 
-    hide npc_left
-    hide npc_right
-    
     call overlay_screen(None, "The Pentagon that governs the five powers", text_mode="white", delay=3.5, sound_path="ch0_l_002") from _call_overlay_screen_2
     scene cg terrorist at bg_center with dissolve
 
@@ -74,6 +73,7 @@ label ch0:
     voice "ch0_npc1_010"
     npc1 "Hey! Apprehend him immediately!"
 
+    #! звука нет
     voice "ch0_npc1_011"
     npc2 "Yes, Sir!"
 

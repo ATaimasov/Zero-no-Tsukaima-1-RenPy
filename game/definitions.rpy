@@ -57,7 +57,7 @@ transform close_right_npc:
     yalign 0.95    
 
 # ==== TRANSITIONS ====
-define flash = Fade(0.1, 0.0, 0.5, color="#fff")
+define flash = Fade(0.1, 0.5, 0.5, color="#fff")
 define fade = Fade(0.5, 0.0, 0.5)
 
 # slide
@@ -177,7 +177,7 @@ image bg cafe_evening = "bg/cafe_evening.png"
 image bg cafe_night = "bg/cafe_night.png"
 
 # cafe_entrance
-image bg library = "bg/cafe_entrance.png"
+image bg cafe_entrance = "bg/cafe_entrance.png"
 image bg cafe_entrance_evening = "bg/cafe_entrance_evening.png"
 image bg cafe_entrance_night = "bg/cafe_entrance_night.png"
 

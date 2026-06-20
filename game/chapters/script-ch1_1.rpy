@@ -1,23 +1,3 @@
-label louise_outfit_choice:
-    menu:
-        "I thoughts it's good!":
-            $ outfit_result = "good"
-        "I don't care":
-            $ outfit_result = "neutral"
-        "It's terrible!":
-            $ outfit_result = "bad"
-    return
-
-label mage_dialog:
-    menu:
-        "Let me think for a moment.":
-            $ mage_result = "neutral"
-        "Like hell I'd do that!":
-            $ mage_result = "good"
-        "Alright... I'll hand her over.":
-            $ mage_result = "bad" 
-    return
-
 label forest_battle:
     call screen battle_menu
     
@@ -38,13 +18,6 @@ label forest_battle:
         # action Rollback()
     return
 
-label what_did_you_do_choise:
-    menu:
-        "I don't recall":
-            $ what_did_you_do_result = "bad"
-        "I didn't do anything!":
-            $ what_did_you_do_result = "good"
-    return
 label ch1:
 
     call overlay_screen("overlay",  "Chapter 1 \"Louise of Zero\"", isUseBlur=False, text_mode="black") from _call_overlay_screen_4
@@ -115,15 +88,15 @@ label ch1:
     l "That's exactly right!"
 
     scene bg forest at bg_center with fade
-    show s 1 at normal_center with dissolve
+    $ show_sprites("s 1", mode="big")
+
     thoughts "My name is Hiraga Saito. I was supposed to be just an ordinary high school student... or so I thought."
-    hide s 1
-    show l 1 at normal_center with dissolve
+    $ show_sprites("l 1", mode="big")
     thoughts "But now, I'm with this willful master — Louise Françoise Le Blanc de La Vallière..."
     thoughts "Long story short: thanks to Louise's summoning spell, I — who got called here as a familiar — am now living in her room."
 
-    hide l 1
-    show bg sky at bg_center with fade
+    $ fade_clear("bg sky")
+
     thoughts "In another world, \"Halkeginia\", where mages rule the land as nobility... It was a world entirely unlike Japan."
     thoughts "What's more, the country we live in—Tristain—suddenly came under invasion from \"Reconquista\"."
     thoughts "Using the Zero fighter found in Siesta's hometown and the power of Louise's \"Void\" magic, we somehow managed to repel Reconquista's massive fleet."
@@ -145,10 +118,17 @@ label ch1:
 
     thoughts "Louise actually looks really nice..."
 
-    #choise
-    call louise_outfit_choice from _call_louise_outfit_choice
+    # ==== CHOISE 1 ====
+    $ choise_result = None
+    menu:
+        "I thoughts it's good!":
+            $ choise_result = "good"
+        "I don't care":
+            $ choise_result = "neutral"
+        "It's terrible!":
+            $ choise_result = "bad"
 
-    if outfit_result == "good":
+    if choise_result == "good":
 
         voice "ch1_s_009"
         s "I thoughts it's great! You've got good looks to begin with. So paying more attention to your appearance is totally fine."
@@ -157,11 +137,12 @@ label ch1:
         voice "ch1_l_010"
         l "I-is that so...?"
 
+        window hide
         $ update_sympathy(20)
 
         voice "ch1_s_010"
         s "But why do girls take so long just picking out clothes? I just don't get it at all..."
-    elif outfit_result == "neutral": 
+    elif choise_result == "neutral": 
 
         ## симпатия луизы не меняется
 
@@ -170,12 +151,13 @@ label ch1:
 
         voice "ch1_s_012"
         s "Just one thing though: don't go dumping any extra hassle on me, alright?"
-    elif outfit_result == "bad":
+    elif choise_result == "bad":
 
         scene cg l_s_forest_s_speak at bg_center with dissolve
         voice "ch1_s_013"
         s "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
 
+        window hide
         $ update_sympathy(-20)
     else:
         "ERR"
@@ -211,67 +193,71 @@ label ch1:
     voice "ch1_s_016"
     s "N-no, nothing at all!"
 
-    scene bg forest at bg_center with fade
+    #scene bg forest at bg_center with fade
+    $ fade_clear("bg forest")
 
-    show d 1 happy at slide_left_to_center_in
+    $ show_sprites("d 1 happy")
+    pause(0.2)
     voice "ch1_d_001"
+    #! тут быстрая прокручивание диалогов колесиком мыши или ctrl делает спрайты прозрачным
     d "Hah hah haa! Still getting bossed around by her, huh, partner?"
 
-    show d 1 at normal_center
+    $ show_sprites(("l 3 angry", "d 1"))
     voice "ch1_l_015"
     l "I do NOT boss him around!"
 
+    $ show_sprites(("l 3 angry", "d 1", "s 3 angry"))
     voice "ch1_s_017"
     s "I'm NOT being bossed around, okay?!"
 
-    show d 1 at close_center with dissolve
+    #! тут нужен скейл плавный
+    $ show_sprites("d 1", mode="big", anim="slide")
+
     thoughts "This is Derflinger. As you can see, a talking sword. Well, he's my partner, I guess."
     thoughts "It's good that he told me I'm the legendary familiar 'Gandálfr', but he just won't give me any details."
     thoughts "Partner says he's simply forgotten everything, but... I wonder if he'll remember anything at all..."
 
-    show d 1 happy at normal_center with dissolve
+    $ show_sprites("d 1 happy")
     voice "ch1_d_002"
     d "Well, well, you two are getting along nicely, huh? I was starting to sweat, wondering when my turn would ever come!"
 
-    show d 1 at normal_center
+    $ show_sprites("d 1")
     voice "ch1_d_003"
     d "See, a mage and their familiar—they're one-of-a-kind partners, that's the thing. So you two getting along? That's a good thing, y'know!"
 
     voice "ch1_d_004"
     d "Besides, when a noble young lady goes out of her way to dress up for her partner's sake — that's quite the gesture, y'know!"
 
-    show d 1 shy at normal_center with dissolve
+    $ show_sprites("d 1 shy")
     voice "ch1_d_005"
 
     # !!!
-    if outfit_result == "good":
+    if choise_result == "good":
         d "See? That’s it. A real man knows to offer a gentle word when it counts—that’s what being a man’s all about, huh?"
     else:
         d "C'mon, partner — a real man at least offers a gentle word when it counts, yeah?"
 
+    $ show_sprites(("l 3 angry", "d 1 shy"))
     voice "ch1_l_016"
     l "If you run your mouth one more time, I'll melt you down into scrap iron and bury you in the academy's backyard — got it?!"
 
-    show d 1 sad at normal_center with dissolve
+    $ show_sprites(("l 3 angry", "d 1 sad"), side="center")
     voice "ch1_d_006"
     d "Whoa, scary! Partner, I'll just take a little nap for now — so when my cue comes, give me a holler, yeah?"
-    show d at slide_center_to_right_out   
-    pause 0.4                   
-    hide d 
+
+    $ show_sprites(("l 3 angry", "s 1 sad"))
 
     voice "ch1_s_018"
     s "Sheesh..."
 
-    show l 3 at slide_left_to_center_in
+    $ show_sprites("l 3", mode="big")
     thoughts "My master, Louise... she's stubborn, fiercely proud, and quick to anger..."
     thoughts "Well, regarding the fact that she... ahem, has no chest... since she seriously stresses over it, I'd better keep quiet..."
     thoughts "But sometimes she's unexpectedly gentle... and honestly, she looks pretty cute at times."
     thoughts "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
 
     # ==== SUBCHAPTER 2 ====
-
-    scene cg l_s_forest_l_s_speak at bg_center with fade
-    play music audio.t27 fadein 1.0
+    $ fade_clear("cg l_s_forest_l_s_speak", new_music="t27") 
     
     thoughts "Hm...? Someone's collapsed."
 
@@ -294,7 +280,7 @@ label ch1:
     voice "ch1_l_019"
     l "Ah—wait, Saito! Ugh, what is wrong with you?!"
 
-    scene cg ha_forest at bg_center with fade
+    $ fade_clear("cg ha_forest")
 
     voice "ch1_s_021"
     s "Just as I thought... There really is someone collapsed... I wonder if she is okay... wait—huh, hey!?"
@@ -358,33 +344,34 @@ label ch1:
 
     # ==== SUBCHAPTER 3 ====
 
-    scene bg forest at bg_center with fade
-    play music audio.t17 fadein 1.0
+    $ fade_clear("bg forest", new_music="t17")
 
-    show mage at slide_left_to_center_in
-    pause(0.5)
+    $ show_sprites("mage")
     voice "ch1_mage_001"
     mage "So there you are."
 
-    show mage at slide_center_to_left #slide_center_to_left
-    pause(0.2)
-    show s 1 angry at slide_center_to_right with dissolve #slide_center_to_right
+    $ show_sprites(("mage", "s 1 angry"))
+
+    #show mage at slide_center_to_left #slide_center_to_left
+    #pause(0.2)
+    #show s 1 angry at slide_center_to_right with dissolve #slide_center_to_right
     # !!! удивление вздох - сайто
     voice "ch1_s_028"
     s "Gah?!"
 
-    hide s with dissolve
-    pause(0.2)
-    show l 1 angry at slide_center_to_right with dissolve
+    $ show_sprites(("mage", "l 1 angry"))
+
+    #hide s with dissolve
+    #pause(0.2)
+    #show l 1 angry at slide_center_to_right with dissolve
     voice "ch1_l_028"
     l "What?! Who are you people?!"
 
     voice "ch1_mage_002"
     mage "Hand over that girl."
 
-    hide l with dissolve
-    pause(0.2)
-    show s 1 angry at slide_center_to_right with dissolve
+
+    $ show_sprites(("mage", "s 1 angry"))
     voice "ch1_s_029"
     s "Who are you people? Do you know this girl?"
 
@@ -394,99 +381,93 @@ label ch1:
     voice "ch1_s_030"
     s "What did you just say?!"
 
-    #choise
-    call mage_dialog from _call_mage_dialog
+    # ==== CHOISE 2 ====
+    $ choise_result = None
+    $ louise = "l 1 angry"
+    menu:
+        "Let me think for a moment.":
+            $ choise_result = "neutral"
+        "Like hell I'd do that!":
+            $ choise_result = "good"
+        "Alright... I'll hand her over.":
+            $ choise_result = "bad" 
 
-    if mage_result == "good":
+    if choise_result == "good":
         voice "ch1_s_036"
         s "Like hell I can do that! You just pop out of nowhere, dressed all suspiciously — did you really think I'd just hand her over without a second thought?!"
-
-        show mage at slide_right_out with dissolve
-        pause(0.1)
-        hide mage
-
-        show l 1 sad at slide_left_in with dissolve
+        
+        $ louise = "l 1 sad"
+        $ show_sprites((louise, "s 1 angry"))
         voice "ch1_l_031"
         l "Saito..."
         pause(1)
+
+        window hide
         $ update_sympathy(20)
-    elif mage_result == "neutral": 
-        show s 1 sad at normal_right with dissolve
-        pause(0.2)
+    elif choise_result == "neutral": 
+        $ show_sprites(("mage", "s 1 sad"))
+
         voice "ch1_s_031"
         s "W-wait... let me think for a moment."
+
+        $ louise = "l 1 angry"
+        $ show_sprites((louise, "s 1 sad"))
         
-        show mage at slide_right_out with dissolve
-        pause(0.1)
-        hide mage
-        show l 1 angry at slide_left_in with dissolve
         voice "ch1_l_029"
         l "What are you even thinking about?! This is obviously a 'no way' situation, got it?!"
 
-        show s 3 sad at normal_right with dissolve
-        pause(0.1)
+        $ show_sprites((louise, "s 3 sad"))
+
         voice "ch1_s_032"
         s "Ah, yeah... You're right.{#var_2}"
 
-    elif mage_result == "bad":
+    elif choise_result == "bad":
         voice "ch1_s_037"
+        $ show_sprites(("mage", "s 1 sad"))
+
         s "Understood. You can have this girl."
+        
+        $ show_sprites(("l 3 angry", "s 1 sad"))
 
-        show mage at slide_right_out with dissolve
-        pause(0.1)
-        hide mage
-
-        show l 3 angry at slide_left_in with dissolve
         voice "ch1_l_032"
         l "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
+        
+        window hide
         $ update_sympathy(-20)
 
-        show s 3 sad at normal_right with dissolve
+        $ show_sprites(("l 3 angry", "s 3 sad"))
+
         voice "ch1_s_038"
         s "Huh? Ah, no... Um, well, you see... I was just testing them, okay?!"
 
-        show l 1 at normal_left with dissolve
+        $ louise = "l 1"
+        $ show_sprites(("l 1", "s 3 sad"))
         voice "ch1_l_033"
         l "Is that so...?"
 
-    show s 1 angry at normal_right with dissolve
+    
+    $ show_sprites((louise, "s 1 angry"))    
+
     voice "ch1_s_033"
     s "Hey, you guys! Listen up good."
 
     voice "ch1_s_034"
     s "I'm not handing this girl over to you. Leave — now!"
 
-    show d 1 happy at slide_left_to_center_in
+    $ show_sprites((louise, "d 1 happy", "s 1 angry"), center_front=True)    
     voice "ch1_d_007"
     d "Heh heh heh... That's what I like to see, partner! Thought my edge'd never see action again."
 
-    if mage_result == "good":
-        show l 1 sad at slide_left_out with dissolve
-    elif mage_result == "neutral":
-        show l 1 angry at slide_left_out with dissolve
-    elif mage_result == "bad":
-        show l 1 at slide_left_out with dissolve
-    pause(0.1)
-    hide l
-    
-    show mage at slide_left_in with dissolve
+    $ show_sprites(("mage", "d 1", "s 1 angry"))    
     voice "ch1_mage_004"
     mage "Hmph... How foolish. A mere commoner dares to stand in our way? Very well — then you shall receive a fitting recompense."
 
-    show d 1 happy at slide_center_to_right_out with dissolve
-    pause(0.2)
-    hide d
-
     # !!! звук доставания меча
-    show s 7 angry at normal_right with dissolve
+    $ show_sprites(("mage", "s 7 angry"))    
     voice "ch1_s_035"
     s "Louise! I'm counting on you!"
 
-    show mage at slide_left_out with dissolve
-    pause(0.1)
-    hide mage
-
-    show l 2 angry at slide_left_in with dissolve
+    $ show_sprites(("l 2 angry", "s 7 angry")) 
     voice "ch1_l_030"
     l "I know! Getting dragged into something like this... Saito, you're going to pay for this later!"
 
@@ -497,19 +478,15 @@ label ch1:
 
     # call screen battle_menu
 
-    #BATTLE 
+    # ==== BATTLE ==== 
 
-    hide s
-    hide l
-    call forest_battle from _call_forest_battle
+    $ clear_chars()
+    #call forest_battle from _call_forest_battle
 
     # ==== SUBCHAPTER 4 ====
 
-    play music audio.t24 fadein 1.0
-    show bg forest at bg_center with fade
-
-    show mage at normal_left with dissolve
-    show s 1 angry at normal_right with dissolve
+    $ fade_clear("bg forest", new_music="t24")
+    $ show_sprites(("mage", "s 1 angry"), anim="dissolve") 
 
     voice "ch1_mage_005"
     mage "To think I'd struggle against such a little girl and a commoner... Retreat!"
@@ -517,42 +494,40 @@ label ch1:
     voice "ch1_s_039"
     s "Hey, wait! Don't you run away!"
 
-    show bg forest at bg_center with flash
-    hide mage
-    show l 3 angry at slide_left_in with dissolve
+    $ flash_clear("bg forest")
+    $ show_sprites(("s 1 angry"), anim="dissolve", side="right") 
 
     # !!! Сайто восклицает э VOICE_ID.BIN_00002A44.wav
-    voice "ch1_s_040"
+    voice "ch1_s_063"
     s "Ah!?"
 
-    show d 1 angry at slide_left_to_center_in with dissolve
+    $ show_sprites(("d 1 angry", "s 1 angry")) 
     voice "ch1_d_009"
     d "Hey now. They've escaped."
+
+    $ show_sprites(("l 3 angry", "d 1 angry", "s 1 angry")) 
 
     voice "ch1_l_034"
     l "As if I'd let them get away! We're pursuing them, Saito!"
 
-    show d 1 at normal_center with dissolve
+    $ show_sprites(("l 3 angry", "d 1", "s 1 angry"), center_front=True) 
     voice "ch1_d_010"
     d "Hey, hold on, cool it."
 
+    $ show_sprites(("l 3 angry", "d 1", "s 1 angry")) 
     voice "ch1_l_035"
     l "Hey, are you really planning to just leave them alone?"
 
-    show d 1 happy at normal_center with dissolve
+    $ show_sprites(("l 3 angry", "d 1 happy", "s 1 angry"), center_front=True) 
     voice "ch1_d_011"
     d "If we go charging after them without thinking and they've got reinforcements waiting, we could end up on the receiving end. Let's call it good that we scared them off and leave it at that."
 
     # Луиза на первый план
-    show l 1 sad at normal_left with dissolve
+    $ show_sprites(("l 1 sad", "d 1 happy", "s 1 angry"))
     voice "ch1_l_036"
     l "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
 
-    scene cg ha_forest at bg_center with fade
-    hide l
-    hide d
-    hide s
-    pause(1)
+    $ fade_clear("cg ha_forest")
 
     voice "ch1_s_040"
     s "There, there. But more importantly, I think what we really need here is artificial respiration..."
@@ -571,9 +546,8 @@ label ch1:
     voice "ch1_l_038"
     l "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
 
-    show bg forest at bg_center with fade
-    show l 1 sad at normal_left with dissolve
-    show s 1 at normal_right with dissolve
+    $ fade_clear("bg forest")
+    $ show_sprites(("l 1 sad", "s 1 angry"), anim="dissolve")
 
     voice "ch1_s_042"
     s "Huh? What do you mean, \"what do we do\"?... About what, exactly?"
@@ -581,19 +555,15 @@ label ch1:
     voice "ch1_s_043"
     l "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."
 
-    show l 3 sad at normal_left with dissolve
+    $ show_sprites(("l 3 sad", "s 1 angry"))
     voice "ch1_l_039"
     l "There's also the option of heading back to town once and asking them to put this girl under protection, right?"
 
-    show d 1 at slide_left_to_center_in with dissolve
+    $ show_sprites(("l 3 sad", "d 1", "s 1 angry"))
     voice "ch1_d_012"
     d "Well, that's the common-sense judgment, I suppose."
 
-    show d 1 at slide_center_to_right_out   
-    pause 0.4                   
-    hide d 
-
-    show s 1 angry at normal_right with dissolve
+    $ show_sprites(("l 3 sad", "s 1 angry"))
     voice "ch1_s_044"
     s "N-no, we can't! We can't just abandon this girl halfway!"
 
@@ -601,44 +571,50 @@ label ch1:
     l "...Why do you care so much about her, anyway?"
 
     pause(0.2)
-    show s 3 sad at normal_right with dissolve
+    $ show_sprites(("l 3 sad", "s 3 sad"))
     pause(0.2)
     voice "ch1_s_045"
     s "W-well, that's... Once we've gotten involved, it's only right to see things through to the end and take care of her, isn't it?"
 
     thoughts "Besides, who knows... maybe this could give me a clue on how to get back to Japan."
 
-    show l 3 angry at normal_left with dissolve
+    $ show_sprites(("l 3 angry", "s 3 sad"))
     voice "ch1_l_041"
     l "Something's fishy here! Saito, spill it — what have you done to her?!"
 
-    show s 3 angry at normal_right with dissolve
+    $ show_sprites(("l 3 angry", "s 3 angry"))
     voice "ch1_s_046"
     s "N-no, hold on! What are you even saying I did to this girl we just found a moment ago?!"
 
-    show l 1 angry at normal_left with dissolve
+    $ show_sprites(("l 1 angry", "s 3 angry"))
     voice "ch1_l_042"
     l "You've known her for five minutes and you're already acting like this! She's got a big chest — which is exactly what you like — AND black hair just like Siesta's! Coincidence? I think not!"    
     
     voice "ch1_s_047"
     s "Uh! If you put it that way... I suppose you're right."
 
-    show l 3 angry at normal_left with dissolve
+    $ show_sprites(("l 3 angry", "s 3 angry"))
     voice "ch1_l_043"
     l "Alright, spill it! What exactly have you done to her, huh?!"
 
-    call what_did_you_do_choise from _call_what_did_you_do_choise
+    # ==== CHOISE 3 ==== 
+    $ choise_result = None
+    menu:
+        "I don't recall":
+            $ choise_result = "bad"
+        "I didn't do anything!":
+            $ choise_result = "good"
 
-    if what_did_you_do_result == "bad":
-        show s 4 happy at normal_right with dissolve
+    if choise_result == "bad":
+        $ show_sprites(("l 3 angry", "s 3 happy"))
         voice "ch1_s_048"
         s "I have absolutely no recollection of that. No, truly. Seriously!"
-
-        show l 1 angry at normal_left with dissolve
+        $ show_sprites(("l 1 angry", "s 3 happy"))
         voice "ch1_l_044"
         l "...It's exactly that way of speaking that makes me unable to trust you. You don't even intend to answer seriously, do you? Is that how it is?"
         $ update_sympathy(-20)
 
+        $ show_sprites(("l 1 angry", "s 3"))
         voice "ch1_s_049"
         s "No, wait, really! I'm telling you, I'm not lying! Please calm down, Louise-san."
 
@@ -647,78 +623,77 @@ label ch1:
         
         # !!!
         play sound "audio/sfx/punch.ogg"
-        scene cg ha_forest at bg_center with hit_shake
-        pause(0.2)
-        show s 3 angry at normal_right
+
+        # ! поправить , сейчас все спрайты пропадают
+        $ shake_scene(effect="shake")
+        $ show_sprites(("l 1 angry", "s 3 angry"), anim=None)
         voice "ch1_s_050"
         s "Nooooooo!"
 
         voice "ch1_l_046"
         l "Haa... haa... haa..."
+        $ show_sprites(("l 1 angry", "d 1 happy", "s 3 angry"))
+        voice "ch1_d_013"
+        d "...Haa. Hey, you still alive there, partner?"
 
-        show d 1 at slide_left_to_center_in
-        voice "...Haa. Hey, you still alive there, partner?"
-
-        show d 1 happy at slide_center_to_right_out with dissolve
-        pause(0.2)
-        hide d
-
-        show s 1 sad at normal_right with dissolve
+        $ show_sprites(("l 1 angry", "d 1", "s 1 sad"))
         voice "ch1_s_051"
         s "...I'm dead."
 
+        $ show_sprites(("l 1", "s 1 sad"))
         voice "ch1_l_047"
         l "Oh well, it's fine. I was planning to do that anyway, so let's just take her to the academy for now."
 
         voice "ch1_s_052"
         s "...Please."
 
-        show l 3 angry at normal_left with dissolve
+        $ show_sprites(("l 3 angry", "s 1 sad"))
         voice "ch1_l_048"
         l "It's not like I'm doing this for you, you know. If you so much as lay a finger on this girl, I won't hold back next time — got it?"
 
-        show s 3 sad at normal_right with dissolve
+        $ show_sprites(("l 3 angry", "s 3 sad"))
         pause(0.2)
         voice "ch1_s_053"
         s "I'm telling you, it's a misunderstanding!"
 
-    if what_did_you_do_result == "good":
-        show s 3 angry at normal_right with dissolve
+    if choise_result == "good":
+        $ show_sprites(("l 3 angry", "s 3 angry"))
         voice "ch1_s_056"
         s "I didn't do anything! This girl — I swear, I just met her for the first time!"
 
-        show l 3 sad at normal_left with dissolve
+        $ show_sprites(("l 3 sad", "s 3 angry"))
         voice "ch1_l_053"
         l "...Really? Then why are you so eager about it, hmm?"
 
-        show s 1 at normal_right with dissolve
+        $ show_sprites(("l 3 sad", "s 1"))
         voice "ch1_s_057"
         s "This girl... she really reminds me of a classmate from my hometown."
         voice "ch1_s_058"
         s "So basically... if this isn't just some crazy person's prank, then..."
-        show s 1 sad at normal_right with dissolve
+
+        $ show_sprites(("l 3 sad", "s 1 sad"))
         voice "ch1_s_059"
         s "There's a chance she holds a key to my world... that's what I'm thinking."
 
         pause(0.2)
-        show l 1 sad at normal_left with dissolve
+        $ show_sprites(("l 1 sad", "s 1 sad"))
         voice "ch1_l_054"
         l "Ah..."
 
         ## тут 3 раза подряд если повысили то уже максимум должен быть
         $ update_sympathy(20)
-        show s 1 angry at normal_right with dissolve
+        $ show_sprites(("l 1 sad", "s 1 angry"))
         voice "ch1_s_060"
         s "I want any clue I can get to return to my original world. ...Ah, but of course, it's also true that I really do want to help her. That part's completely genuine."
 
         voice "ch1_l_055"
         l "..."
 
-        show s 1 at normal_right with dissolve
+        $ show_sprites(("l 1 sad", "s 1"))
         voice "ch1_s_061"
         s "It's the honest-to-god truth."
 
-        show l 1 angry at normal_left with dissolve
+        $ show_sprites(("l 1 angry", "s 1"))
         voice "ch1_l_056"
         l "Ugh, fine, I get it! I was planning to do that anyway, so let's just take her to the Academy for now."
 
@@ -726,16 +701,17 @@ label ch1:
         s "I'm sorry to ask, but... please."
 
 
-    show l 1 at normal_left with dissolve
+    $ show_sprites(("l 1", "s 1"))
     voice "ch1_l_049"
     l "Those people from earlier might attack again, so I'm putting this girl on my horse. I'll move the luggage attached here over to your side, alright?"
 
     
     # !!! Если ответ положительный то вместо хаи он охает
-    if what_did_you_do_result == "good":
-        voice "ch1_s_063" # Звук добавить
+    if choise_result == "good":
+        #! звука нет
+        voice "ch1_s_063"
         s "Yeah."
-    if what_did_you_do_result == "bad":
+    if choise_result == "bad":
         voice "ch1_s_054"
         s "...Alright..."
 
@@ -751,14 +727,8 @@ label ch1:
     voice "ch1_l_052"
     l "Honestly... why am I the one stuck doing this...?"
 
-    ## анимация, все персонажи слайдятся в право за экран
-    ##и черный экран
-
-    hide l with dissolve
-    hide s with dissolve
-
-    scene black with dissolve
-    stop music fadeout 1.0
+    window hide
+    $ fade_clear(stop_music=True)
 
     jump ch1_2
 
