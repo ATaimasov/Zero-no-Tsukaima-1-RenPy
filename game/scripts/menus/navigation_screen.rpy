@@ -33,8 +33,8 @@ screen navigation():
         textbutton _("Options") action ShowMenu("preferences")        
         textbutton _("About") action ShowMenu("about")
                 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-            textbutton _("Help") action ShowMenu("help")
+        ##if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+            ##textbutton _("Help") action ShowMenu("help")
 
         if renpy.variant("pc"):
             null height 10

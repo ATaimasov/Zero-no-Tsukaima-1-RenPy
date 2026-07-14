@@ -51,7 +51,8 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    #background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Transform("gui/textbox.png", alpha=0.8)
 
 style namebox:
     xpos gui.name_xpos
@@ -60,13 +61,15 @@ style namebox:
     ypos gui.name_ypos
     ysize gui.namebox_height
 
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+    #background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+    background None
     padding gui.namebox_borders.padding
 
 style say_label:
     properties gui.text_properties("name", accent=True)
     xalign gui.name_xalign
     yalign 0.5
+    outlines [(0.1, "#000000", 0, 0)]
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
@@ -76,4 +79,9 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
     adjust_spacing False
+
+style choice_button_text:
+    properties gui.button_text_properties("choice_button")
+
+    
 

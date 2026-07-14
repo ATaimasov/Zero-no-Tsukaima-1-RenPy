@@ -68,7 +68,7 @@ screen chapter_title_overlay(title_text, show_subtitle=False, style_dict={}):
 
 
 # overlay func
-label overlay_screen(scene_name=None, title_text="", show_subtitle=True, text_mode='beige', delay=2.0, isUseBlur=True, sound_path=None):
+label overlay_screen(scene_name=None, title_text="", show_subtitle=False, text_mode='beige', delay=2.0, isUseBlur=True, sound_path=None):
     # get Style from presets
     $ current_style = overlay_styles.get(text_mode, overlay_styles['beige'])
 

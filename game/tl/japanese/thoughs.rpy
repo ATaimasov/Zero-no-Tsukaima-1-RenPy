@@ -103,3 +103,78 @@ translate japanese strings:
 
     old "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
     new "(まさか医者に頼るわけにもいかず、容態はモンモランシーに診てもらうことにした)"
+
+    old "Nice one, Louise!"
+    new "(ルイズ、ナイスだ!)"
+
+    old "But could she really be Takanagi-san? If that's the case... how did she end up in this world..."
+    new "(でも、本当に彼女は高凪さんなんだろうか? だったら、どうしてこの世界に......)"
+
+    old "Well, once she wakes up, I'll be able to figure everything out..."
+    new "(まぁ、目が覚めてくれれば、 すべてが分かるか......)"
+
+    old "Thank you, Siesta!"
+    new "(ありがとう、シエスタ!)"
+
+    old "Phew... what a crazy day..."
+    new "(ふう......なんだか大変な1日だったな)"
+
+    old "Maybe I should go somewhere before going to bed?"
+    new "(寝る前にどこかに行ってみようかな?)"
+
+    old "When I was first summoned, I was told, 'Because you're a familiar,' and had to sleep on a pile of straw... and to think how things have changed..."
+    new "(召喚されたばかりの頃は、 使い魔なんだからって言われて、 ワラを敷いて寝てたのに......)"
+
+    old "To think I'm actually sharing a bed with Louise!"
+    new "(ルイズと一緒のベッドでだなんて!)"
+
+    old "Does this mean she's secretly into me, even just a little? Or is it the exact opposite... and I'm completely out of the running?"
+    new "(これは、俺にそこはかとなく気があるって ことなのか? それとも逆に、俺は対象外ってこと?)"
+
+    old "... But whatever. Being able to sleep in a warm bed is just pure bliss, yeah."
+    new "(......。 でもまあ、温かいベッドで寝られるのは 単純に幸せだよな、うん)"
+
+    old "Yeah. It might be completely normal for Louise, but for me... two moons is anything but ordinary."
+    new "(そう、ルイズには当たり前のことだけど、 月が2つあるのは、俺にとっては当たり前 じゃないんだ)"
+
+    old "It really hits me all over again... this truly is another world."
+    new "(改めて思うけど、ここは異世界なんだな)"
+
+    old "And now a classmate has actually appeared in this other world... What on earth is going on...?"
+    new "(その異世界にクラスメイトが現れた......。 一体、どういうことなんだろう......)"
+
+    old "Wait, I'm still sleeping in the same bed as Louise!!"
+    new "(って、俺まだルイズと一緒のベッドで 寝てるわけですがー!!)"
+
+    old "S-scary... It's terrifying how she's still smiling..."
+    new "(こ、怖い......笑顔のままなのが怖い......)"
+
+    old "W-w-why the hell is Louise sleeping while holding onto my clothes!?"
+    new "(ななな、なんでルイズのやつ、 俺の服を掴みながら寝てるんだ!?)"
+
+    old "Come to think of it, I wonder why Siesta came at this time?"
+    new "(そう言えば、なんでシエスタがこんな時間に 来たんだろう?)"
+
+    old "What am I supposed to do now!?"
+    new "(俺はどうしたらいいんだー!?)"
+
+    old "Kirche and Tabitha are Louise's classmates, having arrived as exchange students from Germania and Gallia, respectively."
+    new "(キュルケはゲルマニア、タバサはガリアから の留学生で、ルイズのクラスメイトだ)"
+
+    old  "Kirche excels in the fire element of magic. She is known as 'Kirche the Ardent'."
+    new "(キュルケは、火の系統の魔法が得意。 二つ名は「微熱のキュルケ」)"
+
+    old "She and Louise are simply on bad terms because of some ongoing friction over family lineage or place of origin."
+    new "(ルイズとは、家柄だか、出身地やらの いざこざでどうにも仲が悪い)"
+
+    old "Tabitha excels in the wind element of magic. She is known as 'Tabitha the Snowstorm'."
+    new "(タバサは風の系統の魔法が得意。 二つ名は「雪風のタバサ」)"
+
+    old "Always taciturn and devoid of expression. What goes on in her mind is a mystery. Yet, she and Kirche are surprisingly close..."
+    new "(いつも無口で無表情。 何を考えているのか、分からない。 でも、キュルケとは仲がいいんだよな......)"
+
+    old "Kirche being curious is one thing, but it's rare for Tabitha, who is always quietly reading a book, to actually show up."
+    new "(好奇心旺盛なキュルケはともかく、 いつも黙って本を読んでるタバサが 顔を出すのは珍しいよな)"
+
+    old "I wonder why they came here..."
+    new "(なんでここに来たんだろう......)"

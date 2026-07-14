@@ -170,7 +170,7 @@ init python:
 # ============================================
 
 define build.name = "ZnT1"
-define config.version = "0.0.1"
+define config.version = "0.0.2"
 define config.name = _("Zero no Tsukaima: Shou-akuma to Harukaze no Concerto (Unnoficial remaster)")
 
 define config.voice_filename_format = "audio/voices/{filename}.wav"
@@ -178,6 +178,12 @@ define config.voice_filename_format = "audio/voices/{filename}.wav"
 define gui.show_name = False
 
 define config.developer = True
+
+    # disable ctrl skip
+    #define config.keymap['skip'] = []
+    # disable rollback
+    #define config.keymap['rollback'] = [] 
+    #define config.rollback_enabled = False
 
 # ============================================
 # ЗВУК И МУЗЫКА
@@ -211,7 +217,7 @@ define config.window_hide_transition = Dissolve(.2)
 # НАСТРОЙКИ ПО УМОЛЧАНИЮ
 # ============================================
 
-default preferences.text_cps = 0
+default preferences.text_cps = 199
 default preferences.afm_time = 15
 
 # ============================================

@@ -61,6 +61,14 @@ define flash = Fade(0.1, 0.5, 0.5, color="#fff")
 define fade = Fade(0.5, 0.0, 0.5)
 
 # slide
+transform slide_left_out_generic:
+    yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign -0.3 alpha 0
+
+transform slide_right_out_generic:
+    yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign 1.3 alpha 0
+
 # === LEFT SLIDES ===
 transform slide_left_in:
     xalign -0.3 yalign 1.0 zoom 0.55 alpha 0.1
@@ -126,20 +134,6 @@ transform hit_shake(duration=0.2, strength=60, *, old_widget=None, new_widget=No
 
     new_widget
     events True
-
-
-# ==== ABOUT ====
-define gui.about = _p("""
-This project is a non-commercial, amateur development created by fans for fans.
-All rights to the characters, setting, names, and other elements of Zero no tsukaima belong to their respective owners.
-""")
-
-define gui.credits_text = _p("""
-Created by {a=https://t.me/timeasoff}timeasoff{/a}.
-Guide to the entire ecosystem of Zero no Tsukaima on the {a=https://t.me/ZeroNoTsukaima_EN}Halkeginia Map{/a}.
-Made with {a=https://www.renpy.org/}Ren'Py{/a}
-""")
-
 
 # ==== IMAGES ====
 
@@ -222,7 +216,19 @@ image bg si_room = "bg/si_room.png"
 image bg si_room_evening = "bg/si_room_evening.png"
 image bg si_room_night = "bg/si_room_night.png"
 
+#hallway
+image bg hallway = "bg/hallway.png"
+image bg hallway_evening = "bg/hallway_evening.png"
+image bg hallway_night = "bg/hallway_night.png"
+#hallway_down
+image bg hallway_down = "bg/hallway_down.png"
+image bg hallway_down_evening = "bg/hallway_down_evening.png"
+image bg hallway_down_night = "bg/hallway_down_night.png"
 
+#louise_room
+image bg louise_room = "bg/louise_room.png"
+image bg louise_room_evening = "bg/louise_room_evening.png"
+image bg louise_room_night = "bg/louise_room_night.png"
 
 
 # ==== CG ==== 
@@ -246,9 +252,8 @@ image cg ha_sick_3 = "cg/ha_sick_3.png"
 image cg ha_sick_4 = "cg/ha_sick_4.png"
 image cg ha_sick_5 = "cg/ha_sick_5.png"
 
-
-
-
+image cg si_wakeup = "cg/si_wakeup.png"
+image cg si_wakeup_2 = "cg/si_wakeup_2.png"
 
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"
@@ -286,3 +291,4 @@ define audio.t32 = "audio/bgm/t32.ogg"
 
 # ==== SOUNDS ====
 define audio.blow = "audio/sfx/blow.wav"
+define audio.punch = "audio/sfx/punch.wav"

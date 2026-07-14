@@ -100,3 +100,75 @@ translate russian strings:
 
     old "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
     new "Поскольку обратиться к врачу было невозможно, мы решили доверить её осмотр Монморанси."
+
+    old "Nice one, Louise!"
+    new "Луиза, умничка!"
+
+    old "But could she really be Takanagi-san? If that's the case... how did she end up in this world..."
+    new "Но неужели она и вправду Таканаги-сан? Если это так... каким образом она попала в этот мир..."
+
+    old "Well, once she wakes up, I'll be able to figure everything out..."
+    new "Ну, когда она очнётся, я всё выясню..."
+
+    old "Thank you, Siesta!"
+    new "Спасибо, Сиеста!"
+
+    old "Phew... what a crazy day..."
+    new "Фух... Ну и денёк выдался..."
+
+    old "Maybe I should go somewhere before going to bed?"
+    new "Может, сходить куда-нибудь перед сном?"
+    
+    old "When I was first summoned, I was told, 'Because you're a familiar,' and had to sleep on a pile of straw... and to think how things have changed..."
+    new "Когда меня только призвали, мне сказали: \"Ты же всего лишь фамильяр\", и я спал на соломе на полу... а теперь вот..."
+
+    old "To think I'm actually sharing a bed with Louise!"
+    new "Подумать только, я в одной постели с Луизой!"
+
+    old "Does this mean she's secretly into me, even just a little? Or is it the exact opposite... and I'm completely out of the running?"
+    new "Это что, значит, я ей хоть немного, но симпатичен? Или наоборот... я вообще не рассматриваюсь как вариант?"
+
+    old "... But whatever. Being able to sleep in a warm bed is just pure bliss, yeah."
+    new "... Да и неважно. Главное — я сплю в тёплой постели, и это просто блаженство, ей-богу."
+
+    old "Yeah. It might be completely normal for Louise, but for me... two moons is anything but ordinary."
+    new "Да. Для Луизы это само собой разумеется, но для меня... две луны — это далеко не обыденность."
+
+    old "It really hits me all over again... this truly is another world."
+    new "И снова осознаёшь... это ведь и правда другой мир."
+
+    old "And now a classmate has actually appeared in this other world... What on earth is going on...?"
+    new "А тут еще и одноклассница объявилась в этом другом мире... Что бы это всё значило...?"
+
+    old "Wait, I'm still sleeping in the same bed as Louise!!"
+    new "Погодите, я ведь всё ещё сплю в одной кровати с Луизой!!"
+
+    old "S-scary... It's terrifying how she's still smiling..."
+    new "С-страшно... Жутко от того, что она при этом всё ещё улыбается..."
+
+    old "W-w-why the hell is Louise sleeping while holding onto my clothes!?"
+    new "К-к-какого черта эта Луиза спит, вцепившись в мою одежду!?"
+
+    old "What am I supposed to do now!?"
+    new "И что мне теперь делать!?"
+
+    old "Kirche and Tabitha are Louise's classmates, having arrived as exchange students from Germania and Gallia, respectively."
+    new "Кирхе и Табита — одноклассницы Луизы, прибывшие по обмену из Германии и Галлии соответственно."
+
+    old "Kirche excels in the fire element of magic. She is known as 'Kirche the Ardent'."
+    new "Кирхе искусна в магии огня. Её прозвище — «Кирхе Тлеющая»."
+
+    old "She and Louise are simply on bad terms because of some ongoing friction over family lineage or place of origin."
+    new "С Луизой у них вечно возникают трения из-за происхождения или знатности рода."
+
+    old "Tabitha excels in the wind element of magic. She is known as 'Tabitha the Snowstorm'."
+    new "Табита искусна в магии ветра. Её прозвище — «Табита Вьюга»."
+
+    old "Always taciturn and devoid of expression. What goes on in her mind is a mystery. Yet, she and Kirche are surprisingly close..."
+    new "Всегда безмолвна и беспристрастна. Неизвестно, какие мысли таятся в её голове. Тем не менее, с Кирхе у них на удивление хорошие отношения..."
+
+    old "Kirche being curious is one thing, but it's rare for Tabitha, who is always quietly reading a book, to actually show up."
+    new "Любопытство Кирхе ещё можно понять, но вот появление Табиты, которая вечно молча сидит с книгой, — это уже большая редкость."
+
+    old "I wonder why they came here..."
+    new "Интересно, зачем они вообще сюда пришли…"

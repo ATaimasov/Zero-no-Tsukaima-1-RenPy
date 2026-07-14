@@ -254,6 +254,9 @@ translate japanese strings:
     old "Options"
     new "オプション"
 
+    old "Dialog box transparency"
+    new "ダイアログボックスの透明度"
+
     # === SYMPATHY ===
     old "Dere"
     new "デレ"

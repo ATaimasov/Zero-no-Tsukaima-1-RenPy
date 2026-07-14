@@ -40,15 +40,15 @@ style quick_button_text:
 screen quick_menu():
     zorder 100
 
-    if quick_menu:
+    if False:
         hbox:
             style "quick_menu_hbox"
             
             # Основные игровые функции
-            textbutton _("Back"):
-                style "quick_button"
-                text_style "quick_button_text"
-                action Rollback()
+            # textbutton _("Back"):
+            #     style "quick_button"
+            #     text_style "quick_button_text"
+            #     action Rollback()
             
             textbutton _("History"):
                 style "quick_button"

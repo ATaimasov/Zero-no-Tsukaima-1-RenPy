@@ -6,9 +6,11 @@ translate japanese strings:
     「ゼロの使い魔」のキャラクター、世界観、名称、その他の要素に関するすべての権利は、それぞれの所有者に帰属します。
     """
 
-    old "Created by {a=https://t.me/timeasoff}timeasoff{/a}. Guide to the entire ecosystem of Zero no Tsukaima on the {a=https://t.me/ZeroNoTsukaima_EN}Halkeginia Map{/a}. Made with {a=https://www.renpy.org/}Ren'Py{/a}"
+    old "Created by {a=https://t.me/timeasoff}timeasoff{/a}. Guide to the entire ecosystem of Zero no Tsukaima on the {a=https://t.me/ZeroNoTsukaima_EN}Halkeginia Map{/a}."
     new """
     {a=https://t.me/timeasoff}timeasoff{/a} により制作。\n
-    「ゼロの使い魔」の全チャンネルとプロジェクトへのガイドは{a=https://t.me/ZeroNoTsukaima_EN}ハルケギニアマップ{/a}で。\n
-    {a=https://www.renpy.org/}Ren'Py{/a} で製作
+    「ゼロの使い魔」の全チャンネルとプロジェクトへのガイドは{a=https://t.me/ZeroNoTsukaima_EN}ハルケギニアマップ{/a}で。
     """
+
+    old "You can support me here: {a=https://t.me/timeasoff_support}Support{/a}"
+    new "こちらから私を支援できます：{a=https://t.me/timeasoff_support}支援する{/a}"

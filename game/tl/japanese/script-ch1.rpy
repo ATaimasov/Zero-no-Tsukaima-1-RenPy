@@ -11,7 +11,7 @@ translate japanese strings:
     old "……go ahead and say it"
     new "……言ってごらんなさい。"
 
-    old "If I recall correctly, this morning you said, \"It's been forever since I've gone out shopping in town on a day off!\""
+    old "If I recall correctly, this morning you said, 'It's been forever since I've gone out shopping in town on a day off!'"
     new "たしか今朝は、『休日に街に出て買い物するのって、　久しぶりー！』"
 
     old "…or something along those lines, didn't you say? I seem to recall it sounded like you were having quite a bit of fun."
@@ -304,7 +304,7 @@ translate japanese strings:
     old "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
     new "今度やったら、本当に割るからね。それより、サイト。これからどうするの?"
 
-    old "Huh? What do you mean, \"what do we do\"?... About what, exactly?"
+    old "Huh? What do you mean, 'what do we do?'... About what, exactly?"
     new "え、どうするって......なにが?"
 
     old "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."
@@ -479,3 +479,748 @@ translate japanese strings:
 
     old "Uh, um..."
     new "え、ええと......。"
+
+    old "Um... Louise, what was our story again?"
+    new "えーと、どうしたんだっけルイズ?"
+
+    old "She said her purse was stolen on the way and she had nowhere to go, so I thought I'd take her in for a while."
+    new "途中で財布を盗られたとかで、行くところがないって言うから、しばらくの間面倒を見てあげようと思って。"
+
+    old "Hmm... Well, she certainly does look terribly exhausted. If that's the case, I suppose it can't be helped."
+    new "ふーん。まあ、確かにひどく疲れてるようだし、そういうことなら仕方ないわね。"
+
+    old "For now, just let her get some rest. I doubt her condition will change anytime soon, but let me know if anything happens."
+    new "とりあえず、当分はこのまま寝かせてあげて。容態が変わることはまずないと思うけど、なにかあったら知らせてね。"
+
+    old "Yeah. I owe you one, Monmon."
+    new "うん。恩にきるぜ、モンモン。"
+
+    old "I told you, it's Montmorency!"
+    new "だから!わたしはモンモランシーだってば!"
+
+    old "So... I have a favor to ask"
+    new "それで......ひとつ、頼みがあるんだ。"
+
+    old "What is it?"
+    new "なあに?"
+
+    old "Actually, I'd like to keep her presence here a secret from the others at the academy."
+    new "実は、彼女のことは、学院の他の連中には、秘密にしておいてほしいんだ。"
+
+    old "A secret? Why should I have to promise you anything?!"
+    new "秘密?なんで、わたしがあなたに約束をしなくちゃならないのよ!"
+
+    old "Montmorency, I'm asking you too... could you please keep this a secret?"
+    new "モンモランシー、わたしからもお願い!秘密にしてくれないかしら?"
+
+    old "...Well, fine. I'll keep your secret. Now then, I'm heading back to my room."
+    new "......まあ、いいわ。約束してあげる。じゃ、わたしは部屋に戻るわね。"
+
+    old "That's a relief. Saito-san, Miss Variere"
+    new "良かったですね。サイトさん、ミス・ヴァリエール。"
+
+    old "Well, at least her life isn't in danger, right? That's a relief."
+    new "とりあえず、命に別状はないんだな。ちょっと安心したよ。"
+
+    old "Now we just have to hope she wakes up... I wonder what we should do?"
+    new "あとは、彼女が目を覚ましてくれればいいんだけど......。どうしたものかしらね?"
+
+    old "Um, um, y-yeah, that's right! I ran into her in town, and she looked like she was going through a lot, so I just brought her along!"
+    new "えーと、えーと、そ、そう!街で見かけて、いろいろと大変そうだから連れて来ちゃったんだよ!"
+
+    old "Is that so? But bringing a commoner along so suddenly like that is quite improper, you know."
+    new "そうなの?でも、平民をいきなり連れてくるなんて、非常識ね。"
+
+    old "Hahaha. I'm such a naughty boy, huh..."
+    new "はははっ。俺は、イケナイ子だなぁ......。"
+
+    old "...Well, I'll do you the favor of just leaving it at that."
+    new "......。ま、そういうことにしておいてあげましょ。"
+
+    old "Um... Siesta, what was our story again?"
+    new "えーと、どうしたんだっけシエスタ?"
+
+    old "Um, y-yes, that's right! She's a distant relative from my home village."
+    new "ええと、そ、そう!わたしの故郷の村から出てきた遠縁の娘なんです。"
+
+    old "She ran away from home, so I figured I'd let her stay for a few days."
+    new "家出してきたんで、何日か泊めようと思って。"
+
+    old "Hmm... Well, I suppose you're right. You two do have the exact same eye color and everything. If she really is a relative, then I suppose it can't be helped."
+    new "ふーん。まあ、確かに目の色とかそっくりだし、親戚ってことならしょうがないわね。"
+
+    old "I'll stay here and look after her. You two should get some rest now."
+    new "ここはわたしが看病しておきます。お2人は、もうお休みになってくださいな。"
+
+    old "Is that so? Sorry about that, Siesta. I'm causing you a lot of trouble."
+    new "そうか?悪いな、シエスタ。面倒かけちゃって。"
+
+    old "Really, I know I'm causing you extra trouble because of Saito, but I'm counting on you."
+    new "本当に、サイトのせいで余計な面倒をかけちゃうけど、よろしくね。"
+
+    old "It's really no trouble at all. I'm just glad I can be of help to Saito-san."
+    new "いいんですよ、これくらい。サイトさんのお役に立てるんでしたら。"
+
+    old "Huh? Ah, th-thanks..."
+    new "え。あ、ありがと......。"
+
+    old "Come on, Saito! Siesta went out of her way to be nice about it, so we're heading back to the room!"
+    new "ほら、サイト!せっかくシエスタがああ言ってくれてるんだから、部屋に戻るわよ!"
+
+    old "Hey, wait! Don't pull me so hard! Ow, ow, ow! I said it hurts!"
+    new "って、そんなに引っ張んなよ、おい。あいた、いたた、痛いって!"
+
+    old "Oh? What are you doing in a place like this?"
+    new "あら?こんなところで何をやってるの?"
+
+    old "Huh? Mont... morency."
+    new "あれ、モンモ......ランシー。"
+
+    old "That awkward pause just now is bugging me a little, but... whatever. What are you doing here at this hour? You're going to have Louise kicking up a fuss again."
+    new "今の微妙な間が気になるけど、まあいいわ。こんな時間にどうしたの?また、ルイズが騒ぎ出すわよ。"
+
+    old "Hmm, well, I just thought I'd take a stroll around here, that's all."
+    new "ん、まあ、ちょっとそのへんを散歩しようかなって思っただけだよ。"
+
+    old "Hmm.."
+    new "ふーん。"
+
+    old "Anyway, thanks a lot for earlier."
+    new "それより、さっきは本当にありがとな。"
+
+    old "It's no big deal. You don't need to be so grateful, you know."
+    new "別に、あなたがそこまで頭を下げることじゃないでしょ。"
+
+    old "Commoner or noble, I'd never abandon someone who's sick."
+    new "平民だろうが、貴族だろうが、あたしは、病人を見捨てたりはしないわ。"
+
+    old "Yeah, well, that's true, but..."
+    new "ん、まあ、それはそうなんだけど。"
+
+    old "Oh my?"
+    new "あら~?"
+
+    old "W-what is it...? What's with that oddly amused look in your eyes?"
+    new "な、なにかな......。その妙に楽しそうな目つきは?"
+
+    old "Saito. You... don't tell me you've fallen for that girl?"
+    new "サイト。あなた......もしかして、あの娘に惚れた?"
+
+    old "Eh!?"
+    new "Э-э!?"
+
+    old "How did you know!?"
+    new "どうして分かったんだ!?"
+
+    old "Oh my? So it really was true? I was just trying to fish for a reaction..."
+    new "あら、本当にそうだったの?ちょっとカマをかけてみただけだったのに......。"
+
+    old "No, no, it's just a joke. We just met today, so there's no way that's true, right?"
+    new "いやいや、冗談だって。今日会ったばっかりだったんだし、そんなことないだろ?"
+
+    old "My, my, my. I wonder if that's really true?"
+    new "あらあらあら、本当かしら?"
+
+    old "Yeah, it's got absolutely nothing to do with it."
+    new "そうなの、全然関係ないの。"
+
+    old "Hmph. Well, I think I'll let it slide for today."
+    new "ふっふーん。そうね、今日はこれ以上追求しないことにしておくわ。"
+
+    old "It's the 'for today...' part that's oddly terrifying, though."
+    new "今日は......ってあたりが妙に怖いんですけど。"
+
+    old "Don't sweat the small stuff. I know it's hard to believe, but I can keep a secret, you know?"
+    new "細かいことは気にしないで。わたし、こう見えても口は固いのよ?"
+
+    old "I'll keep quiet about that girl, too. You can rest assured of that."
+    new "あの娘のことも、ちゃんと黙っておくから。それは安心してちょうだいな。"
+
+    old "I'm trusting you here! Please, don't let me down!"
+    new "はいはい。それじゃあ、わたしは部屋に戻るわ。おやすみなさいね。"
+
+    old "Alright, alright. Well then, I'm heading back to my room. Good night, sleep well."
+    new "はいはい。それじゃあ、わたしは部屋に戻るわ。おやすみなさいね。"
+
+    old "Phew, what a relief. But... I wonder if it's really going to be okay..."
+    new "ふう、やれやれ。でも、本当に大丈夫なのかなぁ......。"
+
+    old "Well then, I guess I'll call it a night."
+    new "さぁて、今日も寝るとしますか。"
+
+    old "Hey, Saito. What are you doing over there in the corner of the room?"
+    new "ちょっとサイト。なに、部屋の隅に行ってんのよ。"
+
+    old "Huh? I mean, my sleeping spot is just straw on the floor..."
+    new "へ?だって、俺の寝床は床のワラ......。"
+
+    old "I-if you don't mind taking the corner, I'll let you sleep in my bed with me!"
+    new "す、隅っこでいいなら、一緒にベッドを使わせてあげるわよ!"
+
+    old "Huh...? Are you sure?"
+    new "え......いいの?"
+
+    old "Of course! I said so, didn't I? Hurry up and get in bed already!"
+    new "いいの!わたしがそう言ってるんだから、さっさとベッドに入りなさいよ。"
+
+    old "Ah... ahh... yeah."
+    new "あ、ああ......うん。"
+
+    old "What are you muttering about? Come on, hurry up and go to sleep!"
+    new "何をブツブツ言ってるのよ。ほら、さっさと寝るわよ!"
+
+    old "Y-yeah."
+    new "う、うん。"
+
+    old "Hey... stop squirming around so much."
+    new "ちょっと......あんまりもぞもぞ動かないでよ。"
+
+    old "Ah, sorry."
+    new "あ、ごめん。"
+
+    old "It's nothing... I don't mind if you move a little, though."
+    new "別に......少しくらい、いいけど。"
+
+    old "It's just that I can see the moon really well from this angle... I just couldn't help myself."
+    new "こうすると、月がよく見えるからさ......。つい。"
+
+    old "W-what's with you...? You're suddenly saying all these weird things."
+    new "な、なによ......急に変なこと言い出して。"
+
+    old "Louise. There are two moons in this world, aren't there?"
+    new "ルイズ。この世界には月が2つあるんだよな。"
+
+    old "Obviously. You don't need to state the obvious."
+    new "そうよ。当たり前のこと言わないでよ。"
+
+    old "Yeah, I guess. To you, it's just completely normal, huh."
+    new "そうだよなあ。おまえには、当たり前のことなんだよな。"
+
+    old "Geez... you're such a weirdo."
+    new "もう......変なの。"
+
+    old "...Hey, Saito...? You still up?"
+    new "......ねえ、サイト?起きてる?"
+
+    old "Zzz..."
+    new "すぅ......すぅ......。"
+
+    old "Are you asleep...?"
+    new "寝ちゃった......の?"
+
+    old "...Geez! Fine then! I'm going to sleep too!"
+    new "......もう!いいわよ、わたしも寝ちゃうから!"
+
+    old "T-there's no way that's true, right?"
+    new "そ、そんなはずないだろ?"
+
+    old "Oh my? Am I wrong? My instincts are usually pretty good, though... Or maybe you have a crush on Louise?"
+    new "あら、違うの?あたしのカンは結構当たるんだけどなぁ......。それともルイズのことが好きとか?"
+
+    old "N-no, I'm telling you, that's not it! And it's not like that with Louise either, I swear!"
+    new "ち、違うって。ルイズともそんなことないって。"
+
+    old "Oh my? Then... that maid?"
+    new "あら、じゃあ、あのメイド?"
+
+    old "Thaaat's wroong tooo!"
+    new "そーれーもーちーがーうー!"
+
+    old "Why would you think that? I just happened to save that girl who collapsed on the road, that's all, right?"
+    new "なんでそう思うんだ?俺は道で倒れてたあの娘を偶然助けただけだろ?"
+
+    old "I wonder if it was really just a coincidence? Or did you actually arrange it all beforehand and stage a little play to get her into the academy... or something?"
+    new "本当に偶然なのかしらねえ?実は示し合わせて、学院に引き入れるためのお芝居......とか?"
+
+    old "Why would I go through all that trouble? Besides, Louise would be totally against it, right?"
+    new "なんで、そんな面倒なことしなくちゃならねえんだよ。第一ルイズが反対するだろ?"
+
+    old "Hmmm?"
+    new "ふーん?"
+
+    old "Just believe me!"
+    new "信じろよ!"
+
+    old "Yes?"
+    new "はい?"
+
+    old "Ah, Siesta? It's me... mind if I come in?"
+    new "あ、シエスタ?俺だけど......いいかな。"
+
+    old "Ah, Saito-san? Please, come in."
+    new "あ、サイトさん?どうぞ。"
+    
+    old "What's the matter, Saito? Did you happen to forget something, perhaps?"
+    new "どうしたんですか、サイトさん。なにか、忘れ物でも?"
+
+    old "No, not really... I just felt like dropping by, I guess."
+    new "いや、なんとなく......。"
+
+    old  "I just wanted to drop by one last time before bed, that's all. Hope I'm not bothering you?"
+    new "寝る前にもう一度来ておきたかっただけなんだ。迷惑だったかな?"
+
+    old "Oh, no, not at all! I could never think of you as a bother. I... well, actually, you are more than welcome."
+    new "いえ、そんな、迷惑だなんて。わたしは......その、むしろ大歓迎です。"
+
+    old "R-really? But I'm sorry about that... dropping a sick person on you so suddenly and all."
+    new "そ、そうか?でも悪かったな。いきなり病人を担ぎ込んだりして。"
+
+    old "No, please don't worry about that. We help each other out in times of need. Besides, I'm worried too, since she still hasn't woken up."
+    new "いいえ、それは構いません。困った時はお互い様です。それに、目を覚まさないのはやはり心配です。"
+
+    old "I'll nurse her whenever I have a free moment from my chores. So please, Saito-san, just go to sleep and don't worry about a thing."
+    new "仕事の空いた時間だけですが、看護はしますので、サイトさんは安心してお休みください。"
+
+    old "Got it. Thank you, Siesta."
+    new "そっか。シエスタ、ありがとう。"
+
+    old "Oh, geez. I've told you time and time again, but please don't worry about it at all, okay?"
+    new "もう。何度も言いましたけど、本当に気にしないでくださいね。"
+
+    old "Yeah. But I just really felt like I had to thank you, you know?"
+    new "ああ。でも、お礼を言いたくなっちゃったからさ。"
+
+    old "...Hehe."
+    new "......ふふっ。"
+
+    old "But... This person's hair and skin color. They're the same as Saito-san's and mine, aren't they?"
+    new "でも......。この方の髪の色や、肌の色。サイトさんやわたしと同じなんですよね。"
+
+    old "Yeah..."
+    new "うん......。"
+
+    old "This is just my imagination... but is this person from the same country as Saito-san and my great-grandfather?"
+    new "これはわたしの想像なんですが......。この方は、サイトさんや、わたしのひいおじいちゃんと同じ国の方なんでしょうか?"
+
+    old "That is..."
+    new "それは......。"
+
+    old "Probably, that might be the case. But you won't know the details unless you ask the person themselves."
+    new "たぶん、そうかもしれない。詳しいことは、本人に聞いてみないと分かんないけど。"
+
+    old "Is that so... Someone from the same country as Saito-san... Then, Saito-san must be curious too, right?"
+    new "そうですか......。サイトさんと、同じ国の人......。それじゃ、サイトさんも気になりますよね。"
+
+    old "Eh? W-well, yeah."
+    new "え?ま、まぁな。"
+
+    old "But right now, I have no idea what's going on at all."
+    new "でも、現時点では何がなんだかさっぱり分からないよ。"
+
+    old "I suppose so."
+    new "そうですね。"
+
+    old "This hair color and skin color. And also, the clothes from Saito-san's hometown..."
+    new "この髪の色に肌の色。それに、サイトさんの故郷の服......。"
+
+    old "...That's a bit too much of a coincidence to just be a coincidence, don't you think?"
+    new "......偶然にしては、ちょっと重なりすぎじゃないでしょうか。"
+
+    old "Yeah. Maybe. But I don't want to get my hopes up just to be let down."
+    new "うん。そうかもしれない。でも、下手に期待してはずしてもイヤだしさ。"
+
+    old "I thought so... You still want to keep hoping, don't you?"
+    new "やっぱり......期待していたいんですね......。"
+
+    old "W-well, I guess. It could be the lead I need to get back to my own world."
+    new "ま、まぁな。俺が元の世界に戻るための手がかりになるかもしれないしね。"
+
+    old "Your original world... is that so?"
+    new "元の世界......、ですか。"
+
+    old "Ah, oh no. Is it already this late?"
+    new "あ、いっけね。もうこんな時間か。"
+
+    old "Sorry for showing up so late. Anyway, see you tomorrow."
+    new "夜遅くに押しかけて、ごめんな。それじゃ、また明日。"
+
+    old "Ah, right. Good night, Saito-san."
+    new "あ、はい。おやすみなさい、サイトさん。"
+
+    old "Ah, good night, Siesta."
+    new "ああ、おやすみ。シエスタ。"
+
+    old "I don't think it's a coincidence. I doubt there are many people in the same circumstances as me."
+    new "偶然じゃないかな。さすがに俺と同じような境遇の人間が、何人もいるとは思えないもんな。"
+
+    old "I wonder... I don't really understand it myself either."
+    new "どうなんだろう。俺にもよく分からない。"
+
+    old "Is that so?"
+    new "そうなんですか?"
+
+    old "Just like Siesta, there's also the possibility that their grandfather or father was from the same country as me. But you won't know unless you ask."
+    new "シエスタみたいに、お祖父さんやお父さんが俺と同じ国の人だったって可能性もある。やっぱり聞いてみないと分からないさ。"
+
+    old "Ah, you're right."
+    new "あ、そうですね。"
+
+    old "Phew, good grief."
+    new "ふう、やれやれ。"
+
+    old "No 'good grief' for you. You'll rest when you finish your work!"
+    new "やれやれじゃないわよ。あんたが休むのは、仕事を終わらせてからよ!"
+
+    old "What!? That's not fair, wifey!?"
+    new "ええっ!?そりゃないですよ奥さん!?"
+
+    old "Who are you calling wifey!"
+    new "誰が奥さんよ!"
+
+    old "Did you do the laundry? Did you clean your room? Did you put away the things you bought?"
+    new "服は洗ったの?部屋の掃除はした?買ってきた物はちゃんとしまった?"
+
+    old "Ah, geez, don't dump it all on me at once! I can't possibly finish that many chores in one go."
+    new "あーもう、いっぺんに言うなっ!そんなにたくさんの雑用を済ませられるわけねーだろ。"
+
+    old "Then stop talking and get to work! No rest until you're done!"
+    new "だったら、さっさと片づけなさいよ!終わるまで休憩なしだからねっ!"
+
+    old "Huh?{#eee}"
+    new "ええー?"
+
+    old "Do you have any complaints!?"
+    new "何か文句あるの!?"
+
+    old "...Alright, alright."
+    new "......はいはい。"
+
+    old "...Louise? What's wrong?"
+    new "......?ルイズ?どうした?"
+
+    old "Um... um, you know? I was just wondering if I could ask you something."
+    new "あの......あの、ね?ちょっと、聞こうかなって思ったんだけどね?"
+
+    old "Saito... Do you... want to go back home? To your world?"
+    new "サイト......元の世界に帰りたい?"
+
+    old "Huh...?"
+    new "え......?"
+
+    old "Ah, I really want to go home. I don't know when that'll be, but I'm definitely going back. That's my main goal right now, after all."
+    new "ああ、帰りたいね。いつになるか分からないけど、絶対に帰る。それが今の俺の目標だからな。"
+
+    old " ...Yes. That's right, isn't it... As I thought."
+    new "......そう。そう、だよね......やっぱり。"
+
+    old "What's wrong with that?"
+    new "それがどうかしたか?"
+
+    old "It's nothing!"
+    new "なんでもない!"
+
+    old "Right then. You still have business to attend to, so hurry up and get to it!"
+    new "さあて、と。あんたの用事はまだ終わってないんだから、さっさと始めなさい!"
+
+    old "Wh-what the hell! Then don't talk to me!"
+    new "な、なんだよ!だったら、話しかけるなよ!"
+
+    old "Shut up, shut up! Hurry up and do your work!"
+    new "うるさいうるさい!早く仕事するの!"
+
+    old "Yeah, yeah."
+    new "へいへい。"
+
+    old "I've already forgotten about my original world. This place is my home now."
+    new "元の世界なんて忘れたよ。今の俺にゃ、ここが住みかだからな。"
+
+    old "...Liar."
+    new "......嘘つき。"
+
+    old "What's with that? I thought you were gonna ask me a question, but instead you're calling me a liar."
+    new "なんだよ、いきなり質問したかと思えば嘘つき呼ばわりかよ。"
+
+    old "Saying you don't want to go back to your original world is obviously a lie."
+    new "元いた世界に帰りたくないだなんて、そんなの嘘に決まってるじゃない。"
+
+    old "...That is, well..."
+    new "......それは、その......。"
+
+    old "You shouldn't tell such transparent lies. You realize how disrespectful that is, right?"
+    new "すぐばれるような嘘をつくもんじゃないわ。それって、すごく失礼だって分かるでしょ。"
+
+    old "...Sorry."
+    new "......ごめん。"
+
+    old "Just forget it."
+    new "もういいわよ。"
+
+    old "«I don't really know right now. I mean, of course I want to go back, but..."
+    new "今は、よく分からない。そりゃもちろん帰りたい気持ちはあるけど......。"
+
+    old "But?"
+    new "けど?"
+
+    old "Looks like I've already finished everything I was supposed to do in this world."
+    new "俺には、こっちの世界でやらなきゃいけないこともできちまったみたいだからな。"
+
+    old "Honestly, I don't know if it's right to just abandon everything here and go back."
+    new "正直、それを放っぽりだして帰っていいのか分からない。"
+
+    old "Hmm... {i}yawns{/i}. It's already morning, huh... I wonder what time it is?"
+    new "んー......ふああ。もう朝かー......今、何時だろ?"
+
+    old "I'd better get everything ready for washing up before Louise wakes up... {i}yawns{/i}."
+    new "ルイズが起きる前に、洗顔の準備でもしなきゃ......。ふああ。"
+
+    old "Ah... But this bed, which I haven't slept in for a long time, is so comfortable... I can't get up..."
+    new "ああ...。でも、久しぶりのベッドが心地よくて...、起きることができない......。"
+
+    old "Huh...?{#ha}" 
+    new "ん......?"
+
+    old "Good morning, Saito-san. Good morning, Miss Vallière."
+    new "おはようございます、サイトさん。ミス・ヴァリエール。"
+
+    old "Eh, Siesta?"
+    new "え、シエスタ?"
+
+    old "I'm sorry to bother you so early in the morning, but actually, about last night..."
+    new "朝早くにすみません、実は昨夜の......。"
+
+    old "Ah... G-good morning... Siesta..."
+    new "あ......お、おはよう......シエスタ......。"
+
+    old "You two... in the same bed..."
+    new "2人が同じベッドで......。"
+
+    old "Ah, no, wait!"
+    new "あーいや待った!"
+
+    old "I don't know what kind of misunderstanding you've got, but there's no romance, no 'moe' moments, or anything like that you're imagining."
+    new "どんな誤解をしてるのか分からないけど、シエスタが想像してるようなラブとか、萌えとか、そんなことぜんぜんないから。"
+
+    old "It's hard to sleep on the straw that is technically my proper bed, right?"
+    new "俺の本来の寝床であるところのワラじゃ寝づらいだろ?"
+
+    old "Then my master told me to get into the corner of the bed, so I just did what I was told..."
+    new "そこで俺のご主人様がベッドの隅っこに入りなさいーっ、ていうから入ったわけで......。"
+
+    old "See, if I don't obey, I'll get punished, you know."
+    new "ほら、言うこと聞かないとお仕置きされるだろ、俺。"
+
+    old "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, 'man, this is a pain...' or whatever."
+    new "だから嫌だなーとは思ったけど、一緒のベッドに入ったわけ。いやー、困ったなぁ......とか。"
+
+    old "...Is that so?"
+    new "......へえ?"
+
+    old "I get all that. But then, what about that hand tightly gripping your clothes, Saito-san?"
+    new "そこまでは分かりました。でしたら、サイトさんの服を掴んでいる、それは?"
+
+    old "Eh!?{#e}"
+    new "え!?"
+
+    old "Th-th-this!"
+    new "こっ、こここ!"
+
+    old "Well, the thing is..."
+    new "これはだなあ......。"
+
+    old "That Louise is just half-asleep and clinging to me..."
+    new "ルイズのやつが寝ぼけて、俺のことを掴んでるだけで......。"
+
+    old "If this keeps up, I might be stuck in bed for the rest of my life, hehe... Or so I could say... How does that sound?"
+    new "このままだと一生ベッドから出られないかもなー、てへ......。とか......どうっすか?"
+
+    old "That must be a dreadful situation."
+    new "それは大変ですね。"
+
+    old "How on earth did he manage to catch the attention of that Miss Vallière... I'm quite curious."
+    new "一体どうやって、あのミス・ヴァリエールの気を引かせたのかなぁ......。気になるなぁ。"
+
+    old "S-Siesta..."
+    new "シ、シエスタ。"
+
+    old "Mmm..."
+    new "ううーん......。"
+
+    old "Ah, looks like Louise is waking up."
+    new "あ、ルイズも起きたか?"
+
+    old "Mmm... {i}yaaaawn{/i}... Huh, Saito...?"
+    new "ん......ふわああ......。あれ、サイト......?"
+
+    old "Wait... wha-!? Why is Siesta in my room!?"
+    new "......って、ええっ!?なんでシエスタがわたしの部屋にいるのよっ!"
+
+    old "Yes. I came regarding that girl."
+    new "そうです。あの娘のことで来たんです。"
+
+    old "Eh?{#e?}"
+    new "え?"
+
+    old "That girl woke up just now. So, I thought I should come and inform Saito-san and Miss Vallière..."
+    new "あの娘がさっき目を覚ましたんです。それでわたし、サイトさんとミス・ヴァリエールにお知らせしようと思って......。"
+
+    old "At this juncture, it is my intention to prove my innocence through the testimony of a third party!"
+    new "ここは、第三者の証言をもって俺の無実を証明しようと考える次第であります!"
+
+    old "A third party...? But currently, there is no one else in this room besides Saito-san, myself, and Miss Vallière."
+    new "第三者......って、今この部屋にはサイトさんとわたし。ミス・ヴァリエールしかいませんよ。"
+
+    old "I have my partner with me! Hey, Derf!"
+    new "俺の相棒がいるんだよ。おーいデルフ!"
+
+    old "What's up, partner? What do you need from me this early in the morning?"
+    new "なんだよ、相棒。こんな朝っぱらから、俺っちになんの用だい。"
+
+    old "Hold on, what's going on here? Sneaking around with a village girl in a noble's bedroom? You're as reckless as ever, partner."
+    new "って、なんでえ。貴族の娘っこの部屋で、村娘と逢い引きかい?相棒も相変わらず命知らずだねえ。"
+
+    old "W-What!? No, I'm not mentally ready for something like that!"
+    new "え、ええっ!?そんな、わたしまだ心の準備が!"
+
+    old "That's not it! Don't say things that will be completely misunderstood!"
+    new "違う!人聞きの悪いこと言うな!"
+
+    old "Tch, what a drag. Anyway, what do you really need?"
+    new "ちぇ、つまらねぇなぁ。それで?実際、なんの用なんだ?"
+
+    old "You've been keeping an eye on everything in this room the whole time, haven't you?"
+    new "この部屋の様子をずっと見てたよな?"
+
+    old "Yeah, I suppose."
+    new "そりゃ、まあな。"
+
+    old "Sorry to ask, but could you vouch for my innocence to Siesta?"
+    new "すまないけど。俺の無実をシエスタに証明してくれないか。"
+
+    old "I'm begging you. My honor is on the line."
+    new "頼む。俺の名誉がかかってるんだ。"
+
+    old "My, my. You're as stubbornly by-the-book as always, partner. Oh well, whatever."
+    new "なんとまあ。相変わらず律儀な相棒だねえ。ま、いいか。"
+
+    old "The noble girl gave my partner permission to use the bed."
+    new "貴族の娘っこが、相棒にベッドの使用を許可したんだよ。"
+
+    old "She told him he could share the bed as long as he stuck to the corner. And I ain't making this up."
+    new "隅っこでいいなら一緒にベッドを使わせてあげるってな。こいつぁ嘘じゃねえ。"
+
+    old "...Is that really true?"
+    new "......本当なんですね?"
+
+    old "Yes, yes! It's the truth, so please, try to believe me!"
+    new "うん、うん!本当なんだよ、信じてくれよう!"
+
+    old "Well, naturally. Though what dirty thoughts my partner had when he got into that bed is none of my business."
+    new "ま、もちろん。相棒がどんな下心でベッドに入ったのかまでは、俺の関知するところじゃねえけど。"
+
+    old "Like I said! Stop adding unnecessary commentary!"
+    new "だからっ!そこで余計なことを言わない!"
+
+    old "Huh? Louise, did you wake up?"
+    new "あ?ルイズ、起きたのか?"
+
+    old "{i}Yawns{/i}... Ugh, you're so noisy first thing in the morning, Saito. Now I've ended up waking up because of you..."
+    new "ふわああ......。もう、朝からうるさいわよサイト。おかげで目が覚めちゃったじゃ......。"
+
+    old "Uh, um. In a situation like this, rather than me saying it, it's probably better to let Louise herself explain it, yeah."
+    new "え、えーと。こういう場合は俺が言うより、ルイズ本人に説明させた方がいいよな、うん。"
+
+    old "Hey, Louise, Louise! I'm begging you, wake up and explain this situation!  Or rather, prove my innocence!"
+    new "おい、ルイズ、ルイズ!頼むから起きてこの状況を説明してくれ!っていうか俺の冤罪を証明してくれ!"
+
+    old "Mmm... mm..."
+    new "ん、んー......。"
+
+    old "Louise! Come on, wake up!"
+    new "ルイズ!こらー起きろー!"
+
+    old "Lu-, Louise!? Wait a minute, there's a limit to sleep-hugging! Don't cling to me, don't squeeze me!"
+    new "ルっ、ルイズ!?ちょっと待て、寝ぼけるにもほどがあるだろ!抱きつくな、ギュッってするな!"
+
+    old "Sa... Saito-san..."
+    new "サ......サイトさん......。"
+
+    old "!!!!! Wait, Siesta, I swear it's a misunderstanding!"
+    new "!!!!!待ってシエスタ、本当に誤解なんだ!"
+
+    old  "To think that you and Miss Vallière had become that close... I had no idea at all."
+    new "あのミス・ヴァリエールと、そこまで親密な仲になっていただなんて......。わたし、全然知りませんでした。"
+
+    old "Mmm... {i}Yawns{/i}... Huh, Saito...?"
+    new "ん......ふわああ......。あれ、サイト......?"
+
+    old "...Wait, huh!? Why are you clinging to me!?"
+    new "......って、ええっ!?あんたなんでわたしに抱きついてんのよーっ!"
+
+    old "Wha-!? N-No, that's wro...!"
+    new "えええっ!?ち、違......!"
+
+    old "A-Anyway, at least my name has been cleared, right?"
+    new "と、とりあえず、俺の濡れ衣ははらせたよな?"
+
+    old "Y-Yes... I sincerely apologize for having doubted you."
+    new "は、はい......疑ったりして、申し訳ございません。"
+
+    old "Geez, that's fine now, whatever! More importantly, why is Siesta in my room!?"
+    new "もう、そのことはいいでしょ、別に!それより、なんでシエスタがわたしの部屋にいるのよっ!"
+
+    old "Really!? Got it, I'll go right away!"
+    new "本当!?分かった、すぐに行くよ!"
+
+    old "Eh, ah, wait a sec, Saito!? Wait until I get changed!!"
+    new "え、あ、ちょっとサイト!?わたしが着替えるまで待ちなさいよ!!"
+
+    old "Ah, Saito-san. Please wait!"
+    new "あ、サイトさん。待ってください!"
+
+    old "H-hey, where did you come from? What's your name?"
+    new "な、なあ、君はどこから来たんだ?名前は?"
+
+    old "Huh?!"
+    new "はい!?"
+
+    old "Are you from the same world as me? Are you Japanese too? Could you possibly be one of my classmates?"
+    new "俺と同じ世界から来たのか?きみも日本人なのか?もしかして、俺のクラスメイトの?"
+
+    old "Ah, um, wait a moment..."
+    new "あ、あの、ちょっと待って......。"
+
+    old "Honestly, Darling. Bombarding a woman with questions all at once is a total no-no."
+    new "もう、ダーリン。女性にいっぺんに質問するなんて、ぜんぜんダメよ。"
+
+    old "Be gentler. A man must elegantly lead a woman, you know."
+    new "もっと優しく。男性が優雅に女性をリードしてあげないとね。"
+
+    old "I-is that so? I'll be careful."
+    new "そ、そうなのか。気をつける。"
+
+    old "Hold on a second! Hey, Kirche. What are you doing here?"
+    new "って、ちょっと待った!なあ、キュルケ。なんでここにいるんだ?"
+
+    old "Oh, please, I'm not the only one, you know. See?"
+    new "やだ、あたしだけじゃないわよ?ほら。"
+
+    old "Umm... Ah, right, right. Looks like she's doing well now."
+    new "ええと......。ああ、そうそう。彼女、元気になってるみたいね。"
+
+    old "Why have so many people gathered here since this morning!"
+    new "なんで、朝からこんなに大勢集まってるのよ!"
+
+    old "Hey, Kirche. Why are you here?"
+    new "なあ、キュルケ。なんでここにいるんだ?"
+
+    old "Hey, Tabitha. Why are you here?"
+    new "なあ、タバサ。なんでここにいるんだ?"
+
+    old "Hey, Siesta. Why are there so many people here?"
+    new "なあ、シエスタ。なんでこんなに人がいるんだ?"
+
+    old "Hey, Louise. Why are there so many people here?"
+    new "なあ、ルイズ。なんでこんなに人がいるんだ?"
+
+    old "As if I'd know, considering I came here with you!"
+    new "あんたと一緒に来たわたしに、そんなこと分かるわけないでしょ!"
+
+    old "Yeah, that's a perfectly valid point, but I thought that perhaps only Louise could share this feeling of having nowhere to turn."
+    new "うん、そりゃごもっともな言い分だけど、このやり場のない思いを共有できそうなのはルイズだけかなって思って。"
+
+    old "Well, I suppose that's true. But I know what the cause is."
+    new "ああ、それはそうね。でも、原因は分かってるわ。"
+
+    old  "Tell me, Siesta. It wasn't this bustling before you came to fetch us, was it?"
+    new "ねえ、シエスタ。あなたがわたし達を呼びに来る前は、こんなに賑やかじゃなかったんでしょ?"
+    

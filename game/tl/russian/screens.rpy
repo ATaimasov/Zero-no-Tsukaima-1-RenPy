@@ -263,6 +263,9 @@ translate russian strings:
     old "Display"
     new "Отображение"
 
+    old "Dialog box transparency"
+    new "Прозрачность диалогового окна"
+
     # === SYMPATHY ===
     old "Dere"
     new "Дере"

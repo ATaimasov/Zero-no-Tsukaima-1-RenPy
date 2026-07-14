@@ -66,6 +66,7 @@ transform chara_at(z, xa, ya):
     zoom z
     xalign xa
     yalign ya
+    alpha 1.0
 
 # плавный въезд из-за экрана в точку покоя
 transform chara_slide_in(z, xa, ya, sx):
@@ -89,6 +90,7 @@ transform chara_move(z0, xa0, ya0, z1, xa1, ya1):
     zoom z0
     xalign xa0
     yalign ya0
+    alpha 1.0
     ease 0.4 zoom z1 xalign xa1 yalign ya1
 
 
@@ -116,29 +118,129 @@ define _SLIDE_DUR = 0.4   # длительность слайда (синхро�
 # =============================================================================
 init -1 python:
 
-    def clear_chars(anim="dissolve"):
+    _CLEAR_SLIDE_DUR = 0.4
+
+    def clear_chars(anim="dissolve", direction="left"):
+        """
+        Убирает всех персонажей.
+        
+        anim:
+            "dissolve"    — плавное исчезновение (по умолчанию)
+            "slide"       — слайд, направления берутся из direction
+            "slide_left"  — все уезжают влево
+            "slide_right" — все уезжают вправо
+            None          — мгновенно
+        
+        direction (для anim="slide"):
+            "left"   — все влево
+            "right"  — все вправо
+            dict {slot: "left"|"right"|"dissolve"} — индивидуально по слотам
+        """
+        slots = store._sprite_slots
+
+        if not slots:
+            store._sprite_slots = {}
+            store._sprite_z = 0
+            if anim == "dissolve":
+                renpy.with_statement(dissolve)
+            return
+
+        if renpy.is_skipping() or renpy.in_rollback():
+            for tag in CHARA_TAGS:
+                renpy.hide(tag)
+            store._sprite_slots = {}
+            store._sprite_z = 0
+            renpy.with_statement(None)
+            return
+
+        # Нормализация
+        if anim == "slide_left":
+            anim, direction = "slide", "left"
+        elif anim == "slide_right":
+            anim, direction = "slide", "right"
+
+        if anim != "slide":
+            for tag in CHARA_TAGS:
+                renpy.hide(tag)
+            store._sprite_slots = {}
+            store._sprite_z = 0
+            if anim == "dissolve":
+                renpy.with_statement(dissolve)
+            else:
+                renpy.with_statement(None)
+            return
+
+        # --- SLIDE ---
+        if isinstance(direction, str):
+            dir_map = {s: direction for s in slots.keys()}
+        else:
+            dir_map = dict(direction)
+            for s in slots.keys():
+                dir_map.setdefault(s, "left")
+
+        dissolve_tags = []
+        slide_tags = []
+
+        for s, (tag, img, mode, z) in slots.items():
+            act = dir_map.get(s, "left")
+            z0, xa0, ya0 = _geom(mode, s)
+
+            if act == "dissolve":
+                dissolve_tags.append((tag, img, z0, xa0, ya0))
+            else:
+                slide_tags.append((tag, img, z0, xa0, ya0, act))
+
+        # Запускаем slide
+        for tag, img, z0, xa0, ya0, act in slide_tags:
+            trans = _make_clear_slide(act)
+            renpy.show(img, at_list=[trans], tag=tag, zorder=z0)
+
+        # dissolve-персонажи оставляем на месте (исчезнут в общем dissolve)
+        for tag, img, z0, xa0, ya0 in dissolve_tags:
+            renpy.show(img, at_list=[chara_at(z0, xa0, ya0)], tag=tag, zorder=z0)
+
+        renpy.with_statement(None)
+
+        if slide_tags:
+            renpy.pause(_CLEAR_SLIDE_DUR)
+
         for tag in CHARA_TAGS:
             renpy.hide(tag)
         store._sprite_slots = {}
         store._sprite_z = 0
-        renpy.with_statement(dissolve if anim == "dissolve" else None)
 
+        if dissolve_tags and slide_tags:
+            renpy.with_statement(dissolve)
+        else:
+            renpy.with_statement(None)
+
+
+    def _make_clear_slide(direction):
+        """Возвращает ATL-трансформ слайда из текущей позиции за экран."""
+        if direction == "left":
+            return slide_left_out_generic
+        else:
+            return slide_right_out_generic
 
 # =============================================================================
 #  1. ЗАТУХАНИЕ СЦЕНЫ  (всё внутри fade): спрайты сняты, интерфейс скрыт,
 #     музыка затихает по флагу, фон меняется на new_bg или на чёрный.
 #
-#     $ fade_clear()                         -> в чёрный, музыка играет
-#     $ fade_clear(stop_music=True)          -> в чёрный + музыка затихает
-#     $ fade_clear("bg forest")              -> сразу новый фон под затуханием
-#     $ fade_clear("bg forest", True)        -> новый фон + стоп музыки
-#     $ fade_clear("bg forest", new_music="t17")  -> фон + завести трек audio.t17
-#         (new_music сам останавливает старую музыку — stop_music не нужен)
+#     $ fade_clear()                                  -> в чёрный, музыка играет
+#     $ fade_clear(stop_music=True)                   -> в чёрный + музыка затихает
+#     $ fade_clear("bg forest")                       -> сразу новый фон под затуханием
+#     $ fade_clear("bg forest", True)                 -> новый фон + стоп музыки
+#     $ fade_clear("bg forest", new_music="t17")      -> фон + завести трек audio.t17
+#     
+#     УПРАВЛЕНИЕ HUD:
+#     $ fade_clear(show_hud=True, hud_delay=1.0)      -> показать HUD через 1 сек (по умолч.)
+#     $ fade_clear(show_hud=True, hud_delay=2.5)      -> показать HUD через 2.5 сек
+#     $ fade_clear(show_hud=False)                    -> не показывать HUD после fade
 # =============================================================================
 init -1 python:
 
-    def fade_clear(new_bg=None, stop_music=False, music_fadeout=1.0,
-                   new_music=None, music_fadein=1.0):
+    def fade_clear(new_bg=None, stop_music=False, music_fadeout=1.0, new_music=None, music_fadein=1.0):
+        
         # 1) убрать всех персонажей
         for tag in CHARA_TAGS:
             renpy.hide(tag)
@@ -172,7 +274,8 @@ init -1 python:
             renpy.music.play(track, fadein=music_fadein)
 
         # вернуть быстрые кнопки для последующих реплик
-        store.quick_menu = True
+        #store.quick_menu = True
+
 
 
 # =============================================================================
@@ -200,7 +303,9 @@ init -1 python:
 #     порядок (если d перекрывал s и оба не менялись — d так и перекрывает s).
 #
 #  ЛОГИКА (сравнение со старым раскладом по ТЕГУ персонажа):
-#   • тот же персонаж в том же слоте  -> только смена эмоции/размера на месте;
+#   • тот же персонаж в том же слоте, сменился РАЗМЕР (normal<->big)
+#                                     -> плавный scale (chara_move), в ОБЕ стороны;
+#   • тот же персонаж в том же слоте, сменилась ТОЛЬКО эмоция -> dissolve на месте;
 #   • тот же персонаж в другом слоте  -> плавно переезжает (chara_move);
 #   • персонаж пропал/сменился        -> старый уезжает (slide) или гаснет,
 #                                         pause(0.2), затем заезжает новый;
@@ -229,11 +334,18 @@ init -1 python:
 
     def _apply_layout(layout, mode, anim, center_front, hide_window=False):
         slots  = store._sprite_slots         # slot -> (tag, img, mode, z)
+
+        # Мгновенный режим: скип/перемотка (Ctrl), А ТАКЖЕ откат/прокрутка
+        # колесом мыши (rollback / roll-forward). В этих состояниях реальное
+        # время НЕ идёт: renpy.pause() возвращается сразу, а alpha-слайды
+        # «застревают» прозрачными. is_skipping() ловит только скип, поэтому
+        # колесо мыши (rollback) раньше оставляло спрайты невидимыми.
+        _instant = renpy.is_skipping() or renpy.in_rollback()
+
         slide  = (anim == "slide")
         noanim = (anim is None)
 
-        # Текстбокс в режиме "window auto" гаснет на каждом переходе (with).
-        # По умолчанию УДЕРЖИВАЕМ окно на экране; hide_window=True — спрятать.
+        # Текстбокс
         if hide_window:
             _window_hide(None)
         else:
@@ -244,14 +356,50 @@ init -1 python:
         for s, img in layout.items():
             new[s] = (_tag_of(img), img)
 
-        # индексируем по ТЕГУ персонажа: кто ушёл / переехал / новый
+        # индексируем по ТЕГУ персонажа
         old_by_tag = {tag: (s, oimg, om, oz)
                       for s, (tag, oimg, om, oz) in slots.items()}
         new_by_tag = {tag: (s, nimg) for s, (tag, nimg) in new.items()}
 
+        # ---- БЫСТРЫЙ ПУТЬ: МГНОВЕННЫЙ ПОКАЗ (скип / откат / прокрутка) ----
+        # Никаких pause и alpha-анимаций — сразу ставим всех актуальных
+        # персонажей в точку покоя с полной непрозрачностью, гасим лишних.
+        # Это убирает «прозрачные/невидимые» спрайты при быстром ЛКМ и колесе.
+        if _instant:
+            new_tags = set(new_by_tag.keys())
+            for tag, (os_, oimg, om, oz) in old_by_tag.items():
+                if tag not in new_tags:
+                    renpy.hide(tag)
+
+            def _order_key_fast(item):
+                s = item[0]
+                if s != "center":
+                    return 1
+                if center_front is True:
+                    return 2
+                if center_front is False:
+                    return 0
+                return 1
+
+            slot_z = {}
+            for s, (tag, nimg) in sorted(new.items(), key=_order_key_fast):
+                store._sprite_z += 1
+                slot_z[s] = store._sprite_z
+                z, xa, ya = _geom(mode, s)
+                renpy.show(nimg, at_list=[chara_at(z, xa, ya)],
+                           tag=tag, zorder=slot_z[s])
+            renpy.with_statement(None)
+
+            new_state = {}
+            for s, (tag, nimg) in new.items():
+                new_state[s] = (tag, nimg, mode, slot_z[s])
+            store._sprite_slots = new_state
+            return
+
         leavers  = []   # (slot, tag, img, mode)
-        movers   = []   # (old_slot, new_slot, tag, img, old_mode)
-        inplace  = []   # (slot, tag, img)
+        movers   = []   # (old_slot, new_slot, tag, img, old_mode)  -> другой слот
+        resizes  = []   # (slot, tag, img, old_mode)  -> тот же слот, сменился РАЗМЕР
+        emotions = []   # (slot, tag, img)            -> тот же слот, сменилась ТОЛЬКО картинка
         entrants = []   # (slot, tag, img)
 
         for tag, (os_, oimg, om, oz) in old_by_tag.items():
@@ -266,16 +414,18 @@ init -1 python:
                 os_, oimg, om, oz = old
                 if os_ != ns_:
                     movers.append((os_, ns_, tag, nimg, om))
-                elif oimg != nimg or om != mode:
-                    inplace.append((ns_, tag, nimg))
+                elif om != mode:
+                    # ФИКС 2: размер проверяем РАНЬШЕ эмоции, поэтому смена
+                    # размера ВСЕГДА даёт плавный scale (chara_move) — и при
+                    # normal->big, и при big->normal — даже если заодно
+                    # сменилась картинка. Никакого dissolve при зуме.
+                    resizes.append((ns_, tag, nimg, om))
+                elif oimg != nimg:
+                    emotions.append((ns_, tag, nimg))        # только эмоция -> dissolve
 
         # ---- НАЗНАЧИТЬ ZORDER показанным/изменённым слотам ----
-        # порядок начисления внутри вызова управляется center_front для центра:
-        #   False -> центр получает z первым (ниже боковых этого вызова),
-        #   True  -> центр последним (выше всех в этом вызове),
-        #   None  -> естественный порядок.
-        shown_slots = [m[1] for m in movers] + [p[0] for p in inplace] \
-                      + [e[0] for e in entrants]
+        shown_slots = [m[1] for m in movers] + [r[0] for r in resizes] \
+                      + [e[0] for e in emotions] + [e[0] for e in entrants]
 
         def _order_key(s):
             if s != "center":
@@ -291,7 +441,6 @@ init -1 python:
             store._sprite_z += 1
             slot_z[s] = store._sprite_z
 
-        # zorder неизменившихся слотов берём из прежнего состояния
         old_z_by_slot = {s: oz for s, (tag, oimg, om, oz) in slots.items()}
 
         # ---- 1) УХОДЯЩИЕ ----
@@ -311,7 +460,7 @@ init -1 python:
                     renpy.hide(tag)
                 renpy.with_statement(None if noanim else dissolve)
 
-        # ---- 2) ПЕРЕЕЗЖАЮЩИЕ ----
+        # ---- 2) ПЕРЕЕЗЖАЮЩИЕ (другой слот) ----
         if movers:
             for os_, ns_, tag, nimg, om in movers:
                 z1, xa1, ya1 = _geom(mode, ns_)
@@ -324,17 +473,30 @@ init -1 python:
                                tag=tag, zorder=slot_z[ns_])
             renpy.with_statement(None)
 
-        # небольшая задержка перед появлением новых (пропускаем без анимации)
-        if (leavers or movers) and entrants and not noanim:
-            renpy.pause(0.2)
+        # ---- 3a) СМЕНА РАЗМЕРА (normal<->big) -> ПЛАВНЫЙ SCALE, без dissolve ----
+        if resizes:
+            for s, tag, nimg, om in resizes:
+                z1, xa1, ya1 = _geom(mode, s)
+                if noanim:
+                    renpy.show(nimg, at_list=[chara_at(z1, xa1, ya1)],
+                               tag=tag, zorder=slot_z[s])
+                else:
+                    z0, xa0, ya0 = _geom(om, s)            # старая геометрия того же слота
+                    renpy.show(nimg, at_list=[chara_move(z0, xa0, ya0, z1, xa1, ya1)],
+                               tag=tag, zorder=slot_z[s])
+            renpy.with_statement(None)                      # без dissolve и без alpha
 
-        # ---- 3) СМЕНА ЭМОЦИИ/РАЗМЕРА НА МЕСТЕ ----
-        if inplace:
-            for s, tag, nimg in inplace:
+        # ---- 3b) СМЕНА ЭМОЦИИ (картинка изменилась, размер тот же) -> dissolve ----
+        if emotions:
+            for s, tag, nimg in emotions:
                 z, xa, ya = _geom(mode, s)
                 renpy.show(nimg, at_list=[chara_at(z, xa, ya)],
                            tag=tag, zorder=slot_z[s])
             renpy.with_statement(None if noanim else dissolve)
+
+        # задержка перед появлением новых
+        if (leavers or movers) and entrants and not noanim:
+            renpy.pause(0.2)
 
         # ---- 4) НОВЫЕ ПЕРСОНАЖИ ----
         if entrants:
@@ -345,6 +507,13 @@ init -1 python:
                                tag=tag, zorder=slot_z[s])
                 renpy.with_statement(None)
                 renpy.pause(_SLIDE_DUR)
+                # фиксируем точку покоя — если слайд прервали кликом,
+                # спрайт не останется полупрозрачным/за экраном.
+                for s, tag, nimg in entrants:
+                    z, xa, ya = _geom(mode, s)
+                    renpy.show(nimg, at_list=[chara_at(z, xa, ya)],
+                               tag=tag, zorder=slot_z[s])
+                renpy.with_statement(None)
             else:
                 for s, tag, nimg in entrants:
                     z, xa, ya = _geom(mode, s)
@@ -352,57 +521,12 @@ init -1 python:
                                tag=tag, zorder=slot_z[s])
                 renpy.with_statement(None if noanim else dissolve)
 
-        # ---- ПЕРЕСТРОИТЬ СОСТОЯНИЕ СЛОТОВ (с актуальным zorder) ----
+        # ---- ПЕРЕСТРОИТЬ СОСТОЯНИЕ СЛОТОВ ----
         new_state = {}
         for s, (tag, nimg) in new.items():
             z = slot_z.get(s, old_z_by_slot.get(s, 0))
             new_state[s] = (tag, nimg, mode, z)
         store._sprite_slots = new_state
-
-
-# =============================================================================
-#  3. СКРЫТЬ / ВЕРНУТЬ ВЕСЬ ИНТЕРФЕЙС  (для окон инвентаря и т.п.)
-#     call hide_interface  /  call show_interface
-#     либо  $ hide_ui()  /  $ show_ui()
-# =============================================================================
-init -1 python:
-
-    def hide_ui():
-        store.quick_menu = False
-        if hasattr(store, "sympathy_hud_visible"):
-            store._ui_hud_was = store.sympathy_hud_visible
-            store.sympathy_hud_visible = False
-        renpy.hide_screen("quick_menu")
-        renpy.hide_screen("sympathy_hud_icon")
-        renpy.with_statement(None)
-
-    def show_ui():
-        store.quick_menu = True
-        if hasattr(store, "_ui_hud_was"):
-            store.sympathy_hud_visible = store._ui_hud_was
-        renpy.show_screen("quick_menu")
-        renpy.with_statement(None)
-
-    # Python-версии, чтобы можно было вызывать ВНУТРИ обычных python-функций
-    # (например в update_sympathy) как hide_interface() / show_interface().
-    # Внутри def НЕЛЬЗЯ писать "$ hide_interface" — это синтаксис скрипта Ren'Py,
-    # а не Python. Поэтому зови просто hide_interface() без знака $.
-    def hide_interface():
-        renpy.window_hide()
-        hide_ui()
-
-    def show_interface():
-        show_ui()
-        renpy.window_show()
-
-# Лейблы для вызова из скрипта:  call hide_interface  /  call show_interface
-label hide_interface:
-    $ hide_interface()
-    return
-
-label show_interface:
-    $ show_interface()
-    return
 
 
 # =============================================================================
@@ -460,7 +584,8 @@ init -1 python:
 
     def shake_scene(sound=None, effect="shake", new_bg=None, clear=False):
         if sound is not None:
-            renpy.sound.play(sound)
+            actual_sound = getattr(store.audio, sound, sound)
+            renpy.sound.play(actual_sound)
 
         if clear:
             for tag in CHARA_TAGS:

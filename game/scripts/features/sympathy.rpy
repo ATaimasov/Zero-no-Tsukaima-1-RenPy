@@ -446,44 +446,43 @@ init python:
         renpy.store.known_characters.add(char_key)
         
         # Проигрываем звук
-        if value > 0 and renpy.loadable(up_sound):
-            renpy.sound.play(up_sound, channel="sound")
-        elif value < 0 and renpy.loadable(down_sound):
-            renpy.sound.play(down_sound, channel="sound")
+        #if value > 0 and renpy.loadable(up_sound):
+            #renpy.sound.play(up_sound, channel="sound")
+        #elif value < 0 and renpy.loadable(down_sound):
+            #renpy.sound.play(down_sound, channel="sound")
         
         # ============================================
         # КЕЙС 1: Все персонажи (включая Louise)
         # Показываем блок: [Уровень симпатии] [Иконка персонажа] [UP/DOWN]
         # ============================================
-        renpy.show_screen("sympathy_notification", 
-                          char_key=char_key,
-                          change_value=value)
+        #renpy.show_screen("sympathy_notification", 
+                         # char_key=char_key,
+                          #change_value=value)
         
         # Ждём завершения анимации первого блока
-        renpy.pause(2.8, hard=False)
+        #renpy.pause(2.8, hard=False)
         
         # Скрываем первый экран
-        renpy.hide_screen("sympathy_notification")
+        #renpy.hide_screen("sympathy_notification")
         
         # ============================================
         # КЕЙС 2: Только для Louise - дополнительный блок с прогресс-баром
         # После задержки показываем прогресс-бар + [tsun/dere] [UP]
         # ============================================
-        if char_key == "louise":
+       # if char_key == "louise":
             # Небольшая задержка перед вторым блоком
-            renpy.pause(0.3, hard=False)
+            #renpy.pause(0.3, hard=False)
             
             # Показываем второй экран для Louise (прогресс-бар + tsun/dere)
-            renpy.show_screen("sympathy_louise_second", 
-                              change_value=value,
-                              old_value=old_value,
-                              new_value=new_value)
+           # renpy.show_screen("sympathy_louise_second", 
+                            #  change_value=value,
+                            ##  new_value=new_value)
             
             # Ждём завершения анимации
-            renpy.pause(2.8, hard=False)
+           # renpy.pause(2.8, hard=False)
             
             # Скрываем экран
-            renpy.hide_screen("sympathy_louise_second")
+           # renpy.hide_screen("sympathy_louise_second")
         
         return new_value
     
