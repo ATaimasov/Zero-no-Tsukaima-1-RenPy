@@ -1247,9 +1247,6 @@ translate russian strings:
     old "Why have so many people gathered here since this morning!"
     new "Почему с самого утра здесь собралось так много людей!"
 
-    old "Umm…? Excuse me, what on earth am I doing here…?"
-    new "Эм…? Простите, что я вообще здесь делаю…?"
-
     old "Hey, Kirche. Why are you here?"
     new "Слушай, Кирхе. Почему ты здесь?"
 
@@ -1310,23 +1307,44 @@ translate russian strings:
     old "There's nothing fun about it, really."
     new "Да нет здесь ничего веселого"
 
-    old
-    new
+    old "Oh, well. It’s not like I expect you to go home just because I tell you to."
+    new "Ох, ну и пусть. Не жду я, что ты уйдешь, сколько бы я ни просила"
 
-    old
-    new
+    old "Umm…? Excuse me, what on earth am I doing here…?"
+    new "Эм…? Простите, что я вообще здесь делаю…?"
 
-    old
-    new
+    old "More importantly, the problem is who this girl is."
+    new "Но более насущный вопрос: кто она такая?"
 
-    old
-    new
+    old "She looks bewildered, unable to make sense of what's going on. Not surprising, though."
+    new "Кажется, она в замешательстве от непонимания происходящего. Что ж, неудивительно"
 
-    old
-    new
+    old "Well, let's see... To explain, Louise and I found you collapsed on the outskirts of town yesterday and brought you here."
+    new "Эм, ну... Если объяснять, то вчера мы с Луизой нашли тебя без сознания на окраине города и привели сюда"
 
-    old
-    new
+    old "Incidentally, Siesta is the one who laid you in bed, and Montmorency examined you."
+    new "Между прочим, в кровать тебя уложила Сиеста, а состояние проверила Монморанси"
 
-    old
-    new
+    old "Oh, s-so that's how it was? My apologies, and thank you so much"
+    new "Ох, я-ясно... Так вот как всё было. Прошу прощения, и спасибо вам большое"
+
+    old "Ah, no, I didn't really do anything..."
+    new "А, нет, я ничего особенного не сделала..."
+
+    old "Since you seemed exhausted, I simply instructed you to stay in bed and rest. That’s all I did."
+    new "Ты казалась изможденной, вот я и распорядилась дать тебе покой. Вот и всё, больше ничего"
+
+    old "Now, I’d like to ask you something. Where do you come from? What’s your name?"
+    new "Теперь моя очередь задавать вопросы. Откуда ты родом? И как твое имя?"
+
+    old "Y-yes. I am Haruna... 'Haruna Takanaqi"
+    new "Д-да. Меня зовут Харуна... «Таканаги Харуна»"
+    
+    old "Just as I thought, Miss Takanaqi..."
+    new "Я так и думала, Таканаги-сан..."
+
+    old "You know about me? Saito... could you possibly be 'Hiraga Saito'?"
+    new "Ты знаешь обо мне? Сайто... ты случайно не «Хирага Сайто-кун»?»"
+
+    old "Ah, that's right, I'm Saito Hiraga. It’s been a while, Takanaqi-san."
+    new "А, точно, я Хирага Сайто. Сколько лет, сколько зим, Таканаги-сан"

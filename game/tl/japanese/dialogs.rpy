@@ -1242,9 +1242,6 @@ translate japanese strings:
     old "Why have so many people gathered here since this morning!"
     new "なんで、朝からこんなに大勢集まってるのよ!"
 
-    old "Umm…? Excuse me, what on earth am I doing here…?"
-    new "ええと......?すみません、私はいったい......?"
-
     old "Hey, Kirche. Why are you here?"
     new "なあ、キュルケ。なんでここにいるんだ?"
 
@@ -1305,20 +1302,44 @@ translate japanese strings:
     old "There's nothing fun about it, really."
     new "別に楽しいことなんてないわよ。"
 
-    old
-    new
+    old "Oh, well. It’s not like I expect you to go home just because I tell you to."
+    new "まあ、いいわ。何を言ったところで別に帰るとは思えないし。"
 
-    old
-    new
+    old "Umm…? Excuse me, what on earth am I doing here…?"
+    new "ええと......?すみません、私はいったい......?"
 
-    old
-    new
+    old "More importantly, the problem is who this girl is."
+    new "それより、この娘が誰なのかが問題なの。"
 
-    old
-    new
+    old "She looks bewildered, unable to make sense of what's going on. Not surprising, though."
+    new "(状況が把握できなくて戸惑ってるようだな。 当然だろうけど)"
 
-    old
-    new
+    old "Well, let's see... To explain, Louise and I found you collapsed on the outskirts of town yesterday and brought you here."
+    new "ええとだな。説明すると、昨日、町外れで倒れてたきみを、俺とルイズが拾って、ここに連れて来たんだ。"
 
-    old
-    new
+    old "Incidentally, Siesta is the one who laid you in bed, and Montmorency examined you."
+    new "ちなみに、ベッドに寝かせたのはシエスタで、容態を診たのはモンモランシーよ。"
+
+    old "Oh, s-so that's how it was? My apologies, and thank you so much"
+    new "あ、そ、そうだったんですか。すいません、ありがとうございます。"
+
+    old "Ah, no, I didn't really do anything..."
+    new "あ、いえ、わたしは別になにも......。"
+
+    old "Since you seemed exhausted, I simply instructed you to stay in bed and rest. That’s all I did."
+    new "疲れてるようだったんで、そのまま休ませるように言っただけよ。それ以上はなにもしてないわ。"
+
+    old "Now, I’d like to ask you something. Where do you come from? What’s your name?"
+    new "で、今度はこちらが聞きたいんだけど。あなた、どこから来たの?名前は?"
+
+    old "Y-yes. I am Haruna... 'Haruna Takanaqi"
+    new "は、はい。私は春奈......『高凪 春奈』と言います。"
+
+    old "Just as I thought, Miss Takanaqi..."
+    new  "やっぱり高凪さんか......。"
+
+    old "You know about me? Saito... could you possibly be 'Hiraga Saito'?"
+    new "私のことを知っている?サイトって、もしかして『平賀 才人』くん?"
+
+    old "Ah, that's right, I'm Saito Hiraga. It’s been a while, Takanaqi-san."
+    new "ああ、俺、平賀 才人。高凪さんお久しぶり。"

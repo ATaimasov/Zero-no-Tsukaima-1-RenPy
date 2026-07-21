@@ -122,11 +122,22 @@ label ch1_6:
             m "...Ohohoho."
             k "Come on. I may not know the circumstances, but it looks like you're having some fun, doesn't it?"
             l "There's nothing fun about it, really."
+            l "Oh, well. It’s not like I expect you to go home just because I tell you to."
 
     $ show_sprites(("l 1"))
     voice "ch1.6_l_005"
     l "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
-
+    l "More importantly, the problem is who this girl is."
     $ show_sprites(("l 1", "h 1 sad"))
     unk_h "Umm…? Excuse me, what on earth am I doing here…?"
-    
+    th "She looks bewildered, unable to make sense of what's going on. Not surprising, though."
+    s "Well, let's see... To explain, Louise and I found you collapsed on the outskirts of town yesterday and brought you here."
+    l "Incidentally, Siesta is the one who laid you in bed, and Montmorency examined you."
+    ha "Oh, s-so that's how it was? My apologies, and thank you so much"
+    si "Ah, no, I didn't really do anything..."
+    m "Since you seemed exhausted, I simply instructed you to stay in bed and rest. That’s all I did."
+    l "Now, I’d like to ask you something. Where do you come from? What’s your name?"
+    ha "Y-yes. I am Haruna... 'Haruna Takanaqi"
+    s "Just as I thought, Miss Takanaqi..."
+    ha "You know about me? Saito... could you possibly be 'Hiraga Saito'?"
+    s "Ah, that's right, I'm Saito Hiraga. It’s been a while, Takanaqi-san."
