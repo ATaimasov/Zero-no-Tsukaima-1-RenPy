@@ -28,8 +28,9 @@ label ch0:
     voice "ch0_npc1_004"
     npc2 "Yes, Sir!"
 
-    hide npc_left with dissolve
-    hide npc_right with dissolve
+    #hide npc_left with dissolve
+    #hide npc_right with dissolve
+    #$ clear_chars(anim="dissolve")
 
     call overlay_screen(None,  "My name is Louise Françoise Le Blanc de La Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001") from _call_overlay_screen_1
     scene bg town_square_night at bg_center with dissolve

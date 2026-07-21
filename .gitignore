@@ -37,3 +37,5 @@
 /game/**/*.psd
 /game/**/*.xcf
 /game/**/*.clip
+
+/game/combined_rpy.md
