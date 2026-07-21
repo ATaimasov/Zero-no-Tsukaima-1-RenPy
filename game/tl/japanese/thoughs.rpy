@@ -149,7 +149,7 @@ translate japanese strings:
     old "S-scary... It's terrifying how she's still smiling..."
     new "(こ、怖い......笑顔のままなのが怖い......)"
 
-    old "W-w-why the hell is Louise sleeping while holding onto my clothes!?"
+    old "W-w-why the hell is Louise sleeping while clinging to me!?"
     new "(ななな、なんでルイズのやつ、 俺の服を掴みながら寝てるんだ!?)"
 
     old "Come to think of it, I wonder why Siesta came at this time?"

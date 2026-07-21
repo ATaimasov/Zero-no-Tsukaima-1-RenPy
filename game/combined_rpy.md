@@ -10,24 +10,16 @@
 label ch0:
     stop music fadeout 2.0
     call overlay_screen("town_square_night", "Tristania") from _call_overlay_screen
-    play sound blow
-    $ flash_clear("town_square_night")
-    with explosion_shake
+    $ blow_fx(new_music="t23", music_fadein=2)
+    #$ scene_fx(effect="blow", duration=1, sound="blow", new_music="t23", music_fadein=2)
     pause(0.5)
 
-    play music audio.t23 fadein 1.0
-    
-    show npc 1 angry as npc_left at close_center with dissolve
-
-    #$ show_sprites(("npc 1 angry"))
+    $ show_sprites(("npc 1 angry"), anim="dissolve")
     voice "ch0_npc1_001"
     npc1 "Where did the explosion happen?"
 
-    #$ show_sprites(("npc 1 angry", "npc 1 angry"))
+    $ show_sprites(("npc 1 angry", "npc 1 angry"))
 
-    show npc 1 angry as npc_left at close_left_npc
-
-    show npc 1 angry as npc_right at close_right_npc with dissolve
     voice "ch0_npc1_002"
     npc2 "Sir—on the street facing the main avenue, multiple explosions involving explosive materials have been confirmed."
 
@@ -37,28 +29,24 @@ label ch0:
     voice "ch0_npc1_004"
     npc2 "Yes, Sir!"
 
-    hide npc_left with dissolve
-    hide npc_right with dissolve
-
     call overlay_screen(None,  "My name is Louise Françoise Le Blanc de La Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001") from _call_overlay_screen_1
-    scene bg town_square_night at bg_center with dissolve
-
-    show npc 1 as npc_left at close_left_npc with dissolve
-    show npc 1 as npc_right at close_right_npc with dissolve
+    $ dissolve_fx("town_square_night")
+    $ show_sprites(("npc 1", "npc 1"), anim="dissolve")
 
     voice "ch0_un_001"
     unknown "Hahahaha. You're always working hard."
 
-    show npc 1 sad as npc_left at close_left_npc
+    $ show_sprites(("npc 1 sad", "npc 1"), raise_z=False)
+
     voice "ch0_npc1_005"
     npc1 "Where is he?"
 
-    show npc 1 angry as npc_right at close_right_npc
+    $ show_sprites(("npc 1 sad", "npc 1 angry "))
     voice "ch0_npc1_006"
     npc2 "Sir, he's on top of that mansion."
 
     call overlay_screen(None, "The Pentagon that governs the five powers", text_mode="white", delay=3.5, sound_path="ch0_l_002") from _call_overlay_screen_2
-    scene cg terrorist at bg_center with dissolve
+    $ dissolve_fx("terrorist")
 
     voice "ch0_un_002"
     unknown "Let's call it a day. Hurry up and put out the fire."
@@ -75,7 +63,7 @@ label ch0:
     voice "ch0_un_004"
     unknown "Until then, you'll just have to cherish your mundane lives, won't you?"
 
-    scene cg terrorist2 at bg_center with flash
+    $ flash_fx("terrorist2")
 
     voice "ch0_npc1_009"
     npc2 "He... did he just vanish?"
@@ -121,12 +109,11 @@ label forest_battle:
 label ch1:
     call overlay_screen("overlay",  "Chapter One: \"Louise of Zero\"", isUseBlur=False, text_mode="black") from _call_overlay_screen_4
     pause(2)
-    play music audio.t18 fadein 1.0
-    scene bg forest at bg_center with dissolve
+    $ dissolve_fx("forest", new_music="t18")
     
     call overlay_screen("forest",  "The Road (Highway)") from _call_overlay_screen_5
-    pause(2)
-    scene cg l_s_forest at bg_center with dissolve
+    pause(1)
+    $ dissolve_fx("l_s_forest")
 
     l "....."
     voice "ch1_s_001"
@@ -138,7 +125,7 @@ label ch1:
     voice "ch1_s_002"
     s "I was wondering…"
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_002"
     l "……go ahead and say it"
@@ -149,12 +136,12 @@ label ch1:
     voice "ch1_s_004"
     s "…or something along those lines, didn't you say? I seem to recall it sounded like you were having quite a bit of fun."
 
-    scene cg l_s_forest at bg_center with dissolve
+    $ dissolve_fx("l_s_forest")
 
     voice "ch1_l_003"
     l "I wonder if something like that really happened..."
 
-    scene cg l_s_forest_s_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_s_speak")
 
     voice "ch1_s_005"
     s "No, no, no, of course I'm curious! You seemed to be having so much fun back then—why on earth are you in such a bad mood now?"
@@ -165,12 +152,12 @@ label ch1:
     voice "ch1_l_005"
     l "Really, nothing could be more unseemly!"
 
-    scene cg l_s_forest at bg_center with dissolve
+    $ dissolve_fx("l_s_forest")
 
     voice "ch1_s_006"
     s "I wasn't being all lovey-dovey or anything! Wait… could it be you're jealous?"
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_006"
     l "Th-th-that's ridiculous, of course not!"
@@ -178,7 +165,7 @@ label ch1:
     voice "ch1_l_007"
     l "If my stupid familiar goes around causing trouble everywhere, it'll reflect badly on me—your master! It's not like I'm jealous or anything, okay!"
 
-    scene cg l_s_forest_s_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_s_speak")
     
     voice "ch1_s_007"
     s "Is that so, huh?"
@@ -186,15 +173,15 @@ label ch1:
     voice "ch1_l_008"
     l "That's exactly right!"
 
-    scene bg forest at bg_center with fade
+    $ fade_fx("forest")
+
     $ show_sprites("s 1", mode="big")
 
     th "My name is Hiraga Saito. I was supposed to be just an ordinary high school student... or so I thought."
     $ show_sprites("l 1", mode="big")
     th "But now, I'm with this willful master — Louise Françoise Le Blanc de La Vallière..."
     th "Long story short: thanks to Louise's summoning spell, I — who got called here as a familiar — am now living in her room."
-
-    $ fade_clear("bg sky")
+    $ fade_fx("sky")
 
     th "In another world, \"Halkeginia\", where mages rule the land as nobility... It was a world entirely unlike Japan."
     th "What's more, the country we live in—Tristain—suddenly came under invasion from \"Reconquista\"."
@@ -205,12 +192,12 @@ label ch1:
     th "Well, I guess it'll all work out somehow… It's always been like that up to now, anyway…"
     th "Then again, my lower back really aches… I still haven't gotten used to riding a horse…"
 
-    scene cg l_s_forest at bg_center with fade
+    $ fade_fx("l_s_forest")
 
     voice "ch1_s_008"
     s "Still, she went on a bit of a weird clothes-shopping spree this time. And it takes forever to pick anything out... Honestly, I was just killing time the whole way through..."
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ fade_fx("l_s_forest_l_speak")
 
     voice "ch1_l_009"
     l "W-well, it's not like it's a bad thing! What's so wrong with me dressing up!?"
@@ -218,6 +205,7 @@ label ch1:
     th "Louise actually looks really nice..."
 
     # ==== CHOISE 1 ====
+    window hide
     $ choise_result = None
     menu:
         "I thoughts it's good!":
@@ -231,12 +219,12 @@ label ch1:
 
         voice "ch1_s_009"
         s "I thoughts it's great! You've got good looks to begin with. So paying more attention to your appearance is totally fine."
-        scene cg l_s_forest at bg_center with dissolve
+
+        $ dissolve_fx("l_s_forest")
 
         voice "ch1_l_010"
         l "I-is that so...?"
 
-        window hide
         $ update_sympathy(20)
 
         voice "ch1_s_010"
@@ -252,11 +240,10 @@ label ch1:
         s "Just one thing though: don't go dumping any extra hassle on me, alright?"
     elif choise_result == "bad":
 
-        scene cg l_s_forest_s_speak at bg_center with dissolve
+        $ dissolve_fx("l_s_forest_s_speak")
         voice "ch1_s_013"
         s "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
 
-        window hide
         $ update_sympathy(-20)
     else:
         "ERR"
@@ -265,7 +252,7 @@ label ch1:
 
     ## louise shows tsun-tsun side in any case :)
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_011"
     l "Ugh, what is it, what is it?! You've done nothing but complain this whole time! Hello? You're my familiar, aren't you? So stop whining and get to work!"
@@ -281,10 +268,9 @@ label ch1:
 
     voice "ch1_s_015"
     s "Yeah yeah, sure thing~"
-
-    scene cg l_s_forest at bg_center with dissolve
+    $ dissolve_fx("l_s_forest")
     th "Jeez... She's got such a cute look going for her. If only her personality had even a tiny bit of that same charm, I wouldn't have a single complaint..."
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_014"
     l "Did you say something!?"
@@ -292,13 +278,11 @@ label ch1:
     voice "ch1_s_016"
     s "N-no, nothing at all!"
 
-    #scene bg forest at bg_center with fade
-    $ fade_clear("bg forest")
+    $ fade_fx("forest")
 
     $ show_sprites("d 1 happy")
     pause(0.2)
     voice "ch1_d_001"
-    #! тут быстрая прокручивание диалогов колесиком мыши или ctrl делает спрайты прозрачным
     d "Hah hah haa! Still getting bossed around by her, huh, partner?"
 
     $ show_sprites(("l 3 angry", "d 1"))
@@ -309,8 +293,6 @@ label ch1:
     voice "ch1_s_017"
     s "I'm NOT being bossed around, okay?!"
 
-    #! тут нужен скейл плавный
-    $ show_sprites("d 1")
     $ show_sprites("d 1", mode="big", anim="slide")
 
     th "This is Derflinger. As you can see, a talking sword. Well, he's my partner, I guess."
@@ -341,7 +323,7 @@ label ch1:
     voice "ch1_l_016"
     l "If you run your mouth one more time, I'll melt you down into scrap iron and bury you in the academy's backyard — got it?!"
 
-    $ show_sprites(("l 3 angry", "d 1 sad"), side="center")
+    $ show_sprites(("l 3 angry", "d 1 sad"))
     voice "ch1_d_006"
     d "Whoa, scary! Partner, I'll just take a little nap for now — so when my cue comes, give me a holler, yeah?"
 
@@ -357,7 +339,7 @@ label ch1:
     th "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
 
     # ==== SUBCHAPTER 2 ====
-    $ fade_clear("cg l_s_forest_l_s_speak", new_music="t27") 
+    $ fade_fx("l_s_forest_l_s_speak", new_music="t27")
     
     th "Hm...? Someone's collapsed."
 
@@ -367,7 +349,7 @@ label ch1:
     voice "ch1_s_019"
     s "Over there... Isn't someone lying at the foot of that tree?"
 
-    scene cg l_s_forest_s_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_s_speak")
 
     voice "ch1_l_018"
     l "What? Where?"
@@ -375,12 +357,12 @@ label ch1:
     voice "ch1_s_020"
     s "Hey, over there... nah, better to see for myself. My bad, Louise! I'm going first!"
 
-    scene cg l_forest at bg_center with dissolve
+    $ dissolve_fx("l_forest")
 
     voice "ch1_l_019"
     l "Ah—wait, Saito! Ugh, what is wrong with you?!"
 
-    $ fade_clear("cg ha_forest")
+    $ fade_fx("ha_forest")
 
     voice "ch1_s_021"
     s "Just as I thought... There really is someone collapsed... I wonder if she is okay... wait—huh, hey!?"
@@ -407,11 +389,7 @@ label ch1:
     voice "ch1_s_023"
     s "First, check pulse and heartbeat..., loosen her clothes to keep the airway clear..."
 
-    # !!!
-    #play sound "audio/sfx/punch.ogg"
-    #scene cg ha_forest at bg_center with hit_shake
-
-    $ shake_scene(effect="shake", sound="punch")
+    $ hit_fx()
     pause(0.5)
 
     voice "ch1_l_023"
@@ -446,7 +424,7 @@ label ch1:
 
     # ==== SUBCHAPTER 3 ====
 
-    $ fade_clear("bg forest", new_music="t17")
+    $ fade_fx("forest",new_music="t17")
 
     $ show_sprites("mage")
     voice "ch1_mage_001"
@@ -454,24 +432,17 @@ label ch1:
 
     $ show_sprites(("mage", "s 1 angry"))
 
-    #show mage at slide_center_to_left #slide_center_to_left
-    #pause(0.2)
-    #show s 1 angry at slide_center_to_right with dissolve #slide_center_to_right
     # !!! удивление вздох - сайто
     voice "ch1_s_028"
     s "Gah?!"
 
     $ show_sprites(("mage", "l 1 angry"))
 
-    #hide s with dissolve
-    #pause(0.2)
-    #show l 1 angry at slide_center_to_right with dissolve
     voice "ch1_l_028"
     l "What?! Who are you people?!"
 
     voice "ch1_mage_002"
     mage "Hand over that girl."
-
 
     $ show_sprites(("mage", "s 1 angry"))
     voice "ch1_s_029"
@@ -483,9 +454,8 @@ label ch1:
     voice "ch1_s_030"
     s "What did you just say?!"
 
-    window hide
-
     # ==== CHOISE 2 ====
+    window hide
     $ choise_result = None
     $ louise = "l 1 angry"
     menu:
@@ -536,7 +506,6 @@ label ch1:
         voice "ch1_l_032"
         l "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
         
-        window hide
         $ update_sympathy(-20)
 
         $ show_sprites(("l 3 angry", "s 3 sad"))
@@ -548,7 +517,6 @@ label ch1:
         $ show_sprites(("l 1", "s 3 sad"))
         voice "ch1_l_033"
         l "Is that so...?"
-
     
     $ show_sprites((louise, "s 1 angry"))    
 
@@ -566,7 +534,7 @@ label ch1:
     voice "ch1_mage_004"
     mage "Hmph... How foolish. A mere commoner dares to stand in our way? Very well — then you shall receive a fitting recompense."
 
-    # !!! звук доставания меча
+    play sound take_sword
     $ show_sprites(("mage", "s 7 angry"))    
     voice "ch1_s_035"
     s "Louise! I'm counting on you!"
@@ -584,12 +552,11 @@ label ch1:
 
     # ==== BATTLE ==== 
 
-    $ clear_chars()
+    $ show_sprites(None, anim="dissolve") 
     #call forest_battle from _call_forest_battle
 
     # ==== SUBCHAPTER 4 ====
-
-    $ fade_clear("bg forest", new_music="t24")
+    $ fade_fx("forest",new_music="t24")
     $ show_sprites(("mage", "s 1 angry"), anim="dissolve") 
 
     voice "ch1_mage_005"
@@ -598,8 +565,7 @@ label ch1:
     voice "ch1_s_039"
     s "Hey, wait! Don't you run away!"
 
-    $ flash_clear("bg forest")
-    $ show_sprites(("s 1 angry"), anim="dissolve", side="right") 
+    $ flash_fx(sprites=("s 1 angry"), side="right")
 
     # !!! Сайто восклицает э VOICE_ID.BIN_00002A44.wav
     voice "ch1_s_063"
@@ -631,7 +597,8 @@ label ch1:
     voice "ch1_l_036"
     l "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
 
-    $ fade_clear("cg ha_forest")
+    #$ fade_clear("cg ha_forest")
+    $ fade_fx("ha_forest")
 
     voice "ch1_s_040"
     s "There, there. But more importantly, I think what we really need here is artificial respiration..."
@@ -639,20 +606,14 @@ label ch1:
     voice "ch1_l_037"
     l "You're so persistent!"
 
-    # !!!
-    #play sound "audio/sfx/punch.ogg"
-    $ shake_scene(effect="shake", sound="punch")
-    scene cg ha_forest at bg_center with hit_shake
-    pause(0.5)
-
+    $ hit_fx()
     voice "ch1_s_041"
     s "Ooow! My head hurts like hell, like it's about to burst!"
 
     voice "ch1_l_038"
     l "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
 
-    $ fade_clear("bg forest")
-    $ show_sprites(("l 1 sad", "s 1 angry"), anim="dissolve")
+    $ fade_fx("forest", sprites=("l 1 sad", "s 1 angry"))
 
     voice "ch1_s_042"
     s "Huh? What do you mean, 'what do we do?'... About what, exactly?"
@@ -725,13 +686,7 @@ label ch1:
 
         voice "ch1_l_045"
         l "No arguments!"
-        
-        # !!!
-        play sound punch
-
-        # ! поправить , сейчас все спрайты пропадают
-        $ shake_scene(effect="shake", sound="punch")
-        $ show_sprites(("l 1 angry", "s 3 angry"), anim=None)
+        $ hit_fx(sprites=("l 1 angry", "s 3 angry"))
         voice "ch1_s_050"
         s "Nooooooo!"
 
@@ -832,8 +787,7 @@ label ch1:
     voice "ch1_l_052"
     l "Honestly... why am I the one stuck doing this...?"
 
-    window hide
-    $ fade_clear(stop_music=True)
+    $ fade_fx("yard_night_blurred", stop_music=True)
 
     jump ch1_2
 
@@ -845,18 +799,15 @@ label ch1:
 ```renpy
 # siesta's room night
 label ch1_2:
-    window hide
     call overlay_screen("yard_night",  "Tristain Academy of Magic") from _call_overlay_screen_6
     pause(2)
-    $ fade_clear("cg ha_sick", new_music="t28")
+    $ fade_fx("ha_sick", new_music="t28")
 
     th "In the end, Siesta kindly let us keep the girl we'd brought back hidden in her room."
     th "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
 
-    $ fade_clear("bg si_room_night")
+    $ fade_fx("si_room_night", sprites=("m 1", "s 1"))
     pause(0.2)
-
-    $ show_sprites(("m 1", "s 1"))
 
     voice "ch1.2_s_001"
     s "Hey, how'd it go? Is she hurt anywhere? Any signs of illness? Nothing... serious, right?"
@@ -980,7 +931,6 @@ label ch1_2:
             si "Um, y-yes, that's right! She's a distant relative from my home village."
 
             $ update_sympathy(20, char_key="siesta")
-            # не показывается ui сердце
             $ show_sprites(("si 1", "s 3 sad"))
             voice "ch1.2_si_04"
             si "She ran away from home, so I figured I'd let her stay for a few days."
@@ -994,7 +944,6 @@ label ch1_2:
 
             th "Thank you, Siesta!"
             
-    # continue
     voice "ch1.2_m_009"
     m "For now, just let her get some rest. I doubt her condition will change anytime soon, but let me know if anything happens."
 
@@ -1070,15 +1019,11 @@ label ch1_2:
     l "Come on, Saito! Siesta went out of her way to be nice about it, so we're heading back to the room!"
 
     ## тряска и персонажи исчезают
-    $ shake_scene(effect="shake")
-    $ clear_chars(anim="slide", direction="slide_right")
-    #$ show_sprites((None, None))
+    $ hit_fx(sound=None)
+    $ show_sprites(None, anim="slide_right") 
 
     voice "ch1.2_s_015"
     s "Hey, wait! Don't pull me so hard! Ow, ow, ow! I said it hurts!"
-
-    ## затухание
-    ## сцена с луной 
 
     jump ch1_3
     return
@@ -1093,18 +1038,19 @@ label ch1_2:
 ```renpy
 # hallway night
 label ch1_3:
-    $ fade_clear("sky_night", new_music="t19")
+    $ fade_fx("sky_night", new_music="t19")
     th "Phew... what a crazy day..."
-    $ fade_clear("hallway_night")
+    $ fade_fx("hallway_night")
 
     $ show_sprites(("s 3 sad"))
     th "Maybe I should go somewhere before going to bed?"
 
-    $ fade_clear("hallway_night", new_music="t3")
-    $ show_sprites(("si 1"), side="right")
+    play music t3 
+    #$ fade_fx(new_music="t3")
+    #$ show_sprites(("si 1"), side="right")
     ## меню выбора особое, выбор слева а персонаж справа к кому идем 
     ## музыка t3.ogg
-
+    window hide
     menu:
         "Siesta's Room":
             call si_room_ch1_3
@@ -1123,10 +1069,10 @@ label ch1_3:
 
 
 label si_room_ch1_3:
-    $ fade_clear("hallway_night", new_music="t6")
-    $ show_sprites(("s 1"))
+    $ fade_fx("hallway_night", new_music="t6", sprites=("s 1"))
+    
     #! звук стука
-
+    pause(1)
     # ! сиеста да
     voice "ch1.3_si_001"
     si "Yes?"
@@ -1138,10 +1084,10 @@ label si_room_ch1_3:
     si "Ah, Saito-san? Please, come in."
 
     # звук открытия двери и сайто уходит вправо
-    $ clear_chars()
+    $ show_sprites(None, anim="slide_right") 
     pause(1.0)
     
-    $ fade_clear("si_room_night")
+    $ fade_fx("si_room_night")
     pause(1.0)
     # звук закрытия двери
     $ show_sprites(("si 1", "s 1"))
@@ -1226,7 +1172,7 @@ label si_room_ch1_3:
 
             voice "ch1.3_si_018"
             si "I suppose so."
-        "I don't really know.{var2}":
+        "I don't really know.{#var2}":
             voice "ch1.3_s_036"
             s "I wonder... I don't really understand it myself either."
 
@@ -1282,14 +1228,13 @@ label si_room_ch1_3:
     voice "ch1.3_s_034"
     s "Ah, good night, Siesta."
 
-    $ clear_chars(direction="right", anim="slide_right")
+    $ show_sprites(None, anim="slide_right") 
     #! персонажи в одну сторону уходят. звук открытия и закрытия двери
     pause(1.0)
-    $ fade_clear("si_room_night")
 
     return
 label l_room_ch1_3:
-    $ fade_clear("louise_room_night", new_music="t5")
+    $ fade_fx("louise_room_night", new_music="t5")
 
     $ show_sprites(("s 1"))
     voice "ch1.3_s_038"
@@ -1436,11 +1381,11 @@ label l_room_ch1_3:
     voice "ch1.3_s_048"
     s "Yeah, yeah."
 
-    $ clear_chars(direction="right", anim="slide_right")
+    $ show_sprites(None, anim="slide_right") 
 
     return
 label hallway_ch1_3:
-    $ fade_clear("hallway_down_night", new_music="t28")
+    $ fade_fx("hallway_down_night", new_music="t28")
     $ show_sprites(("m 1"))
     voice "ch1.3_m_001"
     m "Oh? What are you doing in a place like this?"
@@ -1490,9 +1435,9 @@ label hallway_ch1_3:
     s "Eh!?"
 
     menu:
-        "How did you know!?{var1}":
+        "How did you know!?{#var1}":
             voice "ch1.3_s_008"
-            s "How did you know!?{var1}"
+            s "How did you know!?{#var1}"
 
             $ show_sprites(("m 1 shy", "s 3 shy"))
             voice "ch1.3_m_008"
@@ -1586,8 +1531,7 @@ label hallway_ch1_3:
 ```renpy
 # louise's room night
 label ch1_4:
-    $ fade_clear("louise_room_night", new_music="t19")
-    $ show_sprites(("s 5"))
+    $ fade_fx("louise_room_night", new_music="t19", sprites=("s 5"))
     voice "ch1.4_s_001"
     s "Well then, I guess I'll call it a night."
 
@@ -1625,9 +1569,9 @@ label ch1_4:
 
     voice "ch1.4_s_005"
     s "Y-yeah."
-
-    # ! оба уходят в одну сторону
-    $ clear_chars(anim="slide", direction="slide_right")
+    
+    window hide
+    $ show_sprites(None, anim="slide_right") 
     pause(2)
 
     voice "ch1.4_l_005"
@@ -1645,7 +1589,7 @@ label ch1_4:
     voice "ch1.4_l_007"
     l "W-what's with you...? You're suddenly saying all these weird things."
 
-    show bg sky_night at bg_center with dissolve
+    $ dissolve_fx("sky_night")
     voice "ch1.4_s_008"
     s "Louise. There are two moons in this world, aren't there?"
 
@@ -1687,7 +1631,7 @@ label ch1_4:
 ```renpy
 # morning
 label ch1_5:
-    $ fade_clear("sky", new_music="t4")
+    $ fade_fx("sky", new_music="t4")
     voice "ch1.5_s_001"
     s "Hmm... {i}yawns{/i}. It's already morning, huh... I wonder what time it is?"
 
@@ -1697,9 +1641,11 @@ label ch1_5:
     voice "ch1.5_s_003"
     s "Ah... But this bed, which I haven't slept in for a long time, is so comfortable... I can't get up..."
 
-    $ fade_clear("louise_room")
+    
+    $ fade_fx("louise_room")
     # стук
 
+    #! не хватает звука
     voice "ch1.5_s_004"
     s "Huh...?{#ha}" 
 
@@ -1714,7 +1660,7 @@ label ch1_5:
     voice "ch1.5_si_002"
     si "I'm sorry to bother you so early in the morning, but actually, about last night..."
 
-    $ fade_clear("si_wakeup", new_music="t29")
+    $ fade_fx("si_wakeup", new_music="t29")
     pause(2)
     voice "ch1.5_si_003"
     si "..."
@@ -1744,7 +1690,7 @@ label ch1_5:
     s "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, 'man, this is a pain...' or whatever."
 
     pause(1)
-    show cg si_wakeup at bg_center
+    $ dissolve_fx("si_wakeup_2")
 
     voice "ch1.5_si_005"
     si "...Is that so?"
@@ -1762,6 +1708,7 @@ label ch1_5:
     voice "ch1.5_s_014"
     s "Th-th-this!"
 
+    # громче
     voice "ch1.5_si_007"
     si "Yes?"
 
@@ -1911,7 +1858,7 @@ label ch1_5:
             voice "ch1.5_l_002-2"
             l "Mmm... {i}Yawns{/i}... Huh, Saito...?"
 
-    $ fade_clear("louise_room")
+    $ fade_fx("louise_room")
     pause(1)
 
     if result == "WAKE UP!":
@@ -1922,9 +1869,8 @@ label ch1_5:
         voice "ch1.5_s_034"
         s "Wha-!? N-No, that's wro...!"
 
-        #! звук удара, тряска и вспышка долгая
-        $ shake_scene(sound="audio/sfx/punch.ogg", effect="flash", clear=True)
-        $ show_sprites(("s 5 sad", "s 1 sad"), anim="dissolve")
+        $ scene_fx("hit flash", sound="punch", duration=(0.3, 2), sprites=("si 1 sad", "s 5 sad"))
+        pause(1)
 
         voice "ch1.5_s_035"
         s "A-Anyway, at least my name has been cleared, right?"
@@ -1932,7 +1878,7 @@ label ch1_5:
         voice "ch1.5_si_019"
         si "Y-Yes... I sincerely apologize for having doubted you."
 
-        $ show_sprites(("l 4 angry", "s 1 sad"))
+        $ show_sprites(("l 4 angry", "s 5 sad"))
         voice "ch1.5_l_009"
         l "Geez, that's fine now, whatever! More importantly, why is Siesta in my room!?"
     else:
@@ -1951,6 +1897,7 @@ label ch1_5:
     voice "ch1.5_si_010"
     si "Yes. I came regarding that girl."
 
+    # ! звука нет
     $ show_sprites(("s 5 angry", "si 1"))
     s "Eh?{#e?}"
 
@@ -1969,8 +1916,7 @@ label ch1_5:
     voice "ch1.5_si_020"
     si "Ah, Saito-san. Please wait!"
 
-    # ! оба уходят в одну сторону
-    $ clear_chars(anim="slide", direction="slide_right")
+    $ show_sprites(None, anim="slide_right") 
 
     jump ch1_6
     return
@@ -1980,8 +1926,7 @@ label ch1_5:
 
 ```renpy
 label ch1_6:
-    $ fade_clear("si_room", new_music="t18")
-    $ show_sprites(("h 1 sad", "s 1"))
+    $ fade_fx("si_room", new_music="t18", sprites=("h 1 sad", "s 1"))
 
     voice "ch1.6_s_001"
     s "H-hey, where did you come from? What's your name?"
@@ -2018,34 +1963,32 @@ label ch1_6:
     voice "ch1.6_s_006"
     s "Eh?"
 
-    #! тут кирхе с сайто вправо перемещаются а потом через правый слайд также появляются новые персы
-    $ show_sprites(("t 1", "m 1"))
+    $ show_sprites(("t 1", "m 1"),  anim_in="slide_right", anim_out="slide_right")
     t "..."
 
     voice "ch1.6_m_001"
     m "Umm... Ah, right, right. Looks like she's doing well now."
 
-    # слайд вправо
-    $ show_sprites(("l 3 angry", "s 3 sad"))
+    $ show_sprites(("l 3 angry", "s 3 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.6_l_001"
     l "Why have so many people gathered here since this morning!"
 
-    # слайд вправо
-    $ show_sprites(("k 1", "t 1"))
+    $ show_sprites(("k 1", "t 1"),  anim_in="slide_right", anim_out="slide_right")
+
     th "Kirche and Tabitha are Louise's classmates, having arrived as exchange students from Germania and Gallia, respectively."
 
-    $ show_sprites(("k 1"), mode="big")
+    $ show_sprites(("k 1"), mode="big", anim_in="slide_right", anim_out="slide_right")
     th "Kirche excels in the fire element of magic. She is known as 'Kirche the Ardent'."
     th "She and Louise are simply on bad terms because of some ongoing friction over family lineage or place of origin."
-    
-    $ show_sprites(("t 1"), mode="big")
+    $ show_sprites(("t 1"), mode="big", anim_in="slide_left", anim_out="slide_left")
     th "Tabitha excels in the wind element of magic. She is known as 'Tabitha the Snowstorm'."
     th "Always taciturn and devoid of expression. What goes on in her mind is a mystery. Yet, she and Kirche are surprisingly close..."
     
-    $ show_sprites(("k 1, t 1"))
+    $ show_sprites(("k 1", "t 1"))
     th "Kirche being curious is one thing, but it's rare for Tabitha, who is always quietly reading a book, to actually show up."
     th "I wonder why they came here..."
 
+    window hide
     menu:
         "Ask Tabitha":
             $ show_sprites(("s 3 sad, t 1"))
@@ -2148,125 +2091,6 @@ init python:
 
 
 default chapter = 0
-
-
-# ==== POSITIONS ====
-
-# bg position
-transform bg_center: 
-    zoom 0.85
-    xalign 0.5
-    yalign 0.5
-
-# chara position
-transform normal_center:
-    zoom 0.55  
-    xalign 0.5
-    yalign 1.0
-
-transform normal_right:
-    zoom 0.55     
-    xalign 1.2  
-    yalign 1.0    
-
-transform normal_left:
-    zoom 0.55 
-    xalign -0.2
-    yalign 1.0        
-
-transform close_center:
-    zoom 0.70  
-    xalign 0.5
-    yalign 0.15
-
-transform close_left_npc:
-    zoom 0.60 
-    xalign -0.3
-    yalign 1.0        
-
-transform close_right_npc:
-    zoom 0.60 
-    xalign 1.9
-    yalign 0.95    
-
-# ==== TRANSITIONS ====
-define flash = Fade(0.1, 0.5, 0.5, color="#fff")
-define fade = Fade(0.5, 0.0, 0.5)
-
-# slide
-transform slide_left_out_generic:
-    yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign -0.3 alpha 0
-
-transform slide_right_out_generic:
-    yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.3 alpha 0
-
-# === LEFT SLIDES ===
-transform slide_left_in:
-    xalign -0.3 yalign 1.0 zoom 0.55 alpha 0.1
-    ease 0.4 xalign 0.05 alpha 1.0
-
-transform slide_left_out:
-    xalign 0.05 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign -0.3 alpha 0
-
-transform slide_left_to_center_in:
-    xalign -0.3 yalign 1.0 zoom 0.55 alpha 0.1
-    ease 0.4 xalign 0.5 alpha 1.0    
-
-# === RIGHT SLIDES ===
-transform slide_right_in:
-    xalign 1.3 yalign 1.0 zoom 0.55 alpha 0.1
-    ease 0.4 xalign 0.95 alpha 1.0
-
-transform slide_right_out:
-    xalign 0.95 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.3 alpha 0
-
-transform slide_center_to_right_out:
-    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.3 alpha 0  
-
-# === CENTER TO SIDE SLIDES ===
-transform slide_center_to_left:
-    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign -0.2 alpha 1.0
-
-transform slide_center_to_right:
-    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.2 alpha 1.0
-
-
-# blow
-transform explosion_shake(duration=0.4, *, old_widget=None, new_widget=None):
-    delay duration
-    xcenter 0.5
-    ycenter 0.5
-
-    old_widget
-    events False
-    linear 0.04 xoffset 32 yoffset 20
-    linear 0.04 xoffset -26 yoffset -13
-    linear 0.04 xoffset 16 yoffset 10
-    linear 0.04 xoffset -8 yoffset -7
-    linear 0.04 xoffset 0 yoffset 0
-
-    new_widget
-    events True
-
-transform hit_shake(duration=0.2, strength=60, *, old_widget=None, new_widget=None):
-    delay duration
-    xcenter 0.5
-    ycenter 0.5
-
-    old_widget
-    events False
-    linear 0.03 xoffset strength yoffset (strength * 0.6)
-    linear 0.17 xoffset 0 yoffset 0
-
-    new_widget
-    events True
 
 # ==== IMAGES ====
 
@@ -2425,6 +2249,7 @@ define audio.t32 = "audio/bgm/t32.ogg"
 # ==== SOUNDS ====
 define audio.blow = "audio/sfx/blow.wav"
 define audio.punch = "audio/sfx/punch.wav"
+define audio.take_sword = "audio/sfx/take_sword.wav"
 
 ```
 
@@ -2692,7 +2517,7 @@ define gui.skip_ypos = 15
 define gui.notify_ypos = 68
 
 ## The spacing between menu choices.
-define gui.choice_spacing = 33
+define gui.choice_spacing = 20
 
 ## Buttons in the navigation section of the main and game menus.
 define gui.navigation_spacing = 6
@@ -3286,7 +3111,7 @@ style choice_button_text is button_text
 
 style choice_vbox:
     xalign 0.5
-    ypos 405
+    ypos 930
     yanchor 0.5
 
     spacing gui.choice_spacing
@@ -6501,25 +6326,430 @@ init python:
 
 ```
 
-## Файл: `scripts\features\scene_helpers.rpy`
+## Файл: `scripts\features\sf_effect.rpy`
 
 ```renpy
 # =============================================================================
-#  scene_helpers.rpy
-#  Готовые методы: затухание сцены, скрытие/возврат интерфейса,
-#  умный показ 1-3 персонажей, flash со сбросом спрайтов.
-#  Просто положи файл в game/ — переписывать существующий код не нужно.
+#  ПОЗИЦИЯ ФОНА
+# =============================================================================
+transform bg_center:
+    zoom 0.85
+    xalign 0.5
+    yalign 0.5
+
+# =============================================================================
+#  БАЗОВЫЕ ПЕРЕХОДЫ (используются в обычных scene ... with fade / with flash)
+# =============================================================================
+define flash = Fade(0.1, 0.5, 0.5, color="#fff")
+define fade  = Fade(0.5, 0.0, 0.5)
+
+# Имя последнего показанного через эффекты фона. Нужно, чтобы новый фон
+# с ДРУГИМ тегом ("bg ..." -> "cg ...") надёжно заменял предыдущий, а не
+# оставался лежать под ним. (см. фикс бага 2)
+default _fx_bg_name = None
+
+# =============================================================================
+#  ГЕНЕРАТОР СЛУЧАЙНОЙ ТРЯСКИ (для blow)
+#  Каждый кадр вычисляет новое случайное смещение — резкая, неравномерная
+#  тряска (взрыв), а не плавное качание.
+# =============================================================================
+init python:
+    import random as _fx_random
+
+    def _make_blow_shaker(strength, duration):
+        s = int(strength)
+        dur = float(duration)
+        def _shaker(trans, st, at):
+            if st >= dur:
+                trans.xoffset = 0
+                trans.yoffset = 0
+                return None
+            # резкое случайное смещение на каждом кадре
+            trans.xoffset = _fx_random.randint(-s, s)
+            trans.yoffset = _fx_random.randint(-s, s)
+            return 0   # перерисовать на следующем кадре
+        return _shaker
+
+# =============================================================================
+#  ТРАНСФОРМЫ ТРЯСКИ (единственный источник истины)
+#    hit_shake  — плавная, быстрая тряска (затухающие колебания)
+#    blow_shake — резкие случайные рывки (взрыв)
+# =============================================================================
+transform hit_shake(duration=0.35, strength=25, *, old_widget=None, new_widget=None):
+    delay duration
+    new_widget
+    events False
+    linear (duration * 0.15) xoffset strength
+    linear (duration * 0.20) xoffset -(strength * 0.7)
+    linear (duration * 0.20) xoffset (strength * 0.45)
+    linear (duration * 0.20) xoffset -(strength * 0.25)
+    linear (duration * 0.25) xoffset 0
+    events True
+
+transform blow_shake(duration=0.7, strength=30, *, old_widget=None, new_widget=None):
+    delay duration
+    new_widget
+    events False
+    function _make_blow_shaker(strength, duration)
+    xoffset 0
+    yoffset 0
+    events True
+
+# =============================================================================
+#  ЭФФЕКТЫ СЦЕНЫ
 #
+#  Публичные функции (первый аргумент — фон, без ключа):
+#      fade_fx(bg=None, ...)   — обычное затухание в чёрный и проявление
+#      flash_fx(bg=None, ...)  — мягкая матовая вспышка (полностью перекрывает)
+#      hit_fx(bg=None, ...)    — плавная быстрая тряска
+#      blow_fx(bg=None, ...)   — резкая случайная тряска (взрыв)
+#
+#  Комбинирование через scene_fx (порядок задаётся кортежем/строкой):
+#      $ scene_fx(("flash", "blow"), "town_square_night")   # сначала вспышка, потом тряска
+#      $ scene_fx("hit fade", "bg forest")                  # то же строкой
+
+#      $ scene_fx(("hit", "fade"), "town_square_night", duration=(0.3, 2)) - удар с затемнением , у каждого своя длительность анимации
+#
+#  Общие параметры: duration, sprites, mode, side, center_front, sound,
+#  hide, window_hide, new_music, music_fadein, stop_music, music_fadeout,
+#  strength.
+#
+#  window_hide — скрывает диалоговое окно вместе с эффектом.
+#      По умолчанию True для fade/flash, False для hit/blow/dissolve.
+#      Обратно окно возвращать не нужно — следующая реплика покажет его сама.
+# =============================================================================
+init -1 python:
+
+    _FX_COVERING = ("fade", "flash")            # прячут персонажей по умолчанию
+    _FX_SCENE    = ("fade", "flash", "dissolve") # меняют сцену -> commit до эффекта
+    _FX_KNOWN    = ("fade", "flash", "hit", "blow", "dissolve")
+    _FX_DEFAULT_DUR = {"fade": 1.0, "flash": 1.0, "hit": 0.35, "blow": 0.7, "dissolve": 0.5}
+
+    # --- ФИКС БАГА 2 ---
+    # Единый тег для ВСЕХ фонов/CG, которые показываются через эффекты.
+    # Ren'Py заменяет изображение только в пределах одного тега. Раньше
+    # "bg forest" имел тег "bg", а "cg ha_forest" — тег "cg", поэтому новый
+    # CG показывался ПОВЕРХ (или под) старого фона, и визуально фон «не менялся».
+    # Показывая любой фон под одним и тем же тегом, мы гарантируем, что новый
+    # фон (bg ИЛИ cg) всегда полностью заменяет предыдущий.
+    _FX_BG_TAG = "bg"
+
+    def _parse_effects(effect):
+        """Строку/кортеж эффектов -> упорядоченный список известных эффектов."""
+        if not effect:
+            return []
+        if isinstance(effect, (tuple, list)):
+            out = []
+            for e in effect:
+                out += _parse_effects(e)
+            return out
+        return [e for e in str(effect).lower().split() if e in _FX_KNOWN]
+
+    def _dur_for(duration, index, default):
+        """Длительность конкретного эффекта. duration может быть числом или
+        кортежем/списком (своя длительность на каждый эффект)."""
+        if isinstance(duration, (tuple, list)):
+            if index < len(duration) and duration[index] is not None:
+                return float(duration[index])
+            return default
+        if duration is None:
+            return default
+        return float(duration)
+
+    def _fx_transition(effect, duration, strength):
+        """Возвращает переход для одного эффекта (duration уже вычислен)."""
+        if effect == "fade":
+            # обычное затухание в чёрный (полностью перекрывает экран)
+            return Fade(duration * 0.45, duration * 0.10, duration * 0.45, color="#000000")
+        if effect == "flash":
+            # мягкая матовая вспышка в белый (полностью перекрывает экран)
+            return Fade(duration * 0.30, duration * 0.10, duration * 0.60, color="#ffffff")
+        if effect == "dissolve":
+            return Dissolve(duration)
+        if effect == "hit":
+            return hit_shake(duration=duration, strength=(25 if strength is None else strength))
+        if effect == "blow":
+            return blow_shake(duration=duration, strength=(30 if strength is None else strength))
+        return None
+
+    # -------------------------------------------------------------------------
+    #  ФИКС БАГА 1: показ персонажей ВНУТРИ эффекта БЕЗ собственного
+    #  renpy.with_statement.
+    #
+    #  Раньше _commit() звал show_sprites(..., anim=None). Но show_sprites
+    #  внутри себя выполняет renpy.with_statement(None) — это НЕМЕДЛЕННО
+    #  «фиксирует» текущее состояние экрана (гасит mage) ещё ДО того, как
+    #  запустится переход flash/fade. Поэтому mage пропадал ДО вспышки.
+    #
+    #  Здесь мы только СТАВИМ картинки в очередь (renpy.show/renpy.hide) и
+    #  обновляем состояние слотов, НО не вызываем with_statement. Тогда все
+    #  изменения (гашение mage + показ новых) попадают в один переход
+    #  flash/fade, который вызывается уже в scene_fx после _commit().
+    # -------------------------------------------------------------------------
+    def _stage_sprites_instant(chars, mode="normal", side=None, center_front=None):
+        if chars is None:
+            return
+
+        if isinstance(chars, str):
+            chars = [chars]
+        chars = list(chars)
+        n = len(chars)
+
+        if n == 1:
+            layout = {(side or "center"): chars[0]}
+        elif n == 2:
+            layout = {"left": chars[0], "right": chars[1]}
+        elif n == 3:
+            layout = {"left": chars[0], "center": chars[1], "right": chars[2]}
+        else:
+            raise Exception("scene_fx: поддерживается от 1 до 3 персонажей")
+
+        # уникализация тегов при коллизии (как в show_sprites)
+        base_tags = {s: _tag_of(img) for s, img in layout.items()}
+        tag_counts = {}
+        for _bt in base_tags.values():
+            tag_counts[_bt] = tag_counts.get(_bt, 0) + 1
+
+        # порядок наложения центрального относительно боковых
+        def _order_key(s):
+            if s != "center":
+                return 1
+            if center_front is True:
+                return 2
+            if center_front is False:
+                return 0
+            return 1
+
+        new_state = {}
+        for s in sorted(layout.keys(), key=_order_key):
+            img = layout[s]
+            bt = base_tags[s]
+            tag = bt if tag_counts[bt] == 1 else (bt + "__" + s)
+            store._sprite_z += 1
+            z, xa, ya = _geom(mode, s)
+            renpy.show(img, at_list=[chara_at(z, xa, ya)],
+                       tag=tag, zorder=store._sprite_z)
+            new_state[s] = (tag, img, mode, store._sprite_z)
+        store._sprite_slots = new_state
+
+    def scene_fx(effect="fade", new_bg=None, duration=None, hide=None, window_hide=None, sprites=None, mode="normal", side=None, center_front=None, sound=None, hud=None, stop_music=False, music_fadeout=1.0, new_music=None, music_fadein=1.0, strength=None):
+        effects = _parse_effects(effect)
+        has_cover = any(e in _FX_COVERING for e in effects)
+
+        # По умолчанию перекрывающие эффекты (fade/flash) убирают персонажей,
+        # тряска (hit/blow) — оставляет.
+        if hide is None:
+            hide = has_cover
+
+        # window hide (скрытие диалогового окна).
+        # По умолчанию: для fade/flash — True, для остальных (hit/blow/dissolve) — False.
+        # Окно не возвращаем обратно вручную: следующая реплика (window auto)
+        # покажет его сама.
+        if window_hide is None:
+            window_hide = has_cover
+        if window_hide:
+            store._window = False
+
+        # 1) Звук
+        if sound is not None:
+            renpy.sound.play(getattr(store.audio, sound, sound))
+
+        # 2) Остановка музыки
+        if stop_music or new_music is not None:
+            renpy.music.stop(fadeout=music_fadeout)
+
+        # 3) HUD / quick menu
+        if hud is None:
+            hud = hide
+        if hud:
+            store.quick_menu = False
+            if hasattr(store, "sympathy_hud_visible"):
+                store._fade_hud_was = store.sympathy_hud_visible
+                store.sympathy_hud_visible = False
+
+        # 4) Смена сцены (фон/персонажи) — применяется один раз.
+        _state = {"done": False}
+        def _commit():
+            if _state["done"]:
+                return
+            _state["done"] = True
+            if hide:
+                for tag in _all_hide_tags():
+                    renpy.hide(tag)
+                store._sprite_slots = {}
+                store._sprite_z = 0
+            if new_bg is not None:
+                # --- ФИКС БАГА 2 ---
+                # На случай, если предыдущий фон был показан кем-то ещё под
+                # СВОИМ естественным тегом ("cg ..." -> "cg"), отличным от
+                # нашего единого _FX_BG_TAG, — гасим его явно.
+                _prev = getattr(store, "_fx_bg_name", None)
+                if _prev:
+                    _ptag = _prev.split()[0]
+                    if _ptag != _FX_BG_TAG:
+                        renpy.hide(_ptag, layer="master")
+                # Показываем ЛЮБОЙ фон (bg или cg) под одним фиксированным тегом,
+                # поэтому новый фон всегда полностью заменяет предыдущий.
+                renpy.show(new_bg, at_list=[bg_center], tag=_FX_BG_TAG, layer="master")
+                store._fx_bg_name = new_bg
+            if sprites is not None:
+                if hide:
+                    # Состояние уже очищено выше -> ставим новых персонажей
+                    # в очередь БЕЗ собственного with_statement, чтобы их
+                    # появление/исчезновение старых попало в переход эффекта.
+                    _stage_sprites_instant(sprites, mode, side, center_front)
+                else:
+                    # Персонажи остаются на экране (тряска и т.п.) — обычный путь.
+                    show_sprites(sprites, mode=mode, anim=None, side=side, center_front=center_front)
+
+        # Сцену меняем прямо перед первым «сценовым» эффектом (fade/flash/
+        # dissolve), чтобы смена была скрыта переходом. Иначе — перед первым.
+        commit_at = 0
+        for i, e in enumerate(effects):
+            if e in _FX_SCENE:
+                commit_at = i
+                break
+
+        # 5) Применение эффектов по порядку (у каждого своя длительность)
+        if not effects:
+            _commit()
+            renpy.with_statement(None)
+        else:
+            for i, e in enumerate(effects):
+                if i == commit_at:
+                    _commit()
+                dur = _dur_for(duration, i, _FX_DEFAULT_DUR.get(e, 0.7))
+                renpy.with_statement(_fx_transition(e, dur, strength))
+        _commit()
+
+        # 6) Новый трек
+        if new_music is not None:
+            renpy.music.play(getattr(store.audio, new_music, new_music), fadein=music_fadein)
+
+    # -------------------------------------------------------------------------
+    #  ПУБЛИЧНЫЕ ФУНКЦИИ (первый аргумент — фон, без ключа)
+    # -------------------------------------------------------------------------
+    def _run_fx(effect, bg, duration, kwargs):
+        # поддержка и позиционного bg, и старого new_bg=...
+        if bg is None:
+            bg = kwargs.pop("new_bg", None)
+        else:
+            kwargs.pop("new_bg", None)
+        scene_fx(effect, new_bg=bg, duration=duration, **kwargs)
+
+    def fade_fx(bg=None, duration=1.0, window_hide=True, **kwargs):
+        """Обычное затухание в чёрный и проявление нового фона/персонажей."""
+        _run_fx("fade", bg, duration, kwargs)
+
+    def flash_fx(bg=None, duration=2.0, window_hide=True, **kwargs):
+        """Мягкая матовая вспышка, полностью перекрывающая изображение."""
+        _run_fx("flash", bg, duration, kwargs)
+
+    def hit_fx(bg=None, duration=0.35, **kwargs):
+        """Плавная быстрая тряска (удар)."""
+        kwargs.setdefault("sound", "punch")
+        _run_fx("hit", bg, duration, kwargs)
+
+    def blow_fx(bg=None, duration=0.7, **kwargs):
+        """Резкая случайная тряска (взрыв)."""
+        kwargs.setdefault("sound", "blow")
+        _run_fx("blow", bg, duration, kwargs)
+
+    def dissolve_fx(bg=None, duration=0.5, **kwargs):
+        """Смена с прозрачностью"""
+        _run_fx("dissolve", bg, duration, kwargs)
+
+```
+
+## Файл: `scripts\features\show_sprites.rpy`
+
+```renpy
+
+# chara position
+transform normal_center:
+    zoom 0.55  
+    xalign 0.5
+    yalign 1.0
+
+transform normal_right:
+    zoom 0.55     
+    xalign 1.2  
+    yalign 1.0    
+
+transform normal_left:
+    zoom 0.55 
+    xalign -0.2
+    yalign 1.0        
+
+transform close_center:
+    zoom 0.70  
+    xalign 0.5
+    yalign 0.15
+
+transform close_left_npc:
+    zoom 0.60 
+    xalign -0.3
+    yalign 1.0        
+
+transform close_right_npc:
+    zoom 0.60 
+    xalign 1.9
+    yalign 0.95    
+
+
+# slide
+transform slide_left_out_generic:
+    yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign -0.3 alpha 0
+
+transform slide_right_out_generic:
+    yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign 1.3 alpha 0
+
+# === LEFT SLIDES ===
+transform slide_left_in:
+    xalign -0.3 yalign 1.0 zoom 0.55 alpha 0.1
+    ease 0.4 xalign 0.05 alpha 1.0
+
+transform slide_left_out:
+    xalign 0.05 yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign -0.3 alpha 0
+
+transform slide_left_to_center_in:
+    xalign -0.3 yalign 1.0 zoom 0.55 alpha 0.1
+    ease 0.4 xalign 0.5 alpha 1.0    
+
+# === RIGHT SLIDES ===
+transform slide_right_in:
+    xalign 1.3 yalign 1.0 zoom 0.55 alpha 0.1
+    ease 0.4 xalign 0.95 alpha 1.0
+
+transform slide_right_out:
+    xalign 0.95 yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign 1.3 alpha 0
+
+transform slide_center_to_right_out:
+    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign 1.3 alpha 0  
+
+# === CENTER TO SIDE SLIDES ===
+transform slide_center_to_left:
+    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign -0.2 alpha 1.0
+
+transform slide_center_to_right:
+    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
+    ease 0.4 xalign 1.2 alpha 1.0
+
+# =============================================================================
 #  ВАЖНО: персонаж определяется по ТЕГУ (первое слово имени образа).
 #    "d 1 happy" -> тег "d"   |   "s 1 sad" -> тег "s"
 #  Поэтому смена эмоции того же персонажа ("s 1 sad" -> "s 1") НЕ вызывает
 #  слайд: меняется только картинка на месте (как обычный show с dissolve).
 # =============================================================================
 
-
 # =============================================================================
-#  ГЕОМЕТРИЯ ПОЗИЦИЙ  (zoom, xalign, yalign) — значения совпадают с твоими
-#  transform normal_left / normal_center / normal_right и close_center.
+#  ГЕОМЕТРИЯ ПОЗИЦИЙ  (zoom, xalign, yalign)
 #  Меняешь координаты здесь — меняются и точки покоя, и слайды.
 # =============================================================================
 init -1 python:
@@ -6547,6 +6777,58 @@ init -1 python:
         # центр: заезжает слева, уезжает вправо (как slide_*_to_center)
         return 1.70 if direction == "out" else -0.60
 
+    # маркер «аргумент не задан» — чтобы отличить anim_out=None (мгновенно)
+    # от anim_out не переданного вовсе (тогда берём значение anim_in).
+    _ANIM_UNSET = object()
+
+    # стартовая точка ЗА экраном для ВЪЕЗДА нового персонажа с учётом
+    # заданного направления слайда:
+    #   "right" (slide_right: персонаж движется ВПРАВО) -> старт слева  (-0.60)
+    #   "left"  (slide_left:  персонаж движется ВЛЕВО)  -> старт справа ( 1.70)
+    #   "nearest"/None -> прежнее поведение: из ближайшей к слоту стороны
+    def _entry_x(slot, slide_dir):
+        if slide_dir == "right":
+            return -0.60
+        if slide_dir == "left":
+            return 1.70
+        return _off(slot, "in")
+
+    # конечная точка ЗА экраном для ВЫЕЗДА уходящего персонажа с учётом
+    # заданного направления слайда:
+    #   "left"  (slide_left:  персонаж уезжает ВЛЕВО)  -> уходит влево  (-0.60)
+    #   "right" (slide_right: персонаж уезжает ВПРАВО) -> уходит вправо ( 1.70)
+    #   "nearest"/None -> прежнее поведение: в ближайшую к слоту сторону
+    def _exit_x(slot, slide_dir):
+        if slide_dir == "left":
+            return -0.60
+        if slide_dir == "right":
+            return 1.70
+        return _off(slot, "out")
+
+    # -------------------------------------------------------------------------
+    #  ДИНАМИЧЕСКАЯ ДЛИТЕЛЬНОСТЬ СЛАЙДА (на «физике»)
+    #  Идея: чем длиннее путь по горизонтали (в единицах xalign), тем дольше
+    #  слайд. Короткие перемещения (центр -> бок, вход сбоку в свой слот)
+    #  остаются быстрыми (~базовая длительность), а длинные (левый край ->
+    #  правый край, вход/выход через весь экран) занимают больше времени.
+    #
+    #  Настраивается ОДНИМ коэффициентом SLIDE_SPEED в самом файле (см. ниже,
+    #  рядом с _SLIDE_DUR). В аргументы show_sprites ничего заносить не нужно.
+    #  Зависимость sqrt(dist) даёт «физичный» разгон/торможение: время растёт
+    #  медленнее, чем расстояние, поэтому дальние переходы не кажутся вялыми.
+    #
+    #  x0, x1 — стартовый и конечный xalign перемещения.
+    def _slide_dur(x0, x1):
+        import math
+        # выключено -> постоянная длительность (с учётом коэффициента скорости)
+        if not SLIDE_DYNAMIC:
+            return _SLIDE_DUR / max(SLIDE_SPEED, 0.01)
+        dist = abs(float(x1) - float(x0))
+        ref  = max(_SLIDE_REF_DIST, 0.001)
+        dur  = _SLIDE_DUR * math.sqrt(max(dist, 0.0) / ref)
+        dur  = dur / max(SLIDE_SPEED, 0.01)   # >1 быстрее, <1 медленнее
+        return max(_SLIDE_DUR_MIN, min(_SLIDE_DUR_MAX, dur))
+
     # порядок наложения. центральный (например derflinger) может быть
     # на переднем плане (center_front=True) или под боковыми (False).
     def _zorder(side, center_front):
@@ -6562,43 +6844,13 @@ init -1 python:
         # тег = первое слово имени образа ("d 1 happy" -> "d")
         return image_name.split()[0]
 
-
-# =============================================================================
-#  ПАРАМЕТРИЧЕСКИЕ ТРАНСФОРМЫ
-# =============================================================================
-
-# точка покоя (для появления/обновления без движения)
-transform chara_at(z, xa, ya):
-    zoom z
-    xalign xa
-    yalign ya
-    alpha 1.0
-
-# плавный въезд из-за экрана в точку покоя
-transform chara_slide_in(z, xa, ya, sx):
-    zoom z
-    yalign ya
-    xalign sx
-    alpha 0.0
-    easein 0.4 xalign xa alpha 1.0
-
-# плавный выезд из точки покоя за экран
-transform chara_slide_out(z, xa, ya, ex):
-    zoom z
-    yalign ya
-    xalign xa
-    alpha 1.0
-    easeout 0.4 xalign ex alpha 0.0
-
-# плавное ПЕРЕМЕЩЕНИЕ из старой точки покоя в новую (например center -> left),
-# когда тот же персонаж остаётся на экране, но меняет позицию/размер.
-transform chara_move(z0, xa0, ya0, z1, xa1, ya1):
-    zoom z0
-    xalign xa0
-    yalign ya0
-    alpha 1.0
-    ease 0.4 zoom z1 xalign xa1 yalign ya1
-
+    def _all_hide_tags():
+        tags = list(CHARA_TAGS)
+        for _s, _rec in store._sprite_slots.items():
+            _t = _rec[0]
+            if _t not in tags:
+                tags.append(_t)
+        return tags    
 
 # =============================================================================
 #  СОСТОЯНИЕ: slot ("left"/"center"/"right") -> (tag, image, mode, z)
@@ -6614,8 +6866,50 @@ define CHARA_TAGS = [
     "npc_left", "npc_right", "mage",
 ]
 
-define _SLIDE_DUR = 0.4   # длительность слайда (синхронно с ease в трансформах)
+# --- НАСТРОЙКА СКОРОСТИ СЛАЙДА (правь тут, в аргументы функции не выносится) ---
+define _SLIDE_DUR      = 0.4    # базовая длительность короткого слайда (сек)
+define SLIDE_DYNAMIC   = True   # True: длительность зависит от пути; False: всегда _SLIDE_DUR
+define SLIDE_SPEED     = 1.3    # общий коэффициент: >1 быстрее, <1 медленнее
+define _SLIDE_REF_DIST = 0.5    # опорный путь (в xalign), дающий базовую длительность
+define _SLIDE_DUR_MIN  = 0.3    # нижняя граница длительности (сек)
+define _SLIDE_DUR_MAX  = 0.9    # верхняя граница длительности (сек)
 
+# =============================================================================
+#  ПАРАМЕТРИЧЕСКИЕ ТРАНСФОРМЫ
+#  dur — длительность движения (вычисляется _slide_dur по длине пути).
+# =============================================================================
+
+# точка покоя (для появления/обновления без движения)
+transform chara_at(z, xa, ya):
+    zoom z
+    xalign xa
+    yalign ya
+    alpha 1.0
+
+# плавный въезд из-за экрана в точку покоя
+transform chara_slide_in(z, xa, ya, sx, dur=0.4):
+    zoom z
+    yalign ya
+    xalign sx
+    alpha 0.0
+    easein dur xalign xa alpha 1.0
+
+# плавный выезд из точки покоя за экран
+transform chara_slide_out(z, xa, ya, ex, dur=0.4):
+    zoom z
+    yalign ya
+    xalign xa
+    alpha 1.0
+    easeout dur xalign ex alpha 0.0
+
+# плавное ПЕРЕМЕЩЕНИЕ из старой точки покоя в новую (например center -> left),
+# когда тот же персонаж остаётся на экране, но меняет позицию/размер.
+transform chara_move(z0, xa0, ya0, z1, xa1, ya1, dur=0.4):
+    zoom z0
+    xalign xa0
+    yalign ya0
+    alpha 1.0
+    ease dur zoom z1 xalign xa1 yalign ya1
 
 # =============================================================================
 #  СКРЫТЬ ВСЕХ ПЕРСОНАЖЕЙ ОДНОЙ КОМАНДОЙ
@@ -6624,26 +6918,10 @@ define _SLIDE_DUR = 0.4   # длительность слайда (синхро�
 # =============================================================================
 init -1 python:
 
-    _CLEAR_SLIDE_DUR = 0.4
-
-    def clear_chars(anim="dissolve", direction="left"):
-        """
-        Убирает всех персонажей.
-        
-        anim:
-            "dissolve"    — плавное исчезновение (по умолчанию)
-            "slide"       — слайд, направления берутся из direction
-            "slide_left"  — все уезжают влево
-            "slide_right" — все уезжают вправо
-            None          — мгновенно
-        
-        direction (для anim="slide"):
-            "left"   — все влево
-            "right"  — все вправо
-            dict {slot: "left"|"right"|"dissolve"} — индивидуально по слотам
-        """
+    def _hide_all(anim="dissolve"):
         slots = store._sprite_slots
 
+        # уже пусто
         if not slots:
             store._sprite_slots = {}
             store._sprite_z = 0
@@ -6651,141 +6929,67 @@ init -1 python:
                 renpy.with_statement(dissolve)
             return
 
+        # скип / откат / прокрутка колесом — мгновенно
         if renpy.is_skipping() or renpy.in_rollback():
-            for tag in CHARA_TAGS:
+            for tag in _all_hide_tags():
                 renpy.hide(tag)
             store._sprite_slots = {}
             store._sprite_z = 0
             renpy.with_statement(None)
             return
 
-        # Нормализация
-        if anim == "slide_left":
-            anim, direction = "slide", "left"
-        elif anim == "slide_right":
-            anim, direction = "slide", "right"
-
-        if anim != "slide":
-            for tag in CHARA_TAGS:
+        # --- без слайда: None (мгновенно) или dissolve ---
+        if anim is None or anim == "dissolve":
+            for tag in _all_hide_tags():
                 renpy.hide(tag)
             store._sprite_slots = {}
             store._sprite_z = 0
-            if anim == "dissolve":
-                renpy.with_statement(dissolve)
-            else:
-                renpy.with_statement(None)
+            renpy.with_statement(dissolve if anim == "dissolve" else None)
             return
 
-        # --- SLIDE ---
-        if isinstance(direction, str):
-            dir_map = {s: direction for s in slots.keys()}
+        # --- слайд: выбираем направление для каждого слота ---
+        if anim == "slide_left":
+            dir_of = lambda s: "left"
+        elif anim == "slide_right":
+            dir_of = lambda s: "right"
+        elif anim == "slide":
+            # каждый в свою сторону
+            dir_of = lambda s: "left" if s == "left" else "right"
         else:
-            dir_map = dict(direction)
-            for s in slots.keys():
-                dir_map.setdefault(s, "left")
+            # неизвестное значение -> мгновенно (безопасный фолбэк)
+            for tag in _all_hide_tags():
+                renpy.hide(tag)
+            store._sprite_slots = {}
+            store._sprite_z = 0
+            renpy.with_statement(None)
+            return
 
-        dissolve_tags = []
-        slide_tags = []
+        # запускаем выезд из ТЕКУЩЕЙ позиции.
+        # ВАЖНО: берём геометрию по РЕАЛЬНОМУ режиму спрайта (mode хранится в
+        # слоте), а не по хардкод-трансформам slide_*_out_generic с zoom 0.55.
+        # Иначе big-спрайт (zoom 0.70) в самом начале анимации «прыгал» в
+        # normal-размер. chara_slide_out сохраняет zoom/yalign во время выезда.
+        _max_dur = _SLIDE_DUR_MIN
+        for s, (tag, img, m, z) in slots.items():
+            zoom_, xa, ya = _geom(m, s)
+            ex = _exit_x(s, dir_of(s))
+            d = _slide_dur(xa, ex)               # путь: точка покоя -> за экран
+            _max_dur = max(_max_dur, d)
+            renpy.show(img, at_list=[chara_slide_out(zoom_, xa, ya, ex, d)],
+                       tag=tag, zorder=z)
+        renpy.with_statement(None)
+        renpy.pause(_max_dur)                     # ждём самый долгий слайд
 
-        for s, (tag, img, mode, z) in slots.items():
-            act = dir_map.get(s, "left")
-            z0, xa0, ya0 = _geom(mode, s)
-
-            if act == "dissolve":
-                dissolve_tags.append((tag, img, z0, xa0, ya0))
-            else:
-                slide_tags.append((tag, img, z0, xa0, ya0, act))
-
-        # Запускаем slide
-        for tag, img, z0, xa0, ya0, act in slide_tags:
-            trans = _make_clear_slide(act)
-            renpy.show(img, at_list=[trans], tag=tag, zorder=z0)
-
-        # dissolve-персонажи оставляем на месте (исчезнут в общем dissolve)
-        for tag, img, z0, xa0, ya0 in dissolve_tags:
-            renpy.show(img, at_list=[chara_at(z0, xa0, ya0)], tag=tag, zorder=z0)
-
+        # снести и сбросить состояние
+        for tag in _all_hide_tags():
+            renpy.hide(tag)
+        store._sprite_slots = {}
+        store._sprite_z = 0
         renpy.with_statement(None)
 
-        if slide_tags:
-            renpy.pause(_CLEAR_SLIDE_DUR)
-
-        for tag in CHARA_TAGS:
-            renpy.hide(tag)
-        store._sprite_slots = {}
-        store._sprite_z = 0
-
-        if dissolve_tags and slide_tags:
-            renpy.with_statement(dissolve)
-        else:
-            renpy.with_statement(None)
-
-
-    def _make_clear_slide(direction):
-        """Возвращает ATL-трансформ слайда из текущей позиции за экран."""
-        if direction == "left":
-            return slide_left_out_generic
-        else:
-            return slide_right_out_generic
 
 # =============================================================================
-#  1. ЗАТУХАНИЕ СЦЕНЫ  (всё внутри fade): спрайты сняты, интерфейс скрыт,
-#     музыка затихает по флагу, фон меняется на new_bg или на чёрный.
-#
-#     $ fade_clear()                                  -> в чёрный, музыка играет
-#     $ fade_clear(stop_music=True)                   -> в чёрный + музыка затихает
-#     $ fade_clear("bg forest")                       -> сразу новый фон под затуханием
-#     $ fade_clear("bg forest", True)                 -> новый фон + стоп музыки
-#     $ fade_clear("bg forest", new_music="t17")      -> фон + завести трек audio.t17
-#     
-#     УПРАВЛЕНИЕ HUD:
-#     $ fade_clear(show_hud=True, hud_delay=1.0)      -> показать HUD через 1 сек (по умолч.)
-#     $ fade_clear(show_hud=True, hud_delay=2.5)      -> показать HUD через 2.5 сек
-#     $ fade_clear(show_hud=False)                    -> не показывать HUD после fade
-# =============================================================================
-init -1 python:
-
-    def fade_clear(new_bg=None, stop_music=False, music_fadeout=1.0, new_music=None, music_fadein=1.0):
-        
-        # 1) убрать всех персонажей
-        for tag in CHARA_TAGS:
-            renpy.hide(tag)
-        store._sprite_slots = {}
-        store._sprite_z = 0
-
-        # 2) спрятать интерфейс на время затухания
-        store.quick_menu = False
-        if hasattr(store, "sympathy_hud_visible"):
-            store._fade_hud_was = store.sympathy_hud_visible
-            store.sympathy_hud_visible = False
-
-        # 3) очистить мастер-слой и поставить фон/чёрный
-        renpy.scene()
-        if new_bg is not None:
-            renpy.show(new_bg, at_list=[bg_center])
-        else:
-            renpy.show("black")
-
-        # 4) музыка: при стопе или при смене трека гасим старую
-        if stop_music or new_music is not None:
-            renpy.music.stop(fadeout=music_fadeout)
-
-        # 5) всё проигрывается ВНУТРИ затухания
-        renpy.with_statement(fade)
-
-        # 6) завести новый трек по короткому имени ("t17" -> audio.t17,
-        #    либо передай полный путь "audio/bgm/t17.ogg")
-        if new_music is not None:
-            track = getattr(store.audio, new_music, new_music)
-            renpy.music.play(track, fadein=music_fadein)
-
-        # вернуть быстрые кнопки для последующих реплик
-        #store.quick_menu = True
-
-
-
-# =============================================================================
-#  4. УМНЫЙ ПОКАЗ 1-3 ПЕРСОНАЖЕЙ
+#  ДИНАМИЧЕСКИЙ ПОКАЗ 1-3 ПЕРСОНАЖЕЙ
 # -----------------------------------------------------------------------------
 #  show_sprites(chars, mode="normal", anim="dissolve", side=None, center_front=None)
 #
@@ -6793,20 +6997,45 @@ init -1 python:
 #               1 -> позиция из side (по умолчанию "center")
 #               2 -> [левый, правый]
 #               3 -> [левый, центр, правый]
-#    mode   — "normal" / "big"
-#    anim   — "dissolve" / "slide" / None (None = мгновенно, без анимации,
-#                                          в т.ч. при смене эмоции)
+#    mode     — "normal" / "big"
+#    anim_in  — анимация ПОЯВЛЯЮЩИХСЯ / ЗАМЕНЯЕМЫХ персонажей
+#               "dissolve" / "slide" / "slide_left" / "slide_right" / None
+#               (None = мгновенно), либо кортеж/список направлений по
+#               персонажам (в порядке chars).
+#    anim_out — анимация УХОДЯЩИХ персонажей (тех, кого заменяют/убирают).
+#               Те же значения. Если не задан — повторяет anim_in.
+#    anim     — устаревший алиас anim_in (оставлен для совместимости).
+#  5 вариантов анимации скрытия (аргумент anim_out при chars=None,
+#  либо anim/anim_in как алиас):
+#      None           — мгновенно, без анимации
+#      "dissolve"     — плавное растворение
+#      "slide_right"  — ОБА (все) спрайта уезжают вправо
+#      "slide_left"   — ОБА (все) спрайта уезжают влево
+#      "slide"        — каждый в свою сторону: левый слот -> влево,
+#                       правый слот -> вправо (центр -> вправо)
+#
+#  НАПРАВЛЕНИЕ ВЪЕЗДА НОВЫХ / ЗАМЕНЯЕМЫХ ПЕРСОНАЖЕЙ (anim при показе):
+#      "slide"        — по умолчанию: каждый заезжает из ближайшей стороны
+#                       (левый слот -> слева, правый -> справа);
+#      "slide_right"  — ВСЕ новые заезжают СЛЕВА и едут вправо на своё место;
+#      "slide_left"   — ВСЕ новые заезжают СПРАВА и едут влево на своё место;
+#      кортеж/список  — направление отдельно для каждого персонажа, в том же
+#                       порядке, что и chars. Напр. для 2 персонажей:
+#                         anim=("slide_left", "slide_right")
+#                       левый заедет справа-влево, правый — слева-вправо.
+#                       Элементы: "slide"/"slide_left"/"slide_right".
 #    side   — только для одного персонажа: "left"/"center"/"right"
 #    center_front — порядок наложения для ЦЕНТРАЛЬНОГО при ПЕРВОМ показе:
 #                   True  — центр сразу поверх боковых,
 #                   False — центр сразу под боковыми,
 #                   None  — обычный порядок.
+#    raise_z=False — изменённый спрайт СОХРАНЯЕТ свой прежний zorder слота, поэтому смена эмоции/размера не «выдёргивает» его вперёд.
 #
 #  ZORDER (наложение спрайтов):
 #   • любой ПОКАЗАННЫЙ/ИЗМЕНЁННЫЙ в этом вызове спрайт получает новый, самый
 #     высокий zorder -> «новый элемент перекрывает всех остальных»;
 #   • неизменившиеся спрайты сохраняют свой прежний zorder и относительный
-#     порядок (если d перекрывал s и оба не менялись — d так и перекрывает s).
+#     порядо�� (если d перекрывал s и оба не менялись — d так и перекрывает s).
 #
 #  ЛОГИКА (сравнение со старым раскладом по ТЕГУ персонажа):
 #   • тот же персонаж в том же слоте, сменился РАЗМЕР (normal<->big)
@@ -6819,27 +7048,100 @@ init -1 python:
 # =============================================================================
 init -1 python:
 
-    def show_sprites(chars, mode="normal", anim="slide", side=None,
-                     center_front=None, hide_window=False):
+    # разбор направления въезда для новых/заменяемых персонажей.
+    #   anim может быть строкой ("slide"/"slide_left"/"slide_right"/"dissolve"/None)
+    #   ИЛИ кортежем/списком той же длины, что chars — тогда направление задаётся
+    #   отдельно для каждого персонажа (в порядке слотов slots_order).
+    # Возвращает (anim_family, dir_by_slot):
+    #   anim_family — общий режим анимации для _apply_layout ("slide"/"dissolve"/None),
+    #   dir_by_slot — slot -> "left"/"right"/"nearest" для въезда новых спрайтов.
+    def _parse_show_anim(anim, slots_order):
+        dir_by_slot = {}
+
+        # кортеж/список -> н��правление на каждого персонажа
+        if isinstance(anim, (tuple, list)):
+            for i, a in enumerate(anim):
+                if i >= len(slots_order):
+                    break
+                s = slots_order[i]
+                if a == "slide_left":
+                    dir_by_slot[s] = "left"
+                elif a == "slide_right":
+                    dir_by_slot[s] = "right"
+                else:
+                    dir_by_slot[s] = "nearest"   # "slide"/прочее -> ближайшая сторона
+            # слоты, не указанные в кортеже -> ближайшая сторона
+            for s in slots_order:
+                dir_by_slot.setdefault(s, "nearest")
+            return "slide", dir_by_slot
+
+        # строка
+        if anim == "slide_left":
+            for s in slots_order:
+                dir_by_slot[s] = "left"
+            return "slide", dir_by_slot
+        if anim == "slide_right":
+            for s in slots_order:
+                dir_by_slot[s] = "right"
+            return "slide", dir_by_slot
+        if anim == "slide":
+            for s in slots_order:
+                dir_by_slot[s] = "nearest"
+            return "slide", dir_by_slot
+        if anim is None:
+            return None, dir_by_slot
+        # "dissolve" и всё неизвестное -> dissolve
+        return "dissolve", dir_by_slot
+
+    def show_sprites(chars, mode="normal", anim_in="slide", anim_out=_ANIM_UNSET, side=None, center_front=None, hide_window=False, raise_z=True, anim=_ANIM_UNSET):
+        # anim — устаревший алиас anim_in.
+        if anim is not _ANIM_UNSET:
+            anim_in = anim
+        # anim_out не задан -> повторяет anim_in (как было с единым anim).
+        if anim_out is _ANIM_UNSET:
+            anim_out = anim_in
+
+        if chars is None:
+            _hide_all(anim_out)
+            return
+
         if isinstance(chars, str):
             chars = [chars]
         chars = list(chars)
         n = len(chars)
 
+        # порядок слотов совпадает с порядком chars — чтобы кортеж anim
+        # сопоставлялся с персонажами один-к-одному.
         if n == 1:
-            layout = {(side or "center"): chars[0]}
+            slots_order = [side or "center"]
         elif n == 2:
-            layout = {"left": chars[0], "right": chars[1]}
+            slots_order = ["left", "right"]
         elif n == 3:
-            layout = {"left": chars[0], "center": chars[1], "right": chars[2]}
+            slots_order = ["left", "center", "right"]
         else:
             raise Exception("show_sprites: поддерживается от 1 до 3 персонажей")
 
-        _apply_layout(layout, mode, anim, center_front, hide_window)
+        layout = {slots_order[i]: chars[i] for i in range(n)}
+
+        # anim_in -> направление ВЪЕЗДА новых (по порядку chars).
+        anim_family_in, dir_in = _parse_show_anim(anim_in, slots_order)
+        # anim_out -> направление ВЫЕЗДА уходящих. Кортеж сопоставляем с
+        # каноническим порядком слотов, т.к. уходящих нет в chars.
+        anim_family_out, dir_out = _parse_show_anim(anim_out, ["left", "center", "right"])
+
+        _apply_layout(layout, mode, anim_family_in, anim_family_out,
+                      center_front, hide_window, raise_z, dir_in, dir_out)
 
 
-    def _apply_layout(layout, mode, anim, center_front, hide_window=False):
+    def _apply_layout(layout, mode, anim_in, anim_out, center_front, hide_window=False, raise_z=True, dir_in=None, dir_out=None):
         slots  = store._sprite_slots         # slot -> (tag, img, mode, z)
+        # dir_in  — slot -> "left"/"right"/"nearest": направление ВЪЕЗДА новых.
+        # dir_out — slot -> "left"/"right"/"nearest": направление ВЫЕЗДА уходящих.
+        # Пусто -> ближайшая сторона (прежнее поведение).
+        if dir_in is None:
+            dir_in = {}
+        if dir_out is None:
+            dir_out = {}
 
         # Мгновенный режим: скип/перемотка (Ctrl), А ТАКЖЕ откат/прокрутка
         # колесом мыши (rollback / roll-forward). В этих состояниях реальное
@@ -6848,8 +7150,11 @@ init -1 python:
         # колесо мыши (rollback) раньше оставляло спрайты невидимыми.
         _instant = renpy.is_skipping() or renpy.in_rollback()
 
-        slide  = (anim == "slide")
-        noanim = (anim is None)
+        # флаги отдельно для приходящих (in) и уходящих (out)
+        slide_in   = (anim_in == "slide")
+        noanim_in  = (anim_in is None)
+        slide_out  = (anim_out == "slide")
+        noanim_out = (anim_out is None)
 
         # Текстбокс
         if hide_window:
@@ -6857,10 +7162,25 @@ init -1 python:
         else:
             _window_show(None)
 
-        # новый расклад: slot -> (tag, image)
+        # базовый тег = первое слово имени образа ("npc 1 angry" -> "npc")
+        base_tags = {s: _tag_of(img) for s, img in layout.items()}
+        tag_counts = {}
+        for _bt in base_tags.values():
+            tag_counts[_bt] = tag_counts.get(_bt, 0) + 1
+
         new = {}
         for s, img in layout.items():
-            new[s] = (_tag_of(img), img)
+            bt = base_tags[s]
+            # коллизия (один персонаж/образ в неск. слотов) -> уникализируем по слоту
+            tag = bt if tag_counts[bt] == 1 else (bt + "__" + s)
+            new[s] = (tag, img)
+        # ... дальше без изменений:
+        # old_by_tag = {...}; new_by_tag = {...}; и т.д.
+        #
+        # Замечание: диффинг по-прежнему идёт по тегам. Так как дубли уникальны
+        # по слоту, повторный show того же расклада (тот же слот) корректно
+        # определяется как "без изменений"/"смена эмоции", а исчезновение одного
+        # из дублей — как leaver (гасится по сохранённому тегу).    
 
         # индексируем по ТЕГУ персонажа
         old_by_tag = {tag: (s, oimg, om, oz)
@@ -6887,10 +7207,14 @@ init -1 python:
                     return 0
                 return 1
 
+            old_z_by_slot_fast = {s: oz for s, (tag, oimg, om, oz) in slots.items()}
             slot_z = {}
             for s, (tag, nimg) in sorted(new.items(), key=_order_key_fast):
-                store._sprite_z += 1
-                slot_z[s] = store._sprite_z
+                if not raise_z and s in old_z_by_slot_fast:
+                    slot_z[s] = old_z_by_slot_fast[s]      # сохраняем слой слота
+                else:
+                    store._sprite_z += 1
+                    slot_z[s] = store._sprite_z
                 z, xa, ya = _geom(mode, s)
                 renpy.show(nimg, at_list=[chara_at(z, xa, ya)],
                            tag=tag, zorder=slot_z[s])
@@ -6902,32 +7226,66 @@ init -1 python:
             store._sprite_slots = new_state
             return
 
-        leavers  = []   # (slot, tag, img, mode)
-        movers   = []   # (old_slot, new_slot, tag, img, old_mode)  -> другой слот
-        resizes  = []   # (slot, tag, img, old_mode)  -> тот же слот, сменился РАЗМЕР
-        emotions = []   # (slot, tag, img)            -> тот же слот, сменилась ТОЛЬКО картинка
-        entrants = []   # (slot, tag, img)
+        # набор ФАКТИЧЕСКИ назначенных новых тегов в этом вызове —
+        # чтобы случайно не погасить только что показанный спрайт
+        new_tags_set = set(t for (t, _img) in new.values())
 
-        for tag, (os_, oimg, om, oz) in old_by_tag.items():
-            if tag not in new_by_tag:
-                leavers.append((os_, tag, oimg, om))
+        # --- группировка по БАЗОВОМУ тегу (устойчиво к прежней уникализации) ---
+        old_groups = {}
+        for _s, (_otag, _oimg, _om, _oz) in slots.items():
+            _b = _tag_of(_oimg)
+            old_groups.setdefault(_b, []).append((_s, _otag, _oimg, _om, _oz))
 
-        for tag, (ns_, nimg) in new_by_tag.items():
-            old = old_by_tag.get(tag)
-            if old is None:
-                entrants.append((ns_, tag, nimg))
-            else:
-                os_, oimg, om, oz = old
-                if os_ != ns_:
-                    movers.append((os_, ns_, tag, nimg, om))
-                elif om != mode:
-                    # ФИКС 2: размер проверяем РАНЬШЕ эмоции, поэтому смена
-                    # размера ВСЕГДА даёт плавный scale (chara_move) — и при
-                    # normal->big, и при big->normal — даже если заодно
-                    # сменилась картинка. Никакого dissolve при зуме.
-                    resizes.append((ns_, tag, nimg, om))
-                elif oimg != nimg:
-                    emotions.append((ns_, tag, nimg))        # только эмоция -> dissolve
+        new_groups = {}
+        for _s, (_ntag, _nimg) in new.items():
+            _b = _tag_of(_nimg)
+            new_groups.setdefault(_b, []).append((_s, _ntag, _nimg))
+
+        leavers  = []   # (slot, tag, img, mode)                          -> уходит совсем
+        movers   = []   # (old_slot, new_slot, old_tag, new_tag, img, old_mode)
+        resizes  = []   # (slot, old_tag, new_tag, img, old_mode)         -> тот же слот, сменился размер
+        emotions = []   # (slot, old_tag, new_tag, img)                   -> тот же слот, сменилась эмоция
+        entrants = []   # (slot, tag, img)                                -> новый
+
+        for _b in (set(old_groups) | set(new_groups)):
+            olds = old_groups.get(_b, [])
+            news = new_groups.get(_b, [])
+            used_old = set()
+            used_new = set()
+
+            # 1) сперва сшиваем совпадающие СЛОТЫ (персонаж остался на месте)
+            for ni, (ns_, ntag, nimg) in enumerate(news):
+                for oi, (os_, otag, oimg, om, oz) in enumerate(olds):
+                    if oi in used_old:
+                        continue
+                    if os_ == ns_:
+                        used_old.add(oi)
+                        used_new.add(ni)
+                        if om != mode:
+                            resizes.append((ns_, otag, ntag, nimg, om))
+                        elif oimg != nimg:
+                            emotions.append((ns_, otag, ntag, nimg))
+                        # иначе слот не изменился -> сохранит прежний zorder
+                        break
+
+            rem_old = [olds[i] for i in range(len(olds)) if i not in used_old]
+            rem_new = [news[i] for i in range(len(news)) if i not in used_new]
+
+            # 2) оставшихся старых ПЕРЕИСПОЛЬЗУЕМ как movers к оставшимся слотам
+            #    (это и есть фикс: центр -> бок вместо «исчез + появился»)
+            k = min(len(rem_old), len(rem_new))
+            for i in range(k):
+                os_, otag, oimg, om, oz = rem_old[i]
+                ns_, ntag, nimg = rem_new[i]
+                movers.append((os_, ns_, otag, ntag, nimg, om))
+
+            # 3) реальный излишек: старые -> уходят, новые -> появляются
+            for i in range(k, len(rem_old)):
+                os_, otag, oimg, om, oz = rem_old[i]
+                leavers.append((os_, otag, oimg, om))
+            for i in range(k, len(rem_new)):
+                ns_, ntag, nimg = rem_new[i]
+                entrants.append((ns_, ntag, nimg))
 
         # ---- НАЗНАЧИТЬ ZORDER показанным/изменённым слотам ----
         shown_slots = [m[1] for m in movers] + [r[0] for r in resizes] \
@@ -6942,79 +7300,101 @@ init -1 python:
                 return 0
             return 1
 
-        slot_z = {}
-        for s in sorted(shown_slots, key=_order_key):
-            store._sprite_z += 1
-            slot_z[s] = store._sprite_z
-
         old_z_by_slot = {s: oz for s, (tag, oimg, om, oz) in slots.items()}
 
-        # ---- 1) УХОДЯЩИЕ ----
+        slot_z = {}
+        for s in sorted(shown_slots, key=_order_key):
+            if not raise_z and s in old_z_by_slot:
+                slot_z[s] = old_z_by_slot[s]               # НЕ поднимаем слой
+            else:
+                store._sprite_z += 1
+                slot_z[s] = store._sprite_z
+
+        # ---- 1) УХОДЯЩИЕ ---- (анимация по anim_out)
         if leavers:
-            if slide:
+            if slide_out:
+                _max_dur = _SLIDE_DUR_MIN
                 for s, tag, oimg, om in leavers:
-                    z, xa, ya = _geom(om, s)
-                    renpy.show(oimg, at_list=[chara_slide_out(z, xa, ya, _off(s, "out"))],
+                    z, xa, ya = _geom(om, s)   # om — старый режим слота (big/normal)
+                    ex = _exit_x(s, dir_out.get(s))
+                    d = _slide_dur(xa, ex)     # путь: точка покоя -> за экран
+                    _max_dur = max(_max_dur, d)
+                    renpy.show(oimg, at_list=[chara_slide_out(z, xa, ya, ex, d)],
                                tag=tag, zorder=old_z_by_slot.get(s, 20))
                 renpy.with_statement(None)
-                renpy.pause(_SLIDE_DUR)
+                renpy.pause(_max_dur)
                 for s, tag, oimg, om in leavers:
                     renpy.hide(tag)
                 renpy.with_statement(None)
             else:
                 for s, tag, oimg, om in leavers:
                     renpy.hide(tag)
-                renpy.with_statement(None if noanim else dissolve)
+                renpy.with_statement(None if noanim_out else dissolve)
 
-        # ---- 2) ПЕРЕЕЗЖАЮЩИЕ (другой слот) ----
+        # ---- 2) ПЕРЕЕЗЖАЮЩИЕ (другой слот) ---- (остаются на экране -> anim_in)
         if movers:
-            for os_, ns_, tag, nimg, om in movers:
+            for os_, ns_, otag, ntag, nimg, om in movers:
                 z1, xa1, ya1 = _geom(mode, ns_)
-                if noanim:
+                if noanim_in:
                     renpy.show(nimg, at_list=[chara_at(z1, xa1, ya1)],
-                               tag=tag, zorder=slot_z[ns_])
+                               tag=ntag, zorder=slot_z[ns_])
                 else:
                     z0, xa0, ya0 = _geom(om, os_)
-                    renpy.show(nimg, at_list=[chara_move(z0, xa0, ya0, z1, xa1, ya1)],
-                               tag=tag, zorder=slot_z[ns_])
+                    d = _slide_dur(xa0, xa1)   # путь: старый слот -> новый слот
+                    renpy.show(nimg, at_list=[chara_move(z0, xa0, ya0, z1, xa1, ya1, d)],
+                               tag=ntag, zorder=slot_z[ns_])
+                # тег сменился (дубликаты образа) -> гасим старый, чтобы не завис
+                if otag != ntag and otag not in new_tags_set:
+                    renpy.hide(otag)
             renpy.with_statement(None)
 
         # ---- 3a) СМЕНА РАЗМЕРА (normal<->big) -> ПЛАВНЫЙ SCALE, без dissolve ----
         if resizes:
-            for s, tag, nimg, om in resizes:
+            for s, otag, ntag, nimg, om in resizes:
                 z1, xa1, ya1 = _geom(mode, s)
-                if noanim:
+                if noanim_in:
                     renpy.show(nimg, at_list=[chara_at(z1, xa1, ya1)],
-                               tag=tag, zorder=slot_z[s])
+                               tag=ntag, zorder=slot_z[s])
                 else:
                     z0, xa0, ya0 = _geom(om, s)            # старая геометрия того же слота
-                    renpy.show(nimg, at_list=[chara_move(z0, xa0, ya0, z1, xa1, ya1)],
-                               tag=tag, zorder=slot_z[s])
+                    # смена размера — это scale на месте (xalign почти не меняется),
+                    # держим базовую длительность с учётом коэффициента скорости.
+                    d = _SLIDE_DUR / max(SLIDE_SPEED, 0.01)
+                    renpy.show(nimg, at_list=[chara_move(z0, xa0, ya0, z1, xa1, ya1, d)],
+                               tag=ntag, zorder=slot_z[s])
+                if otag != ntag and otag not in new_tags_set:
+                    renpy.hide(otag)
             renpy.with_statement(None)                      # без dissolve и без alpha
 
         # ---- 3b) СМЕНА ЭМОЦИИ (картинка изменилась, размер тот же) -> dissolve ----
         if emotions:
-            for s, tag, nimg in emotions:
+            for s, otag, ntag, nimg in emotions:
                 z, xa, ya = _geom(mode, s)
                 renpy.show(nimg, at_list=[chara_at(z, xa, ya)],
-                           tag=tag, zorder=slot_z[s])
-            renpy.with_statement(None if noanim else dissolve)
+                           tag=ntag, zorder=slot_z[s])
+                if otag != ntag and otag not in new_tags_set:
+                    renpy.hide(otag)
+            renpy.with_statement(None if noanim_in else dissolve)
 
         # задержка перед появлением новых
-        if (leavers or movers) and entrants and not noanim:
+        if (leavers or movers) and entrants and not noanim_in:
             renpy.pause(0.2)
 
-        # ---- 4) НОВЫЕ ПЕРСОНАЖИ ----
+        # ---- 4) НОВЫЕ ПЕРСОНАЖИ ---- (анимация по anim_in)
         if entrants:
-            if slide:
+            if slide_in:
+                _max_dur = _SLIDE_DUR_MIN
                 for s, tag, nimg in entrants:
                     z, xa, ya = _geom(mode, s)
-                    renpy.show(nimg, at_list=[chara_slide_in(z, xa, ya, _off(s, "in"))],
+                    # старт въезда с учётом заданного направления (slide_left /
+                    # slide_right / кортеж), по умолчанию — из ближайшей стороны.
+                    sx = _entry_x(s, dir_in.get(s))
+                    d = _slide_dur(sx, xa)     # путь: за экраном -> точка покоя
+                    _max_dur = max(_max_dur, d)
+                    renpy.show(nimg, at_list=[chara_slide_in(z, xa, ya, sx, d)],
                                tag=tag, zorder=slot_z[s])
                 renpy.with_statement(None)
-                renpy.pause(_SLIDE_DUR)
-                # фиксируем точку покоя — если слайд прервали кликом,
-                # спрайт не останется полупрозрачным/за экраном.
+                renpy.pause(_max_dur)
                 for s, tag, nimg in entrants:
                     z, xa, ya = _geom(mode, s)
                     renpy.show(nimg, at_list=[chara_at(z, xa, ya)],
@@ -7025,7 +7405,7 @@ init -1 python:
                     z, xa, ya = _geom(mode, s)
                     renpy.show(nimg, at_list=[chara_at(z, xa, ya)],
                                tag=tag, zorder=slot_z[s])
-                renpy.with_statement(None if noanim else dissolve)
+                renpy.with_statement(None if noanim_in else dissolve)
 
         # ---- ПЕРЕСТРОИТЬ СОСТОЯНИЕ СЛОТОВ ----
         new_state = {}
@@ -7033,82 +7413,6 @@ init -1 python:
             z = slot_z.get(s, old_z_by_slot.get(s, 0))
             new_state[s] = (tag, nimg, mode, z)
         store._sprite_slots = new_state
-
-
-# =============================================================================
-#  5.1 FLASH, ГАСЯЩИЙ СПРАЙТЫ ОДНОВРЕМЕННО СО ВСПЫШКОЙ
-# -----------------------------------------------------------------------------
-#  $ flash_clear()             -> вспышка + все персонажи исчезают внутри неё
-#  $ flash_clear("bg forest")  -> ещё и фон сменится под вспышкой
-#  после — добавляем нужных вручную:
-#     $ show_sprites("s 1", side="center", mode="big")
-# =============================================================================
-init -1 python:
-
-    def flash_clear(new_bg=None):
-        for tag in CHARA_TAGS:
-            renpy.hide(tag)
-        store._sprite_slots = {}
-        store._sprite_z = 0
-        if new_bg is not None:
-            renpy.show(new_bg, at_list=[bg_center])
-        renpy.with_statement(flash)
-
-
-# =============================================================================
-#  5.2 ТРЯСКА ЭКРАНА  (shake / flash / fade) С КОНТРОЛЕМ СПРАЙТОВ
-# -----------------------------------------------------------------------------
-#  Проблема "scene bg forest with hit_shake": команда scene стирает ВСЕ слои,
-#  включая спрайты, а состояние слотов об этом не знает -> show_sprites потом
-#  «не видит» снесённые спрайты и часть из них не возвращается.
-#
-#  shake_scene НЕ вызывает scene: по умолчанию спрайты ОСТАЮТСЯ на месте и
-#  просто трясутся вместе с фоном. Дальше можно менять эмоции через show_sprites
-#  — анимируется только изменившийся, остальные на месте.
-#
-#  shake_scene(sound=None, effect="shake", new_bg=None, clear=False)
-#    sound  — путь к звуку, напр. "audio/sfx/punch.ogg" (None — без звука)
-#    effect — "shake" (hit_shake) / "flash" / "fade" / None (без перехода)
-#    new_bg — сменить фон под эффектом (None — фон не трогаем)
-#    clear  — True: убрать ВСЕХ персонажей и сбросить слоты (после нужно
-#             заново показать всех через show_sprites);
-#             False (по умолчанию): спрайты остаются.
-#
-#  Примеры:
-#    # тряхнуть всё как есть + звук удара, спрайты на месте:
-#    $ shake_scene(sound="audio/sfx/punch.ogg")
-#    $ show_sprites(("l 1 angry", "s 3 angry"))   # меняем только эмоции
-#
-#    # вспышка, всех снести, потом показать заново:
-#    $ shake_scene(sound="audio/sfx/punch.ogg", effect="flash", clear=True)
-#    $ show_sprites(("l 1 angry", "s 3 angry"))
-#
-#    # тряска со сменой фона:
-#    $ shake_scene(effect="shake", new_bg="bg forest")
-# =============================================================================
-init -1 python:
-
-    def shake_scene(sound=None, effect="shake", new_bg=None, clear=False):
-        if sound is not None:
-            renpy.sound.play(sound)
-
-        if clear:
-            for tag in CHARA_TAGS:
-                renpy.hide(tag)
-            store._sprite_slots = {}
-            store._sprite_z = 0
-
-        if new_bg is not None:
-            renpy.show(new_bg, at_list=[bg_center])
-
-        trans = {
-            "shake": hit_shake,
-            "flash": flash,
-            "fade":  fade,
-            None:    None,
-        }.get(effect, hit_shake)
-
-        renpy.with_statement(trans)
 
 ```
 
@@ -8229,7 +8533,7 @@ default overlay_styles = {
 screen chapter_title_overlay(title_text, show_subtitle=False, style_dict={}):
     zorder 100
     vbox:
-        align (0.5, 0.45)  # Центрируем по X и сдвигаем на 40% по Y
+        align (0.5, 0.5)  # Центрируем по X и сдвигаем на 40% по Y
         xfill False        # Запрещаем растягивать vbox на всю ширину экрана
         spacing 20         # Отступы между заголовком, линией и подзаголовком
 

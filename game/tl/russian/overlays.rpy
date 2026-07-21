@@ -1,4 +1,7 @@
 translate russian strings:
+    old "The Familiar Zero: The Little Devil and Spring Breeze Concerto (Unnoficial remaster)"
+    new "Подручный бездарной Луизы: Концерт чертёнка и весеннего бриза (Неофициальный ремастер)"
+
     old "The Familiar of Zero"
     new "Подручный бездарной Луизы"
 
@@ -54,7 +57,7 @@ translate russian strings:
     old "Chapter Eight: 'The Little Devil and Spring Breeze Concerto'"
     new "Глава восьмая: «Концерт чертёнка и весеннего бриза»"
     # new "Глава восьмая: «Концерт маленького демона и весеннего ветра»"
-    
+
     old "Side Story: 'Punishment of the Little Devil'"
     new "Дополнительная глава: «Расплата чертёнка»"
     #new "Дополнительная глава: «Наказание маленького демона»"

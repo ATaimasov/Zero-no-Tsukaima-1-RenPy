@@ -1,17 +1,17 @@
 # hallway night
 label ch1_3:
-    $ fade_clear("sky_night", new_music="t19")
+    $ fade_fx("sky_night", new_music="t19")
     th "Phew... what a crazy day..."
-    $ fade_clear("hallway_night")
+    $ fade_fx("hallway_night")
 
     $ show_sprites(("s 3 sad"))
     th "Maybe I should go somewhere before going to bed?"
 
-    $ fade_clear("hallway_night", new_music="t3")
-    $ show_sprites(("si 1"), side="right")
+    play music t3 
+    #$ fade_fx(new_music="t3")
+    #$ show_sprites(("si 1"), side="right")
     ## меню выбора особое, выбор слева а персонаж справа к кому идем 
     ## музыка t3.ogg
-
     menu:
         "Siesta's Room":
             call si_room_ch1_3
@@ -30,11 +30,10 @@ label ch1_3:
 
 
 label si_room_ch1_3:
-    $ fade_clear("hallway_night", new_music="t6")
-    $ show_sprites(("s 1"))
-    #! звук стука
-
-    # ! сиеста да
+    $ fade_fx("hallway_night", new_music="t6", sprites=("s 1"))
+    
+    play sound knock_door
+    pause(1)
     voice "ch1.3_si_001"
     si "Yes?"
 
@@ -44,25 +43,25 @@ label si_room_ch1_3:
     voice "ch1.3_si_002"
     si "Ah, Saito-san? Please, come in."
 
-    # звук открытия двери и сайто уходит вправо
-    $ clear_chars()
+    play sound open_door
+    $ show_sprites(None, anim="slide_right") 
     pause(1.0)
     
-    $ fade_clear("si_room_night")
+    $ fade_fx("si_room_night")
+    play sound close_door
     pause(1.0)
-    # звук закрытия двери
-    $ show_sprites(("si 1", "s 1"))
+    $ show_sprites(("s 1", "si 1"), anim="slide_right")
     voice "ch1.3_si_003"
     si "What's the matter, Saito? Did you happen to forget something, perhaps?"
 
     voice "ch1.3_s_020"
     s "No, not really... I just felt like dropping by, I guess."
 
-    $ show_sprites(("si 1", "s 3"))
+    $ show_sprites(("s 3", "si 1"))
     voice "ch1.3_s_021"
     s "I just wanted to drop by one last time before bed, that's all. Hope I'm not bothering you?"
 
-    $ show_sprites(("si 1 shy", "s 3"))
+    $ show_sprites(("s 3", "si 1 shy"))
     voice "ch1.3_si_004"
     si "Oh, no, not at all! I could never think of you as a bother. I... well, actually, you are more than welcome."
 
@@ -71,14 +70,14 @@ label si_room_ch1_3:
     voice "ch1.3_s_022"
     s "R-really? But I'm sorry about that... dropping a sick person on you so suddenly and all."
 
-    $ show_sprites(("si 1", "s 3"))
+    $ show_sprites(("s 3", "si 1"))
     voice "ch1.3_si_005"
     si "No, please don't worry about that. We help each other out in times of need. Besides, I'm worried too, since she still hasn't woken up."
 
     voice "ch1.3_si_006"
     si "I'll nurse her whenever I have a free moment from my chores. So please, Saito-san, just go to sleep and don't worry about a thing."
 
-    $ show_sprites(("si 1", "s 1"))
+    $ show_sprites(("s 1", "si 1"))
     voice "ch1.3_s_023"
     s "Got it. Thank you, Siesta."
 
@@ -88,14 +87,14 @@ label si_room_ch1_3:
     voice "ch1.3_s_024"
     s "Yeah. But I just really felt like I had to thank you, you know?"
 
-    $ show_sprites(("si 1 happy", "s 1"))
+    $ show_sprites(("s 1", "si 1 happy"))
     voice "ch1.3_si_008"
     si "...Hehe."
 
-    $ show_sprites(("si 1", "s 1"))
+    $ show_sprites(("s 1", "si 1"))
     voice "ch1.3_si_009"
     si "But... This person's hair and skin color. They're the same as Saito-san's and mine, aren't they?"
-
+    
     voice "ch1.3_s_025"
     s "Yeah..."
 
@@ -116,7 +115,7 @@ label si_room_ch1_3:
             $ update_sympathy(20, char_key="siesta")
             $ update_sympathy(-20, char_key="louise")
 
-            $ show_sprites(("si 1", "s 3 sad"))
+            $ show_sprites(("s 3 sad", "si 1"))
             voice "ch1.3_s_028"
             s "Eh? W-well, yeah."
 
@@ -127,28 +126,28 @@ label si_room_ch1_3:
             si "I suppose so."
         #neutral
         "I doubt it's just a coincidence.":
-            $ show_sprites(("si 1", "s 3 sad"))
+            $ show_sprites(("s 3 sad", "si 1"))
             voice "ch1.3_s_035"
             s "I don't think it's a coincidence. I doubt there are many people in the same circumstances as me."
 
             voice "ch1.3_si_018"
             si "I suppose so."
-        "I don't really know.{var2}":
+        "I don't really know.{#var2}":
             voice "ch1.3_s_036"
             s "I wonder... I don't really understand it myself either."
 
-            $ show_sprites(("si 1 sad", "s 1"))
+            $ show_sprites(("s 1", "si 1 sad"))
             voice "ch1.3_si_019"
             si "Is that so?"
 
             $ update_sympathy(-20, char_key="siesta")
             $ update_sympathy(20, char_key="louise")
 
-            $ show_sprites(("si 1 sad", "s 3 sad"))
+            $ show_sprites(("s 3 sad", "si 1 sad"))
             voice "ch1.3_s_037"
             s "Just like Siesta, there's also the possibility that their grandfather or father was from the same country as me. But you won't know unless you ask."
 
-            $ show_sprites(("si 1", "s 3 sad"))
+            $ show_sprites(("s 3 sad", "si 1"))
             voice "ch1.3_si_020"
             si "Ah, you're right."
 
@@ -156,11 +155,11 @@ label si_room_ch1_3:
     voice "ch1.3_si_013"
     si "This hair color and skin color. And also, the clothes from Saito-san's hometown..."
 
-    $ show_sprites(("si 1 sad", "s 3 sad"))
+    $ show_sprites(("s 3 sad", "si 1 sad"))
     voice "ch1.3_si_014"
     si "...That's a bit too much of a coincidence to just be a coincidence, don't you think?"
 
-    $ show_sprites(("si 1 sad", "s 1"))
+    $ show_sprites(("s 1", "si 1 sad"))
     voice "ch1.3_s_030"
     s "Yeah. Maybe. But I don't want to get my hopes up just to be let down."
 
@@ -174,29 +173,38 @@ label si_room_ch1_3:
     si "Your original world... is that so?"
 
     
-    $ show_sprites(("si 1 sad", "s 3 sad"))
+    $ show_sprites(("s 3 sad", "si 1 sad"))
     voice "ch1.3_s_032"
     s "Ah, oh no. Is it already this late?"
 
-    $ show_sprites(("si 1 sad", "s 3"))
+    $ show_sprites(("s 3", "si 1 sad"))
     voice "ch1.3_s_033"
     s "Sorry for showing up so late. Anyway, see you tomorrow."
 
-    $ show_sprites(("si 1", "s 3"))
+    $ show_sprites(("s 3", "si 1"))
     voice "ch1.3_si_017"
     si "Ah, right. Good night, Saito-san."
 
     voice "ch1.3_s_034"
     s "Ah, good night, Siesta."
 
-    $ clear_chars(direction="right", anim="slide_right")
-    #! персонажи в одну сторону уходят. звук открытия и закрытия двери
+    window hide
+    $ show_sprites(None, anim="slide_left") 
+
+    # трюк с black сделан, чтобы звук закрытия двери был с анимацией затухания
+    pause(0.5)
+    play sound open_door
+    stop music fadeout 1.0
     pause(1.0)
-    $ fade_clear("si_room_night")
+    
+    show black with fade
+    play sound close_door
+    pause (1.0)
+    hide black
 
     return
 label l_room_ch1_3:
-    $ fade_clear("louise_room_night", new_music="t5")
+    $ fade_fx("louise_room_night", new_music="t5")
 
     $ show_sprites(("s 1"))
     voice "ch1.3_s_038"
@@ -230,14 +238,13 @@ label l_room_ch1_3:
     voice "ch1.3_s_041"
     s "Huh?{#eee}"
 
-    voice "Do you have any complaints!?"
-    l "ch1.3_l_005"
+    voice "ch1.3_l_005" 
+    l "Do you have any complaints!?"
 
     $ show_sprites(("l 3 angry", "s 1 sad"))
     voice "ch1.3_s_042"
     s "...Alright, alright."
 
-    # ! возможно этот диалог потому что он признался что девушку взял потому что похожа на одноклассницу
     $ show_sprites(("l 1 sad", "s 1 sad"))
     voice "ch1.3_l_006"
     l "..."
@@ -343,11 +350,11 @@ label l_room_ch1_3:
     voice "ch1.3_s_048"
     s "Yeah, yeah."
 
-    $ clear_chars(direction="right", anim="slide_right")
+    $ show_sprites(None, anim="slide_right") 
 
     return
 label hallway_ch1_3:
-    $ fade_clear("hallway_down_night", new_music="t28")
+    $ fade_fx("hallway_down_night", new_music="t28")
     $ show_sprites(("m 1"))
     voice "ch1.3_m_001"
     m "Oh? What are you doing in a place like this?"
@@ -397,9 +404,9 @@ label hallway_ch1_3:
     s "Eh!?"
 
     menu:
-        "How did you know!?{var1}":
+        "How did you know!?{#var1}":
             voice "ch1.3_s_008"
-            s "How did you know!?{var1}"
+            s "How did you know!?{#var1}"
 
             $ show_sprites(("m 1 shy", "s 3 shy"))
             voice "ch1.3_m_008"

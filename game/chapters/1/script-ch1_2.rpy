@@ -1,17 +1,14 @@
 # siesta's room night
 label ch1_2:
-    window hide
     call overlay_screen("yard_night",  "Tristain Academy of Magic") from _call_overlay_screen_6
     pause(2)
-    $ fade_clear("cg ha_sick", new_music="t28")
+    $ fade_fx("ha_sick", new_music="t28")
 
     th "In the end, Siesta kindly let us keep the girl we'd brought back hidden in her room."
     th "Since calling a doctor was out of the question, we decided to have Montmorency examine her."
 
-    $ fade_clear("bg si_room_night")
+    $ fade_fx("si_room_night", sprites=("m 1", "s 1"))
     pause(0.2)
-
-    $ show_sprites(("m 1", "s 1"))
 
     voice "ch1.2_s_001"
     s "Hey, how'd it go? Is she hurt anywhere? Any signs of illness? Nothing... serious, right?"
@@ -80,17 +77,18 @@ label ch1_2:
     voice "ch1.2_m_007"
     m "Listen... Saito. Where exactly did you bring this girl from?"
 
-    $ show_sprites(("s 1 sad", "m 1 angry"))
+    $ show_sprites(("l 1", "s 1 sad"))
     voice "ch1.2_s_004"
     s "Uh, um..."
 
     $ result = None
     menu:
         "Blame it on Louise":
-            $ show_sprites(("l 3", "s 3 happy"))
+            $ show_sprites(("l 1", "s 3 happy"))
             voice "ch1.2_s_005"
             s "Um... Louise, what was our story again?"
 
+            $ show_sprites(("l 3", "s 3 happy"))
             voice "ch1.2_l_004"
             l "Um, th-that's right! I met her today when I went out to town. Apparently, she's a commoner from my hometown!"
 
@@ -107,7 +105,7 @@ label ch1_2:
             th "Nice one, Louise!"
             
         "Try to cover it up yourself":
-            $ show_sprites(("l 3", "s 3 sad"))
+            $ show_sprites(("l 1", "s 3 sad"))
             voice "ch1.2_s_007"
             s "Um, um, y-yeah, that's right! I ran into her in town, and she looked like she was going through a lot, so I just brought her along!"
 
@@ -127,6 +125,7 @@ label ch1_2:
             
 
         "Blame it on Siesta":
+            $ show_sprites(("l 1", "s 3 sad"))
             voice "ch1.2_s_006"
             s "Um... Siesta, what was our story again?"
 
@@ -135,7 +134,6 @@ label ch1_2:
             si "Um, y-yes, that's right! She's a distant relative from my home village."
 
             $ update_sympathy(20, char_key="siesta")
-            # не показывается ui сердце
             $ show_sprites(("si 1", "s 3 sad"))
             voice "ch1.2_si_04"
             si "She ran away from home, so I figured I'd let her stay for a few days."
@@ -149,7 +147,6 @@ label ch1_2:
 
             th "Thank you, Siesta!"
             
-    # continue
     voice "ch1.2_m_009"
     m "For now, just let her get some rest. I doubt her condition will change anytime soon, but let me know if anything happens."
 
@@ -225,15 +222,11 @@ label ch1_2:
     l "Come on, Saito! Siesta went out of her way to be nice about it, so we're heading back to the room!"
 
     ## тряска и персонажи исчезают
-    $ shake_scene(effect="shake")
-    $ clear_chars(anim="slide", direction="slide_right")
-    #$ show_sprites((None, None))
+    $ hit_fx(sound=None)
+    $ show_sprites(None, anim="slide_right") 
 
     voice "ch1.2_s_015"
     s "Hey, wait! Don't pull me so hard! Ow, ow, ow! I said it hurts!"
-
-    ## затухание
-    ## сцена с луной 
 
     jump ch1_3
     return

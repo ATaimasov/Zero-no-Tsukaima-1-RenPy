@@ -29,7 +29,7 @@ default overlay_styles = {
 screen chapter_title_overlay(title_text, show_subtitle=False, style_dict={}):
     zorder 100
     vbox:
-        align (0.5, 0.45)  # Центрируем по X и сдвигаем на 40% по Y
+        align (0.5, 0.5)  # Центрируем по X и сдвигаем на 40% по Y
         xfill False        # Запрещаем растягивать vbox на всю ширину экрана
         spacing 20         # Отступы между заголовком, линией и подзаголовком
 

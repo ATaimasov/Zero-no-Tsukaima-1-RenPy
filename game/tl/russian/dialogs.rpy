@@ -1,4 +1,46 @@
 translate russian strings:
+    old "Where did the explosion happen?"
+    new "Где произошёл взрыв?"
+
+    old "Sir—on the street facing the main avenue, multiple explosions involving explosive materials have been confirmed."
+    new "Докладываю! На улице, выходящей на главный проспект, зафиксировано несколько взрывов с применением взрывчатки."
+
+    old "Hurry up and dispatch the fire response team. Do not let the damage escalate."
+    new "Поторопись и отправь пожарный расчёт. Нельзя допустить дальнейший ущерб."
+
+    old "Yes, Sir!"
+    new "Так точно!"
+
+    old "Hahahaha. You're always working hard."
+    new "Ха-ха-ха. Вы всегда так усердно трудитесь."
+
+    old "Where is he?"
+    new "Где он?"
+
+    old "Sir, he's on top of that mansion."
+    new "Командир! Он в том особняке."
+
+    old "Let's call it a day. Hurry up and put out the fire."
+    new "На сегодня хватит. Поторопитесь потушить пожар."
+
+    old "You—what's your objective?"
+    new "Ты... Какова твоя цель?"
+
+    old "Objective? To dismantle every rule this country stands on."
+    new "Цель? Разрушить все устои, на которых держится эта страна."
+
+    old "Huh?"
+    new "Ха?"
+
+    old "Until then, you'll just have to cherish your mundane lives, won't you?"
+    new "А до тех пор вам остаётся лишь ценить свою обыденную жизнь, верно?"
+
+    old "He... did he just vanish?"
+    new "Он... только что исчез?"
+
+    old "Hey! Apprehend him immediately!"
+    new "Эй! Немедленно задержите его!"
+
     old "……Hey, Louise-san, can you hear me?"
     new "……Эй, Луиза-сан, ты меня слышишь?"
 
@@ -972,7 +1014,7 @@ translate russian strings:
     new "А?"
 
     old "Good morning, Saito-san. Good morning, Miss Vallière."
-    new "Доброе утро, Сайто-сан. Доброе утро, мисс Валльер."
+    new "Доброе утро, Сайто-сан. Доброе утро, мисс Вальер."
 
     old "Eh, Siesta?"
     new "А, Сиеста?"
@@ -989,20 +1031,20 @@ translate russian strings:
     old "Ah, no, wait!"
     new "А-а, нет, погоди!"
 
-    old "I don't know what kind of misunderstanding you've got, but there's no romance, no 'moe' moments, or anything like that you're imagining."
-    new "Не знаю, какое недоразумение у тебя в голове, но никакой романтики, никаких «моэ» и всего того, что ты там себе напридумала, тут и в помине нет."
+    old "I don't know what kind of misunderstanding you've got, but there's no romance, no {i}'moe'{/i} moments, or anything like that you're imagining."
+    new "Не знаю, какое недоразумение у тебя в голове, но никакой романтики, никакого {i}«моэ»{/i} и всего того, что ты там себе напридумала, тут и в помине нет."
 
     old "It's hard to sleep on the straw that is technically my proper bed, right?"
     new "Спать на соломе, которая по сути служит мне кроватью, жутко неудобно, согласись?"
 
     old "Then my master told me to get into the corner of the bed, so I just did what I was told..."
-    new "И тут моя госпожа вдруг как велит: «А ну-ка лезь в уголок кровати!» — вот я и полез..."
+    new "И тут моя госпожа вдруг как велит: {i}«А ну-ка лезь в уголок кровати!»{/i} — вот я и полез..."
 
     old "See, if I don't obey, I'll get punished, you know."
-    new "А я, если не буду слушаться, меня же накажут."
+    new "А я... Если не буду слушаться, меня же накажут."
 
-    old "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, 'man, this is a pain...' or whatever."
-    new "Так что, хоть мне и не очень хотелось, я всё-таки полез с ней в одну кровать. Мол, «эх, ну и проблемка...» и всё такое."
+    old "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, {i}'man, this is a pain...'{/i} or whatever."
+    new "Так что, хоть мне и не очень хотелось, я всё-таки полез с ней в одну кровать. Мол, {i}«эх, ну и проблемка...»{/i} и всё такое."
 
     old "...Is that so?"
     new "...Вот как?"
@@ -1019,11 +1061,11 @@ translate russian strings:
     old "Well, the thing is..."
     new "Ну, это..."
 
-    old "That Louise is just half-asleep and clinging to me..."
-    new "Это Луиза просто спросонья вцепилась в меня..."
+    old "That Louise is just half-asleep..."
+    new "Это Луиза просто спросонья..."
 
     old "If this keeps up, I might be stuck in bed for the rest of my life, hehe... Or so I could say... How does that sound?"
-    new "Если так пойдет и дальше, я, пожалуй, так и не смогу выбраться из кровати до конца жизни, хе-хе... Или что-то в этом роде... Ну и как вам такой расклад?"
+    new "Если так пойдет и дальше, я, пожалуй, так и не смогу выбраться из кровати до конца жизни, хе-хе... Или что-то в этом роде... Ну как, звучит?"
 
     old "That must be a dreadful situation."
     new "Звучит как весьма незавидное положение."
@@ -1049,8 +1091,8 @@ translate russian strings:
     old "Come to think of it, I wonder why Siesta came at this time?"
     new "Теперь, когда я задумался, почему Сиеста явилась в такой час?"
 
-    old "Yes. I came regarding that girl."
-    new "Да. Я пришла по поводу той девушки."
+    old "Right. I came regarding that girl."
+    new "Точно. Я пришла по поводу той девушки."
 
     old "Eh?{#e?}"
     new "Э?"
@@ -1229,6 +1271,23 @@ translate russian strings:
     old  "Tell me, Siesta. It wasn't this bustling before you came to fetch us, was it?"
     new "Скажи-ка, Сиеста. До того как ты пришла нас звать, здесь ведь не было такой суеты?"
 
+    old "...I asked Montmorency, and Kirche brought me here."
+    new "...Я спросила у Монморанси, и Кирхе привела меня сюда."
 
+    old "Thank you for the clear answer."
+    new "Спасибо за четкий ответ."
+
+    old "...But I do have an interest."
+    new "...Но интерес у меня есть."
+
+    old "Oh, really?"
+    new "Э, правда?"
+
+    old "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
+    new "Ну, ладно. Всё равно что ни говори — как об стену горох. Вы же всё равно не уйдёте."
+
+    old "Umm…? Excuse me, what on earth am I doing here…?"
+    new "Эм…? Простите, что я вообще здесь делаю…?"
+    
 
     

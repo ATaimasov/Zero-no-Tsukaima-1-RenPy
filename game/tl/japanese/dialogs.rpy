@@ -1,4 +1,46 @@
 translate japanese strings:
+    old "Where did the explosion happen?"
+    new "どこで爆発だ！"
+
+    old "Sir—on the street facing the main avenue, multiple explosions involving explosive materials have been confirmed."
+    new "は、大通りに面した通りで数回、爆薬による爆発が確認されています。"
+
+    old "Hurry up and dispatch the fire response team. Do not let the damage escalate."
+    new "はやく消火班をまわせ。これ以上被害を増やすな！"
+
+    old "Yes, Sir!"
+    new "はっ！"
+
+    old "Hahahaha. You're always working hard."
+    new "ははははははっ。いつもご苦労だな。"
+
+    old "Where is he?"
+    new "どこだ！"
+
+    old "Sir, he's on top of that mansion."
+    new "隊長、あの屋敷の上にいます。"
+
+    old "Let's call it a day. Hurry up and put out the fire."
+    new "今日はここまでにしておこう。とっとと、消火でもしておくんだな。"
+
+    old "You—what's your objective?"
+    new "貴様、何が目的だ！"
+
+    old "Objective? To dismantle every rule this country stands on."
+    new "目的？この国のすべてのことわりを破壊することさ！"
+
+    old "Huh?"
+    new "な……！"
+
+    old "Until then, you'll just have to cherish your mundane lives, won't you?"
+    new "せいぜい、その時まで、日々の生活を大切にするんだね。それじゃ。"
+
+    old "He... did he just vanish?"
+    new "き、消えた。"
+
+    old "Hey! Apprehend him immediately!"
+    new "お、追え。今すぐに捕まえろ！"
+
     old "……Hey, Louise-san, can you hear me?"
     new "……もしもし、ルイズさん。"
 
@@ -987,7 +1029,7 @@ translate japanese strings:
     old "Ah, no, wait!"
     new "あーいや待った!"
 
-    old "I don't know what kind of misunderstanding you've got, but there's no romance, no 'moe' moments, or anything like that you're imagining."
+    old "I don't know what kind of misunderstanding you've got, but there's no romance, no {i}'moe'{/i} moments, or anything like that you're imagining."
     new "どんな誤解をしてるのか分からないけど、シエスタが想像してるようなラブとか、萌えとか、そんなことぜんぜんないから。"
 
     old "It's hard to sleep on the straw that is technically my proper bed, right?"
@@ -999,7 +1041,7 @@ translate japanese strings:
     old "See, if I don't obey, I'll get punished, you know."
     new "ほら、言うこと聞かないとお仕置きされるだろ、俺。"
 
-    old "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, 'man, this is a pain...' or whatever."
+    old "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, {i}'man, this is a pain...'{/i} or whatever."
     new "だから嫌だなーとは思ったけど、一緒のベッドに入ったわけ。いやー、困ったなぁ......とか。"
 
     old "...Is that so?"
@@ -1017,7 +1059,7 @@ translate japanese strings:
     old "Well, the thing is..."
     new "これはだなあ......。"
 
-    old "That Louise is just half-asleep and clinging to me..."
+    old "That Louise is just half-asleep..."
     new "ルイズのやつが寝ぼけて、俺のことを掴んでるだけで......。"
 
     old "If this keeps up, I might be stuck in bed for the rest of my life, hehe... Or so I could say... How does that sound?"
@@ -1026,7 +1068,7 @@ translate japanese strings:
     old "That must be a dreadful situation."
     new "それは大変ですね。"
 
-    old "How on earth did he manage to catch the attention of that Miss Vallière... I'm quite curious."
+    old "How on earth did he manage to catch the attention of Miss Vallière... I'm quite curious."
     new "一体どうやって、あのミス・ヴァリエールの気を引かせたのかなぁ......。気になるなぁ。"
 
     old "S-Siesta..."
@@ -1044,7 +1086,7 @@ translate japanese strings:
     old "Wait... wha-!? Why is Siesta in my room!?"
     new "......って、ええっ!?なんでシエスタがわたしの部屋にいるのよっ!"
 
-    old "Yes. I came regarding that girl."
+    old "Right. I came regarding that girl."
     new "そうです。あの娘のことで来たんです。"
 
     old "Eh?{#e?}"
@@ -1224,3 +1266,20 @@ translate japanese strings:
     old  "Tell me, Siesta. It wasn't this bustling before you came to fetch us, was it?"
     new "ねえ、シエスタ。あなたがわたし達を呼びに来る前は、こんなに賑やかじゃなかったんでしょ?"
     
+    old "...I asked Montmorency, and Kirche brought me here."
+    new "......モンモランシーに聞いて、キュルケに連れて来られた。"
+
+    old "Thank you for the clear answer."
+    new "明快な返答をありがとう。"
+
+    old "...But I do have an interest."
+    new "......でも、興味はある。"
+
+    old "Oh, really?"
+    new "え、そうなの?"
+
+    old "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
+    new "まあ、いいわ。何を言ったところで別に帰るとは思えないし。"
+
+    old "Umm…? Excuse me, what on earth am I doing here…?"
+    new "ええと......?すみません、私はいったい......?"

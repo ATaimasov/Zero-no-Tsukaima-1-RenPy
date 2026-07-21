@@ -22,12 +22,11 @@ label forest_battle:
 label ch1:
     call overlay_screen("overlay",  "Chapter One: \"Louise of Zero\"", isUseBlur=False, text_mode="black") from _call_overlay_screen_4
     pause(2)
-    play music audio.t18 fadein 1.0
-    scene bg forest at bg_center with dissolve
+    $ dissolve_fx("forest", new_music="t18")
     
     call overlay_screen("forest",  "The Road (Highway)") from _call_overlay_screen_5
-    pause(2)
-    scene cg l_s_forest at bg_center with dissolve
+    pause(1)
+    $ dissolve_fx("l_s_forest")
 
     l "....."
     voice "ch1_s_001"
@@ -39,7 +38,7 @@ label ch1:
     voice "ch1_s_002"
     s "I was wondering…"
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_002"
     l "……go ahead and say it"
@@ -50,12 +49,12 @@ label ch1:
     voice "ch1_s_004"
     s "…or something along those lines, didn't you say? I seem to recall it sounded like you were having quite a bit of fun."
 
-    scene cg l_s_forest at bg_center with dissolve
+    $ dissolve_fx("l_s_forest")
 
     voice "ch1_l_003"
     l "I wonder if something like that really happened..."
 
-    scene cg l_s_forest_s_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_s_speak")
 
     voice "ch1_s_005"
     s "No, no, no, of course I'm curious! You seemed to be having so much fun back then—why on earth are you in such a bad mood now?"
@@ -66,12 +65,12 @@ label ch1:
     voice "ch1_l_005"
     l "Really, nothing could be more unseemly!"
 
-    scene cg l_s_forest at bg_center with dissolve
+    $ dissolve_fx("l_s_forest")
 
     voice "ch1_s_006"
     s "I wasn't being all lovey-dovey or anything! Wait… could it be you're jealous?"
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_006"
     l "Th-th-that's ridiculous, of course not!"
@@ -79,7 +78,7 @@ label ch1:
     voice "ch1_l_007"
     l "If my stupid familiar goes around causing trouble everywhere, it'll reflect badly on me—your master! It's not like I'm jealous or anything, okay!"
 
-    scene cg l_s_forest_s_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_s_speak")
     
     voice "ch1_s_007"
     s "Is that so, huh?"
@@ -87,15 +86,15 @@ label ch1:
     voice "ch1_l_008"
     l "That's exactly right!"
 
-    scene bg forest at bg_center with fade
+    $ fade_fx("forest")
+
     $ show_sprites("s 1", mode="big")
 
     th "My name is Hiraga Saito. I was supposed to be just an ordinary high school student... or so I thought."
     $ show_sprites("l 1", mode="big")
     th "But now, I'm with this willful master — Louise Françoise Le Blanc de La Vallière..."
     th "Long story short: thanks to Louise's summoning spell, I — who got called here as a familiar — am now living in her room."
-
-    $ fade_clear("bg sky")
+    $ fade_fx("sky")
 
     th "In another world, \"Halkeginia\", where mages rule the land as nobility... It was a world entirely unlike Japan."
     th "What's more, the country we live in—Tristain—suddenly came under invasion from \"Reconquista\"."
@@ -106,12 +105,12 @@ label ch1:
     th "Well, I guess it'll all work out somehow… It's always been like that up to now, anyway…"
     th "Then again, my lower back really aches… I still haven't gotten used to riding a horse…"
 
-    scene cg l_s_forest at bg_center with fade
+    $ fade_fx("l_s_forest")
 
     voice "ch1_s_008"
     s "Still, she went on a bit of a weird clothes-shopping spree this time. And it takes forever to pick anything out... Honestly, I was just killing time the whole way through..."
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ fade_fx("l_s_forest_l_speak")
 
     voice "ch1_l_009"
     l "W-well, it's not like it's a bad thing! What's so wrong with me dressing up!?"
@@ -132,12 +131,12 @@ label ch1:
 
         voice "ch1_s_009"
         s "I thoughts it's great! You've got good looks to begin with. So paying more attention to your appearance is totally fine."
-        scene cg l_s_forest at bg_center with dissolve
+
+        $ dissolve_fx("l_s_forest")
 
         voice "ch1_l_010"
         l "I-is that so...?"
 
-        window hide
         $ update_sympathy(20)
 
         voice "ch1_s_010"
@@ -153,11 +152,10 @@ label ch1:
         s "Just one thing though: don't go dumping any extra hassle on me, alright?"
     elif choise_result == "bad":
 
-        scene cg l_s_forest_s_speak at bg_center with dissolve
+        $ dissolve_fx("l_s_forest_s_speak")
         voice "ch1_s_013"
         s "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
 
-        window hide
         $ update_sympathy(-20)
     else:
         "ERR"
@@ -166,7 +164,7 @@ label ch1:
 
     ## louise shows tsun-tsun side in any case :)
 
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_011"
     l "Ugh, what is it, what is it?! You've done nothing but complain this whole time! Hello? You're my familiar, aren't you? So stop whining and get to work!"
@@ -182,10 +180,9 @@ label ch1:
 
     voice "ch1_s_015"
     s "Yeah yeah, sure thing~"
-
-    scene cg l_s_forest at bg_center with dissolve
+    $ dissolve_fx("l_s_forest")
     th "Jeez... She's got such a cute look going for her. If only her personality had even a tiny bit of that same charm, I wouldn't have a single complaint..."
-    scene cg l_s_forest_l_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_l_speak")
 
     voice "ch1_l_014"
     l "Did you say something!?"
@@ -193,13 +190,11 @@ label ch1:
     voice "ch1_s_016"
     s "N-no, nothing at all!"
 
-    #scene bg forest at bg_center with fade
-    $ fade_clear("bg forest")
+    $ fade_fx("forest")
 
     $ show_sprites("d 1 happy")
     pause(0.2)
     voice "ch1_d_001"
-    #! тут быстрая прокручивание диалогов колесиком мыши или ctrl делает спрайты прозрачным
     d "Hah hah haa! Still getting bossed around by her, huh, partner?"
 
     $ show_sprites(("l 3 angry", "d 1"))
@@ -210,8 +205,6 @@ label ch1:
     voice "ch1_s_017"
     s "I'm NOT being bossed around, okay?!"
 
-    #! тут нужен скейл плавный
-    $ show_sprites("d 1")
     $ show_sprites("d 1", mode="big", anim="slide")
 
     th "This is Derflinger. As you can see, a talking sword. Well, he's my partner, I guess."
@@ -242,7 +235,7 @@ label ch1:
     voice "ch1_l_016"
     l "If you run your mouth one more time, I'll melt you down into scrap iron and bury you in the academy's backyard — got it?!"
 
-    $ show_sprites(("l 3 angry", "d 1 sad"), side="center")
+    $ show_sprites(("l 3 angry", "d 1 sad"))
     voice "ch1_d_006"
     d "Whoa, scary! Partner, I'll just take a little nap for now — so when my cue comes, give me a holler, yeah?"
 
@@ -258,7 +251,7 @@ label ch1:
     th "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
 
     # ==== SUBCHAPTER 2 ====
-    $ fade_clear("cg l_s_forest_l_s_speak", new_music="t27") 
+    $ fade_fx("l_s_forest_l_s_speak", new_music="t27")
     
     th "Hm...? Someone's collapsed."
 
@@ -268,7 +261,7 @@ label ch1:
     voice "ch1_s_019"
     s "Over there... Isn't someone lying at the foot of that tree?"
 
-    scene cg l_s_forest_s_speak at bg_center with dissolve
+    $ dissolve_fx("l_s_forest_s_speak")
 
     voice "ch1_l_018"
     l "What? Where?"
@@ -276,12 +269,12 @@ label ch1:
     voice "ch1_s_020"
     s "Hey, over there... nah, better to see for myself. My bad, Louise! I'm going first!"
 
-    scene cg l_forest at bg_center with dissolve
+    $ dissolve_fx("l_forest")
 
     voice "ch1_l_019"
     l "Ah—wait, Saito! Ugh, what is wrong with you?!"
 
-    $ fade_clear("cg ha_forest")
+    $ fade_fx("ha_forest")
 
     voice "ch1_s_021"
     s "Just as I thought... There really is someone collapsed... I wonder if she is okay... wait—huh, hey!?"
@@ -308,8 +301,7 @@ label ch1:
     voice "ch1_s_023"
     s "First, check pulse and heartbeat..., loosen her clothes to keep the airway clear..."
 
-    # !!!
-    $ shake_scene(effect="shake", sound="punch")
+    $ hit_fx()
     pause(0.5)
 
     voice "ch1_l_023"
@@ -327,7 +319,6 @@ label ch1:
     voice "ch1_l_025"
     l "It looks like she's just unconscious. No head trauma... Saito, hurry and head to the academy!"
 
-    # !!! Эээ - сайто
     voice "ch1_s_026"
     s "Eh?"
 
@@ -344,7 +335,7 @@ label ch1:
 
     # ==== SUBCHAPTER 3 ====
 
-    $ fade_clear("bg forest", new_music="t17")
+    $ fade_fx("forest",new_music="t17")
 
     $ show_sprites("mage")
     voice "ch1_mage_001"
@@ -352,24 +343,16 @@ label ch1:
 
     $ show_sprites(("mage", "s 1 angry"))
 
-    #show mage at slide_center_to_left #slide_center_to_left
-    #pause(0.2)
-    #show s 1 angry at slide_center_to_right with dissolve #slide_center_to_right
-    # !!! удивление вздох - сайто
     voice "ch1_s_028"
     s "Gah?!"
 
     $ show_sprites(("mage", "l 1 angry"))
 
-    #hide s with dissolve
-    #pause(0.2)
-    #show l 1 angry at slide_center_to_right with dissolve
     voice "ch1_l_028"
     l "What?! Who are you people?!"
 
     voice "ch1_mage_002"
     mage "Hand over that girl."
-
 
     $ show_sprites(("mage", "s 1 angry"))
     voice "ch1_s_029"
@@ -380,8 +363,6 @@ label ch1:
 
     voice "ch1_s_030"
     s "What did you just say?!"
-
-    window hide
 
     # ==== CHOISE 2 ====
     $ choise_result = None
@@ -404,7 +385,6 @@ label ch1:
         l "Saito..."
         pause(1)
 
-        window hide
         $ update_sympathy(20)
     elif choise_result == "neutral": 
         $ show_sprites(("mage", "s 1 sad"))
@@ -434,7 +414,6 @@ label ch1:
         voice "ch1_l_032"
         l "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
         
-        window hide
         $ update_sympathy(-20)
 
         $ show_sprites(("l 3 angry", "s 3 sad"))
@@ -446,7 +425,6 @@ label ch1:
         $ show_sprites(("l 1", "s 3 sad"))
         voice "ch1_l_033"
         l "Is that so...?"
-
     
     $ show_sprites((louise, "s 1 angry"))    
 
@@ -464,7 +442,7 @@ label ch1:
     voice "ch1_mage_004"
     mage "Hmph... How foolish. A mere commoner dares to stand in our way? Very well — then you shall receive a fitting recompense."
 
-    # !!! звук доставания меча
+    play sound take_sword
     $ show_sprites(("mage", "s 7 angry"))    
     voice "ch1_s_035"
     s "Louise! I'm counting on you!"
@@ -482,12 +460,11 @@ label ch1:
 
     # ==== BATTLE ==== 
 
-    $ clear_chars()
+    $ show_sprites(None, anim="dissolve") 
     #call forest_battle from _call_forest_battle
 
     # ==== SUBCHAPTER 4 ====
-
-    $ fade_clear("bg forest", new_music="t24")
+    $ fade_fx("forest",new_music="t24")
     $ show_sprites(("mage", "s 1 angry"), anim="dissolve") 
 
     voice "ch1_mage_005"
@@ -496,10 +473,8 @@ label ch1:
     voice "ch1_s_039"
     s "Hey, wait! Don't you run away!"
 
-    $ flash_clear("bg forest")
-    $ show_sprites(("s 1 angry"), anim="dissolve", side="right") 
+    $ flash_fx(sprites=("s 1 angry"), side="right")
 
-    # !!! Сайто восклицает э VOICE_ID.BIN_00002A44.wav
     voice "ch1_s_063"
     s "Ah!?"
 
@@ -529,7 +504,8 @@ label ch1:
     voice "ch1_l_036"
     l "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
 
-    $ fade_clear("cg ha_forest")
+    #$ fade_clear("cg ha_forest")
+    $ fade_fx("ha_forest")
 
     voice "ch1_s_040"
     s "There, there. But more importantly, I think what we really need here is artificial respiration..."
@@ -537,16 +513,14 @@ label ch1:
     voice "ch1_l_037"
     l "You're so persistent!"
 
-    $ shake_scene(effect="shake", sound="punch")
-
+    $ hit_fx()
     voice "ch1_s_041"
     s "Ooow! My head hurts like hell, like it's about to burst!"
 
     voice "ch1_l_038"
     l "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
 
-    $ fade_clear("bg forest")
-    $ show_sprites(("l 1 sad", "s 1 angry"), anim="dissolve")
+    $ fade_fx("forest", sprites=("l 1 sad", "s 1 angry"))
 
     voice "ch1_s_042"
     s "Huh? What do you mean, 'what do we do?'... About what, exactly?"
@@ -619,9 +593,7 @@ label ch1:
 
         voice "ch1_l_045"
         l "No arguments!"
-        
-        $ shake_scene(effect="shake", sound="punch")
-        $ show_sprites(("l 1 angry", "s 3 angry"), anim=None)
+        $ hit_fx(sprites=("l 1 angry", "s 3 angry"))
         voice "ch1_s_050"
         s "Nooooooo!"
 
@@ -699,12 +671,9 @@ label ch1:
     $ show_sprites(("l 1", "s 1"))
     voice "ch1_l_049"
     l "Those people from earlier might attack again, so I'm putting this girl on my horse. I'll move the luggage attached here over to your side, alright?"
-
     
-    # !!! Если ответ положительный то вместо хаи он охает
     if choise_result == "good":
-        #! звука нет
-        voice "ch1_s_063"
+        voice "ch1_s_064"
         s "Yeah."
     if choise_result == "bad":
         voice "ch1_s_054"
@@ -722,8 +691,7 @@ label ch1:
     voice "ch1_l_052"
     l "Honestly... why am I the one stuck doing this...?"
 
-    window hide
-    $ fade_clear(stop_music=True)
+    $ fade_fx("yard_night_blurred", stop_music=True)
 
     jump ch1_2
 

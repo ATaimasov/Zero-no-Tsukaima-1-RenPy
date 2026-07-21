@@ -14,7 +14,7 @@ define npc1 = Character(_("Сommander"), color="#797979")
 define npc2 = Character(_("Soldier"), color="#797979")
 define mage = Character(_("Mage"), color="#d82b2b")
 
-define unknown = Character(_("???"), color="#000000") #protagonist
+define unk = Character(_("???"), color="#000000") #protagonist
 define unk_h = Character(_("???"), color="#4b4d51") # haruna
 define unk_k = Character(_("???"), color="#e36566") #kirche
 

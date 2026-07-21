@@ -1,11 +1,9 @@
 # louise's room night
 label ch1_4:
-    $ fade_clear("louise_room_night", new_music="t19")
-    $ show_sprites(("s 5"))
+    $ fade_fx("louise_room_night", new_music="t19", sprites=("s 5"))
     voice "ch1.4_s_001"
     s "Well then, I guess I'll call it a night."
 
-    ## ! возможно тут диалог начинается в зависимости от симпатии луизы (но он начался когда симпатия была -20)
     $ show_sprites(("l 4", "s 5"))
     voice "ch1.4_l_001"
     l "Hey, Saito. What are you doing over there in the corner of the room?"
@@ -40,8 +38,8 @@ label ch1_4:
     voice "ch1.4_s_005"
     s "Y-yeah."
 
-    # ! оба уходят в одну сторону
-    $ clear_chars(anim="slide", direction="slide_right")
+    window hide
+    $ show_sprites(None, anim="slide_right") 
     pause(2)
 
     voice "ch1.4_l_005"
@@ -59,7 +57,7 @@ label ch1_4:
     voice "ch1.4_l_007"
     l "W-what's with you...? You're suddenly saying all these weird things."
 
-    show bg sky_night at bg_center with dissolve
+    $ dissolve_fx("sky_night")
     voice "ch1.4_s_008"
     s "Louise. There are two moons in this world, aren't there?"
 

@@ -33,7 +33,7 @@ translate russian strings:
     old "Hallway"
     new "Коридор"
 
-    old "How did you know!?{var1}"
+    old "How did you know!?{#var1}"
     new "Как ты догадалась!?"
 
     old "Why do you think that?"
@@ -57,7 +57,7 @@ translate russian strings:
     old "I've already forgotten about my world."
     new "Я уже забыл про свой мир."
 
-    old "I don't really know.{var2}"
+    old "I don't really know.{#var2}"
     new "Сам не знаю."
 
     old "Louise is just half-asleep!"

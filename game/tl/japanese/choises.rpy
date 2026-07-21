@@ -33,7 +33,7 @@ translate japanese strings:
     old "Hallway"
     new "廊下"
 
-    old "How did you know!?{var1}"
+    old "How did you know!?{#var1}"
     new "どうして分かったんだ！？"
 
     old "Why do you think that?"
@@ -57,7 +57,7 @@ translate japanese strings:
     old "I've already forgotten about my world."
     new "元の世界なんて忘れたよ"
 
-    old "I don't really know.{var2}"
+    old "I don't really know.{#var2}"
     new "よく分からない"
 
     old "Louise is just half-asleep!"

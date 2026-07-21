@@ -16,125 +16,6 @@ init python:
 
 default chapter = 0
 
-
-# ==== POSITIONS ====
-
-# bg position
-transform bg_center: 
-    zoom 0.85
-    xalign 0.5
-    yalign 0.5
-
-# chara position
-transform normal_center:
-    zoom 0.55  
-    xalign 0.5
-    yalign 1.0
-
-transform normal_right:
-    zoom 0.55     
-    xalign 1.2  
-    yalign 1.0    
-
-transform normal_left:
-    zoom 0.55 
-    xalign -0.2
-    yalign 1.0        
-
-transform close_center:
-    zoom 0.70  
-    xalign 0.5
-    yalign 0.15
-
-transform close_left_npc:
-    zoom 0.60 
-    xalign -0.3
-    yalign 1.0        
-
-transform close_right_npc:
-    zoom 0.60 
-    xalign 1.9
-    yalign 0.95    
-
-# ==== TRANSITIONS ====
-define flash = Fade(0.1, 0.5, 0.5, color="#fff")
-define fade = Fade(0.5, 0.0, 0.5)
-
-# slide
-transform slide_left_out_generic:
-    yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign -0.3 alpha 0
-
-transform slide_right_out_generic:
-    yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.3 alpha 0
-
-# === LEFT SLIDES ===
-transform slide_left_in:
-    xalign -0.3 yalign 1.0 zoom 0.55 alpha 0.1
-    ease 0.4 xalign 0.05 alpha 1.0
-
-transform slide_left_out:
-    xalign 0.05 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign -0.3 alpha 0
-
-transform slide_left_to_center_in:
-    xalign -0.3 yalign 1.0 zoom 0.55 alpha 0.1
-    ease 0.4 xalign 0.5 alpha 1.0    
-
-# === RIGHT SLIDES ===
-transform slide_right_in:
-    xalign 1.3 yalign 1.0 zoom 0.55 alpha 0.1
-    ease 0.4 xalign 0.95 alpha 1.0
-
-transform slide_right_out:
-    xalign 0.95 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.3 alpha 0
-
-transform slide_center_to_right_out:
-    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.3 alpha 0  
-
-# === CENTER TO SIDE SLIDES ===
-transform slide_center_to_left:
-    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign -0.2 alpha 1.0
-
-transform slide_center_to_right:
-    xalign 0.5 yalign 1.0 zoom 0.55 alpha 1.0
-    ease 0.4 xalign 1.2 alpha 1.0
-
-
-# blow
-transform explosion_shake(duration=0.4, *, old_widget=None, new_widget=None):
-    delay duration
-    xcenter 0.5
-    ycenter 0.5
-
-    old_widget
-    events False
-    linear 0.04 xoffset 32 yoffset 20
-    linear 0.04 xoffset -26 yoffset -13
-    linear 0.04 xoffset 16 yoffset 10
-    linear 0.04 xoffset -8 yoffset -7
-    linear 0.04 xoffset 0 yoffset 0
-
-    new_widget
-    events True
-
-transform hit_shake(duration=0.2, strength=60, *, old_widget=None, new_widget=None):
-    delay duration
-    xcenter 0.5
-    ycenter 0.5
-
-    old_widget
-    events False
-    linear 0.03 xoffset strength yoffset (strength * 0.6)
-    linear 0.17 xoffset 0 yoffset 0
-
-    new_widget
-    events True
-
 # ==== IMAGES ====
 
 image black = "#000"
@@ -292,3 +173,7 @@ define audio.t32 = "audio/bgm/t32.ogg"
 # ==== SOUNDS ====
 define audio.blow = "audio/sfx/blow.wav"
 define audio.punch = "audio/sfx/punch.wav"
+define audio.take_sword = "audio/sfx/take_sword.wav"
+define audio.knock_door = "audio/sfx/knock_door.wav"
+define audio.close_door = "audio/sfx/close_door.wav"
+define audio.open_door = "audio/sfx/open_door.wav"

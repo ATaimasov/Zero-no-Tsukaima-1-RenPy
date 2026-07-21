@@ -146,8 +146,8 @@ translate russian strings:
     old "S-scary... It's terrifying how she's still smiling..."
     new "С-страшно... Жутко от того, что она при этом всё ещё улыбается..."
 
-    old "W-w-why the hell is Louise sleeping while holding onto my clothes!?"
-    new "К-к-какого черта эта Луиза спит, вцепившись в мою одежду!?"
+    old "W-w-why the hell is Louise sleeping while clinging to me!?"
+    new "К-к-какого чёрта эта Луиза спит, вцепившись в меня!?"
 
     old "What am I supposed to do now!?"
     new "И что мне теперь делать!?"

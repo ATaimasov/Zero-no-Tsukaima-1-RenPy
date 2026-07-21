@@ -1,4 +1,7 @@
 translate japanese strings:
+    old "The Familiar Zero: The Little Devil and Spring Breeze Concerto (Unnoficial remaster)"
+    new "ゼロの使い魔 小悪魔と春風の協奏曲 (非公式リマスター)"
+    
     old "The Familiar of Zero"
     new "ゼロの使い魔"
 

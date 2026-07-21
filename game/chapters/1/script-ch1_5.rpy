@@ -1,6 +1,6 @@
 # morning
 label ch1_5:
-    $ fade_clear("sky", new_music="t4")
+    $ fade_fx("sky", new_music="t4")
     voice "ch1.5_s_001"
     s "Hmm... {i}yawns{/i}. It's already morning, huh... I wonder what time it is?"
 
@@ -10,8 +10,11 @@ label ch1_5:
     voice "ch1.5_s_003"
     s "Ah... But this bed, which I haven't slept in for a long time, is so comfortable... I can't get up..."
 
-    $ fade_clear("louise_room")
-    # стук
+    
+    $ fade_fx("louise_room")
+    pause(0.2)
+    play sound knock_door
+    pause(1)
 
     voice "ch1.5_s_004"
     s "Huh...?{#ha}" 
@@ -27,7 +30,7 @@ label ch1_5:
     voice "ch1.5_si_002"
     si "I'm sorry to bother you so early in the morning, but actually, about last night..."
 
-    $ fade_clear("si_wakeup", new_music="t29")
+    $ fade_fx("si_wakeup", new_music="t29")
     pause(2)
     voice "ch1.5_si_003"
     si "..."
@@ -42,7 +45,7 @@ label ch1_5:
     s "Ah, no, wait!"
 
     voice "ch1.5_s_008"
-    s "I don't know what kind of misunderstanding you've got, but there's no romance, no 'moe' moments, or anything like that you're imagining."
+    s "I don't know what kind of misunderstanding you've got, but there's no romance, no {i}'moe'{/i} moments, or anything like that you're imagining."
 
     voice "ch1.5_s_009"
     s "It's hard to sleep on the straw that is technically my proper bed, right?"
@@ -54,10 +57,10 @@ label ch1_5:
     s "See, if I don't obey, I'll get punished, you know."
 
     voice "ch1.5_s_012"
-    s "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, 'man, this is a pain...' or whatever."
+    s "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, {i}'man, this is a pain...'{/i} or whatever."
 
     pause(1)
-    show cg si_wakeup at bg_center
+    $ dissolve_fx("si_wakeup_2")
 
     voice "ch1.5_si_005"
     si "...Is that so?"
@@ -70,11 +73,12 @@ label ch1_5:
     voice "ch1.5_s_013"
     s "Eh!?{#e}"
     
-    th "W-w-why the hell is Louise sleeping while holding onto my clothes!?"
+    th "W-w-why the hell is Louise sleeping while clinging to me!?"
 
     voice "ch1.5_s_014"
     s "Th-th-this!"
 
+    # громче
     voice "ch1.5_si_007"
     si "Yes?"
 
@@ -85,7 +89,7 @@ label ch1_5:
     menu:
         "Louise is just half-asleep!":
             voice "ch1.5_s_016"
-            s "That Louise is just half-asleep and clinging to me..."
+            s "That Louise is just half-asleep..."
 
             voice "ch1.5_s_017"
             s "If this keeps up, I might be stuck in bed for the rest of my life, hehe... Or so I could say... How does that sound?"
@@ -94,7 +98,7 @@ label ch1_5:
             si "That must be a dreadful situation."
 
             voice "ch1.5_si_009"
-            si "How on earth did he manage to catch the attention of that Miss Vallière... I'm quite curious."
+            si "How on earth did he manage to catch the attention of Miss Vallière... I'm quite curious."
 
             voice "ch1.5_s_018"
             s "S-Siesta..."
@@ -224,7 +228,7 @@ label ch1_5:
             voice "ch1.5_l_002-2"
             l "Mmm... {i}Yawns{/i}... Huh, Saito...?"
 
-    $ fade_clear("louise_room")
+    $ fade_fx("louise_room")
     pause(1)
 
     if result == "WAKE UP!":
@@ -235,9 +239,8 @@ label ch1_5:
         voice "ch1.5_s_034"
         s "Wha-!? N-No, that's wro...!"
 
-        #! звук удара, тряска и вспышка долгая
-        $ shake_scene(sound="punch", effect="flash", clear=True)
-        $ show_sprites(("s 5 sad", "s 1 sad"), anim="dissolve")
+        $ scene_fx("hit flash", sound="punch", duration=(0.3, 2), sprites=("si 1 sad", "s 5 sad"))
+        pause(1)
 
         voice "ch1.5_s_035"
         s "A-Anyway, at least my name has been cleared, right?"
@@ -245,7 +248,7 @@ label ch1_5:
         voice "ch1.5_si_019"
         si "Y-Yes... I sincerely apologize for having doubted you."
 
-        $ show_sprites(("l 4 angry", "s 1 sad"))
+        $ show_sprites(("l 4 angry", "s 5 sad"))
         voice "ch1.5_l_009"
         l "Geez, that's fine now, whatever! More importantly, why is Siesta in my room!?"
     else:
@@ -262,8 +265,9 @@ label ch1_5:
 
     $ show_sprites(("l 4 angry", "si 1"))
     voice "ch1.5_si_010"
-    si "Yes. I came regarding that girl."
+    si "Right. I came regarding that girl."
 
+    voice "ch1.5_s_038"
     $ show_sprites(("s 5 angry", "si 1"))
     s "Eh?{#e?}"
 
@@ -282,8 +286,7 @@ label ch1_5:
     voice "ch1.5_si_020"
     si "Ah, Saito-san. Please wait!"
 
-    # ! оба уходят в одну сторону
-    $ clear_chars(anim="slide", direction="slide_right")
+    $ show_sprites(None, anim="slide_right") 
 
     jump ch1_6
     return
