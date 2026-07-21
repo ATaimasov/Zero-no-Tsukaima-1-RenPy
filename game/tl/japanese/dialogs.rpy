@@ -1242,6 +1242,9 @@ translate japanese strings:
     old "Why have so many people gathered here since this morning!"
     new "なんで、朝からこんなに大勢集まってるのよ!"
 
+    old "Umm…? Excuse me, what on earth am I doing here…?"
+    new "ええと......?すみません、私はいったい......?"
+
     old "Hey, Kirche. Why are you here?"
     new "なあ、キュルケ。なんでここにいるんだ?"
 

@@ -1247,6 +1247,9 @@ translate russian strings:
     old "Why have so many people gathered here since this morning!"
     new "Почему с самого утра здесь собралось так много людей!"
 
+    old "Umm…? Excuse me, what on earth am I doing here…?"
+    new "Эм…? Простите, что я вообще здесь делаю…?"
+
     old "Hey, Kirche. Why are you here?"
     new "Слушай, Кирхе. Почему ты здесь?"
 

@@ -123,8 +123,10 @@ label ch1_6:
             k "Come on. I may not know the circumstances, but it looks like you're having some fun, doesn't it?"
             l "There's nothing fun about it, really."
 
-            "test"
     $ show_sprites(("l 1"))
     voice "ch1.6_l_005"
     l "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
+
+    $ show_sprites(("l 1", "h 1 sad"))
+    unk_h "Umm…? Excuse me, what on earth am I doing here…?"
     
