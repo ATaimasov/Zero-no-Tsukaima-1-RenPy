@@ -1285,9 +1285,45 @@ translate russian strings:
 
     old "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
     new "Ну, ладно. Всё равно что ни говори — как об стену горох. Вы же всё равно не уйдёте."
-
-    old "Umm…? Excuse me, what on earth am I doing here…?"
-    new "Эм…? Простите, что я вообще здесь делаю…?"
     
+    old "Oh, there's no particular reason, really"
+    new "О, да нет у меня никакой особенной причины"
 
-    
+    old "I heard you and Louise were doing something amusing, so I just dropped by to see for myself."
+    new "Я услышала, что вы с Луизой затеяли что-то интересное, так что просто зашла посмотреть"
+
+    old "Heard it...? From whom?"
+    new "Услышала...? От кого?"
+
+    old "It goes without saying, doesn’t it? Say, Montmorency?"
+    new "Ну, это ясно как день, правда? Ну же, Монморанси?"
+
+    old "...Ohohoho."
+    new "..О-хо-хо-хо."
+
+    old "Come on. I may not know the circumstances, but it looks like you're having some fun, doesn't it?"
+    new "Ну-ну. Подробностей я не знаю, но похоже, тут начинается что-то веселое, не так ли?"
+
+    old "There's nothing fun about it, really."
+    new "Да нет здесь ничего веселого"
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new

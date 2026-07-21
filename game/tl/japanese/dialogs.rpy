@@ -1281,5 +1281,41 @@ translate japanese strings:
     old "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
     new "まあ、いいわ。何を言ったところで別に帰るとは思えないし。"
 
-    old "Umm…? Excuse me, what on earth am I doing here…?"
-    new "ええと......?すみません、私はいったい......?"
+    old "Oh, there's no particular reason, really."
+    new "あら、別に大した理由はないわ"
+
+    old "I heard you and Louise were doing something amusing, so I just dropped by to see for myself."
+    new "あなたとルイズがなにやら面白いことをやってるらしいって聞いたから、見に来てただけよ。"
+
+    old "Heard it...? From whom?"
+    new "聞いたって......誰から?"
+
+    old "It goes without saying, doesn’t it? Say, Montmorency?"
+    new "そんなの決まってるじゃない。ねえ、モンモランシー?"
+
+    old "...Ohohoho."
+    new "......おほほほほ。"
+
+    old "Come on. I may not know the circumstances, but it looks like you're having some fun, doesn't it?"
+    new "まあまあ。事情は知らないけど、なにやら楽しいことになってるようじゃない?"
+
+    old "There's nothing fun about it, really."
+    new "別に楽しいことなんてないわよ。"
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new

@@ -114,10 +114,15 @@ label ch1_6:
             $ show_sprites(("k 1", "s 3 sad"))
             voice "ch1.6_s_007"
             s "Hey, Kirche. Why are you here?"
+            k "Oh, there's no particular reason, really"
 
+            k "I heard you and Louise were doing something amusing, so I just dropped by to see for myself."
+            s "Heard it...? From whom?"
+            l "It goes without saying, doesn’t it? Say, Montmorency?"
+            m "...Ohohoho."
+            k "Come on. I may not know the circumstances, but it looks like you're having some fun, doesn't it?"
+            l "There's nothing fun about it, really."
     $ show_sprites(("l 1"))
     voice "ch1.6_l_005"
     l "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
-
-    $ show_sprites(("l 1", "h 1 sad"))
-    unk_h "Umm…? Excuse me, what on earth am I doing here…?"
+    
