@@ -81,3 +81,10 @@ translate japanese strings:
     old "Ask Kirche"
     new "キュルケに訊ねる"
 
+    old "Yeah"
+    new "はい"
+
+    old "Nope"
+    new "いいえ"
+
+

@@ -363,3 +363,26 @@ label ch1_6:
     $ show_sprites(("l 3 sad", "ha 1 angry"))
     voice "ch1.6_l_022"
     l "I-It's not exactly wrong, but there's a problem with the way you're expressing it..."
+
+    # комментарии делаются через решетку
+    # тут ниже пока не стал дописывать, а до выбора сразу пошел...
+
+    # строки с выбором я перевел если что (в файлах choises)
+    menu:
+        "Yeah":
+            "сюда"
+
+            $ update_sympathy(20, char_key="louise")
+            $ update_sympathy(-20, char_key="haruna")
+
+        "Nope":
+            "сюда"
+
+            $ update_sympathy(-20, char_key="louise")
+            $ update_sympathy(20, char_key="haruna")
+            $ update_sympathy(20, char_key="siesta")
+            $ update_sympathy(20, char_key="kirche")
+
+            #дальше резня
+
+    "сюда дальше писать после выбора"

@@ -81,5 +81,11 @@ translate russian strings:
     old "Ask Kirche"
     new "Спросить у Кирке"
 
+    old "Yeah"
+    new "Ага"
+
+    old "Nope"
+    new "Не-а"
+
 
 
