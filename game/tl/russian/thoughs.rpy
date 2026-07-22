@@ -172,3 +172,9 @@ translate russian strings:
 
     old "I wonder why they came here..."
     new "Интересно, зачем они вообще сюда пришли…"
+
+    old "She looks bewildered, unable to make sense of what's going on. Not surprising, though."
+    new "Кажется, она в замешательстве от непонимания происходящего. Что ж, неудивительно"
+
+    old "A round mirror... The same as what happened to me."
+    new "Круглое зеркало... Прямо как было и со мной!"

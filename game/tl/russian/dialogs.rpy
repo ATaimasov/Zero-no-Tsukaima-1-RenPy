@@ -1301,11 +1301,8 @@ translate russian strings:
     old "...Ohohoho."
     new "..О-хо-хо-хо."
 
-    old "Come on. I may not know the circumstances, but it looks like you're having some fun, doesn't it?"
-    new "Ну-ну. Подробностей я не знаю, но похоже, тут начинается что-то веселое, не так ли?"
-
     old "There's nothing fun about it, really."
-    new "Да нет здесь ничего веселого"
+    new "Да нет тут ничего веселого"
 
     old "Oh, well. It’s not like I expect you to go home just because I tell you to."
     new "Ох, ну и пусть. Не жду я, что ты уйдешь, сколько бы я ни просила"
@@ -1315,9 +1312,6 @@ translate russian strings:
 
     old "More importantly, the problem is who this girl is."
     new "Но более насущный вопрос: кто она такая?"
-
-    old "She looks bewildered, unable to make sense of what's going on. Not surprising, though."
-    new "Кажется, она в замешательстве от непонимания происходящего. Что ж, неудивительно"
 
     old "Well, let's see... To explain, Louise and I found you collapsed on the outskirts of town yesterday and brought you here."
     new "Эм, ну... Если объяснять, то вчера мы с Луизой нашли тебя без сознания на окраине города и привели сюда"
@@ -1335,16 +1329,16 @@ translate russian strings:
     new "Ты казалась изможденной, вот я и распорядилась дать тебе покой. Вот и всё, больше ничего"
 
     old "Now, I’d like to ask you something. Where do you come from? What’s your name?"
-    new "Теперь моя очередь задавать вопросы. Откуда ты родом? И как твое имя?"
+    new "Теперь моя очередь задавать вопросы. Откуда ты родом? Твое имя?"
 
-    old "Y-yes. I am Haruna... 'Haruna Takanaqi"
-    new "Д-да. Меня зовут Харуна... «Таканаги Харуна»"
+    old "Y-yes. I am Haruna... Haruna Takanaqi"
+    new "Д-да. Меня зовут Харуна... Таканаги Харуна"
     
-    old "Just as I thought, Miss Takanaqi..."
-    new "Я так и думала, Таканаги-сан..."
+    old "Just as I thought, Takanaqi-san..."
+    new "Я так и думал, Таканаги-сан..."
 
-    old "You know about me? Saito... could you possibly be 'Hiraga Saito'?"
-    new "Ты знаешь обо мне? Сайто... ты случайно не «Хирага Сайто-кун»?»"
+    old "You know about me? Saito... could you possibly be Hiraga Saito-kun?"
+    new "Ты знаешь обо мне? Сайто... ты случайно не Хирага Сайто-кун?"
 
     old "Ah, that's right, I'm Saito Hiraga. It’s been a while, Takanaqi-san."
     new "А, точно, я Хирага Сайто. Сколько лет, сколько зим, Таканаги-сан"
@@ -1364,11 +1358,8 @@ translate russian strings:
     old "...Hohoho."
     new "...Хо-хо-хо."
 
-    old "Now, now. I don’t know the details, but it seems things are getting rather interesting, isn’t it?"
-    new "Успокойтесь. Я в курсе не всех деталей, но явно что-то забавное разворачивается, верно?"
-
-    old "It's not like there's anything fun going on here."
-    new "Да нет тут ничего веселого"
+    old "Now, now. I don't know the circumstances, but it seems like it's turning into something fun, doesn't it?"
+    new "Успокойтесь. Я не в курсе всех деталей, но явно происходит что-то интересное, верно?"
 
     old "I'm so happy... To think we'd meet in a place like this!!"
     new "Такое счастье... Кто бы мог подумать, что мы увидимся в таком месте!!"
@@ -1383,13 +1374,10 @@ translate russian strings:
     new "Ох, неважно. Так расскажи, каким образом ты здесь оказалась?"
 
     old "How... well, even if you ask me how... Out of nowhere, on a perfectly normal day, a round, mirror-like thing just appeared right before my eyes..."
-    new "Как... право, не знаю, как и объяснить... В один совершенно обычный день вдруг прямо у меня перед глазами возник какой-то круглый предмет, похожий на зеркало..."
+    new "Как... ну, не знаю, как и объяснить... В один совершенно обычный день вдруг прямо у меня перед глазами возникла какая-то круглая штуковина, похожая на зеркало..."
 
     old "The moment I touched it, it seems I ended up in this world."
-    new "Как только я коснулась его, меня словно перенесло в этот мир"
-
-    old "A round mirror... The same as what happened to me."
-    new "Круглое зеркало... Прямо как в моём случае"
+    new "Как только я коснулась её, то каким-то образом оказалась в этом мире"
 
     old "I had no idea where I was and was completely at a loss, when a woman who just happened to pass by stopped to help me..."
     new "Я понятия не имела, где я, и уже совсем отчаялась, как вдруг мне на помощь пришла какая-то незнакомая женщина, проходившая мимо..."
@@ -1403,8 +1391,8 @@ translate russian strings:
     old "Oh? That sounds like a rather grim tale, don't you think?"
     new "Ну надо же. Довольно мрачная история, не находите?"
 
-    old "Ordinarily, you'd think that woman is the mage who summoned her, but I can't say for certain."
-    new "Вообще-то, логично было бы предположить, что эта женщина и есть маг, призвавший её, но у меня нет полной уверенности"
+    old "By all logic, that woman should be the mage who summoned the girl, but I can't say for certain."
+    new "В принципе, логично было бы предположить, что та женщина — маг, призвавший эту девушку. Но я не то чтобы полностью уверена"
 
     old "Since I was kept confined all that while, I seized an opportunity to slip away. However..."
     new "Пока меня держали взаперти, я ждала подходящего случая и в итоге смогла сбежать. Однако..."
@@ -1439,11 +1427,11 @@ translate russian strings:
     old "Urgh!"
     new "Угх!"
 
-    old "I mean, it's not like you'd usually think of making a human into a familiar, right?"
-    new "Мне кажется, обычно никто бы и не подумал использовать человека в качестве фамильяра, разве нет?"
+    old "Well, normally, one wouldn't think that a human is being used as a familiar."
+    new "Ну, обычно никто и не подумает, что человека используют в качестве фамильяра"
 
-    old "Onlookers, keep your mouths shut!"
-    new "Зрители, помалкивайте!"
+    old "Bystanders, stay quiet!"
+    new "Посторонним молчать!"
 
     old "Um, this is an extremely unusual situation, but... I called Saito forth with the magic used to summon familiars, and we established a contract."
     new "Ну, это очень особый случай, но... я призвала Сайто заклинанием призыва фамильяра и заключила с ним контракт"
@@ -1451,17 +1439,20 @@ translate russian strings:
     old "So, even though Saito is human, he’s still my familiar. See? He has the familiar’s rune on his left hand."
     new "Вот почему, несмотря на то что Сайто — человек, он является моим фамильяром. Видишь? На его левой руке стоит метка фамильяра"
 
-    old "...I see. I get that part."
-    new "...Ну, это мне понятно"
+    old "...That much I understand."
+    new "...Это-то я понимаю"
 
     old "I understand that, but... You have no right to interfere with me hugging Hiraga-kun!"
-    new "Я это поняла, но... У вас нет права мешать мне обнимать Хирагу-куна!"
+    new "Я это понимаю, но... У вас нет права мешать мне обнимать Хирагу-куна!"
 
     old "What did you just say?!"
     new "Что ты такое говоришь?!"
 
-    old "Saito is the very first and only acquaintance I’ve made in this world! Why shouldn’t I be glad to reunite with him?!"
-    new "Хирага-кун — единственный человек, которого я знаю с тех пор, как попала в этот мир! Что плохого в том, чтобы радоваться встрече?!"
+    old "Hiraga-kun is the only acquaintance I have met since coming to this world. What's wrong with being happy about our reunion!?"
+    new "Хирага-кун — это единственный знакомый, которого я встретила с тех пор, как попала в этот мир! Что плохого в том, чтобы радоваться встрече?!"
     
-    old "W-well, it’s not wrong, per se, but the way you expressed it is a bit... problematic."
-    new "Я-я не говорю, что это совсем уж неправильно, но сам способ... тут есть проблемы..."
+    old "I-It's not exactly wrong, but there's a problem with the way you're expressing it..."
+    new "Н-ну, это не то чтобы плохо. Проблема именно в том, как ты это выражаешь..."
+
+    old "Well, why not. Depending on what we're dealing with, we can give a hand too."
+    new "Ну, разве это плохо? В зависимости от ситуации, мы тоже можем подсобить"

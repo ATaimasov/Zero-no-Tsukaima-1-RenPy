@@ -136,6 +136,10 @@ image cg ha_sick_5 = "cg/ha_sick_5.png"
 image cg si_wakeup = "cg/si_wakeup.png"
 image cg si_wakeup_2 = "cg/si_wakeup_2.png"
 
+image cg ha_hug= "cg/ha_hug.png"
+image cg ha_hug_2 = "cg/ha_hug_2.png"
+image cg ha_hug_3 = "cg/ha_hug_3.png"
+
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"
 define audio.t2 = "audio/bgm/t2.ogg"

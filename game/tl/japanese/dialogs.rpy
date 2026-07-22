@@ -1296,9 +1296,6 @@ translate japanese strings:
     old "...Ohohoho."
     new "......おほほほほ。"
 
-    old "Come on. I may not know the circumstances, but it looks like you're having some fun, doesn't it?"
-    new "まあまあ。事情は知らないけど、なにやら楽しいことになってるようじゃない?"
-
     old "There's nothing fun about it, really."
     new "別に楽しいことなんてないわよ。"
 
@@ -1310,9 +1307,6 @@ translate japanese strings:
 
     old "More importantly, the problem is who this girl is."
     new "それより、この娘が誰なのかが問題なの。"
-
-    old "She looks bewildered, unable to make sense of what's going on. Not surprising, though."
-    new "(状況が把握できなくて戸惑ってるようだな。 当然だろうけど)"
 
     old "Well, let's see... To explain, Louise and I found you collapsed on the outskirts of town yesterday and brought you here."
     new "ええとだな。説明すると、昨日、町外れで倒れてたきみを、俺とルイズが拾って、ここに連れて来たんだ。"
@@ -1332,13 +1326,13 @@ translate japanese strings:
     old "Now, I’d like to ask you something. Where do you come from? What’s your name?"
     new "で、今度はこちらが聞きたいんだけど。あなた、どこから来たの?名前は?"
 
-    old "Y-yes. I am Haruna... 'Haruna Takanaqi"
+    old "Y-yes. I am Haruna... Haruna Takanaqi"
     new "は、はい。私は春奈......『高凪 春奈』と言います。"
 
-    old "Just as I thought, Miss Takanaqi..."
+    old "Just as I thought, Takanaqi-san..."
     new  "やっぱり高凪さんか......。"
 
-    old "You know about me? Saito... could you possibly be 'Hiraga Saito'?"
+    old "You know about me? Saito... could you possibly be Hiraga Saito-kun?"
     new "私のことを知っている?サイトって、もしかして『平賀 才人』くん?"
 
     old "Ah, that's right, I'm Saito Hiraga. It’s been a while, Takanaqi-san."
@@ -1359,11 +1353,8 @@ translate japanese strings:
     old "...Hohoho."
     new "......ほほほ。"
 
-    old "Now, now. I don’t know the details, but it seems things are getting rather interesting, isn’t it?"
+    old "Now, now. I don't know the circumstances, but it seems like it's turning into something fun, doesn't it?"
     new "まあまあ。事情は知らないけど、なにやら楽しいことになってるようじゃない?"
-
-    old "It's not like there's anything fun going on here."
-    new "別に楽しいことなんてないわよ。"
 
     old "I'm so happy... To think we'd meet in a place like this!!"
     new "うれしい......。こんなところで会えるなんて!!"
@@ -1383,9 +1374,6 @@ translate japanese strings:
     old "The moment I touched it, it seems I ended up in this world."
     new "それに触れたとたん、こっちの世界に来ちゃったみたいで。"
 
-    old "A round mirror... The same as what happened to me."
-    new "(丸い鏡......俺の時と同じだ)"
-
     old "I had no idea where I was and was completely at a loss, when a woman who just happened to pass by stopped to help me..."
     new "ここがどこかも分からないし途方に暮れていたところを、たまたま通りかかった見知らぬ女性に助けてもらったんですけど。"
 
@@ -1398,7 +1386,7 @@ translate japanese strings:
     old "Oh? That sounds like a rather grim tale, don't you think?"
     new "ふうん?ずいぶんと剣呑な話ね。"
 
-    old "Ordinarily, you'd think that woman is the mage who summoned her, but I can't say for certain."
+    old "By all logic, that woman should be the mage who summoned the girl, but I can't say for certain."
     new "その人がこの娘を召喚した魔法使いだろうと、普通は考えるところなんだけど。ちょっと確信はないわねえ。"
 
     old "Since I was kept confined all that while, I seized an opportunity to slip away. However..."
@@ -1434,10 +1422,10 @@ translate japanese strings:
     old "Urgh!"
     new "うっ!"
 
-    old "I mean, it's not like you'd usually think of making a human into a familiar, right?"
+    old "Well, normally, one wouldn't think that a human is being used as a familiar."
     new "ま、普通、人間を使い魔にしてるなんて思わないわよねえ。"
 
-    old "Onlookers, keep your mouths shut!"
+    old "Bystanders, stay quiet!"
     new "外野は黙ってて!"
 
     old "Um, this is an extremely unusual situation, but... I called Saito forth with the magic used to summon familiars, and we established a contract."
@@ -1446,7 +1434,7 @@ translate japanese strings:
     old "So, even though Saito is human, he’s still my familiar. See? He has the familiar’s rune on his left hand."
     new "だから、サイトは人間だけどわたしの使い魔なの。ほら、左手に使い魔の印があるでしょ。"
 
-    old "...I see. I get that part."
+    old "...That much I understand."
     new "......それは分かりました。"
 
     old "I understand that, but... You have no right to interfere with me hugging Hiraga-kun!"
@@ -1455,9 +1443,12 @@ translate japanese strings:
     old "What did you just say?!"
     new "なんですってえ!?"
 
-    old "Saito is the very first and only acquaintance I’ve made in this world! Why shouldn’t I be glad to reunite with him?!"
+    old "Hiraga-kun is the only acquaintance I have met since coming to this world. What's wrong with being happy about our reunion!?"
     new "平賀くんは、私がこの世界に来てから初めて会った、ただ1人の知り合いなんです。再会を喜んで、なんでいけないんですか!?"
 
-    old "W-well, it’s not wrong, per se, but the way you expressed it is a bit... problematic."
+    old "I-It's not exactly wrong, but there's a problem with the way you're expressing it..."
     new "い、いけなくはないけど、表現方法に問題が......。"
+
+    old "Well, why not. Depending on what we're dealing with, we can give a hand too."
+    new "まあ、いいじゃない。話によっては、あたし達も手を貸すわよ。"
     

@@ -178,3 +178,9 @@ translate japanese strings:
 
     old "I wonder why they came here..."
     new "(なんでここに来たんだろう......)"
+
+    old "She looks bewildered, unable to make sense of what's going on. Not surprising, though."
+    new "(状況が把握できなくて戸惑ってるようだな。 当然だろうけど)"
+
+    old "A round mirror... The same as what happened to me."
+    new "(丸い鏡......俺の時と同じだ)"
