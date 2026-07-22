@@ -1348,3 +1348,90 @@ translate russian strings:
 
     old "Ah, that's right, I'm Saito Hiraga. It’s been a while, Takanaqi-san."
     new "А, точно, я Хирага Сайто. Сколько лет, сколько зим, Таканаги-сан"
+
+    old "I-I don't know either."
+    new "Я-я и сама не понимаю"
+
+    old "Huh? Weren't you there when we came to call for you?"
+    new "Э? Тебя не было там, когда мы пришли за тобой?"
+
+    old "Yes. I did let Miss Montmorency know, but as for everyone else, absolutely nothing..."
+    new "Да. Мисс Монморанси в курсе, а вот насчет остальных — ничегошеньки..."
+
+    old "So that leaves only one possible answer, doesn't it? Say, Montmorency?"
+    new "Выходит, ответ может быть только один, не так ли? Монморанси?"
+
+    old "...Hohoho."
+    new "...Хо-хо-хо."
+
+    old "Now, now. I don’t know the details, but it seems things are getting rather interesting, isn’t it?"
+    new "Успокойтесь. Я в курсе не всех деталей, но явно что-то забавное разворачивается, верно?"
+
+    old "It's not like there's anything fun going on here."
+    new "Да нет тут ничего веселого"
+
+    old "I'm so happy... To think we'd meet in a place like this!!"
+    new "Такое счастье... Кто бы мог подумать, что мы увидимся в таком месте!!"
+ 
+    old "As I suspected! She's the girl Saito is acquainted with!"
+    new "Я так и думала! Это же та девушка, с которой знаком Сайто!"
+
+    old "Yes. I shared a class with Saito-kun and acted as our class president."
+    new "Да. Я училась с Хирагой-куном в одном классе и была старостой"
+
+    old "Well, never mind. So, how did you get here?"
+    new "Ох, неважно. Так расскажи, каким образом ты здесь оказалась?"
+
+    old "How... well, even if you ask me how... Out of nowhere, on a perfectly normal day, a round, mirror-like thing just appeared right before my eyes..."
+    new "Как... право, не знаю, как и объяснить... В один совершенно обычный день вдруг прямо у меня перед глазами возник какой-то круглый предмет, похожий на зеркало..."
+
+    old "The moment I touched it, it seems I ended up in this world."
+    new "Как только я коснулась его, меня словно перенесло в этот мир"
+
+    old "A round mirror... The same as what happened to me."
+    new "Круглое зеркало... Прямо как в моём случае"
+
+    old "I had no idea where I was and was completely at a loss, when a woman who just happened to pass by stopped to help me..."
+    new "Я понятия не имела, где я, и уже совсем отчаялась, как вдруг мне на помощь пришла какая-то незнакомая женщина, проходившая мимо..."
+
+    old "But...?"
+    new "Но...?"
+
+    old "They put me in a locked room and shut me inside, just like that..."
+    new "Меня заперли в комнате с замком и просто оставили там..."
+
+    old "Oh? That sounds like a rather grim tale, don't you think?"
+    new "Ну надо же. Довольно мрачная история, не находите?"
+
+    old "Ordinarily, you'd think that woman is the mage who summoned her, but I can't say for certain."
+    new "Вообще-то, логично было бы предположить, что эта женщина и есть маг, призвавший её, но у меня нет полной уверенности"
+
+    old "Since I was kept confined all that while, I seized an opportunity to slip away. However..."
+    new "Пока меня держали взаперти, я ждала подходящего случая и в итоге смогла сбежать. Однако..."
+
+    old "With no acquaintances and nowhere to head to, you were simply wandering aimlessly... I guess you probably would've passed out eventually."
+    new "Ни знакомых, ни пристанища... Ты просто скиталась наугад, и, наверное, в конце концов просто рухнула от бессилия"
+
+    old "Y-yes."
+    new "Д-да."
+
+    old "And it was you two who rescued her at that point. What incredible luck she had, honestly."
+    new "Выходит, это вы двое выручили её в тот момент. Какая же ей удача выпала, честное слово"
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new

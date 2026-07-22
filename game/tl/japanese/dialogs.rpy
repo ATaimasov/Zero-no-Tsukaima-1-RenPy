@@ -1343,3 +1343,84 @@ translate japanese strings:
 
     old "Ah, that's right, I'm Saito Hiraga. It’s been a while, Takanaqi-san."
     new "ああ、俺、平賀 才人。高凪さんお久しぶり。"
+
+    old "I-I don't know either."
+    new "わ、わたしにも分かりません。"
+
+    old "Huh? Weren't you there when we came to call for you?"
+    new "え、俺達を呼びに来たときはいなかったのか?"
+
+    old "Yes. I did let Miss Montmorency know, but as for everyone else, absolutely nothing..."
+    new "はい。ミス・モンモランシーにはお知らせしましたけど、他の方々は全然......。"
+
+    old "So that leaves only one possible answer, doesn't it? Say, Montmorency?"
+    new "ってことは、答えはひとつよね。ねえ、モンモランシー?"
+
+    old "...Hohoho."
+    new "......ほほほ。"
+
+    old "Now, now. I don’t know the details, but it seems things are getting rather interesting, isn’t it?"
+    new "まあまあ。事情は知らないけど、なにやら楽しいことになってるようじゃない?"
+
+    old "It's not like there's anything fun going on here."
+    new "別に楽しいことなんてないわよ。"
+
+    old "I'm so happy... To think we'd meet in a place like this!!"
+    new "うれしい......。こんなところで会えるなんて!!"
+
+    old "As I suspected! She's the girl Saito is acquainted with!"
+    new "やっぱりサイトが知っている娘だったんじゃない!"
+
+    old "Yes. I shared a class with Saito-kun and acted as our class president."
+    new "はい。平賀くんと同じクラスで、クラスの委員長をやってました。"
+
+    old "Well, never mind. So, how did you get here?"
+    new "まあいいわ。で、あなたはどうやってここに来たの?"
+
+    old "How... well, even if you ask me how... Out of nowhere, on a perfectly normal day, a round, mirror-like thing just appeared right before my eyes..."
+    new "どう......と言われましても......。普通に過ごしていたある日突然、目の前に丸い鏡のようなものが現れて......。"
+
+    old "The moment I touched it, it seems I ended up in this world."
+    new "それに触れたとたん、こっちの世界に来ちゃったみたいで。"
+
+    old "A round mirror... The same as what happened to me."
+    new "(丸い鏡......俺の時と同じだ)"
+
+    old "I had no idea where I was and was completely at a loss, when a woman who just happened to pass by stopped to help me..."
+    new "ここがどこかも分からないし途方に暮れていたところを、たまたま通りかかった見知らぬ女性に助けてもらったんですけど。"
+
+    old "But...?"
+    new "けど?"
+
+    old "They put me in a locked room and shut me inside, just like that..."
+    new "鍵のかかった部屋に入れられて、そのまま閉じこめられちゃって。"
+
+    old "Oh? That sounds like a rather grim tale, don't you think?"
+    new "ふうん?ずいぶんと剣呑な話ね。"
+
+    old "Ordinarily, you'd think that woman is the mage who summoned her, but I can't say for certain."
+    new "その人がこの娘を召喚した魔法使いだろうと、普通は考えるところなんだけど。ちょっと確信はないわねえ。"
+
+    old "Since I was kept confined all that while, I seized an opportunity to slip away. However..."
+    new "ずっと閉じ込められたままだったんで、なんとか隙を見て逃げ出したんです。だけど......。"
+
+    old "With no acquaintances and nowhere to head to, you were simply wandering aimlessly... I guess you probably would've passed out eventually."
+    new "知ってる人もいないし、行く当てもないし、そのまま放浪していたら、倒れちゃったってところかしら。"
+
+    old "Y-yes."
+    new "は、はい。"
+
+    old "And it was you two who rescued her at that point. What incredible luck she had, honestly."
+    new "そこをお2人が助けられたんですね。運が良かったです、本当に。"
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
+
+    old
+    new
