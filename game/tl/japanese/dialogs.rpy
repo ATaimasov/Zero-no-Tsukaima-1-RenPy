@@ -1413,14 +1413,51 @@ translate japanese strings:
     old "And it was you two who rescued her at that point. What incredible luck she had, honestly."
     new "そこをお2人が助けられたんですね。運が良かったです、本当に。"
 
-    old
-    new
+    old "Ugh... Hiraga-kun!"
+    new "うっ......。平賀くんっ!"
 
-    old
-    new
+    old "Whoa!?"
+    new "うわっ!?"
 
-    old
-    new
+    old "Wah!?"
+    new "うぁっ!?"
 
-    old
-    new
+    old "W-what is the meaning of this?! Why are you suddenly clinging to my familiar like that?! Get away from him!"
+    new "な、なに、なんでいきなりわたしの使い魔に抱きつくのよ!離れなさい!"
+
+    old "A familiar? What exactly is a 'familiar'? Hiraga-kun is a perfectly normal human being!"
+    new "使い魔?使い魔ってなんですか?平賀くんはれっきとした人間です!"
+ 
+    old "To call him a familiar like that... Who do you think you are?!"
+    new "それを使い魔呼ばわりだなんて、あなたこそ何者ですか!?"
+
+    old "Urgh!"
+    new "うっ!"
+
+    old "I mean, it's not like you'd usually think of making a human into a familiar, right?"
+    new "ま、普通、人間を使い魔にしてるなんて思わないわよねえ。"
+
+    old "Onlookers, keep your mouths shut!"
+    new "外野は黙ってて!"
+
+    old "Um, this is an extremely unusual situation, but... I called Saito forth with the magic used to summon familiars, and we established a contract."
+    new "ええと、すごーく特別な例なんだけど、サイトはわたしが使い魔を召喚する魔法で呼び出して、契約を交わしたの。"
+
+    old "So, even though Saito is human, he’s still my familiar. See? He has the familiar’s rune on his left hand."
+    new "だから、サイトは人間だけどわたしの使い魔なの。ほら、左手に使い魔の印があるでしょ。"
+
+    old "...I see. I get that part."
+    new "......それは分かりました。"
+
+    old "I understand that, but... You have no right to interfere with me hugging Hiraga-kun!"
+    new "分かりましたけど。あなたに、私が平賀くんに抱きつくのを邪魔する権利はありません!"
+
+    old "What did you just say?!"
+    new "なんですってえ!?"
+
+    old "Saito is the very first and only acquaintance I’ve made in this world! Why shouldn’t I be glad to reunite with him?!"
+    new "平賀くんは、私がこの世界に来てから初めて会った、ただ1人の知り合いなんです。再会を喜んで、なんでいけないんですか!?"
+
+    old "W-well, it’s not wrong, per se, but the way you expressed it is a bit... problematic."
+    new "い、いけなくはないけど、表現方法に問題が......。"
+    

@@ -1418,20 +1418,50 @@ translate russian strings:
     old "And it was you two who rescued her at that point. What incredible luck she had, honestly."
     new "Выходит, это вы двое выручили её в тот момент. Какая же ей удача выпала, честное слово"
 
-    old
-    new
+    old "Ugh... Hiraga-kun!"
+    new "Угх... Хирага-кун!"
 
-    old
-    new
+    old "Whoa!?"
+    new "Ого!?"
 
-    old
-    new
+    old "Wah!?"
+    new "Ва!?"
 
-    old
-    new
+    old "W-what is the meaning of this?! Why are you suddenly clinging to my familiar like that?! Get away from him!"
+    new "Ч-что это значит?! Почему ты внезапно вцепилась в моего фамильяра?! Отстань от него!"
 
-    old
-    new
+    old "A familiar? What exactly is a 'familiar'? Hiraga-kun is a perfectly normal human being!"
+    new "Фамильяр? Что такое фамильяр? Хирага-кун — самый настоящий человек!"
 
-    old
-    new
+    old "To call him a familiar like that... Who do you think you are?!"
+    new "Как вы смеете величать его каким-то там фамильяром?! Вы сами-то кто такая?!"
+
+    old "Urgh!"
+    new "Угх!"
+
+    old "I mean, it's not like you'd usually think of making a human into a familiar, right?"
+    new "Мне кажется, обычно никто бы и не подумал использовать человека в качестве фамильяра, разве нет?"
+
+    old "Onlookers, keep your mouths shut!"
+    new "Зрители, помалкивайте!"
+
+    old "Um, this is an extremely unusual situation, but... I called Saito forth with the magic used to summon familiars, and we established a contract."
+    new "Ну, это очень особый случай, но... я призвала Сайто заклинанием призыва фамильяра и заключила с ним контракт"
+
+    old "So, even though Saito is human, he’s still my familiar. See? He has the familiar’s rune on his left hand."
+    new "Вот почему, несмотря на то что Сайто — человек, он является моим фамильяром. Видишь? На его левой руке стоит метка фамильяра"
+
+    old "...I see. I get that part."
+    new "...Ну, это мне понятно"
+
+    old "I understand that, but... You have no right to interfere with me hugging Hiraga-kun!"
+    new "Я это поняла, но... У вас нет права мешать мне обнимать Хирагу-куна!"
+
+    old "What did you just say?!"
+    new "Что ты такое говоришь?!"
+
+    old "Saito is the very first and only acquaintance I’ve made in this world! Why shouldn’t I be glad to reunite with him?!"
+    new "Хирага-кун — единственный человек, которого я знаю с тех пор, как попала в этот мир! Что плохого в том, чтобы радоваться встрече?!"
+    
+    old "W-well, it’s not wrong, per se, but the way you expressed it is a bit... problematic."
+    new "Я-я не говорю, что это совсем уж неправильно, но сам способ... тут есть проблемы..."
