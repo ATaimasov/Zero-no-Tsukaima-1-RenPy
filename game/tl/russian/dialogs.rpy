@@ -1456,3 +1456,105 @@ translate russian strings:
 
     old "Well, why not. Depending on what we're dealing with, we can give a hand too."
     new "Ну, разве это плохо? В зависимости от ситуации, мы тоже можем подсобить"
+
+    old "What’s so wrong with a hug?! It’s truly strange to get so upset merely because someone embraced your familiar!"
+    new "Что плохого в объятиях?! Это просто ненормально — так вспыхивать гневом лишь от того, что кто-то обнял твоего же фамильяра!"
+
+    old "Also, feel free to call me Haruna, Saito-kun."
+    new "Кстати, ты можешь звать меня Харуной, Сайто-кун"
+
+    old "Ah, yeah... Haruna, huh..."
+    new "Ох, да... Харуна, понятно..."
+
+    old "Wha—?!"
+    new "Что—?!"
+
+    old "Well, that’s a fair point. I suppose it shouldn't matter who hugs Darling!"
+    new "Да уж, с этим не поспоришь. Значит, каждый имеет право обнять Дорогого, так?"
+
+    old "Huh?!"
+    new "А?!"
+
+    old "See? Just like this."
+    new "Во-о-от, вот так"
+
+    old "W-w-what the—?!"
+    new "К-к-как это—?!"
+
+    old "I-I won't lose either!"
+    new "Я-я тоже не проиграю!"
+
+    old "Ohaa!?"
+    new "Оха!?"
+
+    old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
+    new "Ч-что происходит!? Я окружён чем-то мягким и тёплым... Это, эта ситуация......!"
+
+    old "...Hell on earth."
+    new "...Картина ада."
+
+    old "Aah! Tabitha, when did you get into the corner of the room!?"
+    new "Ах! Табита, когда ты успела оказаться в углу комнаты!?"
+
+    old "...Saito. Please, step away from those women immediately."
+    new "...Сайто. Прошу тебя, отойди от этих женщин немедленно"
+
+    old "She says to get away..."
+    new "Велит отойти..."
+
+    old "Okay, I have returned."
+    new "Ладно, я тут"
+
+    old "No! And here I was, so happy to finally meet Hiraga-kun again...!"
+    new "Нет! Я так рада, что наконец-то встретилась с Хирагой-куном, и вот...!"
+
+    old "If we back off now, we lose!"
+    new "Отойти сейчас — значит проиграть!"
+
+    old ""Ohoho! If you can pull away, then go ahead and try! Look, look!"
+    new "О-хо-хо! Попробуй вырваться, если сможешь! Ну же, гляди!"
+
+    old "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
+    new "Ого! Моё лицо и тело окутаны чем-то мягким, как маршмеллоу, и это никак не проходит!"
+
+    old "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
+    new "Фу-фу-фу, фу-фу-фу... Понятно. Значит, ты собираешься полностью отбросить стыд и принять это как есть, Сайто?"
+
+    old "Fine!!! Then I'll force you away from them!!"
+    new "Ясно!!! Тогда я силой оторву тебя от них!!"
+
+    old "W-wait a minute! If you use magic in a place like this...!"
+    new "Эй, погоди! Если ты применишь здесь магию...!"
+
+    old "Words are useless!!"
+    new "Отговорки не принимаются!!"
+
+    old "Gwaaah!!"
+    new "Гвааах!!"
+
+    old "The damage is extensive..."
+    new "Ущерб колоссальный..."
+
+    old "No, that is impossible, Master."
+    new "Нет, это невозможно, хозяйка"
+
+    old "What did you just say?!"
+    new "Как ты смеешь так говорить?!"
+
+    old "No, look closely! I can't move a muscle, even if I wanted to get away!"
+    new "Да нет же, присмотрись! Я бы и рад отойти, да вот только пошевелиться не могу!"
+
+    old "Hiraga-kun..."
+    new "Хирага-кун..."
+
+    old "Saito-san!"
+    new "Сайто-сан!"
+
+    old "Vallière. You’ve lost. There’s no room left to hug him now."
+    new "Вальер. Ты проиграла. Сейчас уже нет места, чтобы к нему прижаться"
+
+    old ""
+    new ""
+
+    old ""
+    new ""

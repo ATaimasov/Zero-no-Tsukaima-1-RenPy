@@ -363,6 +363,21 @@ label ch1_6:
     $ show_sprites(("l 3 sad", "ha 1 angry"))
     voice "ch1.6_l_022"
     l "I-It's not exactly wrong, but there's a problem with the way you're expressing it..."
+    ha "What’s so wrong with a hug?! It’s truly strange to get so upset merely because someone embraced your familiar!"
+    ha "Also, feel free to call me Haruna, Saito-kun."
+    s "Ah, yeah... Haruna, huh..."
+    l "Wha—?!"
+    k "Well, that’s a fair point. I suppose it shouldn't matter who hugs Darling!"
+    s "Huh?!"
+    k "See? Just like this."
+    l "W-w-what the—?!"
+    si "I-I won't lose either!"
+    s "Ohaa!?"
+    th "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
+    t "...Hell on earth."
+    s "Aah! Tabitha, when did you get into the corner of the room!?"
+    l "...Saito. Please, step away from those women immediately."
+    s "She says to get away..."
 
     # комментарии делаются через решетку
     # тут ниже пока не стал дописывать, а до выбора сразу пошел...
@@ -375,6 +390,14 @@ label ch1_6:
             $ update_sympathy(20, char_key="louise")
             $ update_sympathy(-20, char_key="haruna")
 
+            s "Okay, I have returned."
+            ha "No! And here I was, so happy to finally meet Hiraga-kun again...!"
+            si "If we back off now, we lose!"
+            k "Ohoho! If you can pull away, then go ahead and try! Look, look!"
+            s "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
+
+
+
         "Nope":
             "сюда"
 
@@ -382,7 +405,21 @@ label ch1_6:
             $ update_sympathy(20, char_key="haruna")
             $ update_sympathy(20, char_key="siesta")
             $ update_sympathy(20, char_key="kirche")
+            s "No, that is impossible, Master."
+            l "What did you just say?!"
+            s "No, look closely! I can't move a muscle, even if I wanted to get away!"
+            ha "Hiraga-kun..."
+            si "Saito-san!"
+            k "Vallière. You’ve lost. There’s no room left to hug him now."
+
+
 
             #дальше резня
 
     "сюда дальше писать после выбора"
+    l "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
+    l "Fine!!! Then I'll force you away from them!!"
+    s  "W-wait a minute! If you use magic in a place like this...!"
+    l "Words are useless!!"
+    s "Gwaaah!!"
+    t "The damage is extensive..."

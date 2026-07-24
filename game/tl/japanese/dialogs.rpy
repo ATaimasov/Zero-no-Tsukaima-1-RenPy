@@ -1452,3 +1452,107 @@ translate japanese strings:
     old "Well, why not. Depending on what we're dealing with, we can give a hand too."
     new "まあ、いいじゃない。話によっては、あたし達も手を貸すわよ。"
     
+    old "What’s so wrong with a hug?! It’s truly strange to get so upset merely because someone embraced your familiar!"
+    new "抱きつくことのなにがいけないんですか?自分の使い魔に誰かが抱きついただけでそんなに怒るなんて、変です!"
+
+    old "Also, feel free to call me Haruna, Saito-kun."
+    new "それに私のことは春奈と呼んでくれていいですよ、平賀くん。"
+
+    old "Ah, yeah... Haruna, huh..."
+    new "あ、ああ......。春奈ね......。"
+
+    old "Wha—?!"
+    new "な......!"
+
+    old "Well, that’s a fair point. I suppose it shouldn't matter who hugs Darling!"
+    new "そうね、それは正論だわ。別にダーリンに誰が抱きついてもいいはずよね!"
+
+    old "Huh?!"
+    new "ふえっ!?"
+
+    old "See? Just like this."
+    new "ほーら、こんな風に。"
+
+    old "W-w-what the—?!"
+    new "な、な、な......!?"
+
+    old "I-I won't lose either!" 
+    new "わ、わたしだって負けません!"
+
+    old "Ohaa!?"
+    new "おはあっ!?"
+
+    old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
+    new "(な、なんだこの状況!? 柔らかくて暖かいものに囲まれて...。 これは、この状況は......!)"
+
+    old "...Hell on earth."
+    new "......地獄絵図。"
+
+    old "Aah! Tabitha, when did you get into the corner of the room!?"
+    new "ああっ!タバサ、いつのまに部屋の隅に!?"
+
+    old "...Saito. Please, step away from those women immediately."
+    new "......サイト。お願いだから今すぐその女達から離れなさい。"
+
+    old "She says to get away..."
+    new "離れろって......。"
+
+    old "Okay, I have returned."
+    new "はい、ただいま。"
+
+    old "No! And here I was, so happy to finally meet Hiraga-kun again...!"
+    new "いやっ!せっかく平賀くんと会えたのに......!"
+
+    old "If we back off now, we lose!"
+    new "ここで離れたら、負けです!"
+
+    old ""Ohoho! If you can pull away, then go ahead and try! Look, look!"
+    new "おほほ、離れられるものなら離れてご覧なさーい。ほおら、ほら。"
+
+    old "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
+    new "うわあ。なんかこうマシュマロのような感触が俺の顔と体を取り巻いて離れませんよ!?"
+
+    old "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
+    new "ふ、ふふふ、ふふふ......。そう、サイトはあくまで開き直るつもりなのね?"
+
+    old "Fine!!! Then I'll force you away from them!!"
+    new "分かった!!!だったら、力ずくで離してあげるわっ!!"
+
+    old "W-wait a minute! If you use magic in a place like this...!"
+    new "って、ちょっと待て!こんなところで魔法なんか使ったら......!"
+
+    old "Words are useless!!"
+    new "問答無用ー!!"
+
+    old "Gwaaah!!"
+    new "どわああっ!!"
+
+    old "The damage is extensive..."
+    new "被害甚大......。"
+
+    old "No, that is impossible, Master."
+    new "いいえ、それは無理ですご主人様。"
+
+    old "What did you just say?!"
+    new "なんですってえ!?"
+
+    old "No, look closely! I can't move a muscle, even if I wanted to get away!"
+    new "いや、よく見ろって。離れようにも、俺身動きとれねえって。"
+
+    old "Hiraga-kun..."
+    new "平賀くん......っ。"
+
+    old "Saito-san!"
+    new "サイトさんっ。"
+
+    old "Vallière. You’ve lost. There’s no room left to hug him now."
+    new "ヴァリエール。あなたの負けね。今からじゃ抱きつく隙間もないわよ。"
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
