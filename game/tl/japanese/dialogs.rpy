@@ -246,7 +246,7 @@ translate japanese strings:
     old "You have no need to know. Leave quietly, and we'll spare your lives."
     new "貴様らが知る必要はない。黙ってここから立ち去れば、命までは奪わんでおいてやる。"
 
-    old "What did you just say?!"
+    old "What did you just say?!{#ver1}"
     new "なんだと?"
 
     #mage dialog
@@ -1359,7 +1359,7 @@ translate japanese strings:
     old "I'm so happy... To think we'd meet in a place like this!!"
     new "うれしい......。こんなところで会えるなんて!!"
 
-    old "As I suspected! She's the girl Saito is acquainted with!"
+    old "I knew it! So you already know Saito!"
     new "やっぱりサイトが知っている娘だったんじゃない!"
 
     old "Yes. I shared a class with Saito-kun and acted as our class president."
@@ -1440,7 +1440,7 @@ translate japanese strings:
     old "I understand that, but... You have no right to interfere with me hugging Hiraga-kun!"
     new "分かりましたけど。あなたに、私が平賀くんに抱きつくのを邪魔する権利はありません!"
 
-    old "What did you just say?!"
+    old "What did you just say?!{#ver2}"
     new "なんですってえ!?"
 
     old "Hiraga-kun is the only acquaintance I have met since coming to this world. What's wrong with being happy about our reunion!?"
@@ -1455,7 +1455,7 @@ translate japanese strings:
     old "What’s so wrong with a hug?! It’s truly strange to get so upset merely because someone embraced your familiar!"
     new "抱きつくことのなにがいけないんですか?自分の使い魔に誰かが抱きついただけでそんなに怒るなんて、変です!"
 
-    old "Also, feel free to call me Haruna, Saito-kun."
+    old "Also, feel free to call me Haruna, Hiraga-kun."
     new "それに私のことは春奈と呼んでくれていいですよ、平賀くん。"
 
     old "Ah, yeah... Haruna, huh..."
@@ -1464,10 +1464,10 @@ translate japanese strings:
     old "Wha—?!"
     new "な......!"
 
-    old "Well, that’s a fair point. I suppose it shouldn't matter who hugs Darling!"
+    old "Well, that’s a fair point. Besides, it doesn't matter who hugs Darling, there's nothing wrong with that!"
     new "そうね、それは正論だわ。別にダーリンに誰が抱きついてもいいはずよね!"
 
-    old "Huh?!"
+    old "Huh?!{#var2}"
     new "ふえっ!?"
 
     old "See? Just like this."
@@ -1482,9 +1482,6 @@ translate japanese strings:
     old "Ohaa!?"
     new "おはあっ!?"
 
-    old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
-    new "(な、なんだこの状況!? 柔らかくて暖かいものに囲まれて...。 これは、この状況は......!)"
-
     old "...Hell on earth."
     new "......地獄絵図。"
 
@@ -1497,7 +1494,7 @@ translate japanese strings:
     old "She says to get away..."
     new "離れろって......。"
 
-    old "Okay, I have returned."
+    old "Yes, right away."
     new "はい、ただいま。"
 
     old "No! And here I was, so happy to finally meet Hiraga-kun again...!"
@@ -1506,7 +1503,7 @@ translate japanese strings:
     old "If we back off now, we lose!"
     new "ここで離れたら、負けです!"
 
-    old ""Ohoho! If you can pull away, then go ahead and try! Look, look!"
+    old "Ohoho! If you can pull away, then go ahead and try! Look, look!"
     new "おほほ、離れられるものなら離れてご覧なさーい。ほおら、ほら。"
 
     old "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
@@ -1514,6 +1511,12 @@ translate japanese strings:
 
     old "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
     new "ふ、ふふふ、ふふふ......。そう、サイトはあくまで開き直るつもりなのね?"
+
+    old "Fufufu, fufufu... Ah, I see. So Saito has absolutely no intention of pulling away?"
+    new "ふ、ふふふ、ふふふ......。そう、サイトはあくまで離れないつもりなのね?"
+
+    old "No, it's not that I don't want to pull away, it's that they won't let me go, do you understand!?"
+    new "いやだから離れないんじゃなくて離してくれないんだってば!?"
 
     old "Fine!!! Then I'll force you away from them!!"
     new "分かった!!!だったら、力ずくで離してあげるわっ!!"
@@ -1533,7 +1536,7 @@ translate japanese strings:
     old "No, that is impossible, Master."
     new "いいえ、それは無理ですご主人様。"
 
-    old "What did you just say?!"
+    old "What did you just say?!{#ver3}"
     new "なんですってえ!?"
 
     old "No, look closely! I can't move a muscle, even if I wanted to get away!"
@@ -1545,14 +1548,11 @@ translate japanese strings:
     old "Saito-san!"
     new "サイトさんっ。"
 
-    old "Vallière. You’ve lost. There’s no room left to hug him now."
+    old "Vallière. You’ve lost. There isn't even a gap left to hug him now."
     new "ヴァリエール。あなたの負けね。今からじゃ抱きつく隙間もないわよ。"
 
-    old ""
-    new ""
+    old "So? What exactly happened here?"
+    new "で?いったい何があったのかね?"
 
-    old ""
-    new ""
-
-    old ""
-    new ""
+    old "Granted, it is only a detached building, but having one room completely wrecked is a serious matter indeed."
+    new "離れとはいえ、部屋がひとつ全壊状態というのは、ただごとではないのぅ。"

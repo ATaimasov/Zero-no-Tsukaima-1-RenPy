@@ -19,6 +19,7 @@ default chapter = 0
 # ==== IMAGES ====
 
 image black = "#000"
+image white = "#fff"
 image bg overlay = "bg/overlay.png"
 
 # forest
@@ -140,6 +141,15 @@ image cg ha_hug= "cg/ha_hug.png"
 image cg ha_hug_2 = "cg/ha_hug_2.png"
 image cg ha_hug_3 = "cg/ha_hug_3.png"
 
+image cg k_hug= "cg/k_hug.png"
+image cg k_hug_2 = "cg/k_hug_2.png"
+image cg k_hug_3 = "cg/k_hug_3.png"
+
+image cg butterbrot = "cg/butterbrot.png"
+
+image cg ready_to_blow = "cg/ready_to_blow.png"
+image cg ready_to_blow_2 = "cg/ready_to_blow_2.png"
+
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"
 define audio.t2 = "audio/bgm/t2.ogg"
@@ -176,6 +186,7 @@ define audio.t32 = "audio/bgm/t32.ogg"
 
 # ==== SOUNDS ====
 define audio.blow = "audio/sfx/blow.wav"
+define audio.blow_2 = "audio/sfx/blow_2.wav"
 define audio.punch = "audio/sfx/punch.wav"
 define audio.take_sword = "audio/sfx/take_sword.wav"
 define audio.knock_door = "audio/sfx/knock_door.wav"

@@ -79,7 +79,7 @@ translate russian strings:
     new "Спросить у Луизы"
 
     old "Ask Kirche"
-    new "Спросить у Кирке"
+    new "Спросить у Кирхе"
 
     old "Yeah"
     new "Ага"

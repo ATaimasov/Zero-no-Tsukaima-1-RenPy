@@ -178,3 +178,6 @@ translate russian strings:
 
     old "A round mirror... The same as what happened to me."
     new "Круглое зеркало... Прямо как было и со мной!"
+
+    old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
+    new "Ч-что это за ситуация!? Меня окружило что-то мягкое и тёплое... Да что же это такое......!"

@@ -85,7 +85,7 @@ label ch1_6:
             s "Oh, really?"
 
         "Ask Siesta":
-            $ show_sprites(("si 1 sad", "s 3 sad"))
+            $ show_sprites(("si 1 sad", "s 3 sad"), anim_out="slide_right", anim_in="slide_right")
             voice "ch1.6_s_007-3"
             s "Hey, Siesta. Why are there so many people here?"
             
@@ -125,7 +125,7 @@ label ch1_6:
             s "Oh, really?"
             
         "Ask Louise":
-            $ show_sprites(("l 3 angry", "s 3 sad"))
+            $ show_sprites(("l 3 angry", "s 3 sad"), anim_out="slide_right", anim_in="slide_right")
             voice "ch1.6_s_007-4"
             s "Hey, Louise. Why are there so many people here?"
 
@@ -159,7 +159,7 @@ label ch1_6:
             voice "ch1.6_m_002-2"
             m "...Hohoho."
 
-            $ show_sprites(("k 1", "t 1"))
+            $ show_sprites(("k 1", "t 1"), anim_out="slide_right", anim_in="slide_right")
             voice "ch1.6_k_005"
             k "Well, why not. Depending on what we're dealing with, we can give a hand too."
 
@@ -198,7 +198,9 @@ label ch1_6:
             voice "ch1.6_l_007"
             l "There's nothing fun about it, really."
 
-    $ show_sprites(("l 1"))
+            $ show_sprites(("l 1"))
+
+    $ show_sprites(("l 1"), anim_out="slide_right")
     voice "ch1.6_l_005"
     l "Well, fine. It's like talking to a brick wall. I don't think any of you are leaving."
     
@@ -222,7 +224,7 @@ label ch1_6:
     voice "ch1.6_ha_004"
     unk_ha "Oh, s-so that's how it was? My apologies, and thank you so much"
     
-    $ show_sprites(("s 1", "ha 1 happy"))
+    $ show_sprites(("si 1", "ha 1 happy"))
     voice "ch1.6_si_003"
     si "Ah, no, I didn't really do anything..."
     
@@ -254,7 +256,7 @@ label ch1_6:
     
     $ show_sprites(("l 1 angry", "ha 1 happy"))
     voice "ch1.6_l_011"
-    l "As I suspected! She's the girl Saito is acquainted with!"
+    l "I knew it! So you already know Saito!"
     
     voice "ch1.6_ha_008"
     ha "Yes. I shared a class with Saito-kun and acted as our class president."
@@ -302,9 +304,11 @@ label ch1_6:
     voice "ch1.6_si_004"
     si "And it was you two who rescued her at that point. What incredible luck she had, honestly."
     
+    #! перекрывает морду сиесты. надо в рамки впихать cg изображения
     $ fade_fx("ha_hug", new_music="t29")
     pause(0.2)
-    $ hit_fx("ha_hug")
+    $ shake_fx("ha_hug")
+    pause(0.2)
 
     voice "ch1.6_ha_015"
     ha "Ugh... Hiraga-kun!"
@@ -312,11 +316,11 @@ label ch1_6:
     voice "ch1.6_s_017"
     s "Whoa!?"
     
-    $ dissolve_fx("ha_hug_2")
+    $ dissolve_fx("ha_hug_2", duration=1)
     voice "ch1.6_si_005"
     si "Wah!?"
     
-    $ dissolve_fx("ha_hug_3")
+    $ dissolve_fx("ha_hug_3", duration=1)
     voice "ch1.6_l_016"
     l "W-what is the meaning of this?! Why are you suddenly clinging to my familiar like that?! Get away from him!"
     
@@ -326,7 +330,7 @@ label ch1_6:
     voice "ch1.6_ha_017"
     ha "To call him a familiar like that... Who do you think you are?!"
     
-    $ fade_fx("si_room", new_music="t27", sprites("l 1 angry", "ha 1 angry"))
+    $ fade_fx("si_room", new_music="t27", sprites=("l 1 angry", "ha 1 angry"))
     voice "ch1.6_l_017"
     l "Urgh!"
 
@@ -355,7 +359,7 @@ label ch1_6:
     
     $ show_sprites(("l 3 angry", "ha 1 angry"))
     voice "ch1.6_l_021"
-    l "What did you just say?!"
+    l "What did you just say?!{#ver2}"
     
     voice "ch1.6_ha_020"
     ha "Hiraga-kun is the only acquaintance I have met since coming to this world. What's wrong with being happy about our reunion!?"
@@ -363,63 +367,149 @@ label ch1_6:
     $ show_sprites(("l 3 sad", "ha 1 angry"))
     voice "ch1.6_l_022"
     l "I-It's not exactly wrong, but there's a problem with the way you're expressing it..."
+    
+    voice "ch1.6_ha_021"
     ha "What’s so wrong with a hug?! It’s truly strange to get so upset merely because someone embraced your familiar!"
-    ha "Also, feel free to call me Haruna, Saito-kun."
+    
+    $ show_sprites(("l 3 sad", "ha 1 happy"))
+    voice "ch1.6_ha_022"
+    ha "Also, feel free to call me Haruna, Hiraga-kun."
+
+    $ show_sprites(("s 3 happy", "ha 1 happy"))
+    voice "ch1.6_s_018"
     s "Ah, yeah... Haruna, huh..."
+
+    $ show_sprites(("l 1 angry", "ha 1 happy"))
+    voice "ch1.6_l_023"
     l "Wha—?!"
-    k "Well, that’s a fair point. I suppose it shouldn't matter who hugs Darling!"
-    s "Huh?!"
+
+    $ show_sprites(("k 1 happy", "ha 1 happy"))
+    voice "ch1.6_k_010"
+    k "Well, that’s a fair point. Besides, it doesn't matter who hugs Darling, there's nothing wrong with that!"
+
+    $ fade_fx("k_hug", new_music="t29")
+    pause(0.2)
+    $ shake_fx("k_hug")
+    pause(0.2)
+
+    voice "ch1.6_s_019"
+    s "Huh?!{#var2}"
+
+    voice "ch1.6_k_011"
     k "See? Just like this."
+    
+    voice "ch1.6_l_024"
     l "W-w-what the—?!"
+
+    voice "ch1.6_si_006"
     si "I-I won't lose either!"
+    
+    #! сцена не помещается нужно сделать виньетку и уменьшить размер через bg_border
+    $ dissolve_fx("butterbrot", duration=1)
+    pause(0.2)
+    $ shake_fx("butterbrot")
+    pause(0.2)
+
+    voice "ch1.6_s_020"
     s "Ohaa!?"
+
     th "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
+    
+    voice "ch1.6_t_003"
     t "...Hell on earth."
+
+    voice "ch1.6_s_021"
     s "Aah! Tabitha, when did you get into the corner of the room!?"
+
+    voice "ch1.6_l_025"
     l "...Saito. Please, step away from those women immediately."
+
+    voice "ch1.6_s_022"
     s "She says to get away..."
-
-    # комментарии делаются через решетку
-    # тут ниже пока не стал дописывать, а до выбора сразу пошел...
-
-    # строки с выбором я перевел если что (в файлах choises)
+    
     menu:
         "Yeah":
-            "сюда"
-
+            voice "ch1.6_s_023"
+            s "Yes, right away."
             $ update_sympathy(20, char_key="louise")
+
+            voice "ch1.6_ha_023"
+            ha "No! And here I was, so happy to finally meet Hiraga-kun again...!"
+
+            $ shake_fx("butterbrot", sound=None)
             $ update_sympathy(-20, char_key="haruna")
 
-            s "Okay, I have returned."
-            ha "No! And here I was, so happy to finally meet Hiraga-kun again...!"
+            voice "ch1.6_si_007"
             si "If we back off now, we lose!"
+
+            $ shake_fx("butterbrot", sound=None)
+            $ update_sympathy(-20, char_key="siesta")
+
+            voice "ch1.6_k_012"
             k "Ohoho! If you can pull away, then go ahead and try! Look, look!"
+
+            $ shake_fx("butterbrot", sound=None)
+            $ update_sympathy(-20, char_key="kirche")
+
+            voice "ch1.6_s_024"
             s "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
 
-
+            $ fade_fx("ready_to_blow")
+            voice "ch1.6_l_027"
+            l "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
 
         "Nope":
-            "сюда"
-
-            $ update_sympathy(-20, char_key="louise")
-            $ update_sympathy(20, char_key="haruna")
-            $ update_sympathy(20, char_key="siesta")
-            $ update_sympathy(20, char_key="kirche")
+            voice "ch1.6_s_025"
             s "No, that is impossible, Master."
-            l "What did you just say?!"
+            
+            voice "ch1.6_l_026"
+            l "What did you just say?!{#ver3}"
+            $ update_sympathy(-20, char_key="louise")
+
+            voice "ch1.6_s_026"
             s "No, look closely! I can't move a muscle, even if I wanted to get away!"
+
+            voice "ch1.6_ha_024"
             ha "Hiraga-kun..."
+            $ update_sympathy(20, char_key="haruna")
+
+            voice "ch1.6_si_008"
             si "Saito-san!"
-            k "Vallière. You’ve lost. There’s no room left to hug him now."
+            $ update_sympathy(20, char_key="siesta")
 
+            voice "ch1.6_k_013"
+            k "Vallière. You’ve lost. There isn't even a gap left to hug him now."
+            $ update_sympathy(20, char_key="kirche")
 
+            $ fade_fx("ready_to_blow")
+            voice "ch1.6_l_027-2"
+            l "Fufufu, fufufu... Ah, I see. So Saito has absolutely no intention of pulling away?"
 
-            #дальше резня
+            voice "ch1.6_s_027"
+            s "No, it's not that I don't want to pull away, it's that they won't let me go, do you understand!?"
 
-    "сюда дальше писать после выбора"
-    l "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
+    voice "ch1.6_l_028"
     l "Fine!!! Then I'll force you away from them!!"
+    
+    voice "ch1.6_s_028"
     s  "W-wait a minute! If you use magic in a place like this...!"
+
+    voice "ch1.6_l_029"
     l "Words are useless!!"
+    $ flash_fx("white", duration=1, bg_position="default")
+    pause(0.5)
+    # Взрыв
+    play sound blow_2
+    pause(1)
+
+    voice "ch1.6_s_029"
     s "Gwaaah!!"
+
+    $ flash_fx("sky")
+    hide white
+
+    voice "ch1.6_t_004"
     t "The damage is extensive..."
+
+    jump ch1_7
+    return

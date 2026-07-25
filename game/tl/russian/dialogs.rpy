@@ -248,7 +248,7 @@ translate russian strings:
     old "You have no need to know. Leave quietly, and we'll spare your lives."
     new "Вам не нужно этого знать. Если тихо уберётесь отсюда — оставим вас в живых."
 
-    old "What did you just say?!"
+    old "What did you just say?!{#ver1}"
     new "Что ты сказал?"
 
     #mage dialog
@@ -1326,7 +1326,7 @@ translate russian strings:
     new "А, нет, я ничего особенного не сделала..."
 
     old "Since you seemed exhausted, I simply instructed you to stay in bed and rest. That’s all I did."
-    new "Ты казалась изможденной, вот я и распорядилась дать тебе покой. Вот и всё, больше ничего"
+    new "Ты казалась изможденной, вот я и наказала дать тебе покой. Я более ничего не делала"
 
     old "Now, I’d like to ask you something. Where do you come from? What’s your name?"
     new "Теперь моя очередь задавать вопросы. Откуда ты родом? Твое имя?"
@@ -1364,8 +1364,8 @@ translate russian strings:
     old "I'm so happy... To think we'd meet in a place like this!!"
     new "Такое счастье... Кто бы мог подумать, что мы увидимся в таком месте!!"
  
-    old "As I suspected! She's the girl Saito is acquainted with!"
-    new "Я так и думала! Это же та девушка, с которой знаком Сайто!"
+    old "I knew it! So you already know Saito!"
+    new "Я так и знала! Значит, ты все-таки уже знакома с Сайто!"
 
     old "Yes. I shared a class with Saito-kun and acted as our class president."
     new "Да. Я училась с Хирагой-куном в одном классе и была старостой"
@@ -1389,10 +1389,10 @@ translate russian strings:
     new "Меня заперли в комнате с замком и просто оставили там..."
 
     old "Oh? That sounds like a rather grim tale, don't you think?"
-    new "Ну надо же. Довольно мрачная история, не находите?"
+    new "Ну надо же. Довольно мрачная история..."
 
     old "By all logic, that woman should be the mage who summoned the girl, but I can't say for certain."
-    new "В принципе, логично было бы предположить, что та женщина — маг, призвавший эту девушку. Но я не то чтобы полностью уверена"
+    new "В принципе, логично было бы предположить, что та женщина — маг, призвавший эту девушку. Но я не то чтобы я была полностью уверена"
 
     old "Since I was kept confined all that while, I seized an opportunity to slip away. However..."
     new "Пока меня держали взаперти, я ждала подходящего случая и в итоге смогла сбежать. Однако..."
@@ -1419,10 +1419,10 @@ translate russian strings:
     new "Ч-что это значит?! Почему ты внезапно вцепилась в моего фамильяра?! Отстань от него!"
 
     old "A familiar? What exactly is a 'familiar'? Hiraga-kun is a perfectly normal human being!"
-    new "Фамильяр? Что такое фамильяр? Хирага-кун — самый настоящий человек!"
+    new "Фамильяр? Какой еще фамильяр? Хирага-кун — самый настоящий человек!"
 
     old "To call him a familiar like that... Who do you think you are?!"
-    new "Как вы смеете величать его каким-то там фамильяром?! Вы сами-то кто такая?!"
+    new "Как вы смеете обзывать его каким-то там фамильяром?! Вы сами-то кто такая?!"
 
     old "Urgh!"
     new "Угх!"
@@ -1445,7 +1445,7 @@ translate russian strings:
     old "I understand that, but... You have no right to interfere with me hugging Hiraga-kun!"
     new "Я это понимаю, но... У вас нет права мешать мне обнимать Хирагу-куна!"
 
-    old "What did you just say?!"
+    old "What did you just say?!{#ver2}"
     new "Что ты такое говоришь?!"
 
     old "Hiraga-kun is the only acquaintance I have met since coming to this world. What's wrong with being happy about our reunion!?"
@@ -1458,10 +1458,10 @@ translate russian strings:
     new "Ну, разве это плохо? В зависимости от ситуации, мы тоже можем подсобить"
 
     old "What’s so wrong with a hug?! It’s truly strange to get so upset merely because someone embraced your familiar!"
-    new "Что плохого в объятиях?! Это просто ненормально — так вспыхивать гневом лишь от того, что кто-то обнял твоего же фамильяра!"
+    new "Что плохого в объятиях?! Это просто ненормально — так вспыхивать гневом лишь от того, что кто-то обнял твоего фамильяра!"
 
-    old "Also, feel free to call me Haruna, Saito-kun."
-    new "Кстати, ты можешь звать меня Харуной, Сайто-кун"
+    old "Also, feel free to call me Haruna, Hiraga-kun."
+    new "Кстати, ты можешь звать меня Харуной, Хирага-кун"
 
     old "Ah, yeah... Haruna, huh..."
     new "Ох, да... Харуна, понятно..."
@@ -1469,10 +1469,10 @@ translate russian strings:
     old "Wha—?!"
     new "Что—?!"
 
-    old "Well, that’s a fair point. I suppose it shouldn't matter who hugs Darling!"
-    new "Да уж, с этим не поспоришь. Значит, каждый имеет право обнять Дорогого, так?"
+    old "Well, that’s a fair point. Besides, it doesn't matter who hugs Darling, there's nothing wrong with that!"
+    new "Ну да, в этом есть резон. В конце концов, неважно, кто обнимет Дорогого, ведь это в этом нет ничего плохого!"
 
-    old "Huh?!"
+    old "Huh?!{#var2}"
     new "А?!"
 
     old "See? Just like this."
@@ -1487,9 +1487,6 @@ translate russian strings:
     old "Ohaa!?"
     new "Оха!?"
 
-    old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
-    new "Ч-что происходит!? Я окружён чем-то мягким и тёплым... Это, эта ситуация......!"
-
     old "...Hell on earth."
     new "...Картина ада."
 
@@ -1502,8 +1499,8 @@ translate russian strings:
     old "She says to get away..."
     new "Велит отойти..."
 
-    old "Okay, I have returned."
-    new "Ладно, я тут"
+    old "Yes, right away."
+    new "Да, уже иду"
 
     old "No! And here I was, so happy to finally meet Hiraga-kun again...!"
     new "Нет! Я так рада, что наконец-то встретилась с Хирагой-куном, и вот...!"
@@ -1511,17 +1508,17 @@ translate russian strings:
     old "If we back off now, we lose!"
     new "Отойти сейчас — значит проиграть!"
 
-    old ""Ohoho! If you can pull away, then go ahead and try! Look, look!"
+    old "Ohoho! If you can pull away, then go ahead and try! Look, look!"
     new "О-хо-хо! Попробуй вырваться, если сможешь! Ну же, гляди!"
 
     old "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
     new "Ого! Моё лицо и тело окутаны чем-то мягким, как маршмеллоу, и это никак не проходит!"
 
     old "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
-    new "Фу-фу-фу, фу-фу-фу... Понятно. Значит, ты собираешься полностью отбросить стыд и принять это как есть, Сайто?"
+    new "Фу-фу-фу, фу-фу-фу... Понятно. Значит, ты собираешься бесстыдно принять это как есть, Сайто?"
 
     old "Fine!!! Then I'll force you away from them!!"
-    new "Ясно!!! Тогда я силой оторву тебя от них!!"
+    new "Все с тобой ясно!!! Силой оторву от них!!"
 
     old "W-wait a minute! If you use magic in a place like this...!"
     new "Эй, погоди! Если ты применишь здесь магию...!"
@@ -1538,7 +1535,7 @@ translate russian strings:
     old "No, that is impossible, Master."
     new "Нет, это невозможно, хозяйка"
 
-    old "What did you just say?!"
+    old "What did you just say?!{#ver3}"
     new "Как ты смеешь так говорить?!"
 
     old "No, look closely! I can't move a muscle, even if I wanted to get away!"
@@ -1550,11 +1547,17 @@ translate russian strings:
     old "Saito-san!"
     new "Сайто-сан!"
 
-    old "Vallière. You’ve lost. There’s no room left to hug him now."
-    new "Вальер. Ты проиграла. Сейчас уже нет места, чтобы к нему прижаться"
+    old "Vallière. You’ve lost. There isn't even a gap left to hug him now."
+    new "Вальер. Ты проиграла. Теперь тут нет ни малейшего пространства, чтобы к нему прижаться"
 
-    old ""
-    new ""
+    old "Fufufu, fufufu... Ah, I see. So Saito has absolutely no intention of pulling away?"
+    new "Ф-фуфуфу, фуфуфу... Ах, вот оно что. Так Сайто, значит, вовсе не собирается вырываться?"
 
-    old ""
-    new ""
+    old "No, it's not that I don't want to pull away, it's that they won't let me go, do you understand!?"
+    new "Да нет же, дело не в том, что я не вырываюсь, а в том, что меня не отпускают!"
+
+    old "So? What exactly happened here?"
+    new "Ну так? Что, собственно, здесь произошло?"
+
+    old "Granted, it is only a detached building, but having one room completely wrecked is a serious matter indeed."
+    new "Пусть это и всего лишь флигель, но полное разрушение одной из комнат — дело и впрямь серьезное"

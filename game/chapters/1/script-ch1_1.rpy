@@ -362,7 +362,7 @@ label ch1:
     mage "You have no need to know. Leave quietly, and we'll spare your lives."
 
     voice "ch1_s_030"
-    s "What did you just say?!"
+    s "What did you just say?!{#ver1}"
 
     # ==== CHOISE 2 ====
     $ choise_result = None

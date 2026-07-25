@@ -184,3 +184,6 @@ translate japanese strings:
 
     old "A round mirror... The same as what happened to me."
     new "(丸い鏡......俺の時と同じだ)"
+
+    old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
+    new "(な、なんだこの状況!? 柔らかくて暖かいものに囲まれて...。 これは、この状況は......!)"
