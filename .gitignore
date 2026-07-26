@@ -30,6 +30,7 @@
 /game/**/*.wav
 /game/**/*.ogg
 /game/**/*.png
+/game/**/*.webp
 /game/**/*.mp4
 /game/**/*.webm
 /game/**/*.zip

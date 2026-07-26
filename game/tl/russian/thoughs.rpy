@@ -181,3 +181,22 @@ translate russian strings:
 
     old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
     new "Ч-что это за ситуация!? Меня окружило что-то мягкое и тёплое... Да что же это такое......!"
+
+    old "Even if you say that..."
+    new "Даже если Вы так говорите..."
+
+    old "If I tell the truth, I’ll give Haruna away, so I can't really say anything..."
+    new "Если я попытаюсь сказать правду, то выдам Харуну, так что мне просто нечего сказать..."
+
+    old "Hmm, as expected of the Headmaster."
+    new "Хм, как и следовало ожидать от директора."
+
+    old "You've figured out at a glance that the magic that destroyed Siesta's room was Louise's, and you're trying to get an explanation or a confession from her!"
+    new "Вы с первого взгляда догадались, что магия, разрушившая комнату Сиесты, принадлежала Луизе, и теперь пытаетесь получить от неё объяснение или признание!"
+
+    old "Well, that's true. She can't really say, 'I let magic get out of control out of some inexplicable jealousy.'"
+    new "Ну, это верно. Она ведь не может заявить: «Я из-за какой-то необъяснимой ревности позволила магии выйти из-под контроля»."
+
+    old "For some reason, I get the sense that the Headmaster knows it all and is feigning ignorance... Conveniently enough, though."
+    new "Мне почему-то кажется, что директор в курсе всего и притворяется, будто ничего не знает... Впрочем, так даже лучше."
+

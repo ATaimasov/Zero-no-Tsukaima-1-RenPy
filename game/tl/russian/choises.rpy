@@ -87,5 +87,14 @@ translate russian strings:
     old "Nope"
     new "Не-а"
 
+    old "Can't something be done, Headmaster?"
+    new "Нельзя ли что-нибудь предпринять, директор?"
+
+    old "What about Kirche's room?"
+    new "А как насчет комнаты Кирхе?"
+
+    old "You can come to my room."
+    new "Можешь прийти в мою комнату."
+
 
 

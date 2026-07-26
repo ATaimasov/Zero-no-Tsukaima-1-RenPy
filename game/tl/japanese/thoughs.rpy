@@ -187,3 +187,21 @@ translate japanese strings:
 
     old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
     new "(な、なんだこの状況!? 柔らかくて暖かいものに囲まれて...。 これは、この状況は......!)"
+
+    old "Even if you say that..."
+    new "(って言われてもなあ)"
+
+    old "If I tell the truth, I’ll give Haruna away, so I can't really say anything..."
+    new "(正直に話そうとすると、 春奈のことがばれちまうから、 話すに話せないし......)"
+
+    old "Hmm, as expected of the Headmaster."
+    new "(うーむ、さすが学院長)"
+
+    old "You've figured out at a glance that the magic that destroyed Siesta's room was Louise's, and you're trying to get an explanation or a confession from her!"
+    new "(シエスタの部屋を破壊した魔法が、 ルイズのものだと一目で見抜いて、 説明あるいは自白させようというつもりか!)"
+
+    old "Well, that's true. She can't really say, 'I let magic get out of control out of some inexplicable jealousy.'"
+    new "(ま、そりゃそうか。 わけの分からんヤキモチやいて魔法を 暴走させましたとは言えないもんな)"
+
+    old "For some reason, I get the sense that the Headmaster knows it all and is feigning ignorance... Conveniently enough, though."
+    new "(なんか学院長、実は全部知っててとぼけてる 気がするなあ......その方が都合がいいけど)"

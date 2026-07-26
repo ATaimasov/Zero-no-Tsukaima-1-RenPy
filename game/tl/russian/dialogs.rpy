@@ -1561,3 +1561,53 @@ translate russian strings:
 
     old "Granted, it is only a detached building, but having one room completely wrecked is a serious matter indeed."
     new "Пусть это и всего лишь флигель, но полное разрушение одной из комнат — дело и впрямь серьезное"
+
+    old "I won't understand a thing if you just stay silent, you know."
+    new "Если вы будете молчать, я так ничего и не узнаю."
+
+    old "Judging by the state of the room... Yes, indeed... What exactly happened, Miss Vallière?"
+    new "Судя по разгрому в комнате... Да, так оно и есть... Что же всё-таки случилось, мисс Вальер?"
+
+    old "Yes! Um, well..."
+    new "Да! Эм, ну..."
+
+    old "During a magic experiment, the magic accidentally went out of control and caused an explosion."
+    new "Во время магического эксперимента магия случайно вышла из-под контроля, и произошел взрыв."
+
+    old "Huh?{#e}"
+    new "Э?"
+
+    old "Saito!? Is something wrong?"
+    new "Сайто!? Что-то не так?"
+
+    old "No, it's nothing."
+    new "Нет, ничего."
+
+    old "Hmm... an experiment, huh? And you all participated in it too?"
+    new "Хм... эксперимент, да? И вы все тоже в нём участвовали?"
+
+    old "Oh, I was just an observer."
+    new "А, я просто была наблюдателем"
+
+    old "The same"
+    new "Тоже самое"
+
+    old "Well, I..."
+    new "Ну, я..."
+
+    old "Ah... As for the fact that you provided this room, there is no need to trouble yourself with forced explanations."
+    new "Ах... Тебе не обязательно мучиться, придумывая оправдания тому, почему ты предоставила это помещение."
+
+    old "I am indeed quite curious as to what kind of experiment you were conducting..."
+    new "Мне и впрямь весьма любопытно, какого рода эксперимент проводился..."
+
+    old "However, if it had been the main building, that would be one thing, but wrecking a commoner's private room is hardly commendable."
+    new "Впрочем, если бы это был учебный корпус, это еще куда ни шло, но крушить частную комнату простолюдина — дело не похвальное."
+
+    old "I-I'm sorry."
+    new "И-извините."
+
+    old "Well, think nothing of it. If it was indeed a magical experiment, then it is, after all, a student's proper duty."
+    new "Ну, бог с ним. Коль речь о магических экспериментах — это ведь прямой долг ученика."
+
+    

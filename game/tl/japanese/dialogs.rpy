@@ -1556,3 +1556,55 @@ translate japanese strings:
 
     old "Granted, it is only a detached building, but having one room completely wrecked is a serious matter indeed."
     new "離れとはいえ、部屋がひとつ全壊状態というのは、ただごとではないのぅ。"
+
+    old "I won't understand a thing if you just stay silent, you know."
+    new "黙っていては分からんのだがのぅ。"
+
+    old "Judging by the state of the room... Yes, indeed... What exactly happened, Miss Vallière?"
+    new "部屋の惨状からすると......。そうじゃの......。何が起きたのかな、ミス・ヴァリエール?"
+
+    old "Yes! Um, well..."
+    new "は、はい!ええと、その......。"
+
+    old "During a magic experiment, the magic accidentally went out of control and caused an explosion."
+    new "魔法の実験中、つい魔法が暴走してしまい、爆発してしまいました。"
+
+    old "Huh?{#e}"
+    new "えっ!?"
+
+    old "Saito!? Is something wrong?"
+    new "サイト!?なにか、間違いでも!?"
+
+    old "No, it's nothing."
+    new "いえ、なんでもないです。"
+
+    old "Hmm... an experiment, huh? And you all participated in it too?"
+    new "ふうむ......実験か。君達も、それに参加していたと申すのじゃな?"
+
+    old "Oh, I was just an observer."
+    new "あ、あたしは見学で。"
+
+    old "The same"
+    new "......右に同じ。"
+
+    old "Well, I..."
+    new "ええと、わたしは......。"
+
+    old "Ah... As for the fact that you provided this room, there is no need to trouble yourself with forced explanations."
+    new "ああ......。場所の提供者になってしまったことについては無理に説明せんでもよい。"
+
+    old "I am indeed quite curious as to what kind of experiment you were conducting..."
+    new "いったいどんな実験をしていたのか、実に興味深いんじゃが......。"
+
+    old "However, if it had been the main building, that would be one thing, but wrecking a commoner's private room is hardly commendable."
+    new "しかし、校舎ならまだしも平民の私室を壊すのは、感心せんのぅ。"
+
+    old "I-I'm sorry."
+    new "す、すみません。"
+
+    old "Well, think nothing of it. If it was indeed a magical experiment, then it is, after all, a student's proper duty."
+    new "まあよい。魔法の実験なら、生徒の本分でもある。"
+
+
+
+

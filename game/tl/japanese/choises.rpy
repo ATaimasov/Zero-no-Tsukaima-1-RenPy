@@ -87,4 +87,13 @@ translate japanese strings:
     old "Nope"
     new "いいえ"
 
+    old "Can't something be done, Headmaster?"
+    new "なんとかなりませんか学院長"
+
+    old "What about Kirche's room?"
+    new "キュルケの部屋はどうだ"
+
+    old "You can come to my room."
+    new "俺の部屋に来るといいよ"
+
 

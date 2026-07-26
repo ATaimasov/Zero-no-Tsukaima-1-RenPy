@@ -321,6 +321,8 @@ label ch1_6:
     si "Wah!?"
     
     $ dissolve_fx("ha_hug_3", duration=1)
+    #! скорее всего реплика другая от уровня симпатии 
+    #! использовать ch1.6_l_016_2
     voice "ch1.6_l_016"
     l "W-what is the meaning of this?! Why are you suddenly clinging to my familiar like that?! Get away from him!"
     
