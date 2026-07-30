@@ -1,3 +1,4 @@
+# Харуна пробудилась
 label ch1_6:
     $ fade_fx("si_room", new_music="t18", sprites=("ha 1 sad", "s 1"))
 

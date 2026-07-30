@@ -30,7 +30,7 @@ translate russian strings:
     new "Харуна"
 
     old "Osmond"
-    new "Османд"
+    new "Осман"
 
     old "Soldier"
     new "Солдат"

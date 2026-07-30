@@ -1,4 +1,4 @@
-# morning
+# Сиеста спалила Сайто и Луизу
 label ch1_5:
     $ fade_fx("sky", new_music="t4")
     voice "ch1.5_s_001"

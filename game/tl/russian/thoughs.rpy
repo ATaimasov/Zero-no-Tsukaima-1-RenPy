@@ -200,3 +200,14 @@ translate russian strings:
     old "For some reason, I get the sense that the Headmaster knows it all and is feigning ignorance... Conveniently enough, though."
     new "Мне почему-то кажется, что директор в курсе всего и притворяется, будто ничего не знает... Впрочем, так даже лучше."
 
+    old "What a relief..."
+    new "Ну и слава богу..."
+
+    old "In that case..."
+    new "В таком случае..."
+
+    old "I just hope nothing goes wrong..."
+    new "Надеюсь, обойдется без происшествий..."
+
+    old "What are you talking about...?"
+    new "О чем вы говорите...?"

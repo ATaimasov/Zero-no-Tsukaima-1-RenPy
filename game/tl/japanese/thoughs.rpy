@@ -205,3 +205,15 @@ translate japanese strings:
 
     old "For some reason, I get the sense that the Headmaster knows it all and is feigning ignorance... Conveniently enough, though."
     new "(なんか学院長、実は全部知っててとぼけてる 気がするなあ......その方が都合がいいけど)"
+
+    old "What a relief..."
+    new "(助かったあ......)"
+
+    old "In that case..."
+    new "(ここは......)"
+
+    old "I just hope nothing goes wrong..."
+    new "(何も起きなければいいんだけどな......)"
+
+    old "What are you talking about...?"
+    new "(何をだよ......)"

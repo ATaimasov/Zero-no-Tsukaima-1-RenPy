@@ -1605,6 +1605,144 @@ translate japanese strings:
     old "Well, think nothing of it. If it was indeed a magical experiment, then it is, after all, a student's proper duty."
     new "まあよい。魔法の実験なら、生徒の本分でもある。"
 
+    old "The academy will cover the costs of repairing the room. Make sure to be more careful from now on."
+    new "部屋の修理費については、学院で面倒を見よう。以後、気をつけるように。"
+
+    old "Y-yes! Thank you so much!"
+    new "は、はい!ありがとうございます!"
+
+    old "Um... Headmaster. What am I supposed to do while the repairs are underway?"
+    new "あの......、学院長。修理が終わるまで、わたしはどうしたらよろしいんでしょう?"
+
+    old "Hmm? Indeed... I hadn't thought that far ahead."
+    new "ふむ?そうじゃの......。そこまでは考えてなかったわい。"
+
+    old "Isn't there a way to resolve this, Headmaster?"
+    new "なんとかなりませんか学院長。"
+
+    old "Hmm. Let's see..."
+    new "ふむ。そうじゃのう......。"
+
+    old "May I make that decision?"
+    new "わしが決めてよいのか?"
+
+    old "Oh, yes. Please do."
+    new "あ、はい。お願いします。"
+
+    old "Miss Vallière. You're to look after her in your room until the repairs are done."
+    new "ミス・ヴァリエール。修理が終わるまで、きみの部屋で彼女の世話をするように。"
+
+    old "Huh?{#he?}"
+    new "ええっ?"
+
+    old "H-hold on, Old Osmond! That's going too far, I mean...!"
+    new "ちょ、ちょっと、オールド・オスマン!それはいくらなんでも、そのっ!"
+
+    old "Hmm? Is there a problem with that?"
+    new "ん?なにか問題があるかの?"
+
+    old "Now, now, just consider it extra lessons while the repairs are underway."
+    new "まぁ、修理が終わるまでの、補習と思いなさい。"
+
+    old "...Understood."
+    new "......分かりました。"
+
+    old "U-um! I know I'm a bit inexperienced, but I humbly ask for your support. Saito-san! Miss Vallière!"
+    new "あの、あのっ!ふつつかものですけど、よろしくお願いします。サイトさん! ミス・ヴァリエール!"
+
+    old "Ah, aah... likewise..."
+    new "あ、ああ、よろしく......。"
+
+    old "What about using Kirche's room?"
+    new "キュルケの部屋はどうだ?"
+    
+    old "Huh, my room?"
+    new "え、あたしの部屋?"
+
+    old "Hmm, it's not a bad idea, but isn't it a bit too intense for her?"
+    new "んー、別に悪くはないけど、その娘にはちょっと刺激が強いんじゃない?"
+
+    old "Eh? Eh? Eeh?!"
+    new "え?え?ええ?"
+
+    old "...Kirche."
+    new "......キュルケ。"
+
+    old "Huh? What's wrong, Tabitha?"
+    new "え?どうしたの、タバサ。"
+
+    old "Oh, right. I'm sorry. My room is definitely not a good idea."
+    new "あ、そうか。ごめんなさい。やっぱりあたしの部屋はまずいわ。"
+
+    old "Eh, is that so?"
+    new "え、そうなのか?"
+
+    old "I suppose this girl would find Louise's room much more to her liking than mine, right?"
+    new "あたしの部屋より、ルイズの部屋の方がこの娘も喜ぶわよねえ?"
+
+    old "Hey Kirche! What are you talking about?!"
+    new "ちょっとキュルケ!何を言いだすのよ!"
+
+    old "Y-y-yes, that's right, Kirche! I am also in Louise's room, you know!?"
+    new "そそそ、そうだぞキュルケ!ルイズの部屋には俺もいるんだぞ!?"
+
+    old "Ah, I don't mind that at all; rather, it is exactly what I desire! But is that really alright?"
+    new "あ、それはわたし全然かまいませんけどっ、むしろ望むところなんですが!でもいいんですか?"
+
+    old "It's fine, it's fine. After all, it was Louise who destroyed your room. She really ought to take responsibility."
+    new "いいの、いいの。あんたの部屋を壊したの、ルイズだものねえ。責任とらなきゃいけないわよね。"
+
+    old "That's a completely different matter!"
+    new "それとこれとは話が違うでしょ!"
+
+    old "Hehehe, how naive of you, Louise. Do you honestly believe I would stop merely because it's something you'd dislike?"
+    new "ふふふ、甘いわよルイズ。このあたしが、あんたの嫌がりそうなことを前にやめると思う?"
+
+    old "Well, that's a fair point."
+    new "なるほど、説得力あるなあ。"
+
+    old "That might be a fair point, but that's exactly why I refuse!"
+    new "説得力はあるけど、だったら余計にお断りよ!"
+
+    old "That's enough, Miss Vallière."
+    new "そこまでにしなさい。ミス・ヴァリエール。"
+
+    old "She has nowhere to go and is in quite a predicament. You are to look after her until the repairs are completed."
+    new "彼女は行くところがなくて困っておる。修理が終わるまでは、きみが面倒を見るように。"
+
+    old "But...!"
+    new "し、しかし......!"
+
+    old "So with that said, do your best."
+    new "そういうことで、頑張りなさいよー。"
+
+    old "Yes! I will do my best!"
+    new "はい!頑張ります!"
+
+    old "In that case, you can stay in my room."
+    new "だったら、俺の部屋に来るといいよ。"
+
+    old "Hey Saito! What are you talking about?!"
+    new "ちょっとサイト!何を言いだすのよ!"
+
+    old "But, but is that really okay?"
+    new "で、でも、いいんですか?"   
+
+    old "Come on, it's fine. After all, my master is the one who wrecked Siesta's room, right?"
+    new "いいっていいって。シエスタの部屋を壊したの、俺のご主人様だろ?"
+
+    old "That's a completely different issue! And for the record, it's my room, not yours!"
+    new "それとこれとは話が違うでしょ!だいたい、あんたの部屋じゃなくてわたしの部屋でしょうが!"
+
+    old "Well, you could say that."
+    new "まあ、そうとも言う。"
+
+    old "What's with this calm response! I'm the owner of this room! You're just the familiar!"
+    new "何を冷静に答えてるのよ!部屋の主はわたし!あんたは使い魔なの!"
+
+    old "My familiar shouldn't bring other people into the room without my permission!"
+    new "使い魔が勝手に部屋に仲間を連れこまないで!"
+
 
 
 

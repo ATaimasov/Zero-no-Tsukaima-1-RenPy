@@ -1610,4 +1610,143 @@ translate russian strings:
     old "Well, think nothing of it. If it was indeed a magical experiment, then it is, after all, a student's proper duty."
     new "Ну, бог с ним. Коль речь о магических экспериментах — это ведь прямой долг ученика."
 
+    old "The academy will cover the costs of repairing the room. Make sure to be more careful from now on."
+    new "Академия возьмет на себя расходы по ремонту комнаты. Впредь будь внимательнее."
+
+    old "Y-yes! Thank you so much!"
+    new "Д-да! Большое спасибо!"
+
+    old "Um... Headmaster. What am I supposed to do while the repairs are underway?"
+    new "Эм... господин директор. Как мне поступить, пока идет ремонт?"
+
+    old "Hmm? Indeed... I hadn't thought that far ahead."
+    new "Хм? И то верно... Я как-то не подумал об этом."
+
+    old "Isn't there a way to resolve this, Headmaster?"
+    new "Нельзя ли как-то решить этот вопрос, господин директор?"
+
+    old "Hmm. Let's see..."
+    new "Хм. Посмотрим..."
+
+    old "May I make that decision?"
+    new "Могу ли я принять это решение?"
+
+    old "Oh, yes. Please do."
+    new "Ах, да. Прошу вас."
+
+    old "Miss Vallière. You're to look after her in your room until the repairs are done."
+    new "Мисс Вальер. До окончания ремонтных работ извольте заботиться о ней в своей комнате."
+
+    old "Huh?{#he?}"
+    new "Э?"
+
+    old "H-hold on, Old Osmond! That's going too far, I mean...!"
+    new "П-постойте, старейшина Осман! Это уж слишком, это просто...!"
+
+    old "Hmm? Is there a problem with that?"
+    new "Хм? Разве в этом есть какая-то проблема?"
+
+    old "Now, now, just consider it extra lessons while the repairs are underway."
+    new "Что ж, рассматривай это как дополнительные уроки до завершения ремонтных работ."
+
+    old "...Understood."
+    new "...Поняла."
+
+    old "U-um! I know I'm a bit inexperienced, but I humbly ask for your support. Saito-san! Miss Vallière!"
+    new "Э-э... Я, признаться, человек неопытный, но очень прошу вашего расположения. Сайто-сан! Мисс Вальер!"
+
+    old "Ah, aah... likewise..."
+    new "О, а... взаимно..."
+
+    old "What about using Kirche's room?"
+    new "А не подойдет ли комната Кирхе?"
+
+    old "Huh, my room?"
+    new "А, моя комната?"
+
+    old "Hmm, it's not a bad idea, but isn't it a bit too intense for her?"
+    new "Хм, вариант неплохой, но не слишком ли сильное испытание неё?"
+
+    old "Eh? Eh? Eeh?!"
+    new "Э? Э? Э-э?"
+
+    old "...Kirche."
+    new "...Кирхе."
+
+    old "Huh? What's wrong, Tabitha?"
+    new "А? Что не так, Табита?"
+
+    old "Oh, right. I'm sorry. My room is definitely not a good idea."
+    new "Ой, да. Извините. Моя комната — это определенно не лучшая идея."
+
+    old "Eh, is that so?"
+    new "Э, неужели?"
+
+    old "I suppose this girl would find Louise's room much more to her liking than mine, right?"
+    new "Полагаю, этой девушке будет куда приятнее в комнате Луизы, чем в моей, верно?"
+
+    old "Hey Kirche! What are you talking about?!"
+    new "Эй, Кирхе! О чём ты говоришь?!"
+
+    old "Y-y-yes, that's right, Kirche! I am also in Louise's room, you know!?"
+    new "Д-д-да, верно, Кирхе! В комнате Луизы ведь есть и я!?"
+
+    old "Ah, I don't mind that at all; rather, it is exactly what I desire! But is that really alright?"
+    new "А, я совершенно не против, скорее, это именно то, чего я желаю! Но действительно ли это допустимо?"
+
+    old "It's fine, it's fine. After all, it was Louise who destroyed your room. She really ought to take responsibility."
+    new "Ничего, ничего. Ведь это Луиза разрушила твою комнату. Ей полагается взять на себя ответственность."
+
+    old "That's a completely different matter!"
+    new "Это совершенно другой вопрос!"
+
+    old "Hehehe, how naive of you, Louise. Do you honestly believe I would stop merely because it's something you'd dislike?"
+    new "Фу-фу-фу, как же ты наивна, Луиза. Неужели ты всерьез полагаешь, что я остановлюсь лишь из-за того, что это тебе не по нраву?"
+
+    old "Well, that's a fair point."
+    new "Что ж, аргумент весомый."
+
+    old "That might be a fair point, but that's exactly why I refuse!"
+    new "Аргумент весомый, но именно поэтому я отказываюсь наотрез!"
+
+    old "That's enough, Miss Vallière."
+    new "Достаточно, мисс Вальер."
+
+    old "She has nowhere to go and is in quite a predicament. You are to look after her until the repairs are completed."
+    new "Ей просто некуда идти, и она в весьма затруднительном положении. Пока не завершится ремонт, тебе надлежит о ней позаботиться."
+
+    old "But...!"
+    new "Но...!"
+
+    old "So with that said, do your best."
+    new "Ну вот и всё, так что постарайся."
+
+    old "Yes! I will do my best!"
+    new "Да! Я буду стараться!"
+
+    old "In that case, you can stay in my room."
+    new "В таком случае, можешь остановиться в моей комнате."
+
+    old "Hey Saito! What are you talking about?!"
+    new "Эй, Сайто! О чём ты говоришь?!"
+
+    old "But, but is that really okay?"
+    new "Но всё действительно нормально?"
+
+    old "Come on, it's fine. After all, my master is the one who wrecked Siesta's room, right?"
+    new "Да успокойся, успокойся. Ведь это моя госпожа разнесла комнату Сиесты, правда ведь?"
+
+    old "That's a completely different issue! And for the record, it's my room, not yours!"
+    new "Это совсем другое дело! И потом, речь идет о моей комнате, а не о твоей!"
+
+    old "Well, you could say that."
+    new "Ну, можно и так сказать."
+
+    old "What's with this calm response! I'm the owner of this room! You're just the familiar!"
+    new "И с чего это ты так спокойно рассуждаешь! Хозяйка этой комнаты — я! А ты всего лишь фамильяр!"
+
+    old "My familiar shouldn't bring other people into the room without my permission!"
+    new "Мой фамильяр не должен приводить в комнату других людей без моего разрешения!"
+
+
     
