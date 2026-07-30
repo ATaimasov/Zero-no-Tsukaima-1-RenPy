@@ -1647,7 +1647,7 @@ translate japanese strings:
     old "...Understood."
     new "......分かりました。"
 
-    old "U-um! I know I'm a bit inexperienced, but I humbly ask for your support. Saito-san! Miss Vallière!"
+    old "Ah, um! Forgive my impertinence, but I’m counting on you both. Mr. Saito! Miss Vallière!"
     new "あの、あのっ!ふつつかものですけど、よろしくお願いします。サイトさん! ミス・ヴァリエール!"
 
     old "Ah, aah... likewise..."
@@ -1743,6 +1743,31 @@ translate japanese strings:
     old "My familiar shouldn't bring other people into the room without my permission!"
     new "使い魔が勝手に部屋に仲間を連れこまないで!"
 
+    old "Oh? I hear the four of you have been summoned by the Headmaster. What on earth happened?"
+    new "おや?4人そろって、学院長に呼ばれたらしいが、いったいどうしたんだい?"
 
+    old "Guishe is Louise's classmate. He specializes in Earth system magic. His title is 'Guishe the Bronze'."
+    new "(ギーシュは、ルイズのクラスメイト。 土の系統の魔法が得意。 二つ名は「青銅のギーシュ」)"
+
+    old "He's a womanizer and a show-off, but you just can't hate the guy."
+    new "(女たらしで、キザだが、 どうにも憎めないヤツだ)"
+
+    old "Listen... There was an unfortunate accident."
+    new "......ちょっと、ね。不幸な事故があったの。"
+
+    old "Oh, right. Louise just accidentally destroyed a commoner's room with her magic."
+    new "そうそう。ルイズがうっかり、魔法で平民の部屋を壊しちゃっただけよ。"
+
+    old "Hahaha. Some things never change with Louise."
+    new "はっはっは。相変わらずだなあルイズは。"
+
+    old "Tch...!"
+    new "くっ......!"
+
+    old "Unable to retort, just stewing in rage. I need to make a run for it before things blow up."
+    new "(言い返せなくて怒りを溜め込んでるなあ。 爆発しないうちに逃げたいぞ、俺は)"
+
+    Old "By the way, where is that commoner? I, Guiche, would like to lay eyes on him just once."
+    new "ところで、例の平民はどこにいるんだい?このギーシュ。一度は見てみたいと思ったんだけど。"
 
 

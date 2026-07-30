@@ -316,7 +316,7 @@ label ch1_7:
 
     $ show_sprites(("si 1 happy"), anim_out="slide_right")
     voice "ch1.7_si_006"
-    si "U-um! I know I'm a bit inexperienced, but I humbly ask for your support. Saito-san! Miss Vallière!"
+    si "Ah, um! Forgive my impertinence, but I’m counting on you both. Mr. Saito! Miss Vallière!"
 
     $ show_sprites(("l 1 sad", "s 1 happy"), anim_out="slide_right")
     voice "ch1.7_s_005"

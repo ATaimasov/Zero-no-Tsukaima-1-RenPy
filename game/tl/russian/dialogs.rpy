@@ -1652,8 +1652,8 @@ translate russian strings:
     old "...Understood."
     new "...Поняла."
 
-    old "U-um! I know I'm a bit inexperienced, but I humbly ask for your support. Saito-san! Miss Vallière!"
-    new "Э-э... Я, признаться, человек неопытный, но очень прошу вашего расположения. Сайто-сан! Мисс Вальер!"
+    old "Ah, um! Forgive my impertinence, but I’m counting on you both. Mr. Saito! Miss Vallière!"
+    new "Э-эм, простите! Знаю, что веду себя непрошено, но прошу вашей поддержки. Сайто-сан! Мисс Вальер!"
 
     old "Ah, aah... likewise..."
     new "О, а... взаимно..."
@@ -1748,5 +1748,29 @@ translate russian strings:
     old "My familiar shouldn't bring other people into the room without my permission!"
     new "Мой фамильяр не должен приводить в комнату других людей без моего разрешения!"
 
+    old "Oh? I hear the four of you have been summoned by the Headmaster. What on earth happened?"
+    new "О? Говорят, вас четверых вызвал директор академии. Что же у вас стряслось?"
 
+    old "Guishe is Louise's classmate. He specializes in Earth system magic. His title is 'Guishe the Bronze'."
+    new "Гиш — одноклассник Луизы. Специалист по магии земли. Его прозвище — «Бронзовый Гиш"
+
+    old "He's a womanizer and a show-off, but you just can't hate the guy."
+    new "Он типичный плейбой и позёр, но как-то не выходит его ненавидеть."
+
+    old "Listen... There was an unfortunate accident."
+    new "Слушай... Произошел несчастный случай."
+
+    old "Oh, right. Louise just accidentally destroyed a commoner's room with her magic."
+    new "Ах да, точно. Луиза просто по неосторожности разрушила комнату простолюдина своей магией."
+
+    old "Hahaha. Some things never change with Louise."
+    new "Ха-ха-ха. Луиза ничуть не изменилась."
+
+    old "Tch...!"
+    new "Чёрт...!"
+
+    old "Unable to retort, just stewing in rage. I need to make a run for it before things blow up."
+    new "Не может ответить и копит злость внутри. Надо уносить ноги, пока её не прорвало."
     
+    old "By the way, where is that commoner? I, Guiche, would like to lay eyes on him just once."
+    new "Кстати, где тот самый простолюдин? Я, Гиш, хотел бы взглянуть на него хоть раз."
