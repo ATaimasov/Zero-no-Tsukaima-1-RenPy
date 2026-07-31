@@ -6,19 +6,19 @@
 define sympathy_font = "fonts/KuroHanaMincho.ttf"
 
 # Изображения для UI симпатии
-image gui_sympathy_bar = "gui/sympathy/bar.webp"
-image gui_sympathy_arrow = "gui/sympathy/arrow.webp"
-image gui_sympathy_up = "gui/sympathy/up.webp"
-image gui_sympathy_down = "gui/sympathy/down.webp"
-image gui_sympathy_hud_icon = "gui/sympathy/hud_icon.webp"
+image gui_sympathy_bar = "gui/system/sympathy/bar.webp"
+image gui_sympathy_arrow = "gui/system/sympathy/arrow.webp"
+image gui_sympathy_up = "gui/system/sympathy/up.webp"
+image gui_sympathy_down = "gui/system/sympathy/down.webp"
+image gui_sympathy_hud_icon = "gui/system/sympathy/hud_icon.webp"
 
 # Иконки персонажей для отображения при изменении симпатии
-image louise_icon = "gui/sympathy/louise_icon.png"
-image haruna_icon = "gui/sympathy/haruna_icon.png"
-image henrietta_icon = "gui/sympathy/henrietta_icon.png"
-image siesta_icon = "gui/sympathy/siesta_icon.png"
-image tabitha_icon = "gui/sympathy/tabitha_icon.png"
-image kirche_icon = "gui/sympathy/kirche_icon.png"
+image louise_icon = "gui/system/sympathy/louise_icon.webp"
+image haruna_icon = "gui/system/sympathy/haruna_icon.webp"
+image henrietta_icon = "gui/system/sympathy/henrietta_icon.webp"
+image siesta_icon = "gui/system/sympathy/siesta_icon.webp"
+image tabitha_icon = "gui/system/sympathy/tabitha_icon.webp"
+image kirche_icon = "gui/system/sympathy/kirche_icon.webp"
 
 # ============================================
 # ПЕРЕМЕННЫЕ СИМПАТИИ (НЕ persistent - для корректного rollback)
@@ -42,42 +42,42 @@ init python:
     sympathy_characters = {
         "louise": {
             "name": "Louise",
-            "icon": "gui/sympathy/louise_icon.png",
+            "icon": "gui/system/sympathy/louise_icon.webp",
             "var": "louise_sympathy",
             "color": "#e9acb3",
             "has_tsun_dere": True  # Только у Louise есть tsun/dere
         },
         "haruna": {
             "name": "Haruna",
-            "icon": "gui/sympathy/haruna_icon.png",
+            "icon": "gui/system/sympathy/haruna_icon.webp",
             "var": "haruna_sympathy",
             "color": "#4b4d51",
             "has_tsun_dere": False
         },
         "henrietta": {
             "name": "Henrietta",
-            "icon": "gui/sympathy/henrietta_icon.png",
+            "icon": "gui/system/sympathy/henrietta_icon.webp",
             "var": "henrietta_sympathy",
             "color": "#782163",
             "has_tsun_dere": False
         },
         "siesta": {
             "name": "Siesta",
-            "icon": "gui/sympathy/siesta_icon.png",
+            "icon": "gui/system/sympathy/siesta_icon.webp",
             "var": "siesta_sympathy",
             "color": "#535a6a",
             "has_tsun_dere": False
         },
         "tabitha": {
             "name": "Tabitha",
-            "icon": "gui/sympathy/tabitha_icon.png",
+            "icon": "gui/system/sympathy/tabitha_icon.webp",
             "var": "tabitha_sympathy",
             "color": "#b4dfec",
             "has_tsun_dere": False
         },
         "kirche": {
             "name": "Kirche",
-            "icon": "gui/sympathy/kirche_icon.png",
+            "icon": "gui/system/sympathy/kirche_icon.webp",
             "var": "kirche_sympathy",
             "color": "#e36566",
             "has_tsun_dere": False
@@ -270,7 +270,7 @@ screen sympathy_status():
     # Затемнённый фон
     add Solid("#00000099")
     
-    $ _frame_bg = Frame("gui/frame_wood.png", 20, 20, 20, 20) if renpy.loadable("gui/frame_wood.png") else Solid("#e8d5b8")
+    $ _frame_bg = Frame("gui/frame_wood.webp", 20, 20, 20, 20) if renpy.loadable("gui/frame_wood.webp") else Solid("#e8d5b8")
     
     # Основной контейнер
     frame:

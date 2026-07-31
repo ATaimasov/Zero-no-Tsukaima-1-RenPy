@@ -23,8 +23,8 @@ style quick_menu_hbox:
     spacing 0
 
 style quick_button:
-    #background Frame("gui/button/quick_idle.png", 5, 5, 5, 5)
-    #hover_background Frame("gui/button/quick_hover.png", 5, 5, 5, 5)
+    #background Frame("gui/button/quick_idle.webp", 5, 5, 5, 5)
+    #hover_background Frame("gui/button/quick_hover.webp", 5, 5, 5, 5)
     # Fallback стили
     background "#8b5a2b99"
     hover_background "#a0603099"

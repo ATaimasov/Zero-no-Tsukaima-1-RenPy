@@ -20,143 +20,143 @@ default chapter = 0
 
 image black = "#000"
 image white = "#fff"
-image bg overlay = "bg/overlay.png"
+image bg overlay = "bg/overlay.webp"
 
 # forest
-image bg forest = "bg/forest.png"
-image bg forest_evening = "bg/forest_evening.png"
-image bg forest_night = "bg/forest_night.png"
-image bg forest_blurred = "bg/forest_blurred.png"
+image bg forest = "bg/forest.webp"
+image bg forest_evening = "bg/forest_evening.webp"
+image bg forest_night = "bg/forest_night.webp"
+image bg forest_blurred = "bg/forest_blurred.webp"
 
 # sky
-image bg sky = "bg/sky.png"
-image bg sky_night = "bg/sky_night.png"
-image bg sky_evening = "bg/sky_evening.png"
+image bg sky = "bg/sky.webp"
+image bg sky_night = "bg/sky_night.webp"
+image bg sky_evening = "bg/sky_evening.webp"
 
 # TOWN
 
 # town_square
-image bg town_square = "bg/town_square.png"
-image bg town_square_evening = "bg/town_square_evening.png"
-image bg town_square_night = "bg/town_square_night.png"
-image bg town_square_ruined = "bg/town_square_ruined.png"
-image bg town_square_night_blurred = "bg/town_square_night_blurred.png"
+image bg town_square = "bg/town_square.webp"
+image bg town_square_evening = "bg/town_square_evening.webp"
+image bg town_square_night = "bg/town_square_night.webp"
+image bg town_square_ruined = "bg/town_square_ruined.webp"
+image bg town_square_night_blurred = "bg/town_square_night_blurred.webp"
 
 # town
-image bg town = "bg/town.png"
-image bg town_evening = "bg/town_evening.png"
-image bg town_night = "bg/town_night.png"
+image bg town = "bg/town.webp"
+image bg town_evening = "bg/town_evening.webp"
+image bg town_night = "bg/town_night.webp"
 
 # cafe
-image bg cafe = "bg/cafe.png"
-image bg cafe_evening = "bg/cafe_evening.png"
-image bg cafe_night = "bg/cafe_night.png"
+image bg cafe = "bg/cafe.webp"
+image bg cafe_evening = "bg/cafe_evening.webp"
+image bg cafe_night = "bg/cafe_night.webp"
 
 # cafe_entrance
-image bg cafe_entrance = "bg/cafe_entrance.png"
-image bg cafe_entrance_evening = "bg/cafe_entrance_evening.png"
-image bg cafe_entrance_night = "bg/cafe_entrance_night.png"
+image bg cafe_entrance = "bg/cafe_entrance.webp"
+image bg cafe_entrance_evening = "bg/cafe_entrance_evening.webp"
+image bg cafe_entrance_night = "bg/cafe_entrance_night.webp"
 
 # ACADEMY
 
 # yard
-image bg yard = "bg/yard.png"
-image bg yard_evening = "bg/yard_evening.png"
-image bg yard_night = "bg/yard_night.png"
-image bg yard_night_blurred = "bg/yard_night_blurred.png"
-image bg yard_ruined = "bg/yard_ruined.png"
-image bg yard_ruined_evening = "bg/yard_ruined_evening.png"
-image bg yard_ruined_night = "bg/yard_ruined_night.png"
+image bg yard = "bg/yard.webp"
+image bg yard_evening = "bg/yard_evening.webp"
+image bg yard_night = "bg/yard_night.webp"
+image bg yard_night_blurred = "bg/yard_night_blurred.webp"
+image bg yard_ruined = "bg/yard_ruined.webp"
+image bg yard_ruined_evening = "bg/yard_ruined_evening.webp"
+image bg yard_ruined_night = "bg/yard_ruined_night.webp"
 
 # classroom
-image bg classroom = "bg/classroom.png"
-image bg classroom_evening = "bg/classroom_evening.png"
-image bg classroom_night = "bg/classroom_night.png"
+image bg classroom = "bg/classroom.webp"
+image bg classroom_evening = "bg/classroom_evening.webp"
+image bg classroom_night = "bg/classroom_night.webp"
 
 # kitchen
-image bg kitchen = "bg/kitchen.png"
-image bg kitchen_evening = "bg/kitchen_evening.png"
-image bg kitchen_night = "bg/kitchen_night.png"
+image bg kitchen = "bg/kitchen.webp"
+image bg kitchen_evening = "bg/kitchen_evening.webp"
+image bg kitchen_night = "bg/kitchen_night.webp"
 
 # osman cabinet
-image bg osman_cabinet = "bg/osman_cabinet.png"
-image bg osman_cabinet_evening = "bg/osman_cabinet_evening.png"
-image bg osman_cabinet_night = "bg/osman_cabinet_night.png"
+image bg osman_cabinet = "bg/osman_cabinet.webp"
+image bg osman_cabinet_evening = "bg/osman_cabinet_evening.webp"
+image bg osman_cabinet_night = "bg/osman_cabinet_night.webp"
 
 # library
-image bg library = "bg/library.png"
-image bg library_evening = "bg/library_evening.png"
-image bg library_night = "bg/library_night.png"
+image bg library = "bg/library.webp"
+image bg library_evening = "bg/library_evening.webp"
+image bg library_night = "bg/library_night.webp"
 
 # library_table
-image bg library_table = "bg/library_table.png"
-image bg library_table_evening = "bg/library_table_evening.png"
-image bg library_table_night = "bg/library_table_night.png"
+image bg library_table = "bg/library_table.webp"
+image bg library_table_evening = "bg/library_table_evening.webp"
+image bg library_table_night = "bg/library_table_night.webp"
 
 # siesta room
-image bg si_room = "bg/si_room.png"
-image bg si_room_evening = "bg/si_room_evening.png"
-image bg si_room_night = "bg/si_room_night.png"
+image bg si_room = "bg/si_room.webp"
+image bg si_room_evening = "bg/si_room_evening.webp"
+image bg si_room_night = "bg/si_room_night.webp"
 
 #hallway
-image bg hallway = "bg/hallway.png"
-image bg hallway_evening = "bg/hallway_evening.png"
-image bg hallway_night = "bg/hallway_night.png"
+image bg hallway = "bg/hallway.webp"
+image bg hallway_evening = "bg/hallway_evening.webp"
+image bg hallway_night = "bg/hallway_night.webp"
 #hallway_down
-image bg hallway_down = "bg/hallway_down.png"
-image bg hallway_down_evening = "bg/hallway_down_evening.png"
-image bg hallway_down_night = "bg/hallway_down_night.png"
+image bg hallway_down = "bg/hallway_down.webp"
+image bg hallway_down_evening = "bg/hallway_down_evening.webp"
+image bg hallway_down_night = "bg/hallway_down_night.webp"
 
 #louise_room
-image bg louise_room = "bg/louise_room.png"
-image bg louise_room_evening = "bg/louise_room_evening.png"
-image bg louise_room_night = "bg/louise_room_night.png"
+image bg louise_room = "bg/louise_room.webp"
+image bg louise_room_evening = "bg/louise_room_evening.webp"
+image bg louise_room_night = "bg/louise_room_night.webp"
 
 #dining_hall
-image bg dining_hall = "bg/dining_hall.png"
-image bg dining_hall_evening = "bg/dining_hall_evening.png"
-image bg dining_hall_night = "bg/dining_hall_night.png"
+image bg dining_hall = "bg/dining_hall.webp"
+image bg dining_hall_evening = "bg/dining_hall_evening.webp"
+image bg dining_hall_night = "bg/dining_hall_night.webp"
 
 # ==== CG ==== 
 
-image cg terrorist = "cg/terrorist.png"
-image cg terrorist2 = "cg/terrorist2.png"
-image cg terrorist3 = "cg/terrorist3.png"
+image cg terrorist = "cg/terrorist.webp"
+image cg terrorist2 = "cg/terrorist2.webp"
+image cg terrorist3 = "cg/terrorist3.webp"
 
-image cg l_s_forest_l_speak = "cg/l_s_forest_l_speak.png"
-image cg l_s_forest_l_s_speak = "cg/l_s_forest_l_s_speak.png"
-image cg l_s_forest = "cg/l_s_forest.png"
-image cg l_forest = "cg/l_forest.png"
-image cg l_s_forest_s_speak = "cg/l_s_forest_s_speak.png"
+image cg l_s_forest_l_speak = "cg/l_s_forest_l_speak.webp"
+image cg l_s_forest_l_s_speak = "cg/l_s_forest_l_s_speak.webp"
+image cg l_s_forest = "cg/l_s_forest.webp"
+image cg l_forest = "cg/l_forest.webp"
+image cg l_s_forest_s_speak = "cg/l_s_forest_s_speak.webp"
 
-image cg ha_forest = "cg/ha_forest.png"
-image cg ha_forest_open = "cg/ha_forest_open.png"
+image cg ha_forest = "cg/ha_forest.webp"
+image cg ha_forest_open = "cg/ha_forest_open.webp"
 
-image cg ha_sick = "cg/ha_sick.png"
-image cg ha_sick_2 = "cg/ha_sick_2.png"
-image cg ha_sick_3 = "cg/ha_sick_3.png"
-image cg ha_sick_4 = "cg/ha_sick_4.png"
-image cg ha_sick_5 = "cg/ha_sick_5.png"
+image cg ha_sick = "cg/ha_sick.webp"
+image cg ha_sick_2 = "cg/ha_sick_2.webp"
+image cg ha_sick_3 = "cg/ha_sick_3.webp"
+image cg ha_sick_4 = "cg/ha_sick_4.webp"
+image cg ha_sick_5 = "cg/ha_sick_5.webp"
 
-image cg si_wakeup = "cg/si_wakeup.png"
-image cg si_wakeup_2 = "cg/si_wakeup_2.png"
+image cg si_wakeup = "cg/si_wakeup.webp"
+image cg si_wakeup_2 = "cg/si_wakeup_2.webp"
 
-image cg ha_hug= "cg/ha_hug.png"
-image cg ha_hug_2 = "cg/ha_hug_2.png"
-image cg ha_hug_3 = "cg/ha_hug_3.png"
+image cg ha_hug= "cg/ha_hug.webp"
+image cg ha_hug_2 = "cg/ha_hug_2.webp"
+image cg ha_hug_3 = "cg/ha_hug_3.webp"
 
-image cg k_hug= "cg/k_hug.png"
-image cg k_hug_2 = "cg/k_hug_2.png"
-image cg k_hug_3 = "cg/k_hug_3.png"
+image cg k_hug= "cg/k_hug.webp"
+image cg k_hug_2 = "cg/k_hug_2.webp"
+image cg k_hug_3 = "cg/k_hug_3.webp"
 
-image cg butterbrot = "cg/butterbrot.png"
+image cg butterbrot = "cg/butterbrot.webp"
 
-image cg ready_to_blow = "cg/ready_to_blow.png"
-image cg ready_to_blow_2 = "cg/ready_to_blow_2.png"
+image cg ready_to_blow = "cg/ready_to_blow.webp"
+image cg ready_to_blow_2 = "cg/ready_to_blow_2.webp"
 
-image l_feed = "cg/l_feed.png"
-image l_feed_2 = "cg/l_feed_2.png"
-image l_feed_3 = "cg/l_feed_3.png"
+image l_feed = "cg/l_feed.webp"
+image l_feed_2 = "cg/l_feed_2.webp"
+image l_feed_3 = "cg/l_feed_3.webp"
 
 
 # ==== MUSIC ====

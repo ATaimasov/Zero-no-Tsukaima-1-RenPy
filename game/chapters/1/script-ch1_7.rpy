@@ -8,7 +8,7 @@ label ch1_7:
     voice "ch1.7_o_002"
     o "Granted, it is only a detached building, but having one room completely wrecked is a serious matter indeed."
 
-    $ show_sprites(("l 1 sad", "s 1 sad"), anim_out="slide_right")
+    $ show_sprites(("l 1 sad", "s 1 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_s_001"
     s "..."
 
@@ -29,7 +29,7 @@ label ch1_7:
     voice ""
     m "..."
 
-    $ show_sprites(("o 1 angry"), anim_out="slide_right")
+    $ show_sprites(("o 1 angry"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_o_003"
     o "I won't understand a thing if you just stay silent, you know."
 

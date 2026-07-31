@@ -11,7 +11,7 @@
 # ============================================================================
 
 # Background shown behind the battle HUD.
-define BATTLE_BG = "images/battle/forest_bg.png"
+define BATTLE_BG = "images/battle/forest_bg.webp"
 
 # ----------------------------------------------------------------------------
 # SKILLS
@@ -212,11 +212,11 @@ define characters = {
         "skills": ["slash", "d_slash", "wind_moon_slash"],
         "hp": 255, "max_hp": 255, "mp": 100, "max_mp": 100,
         "attack": 45, "defense": 30, "agility": 35, "accuracy": 95,
-        "portrait": "gui/portraits/s.png",
-        "portrait_normal": "gui/portraits/s.png",
-        "portrait_happy": "gui/portraits/s_happy.png",
-        "portrait_hurt": "gui/portraits/s_hurt.png",
-        "icon": "gui/portraits/s.png",
+        "portrait": "gui/system/portraits/s.webp",
+        "portrait_normal": "gui/system/portraits/s.webp",
+        "portrait_happy": "gui/system/portraits/s_happy.webp",
+        "portrait_hurt": "gui/system/portraits/s_hurt.webp",
+        "icon": "gui/system/portraits/s.webp",
         "cast_video": "video/cast/saito_cast.webm",
         "lines": {
             "attack": ["Here goes!", "Take this!", "Derf, back me up!"],
@@ -234,11 +234,11 @@ define characters = {
         "skills": ["arrow", "heroism", "meteor", "dispel", "heal"],
         "hp": 200, "max_hp": 200, "mp": 150, "max_mp": 150,
         "attack": 25, "defense": 20, "agility": 30, "accuracy": 85,
-        "portrait": "gui/portraits/l.png",
-        "portrait_normal": "gui/portraits/l.png",
-        "portrait_happy": "gui/portraits/l_happy.png",
-        "portrait_hurt": "gui/portraits/l_hurt.png",
-        "icon": "gui/portraits/l.png",
+        "portrait": "gui/system/portraits/l.webp",
+        "portrait_normal": "gui/system/portraits/l.webp",
+        "portrait_happy": "gui/system/portraits/l_happy.webp",
+        "portrait_hurt": "gui/system/portraits/l_hurt.webp",
+        "icon": "gui/system/portraits/l.webp",
         "cast_video": "video/cast/louise_cast.webm",
         "lines": {
             "attack": ["Don't underestimate me!", "You asked for this!"],
@@ -256,11 +256,11 @@ define characters = {
         "skills": ["wing", "air_needle", "wind_break", "heal"],
         "hp": 180, "max_hp": 180, "mp": 180, "max_mp": 180,
         "attack": 20, "defense": 18, "agility": 40, "accuracy": 90,
-        "portrait": "gui/portraits/t.png",
-        "portrait_normal": "gui/portraits/t.png",
-        "portrait_happy": "gui/portraits/t_happy.png",
-        "portrait_hurt": "gui/portraits/t_hurt.png",
-        "icon": "gui/portraits/t.png",
+        "portrait": "gui/system/portraits/t.webp",
+        "portrait_normal": "gui/system/portraits/t.webp",
+        "portrait_happy": "gui/system/portraits/t_happy.webp",
+        "portrait_hurt": "gui/system/portraits/t_hurt.webp",
+        "icon": "gui/system/portraits/t.webp",
         "cast_video": "video/cast/tabitha_cast.webm",
         "lines": {
             "attack": ["...Wind.", "Sylphid."],
@@ -276,11 +276,11 @@ define characters = {
         "skills": ["fire", "fire_needle", "fire_arrow", "heal"],
         "hp": 190, "max_hp": 190, "mp": 170, "max_mp": 170,
         "attack": 22, "defense": 22, "agility": 28, "accuracy": 88,
-        "portrait": "gui/portraits/k.png",
-        "portrait_normal": "gui/portraits/k.png",
-        "portrait_happy": "gui/portraits/k_happy.png",
-        "portrait_hurt": "gui/portraits/k_hurt.png",
-        "icon": "gui/portraits/k.png",
+        "portrait": "gui/system/portraits/k.webp",
+        "portrait_normal": "gui/system/portraits/k.webp",
+        "portrait_happy": "gui/system/portraits/k_happy.webp",
+        "portrait_hurt": "gui/system/portraits/k_hurt.webp",
+        "icon": "gui/system/portraits/k.webp",
         "cast_video": "video/cast/kirche_cast.webm",
         "lines": {
             "attack": ["Feel the heat, darling!", "Burn!"],
@@ -296,11 +296,11 @@ define characters = {
         "skills": ["water", "water_hazard", "heal"],
         "hp": 185, "max_hp": 185, "mp": 175, "max_mp": 175,
         "attack": 23, "defense": 25, "agility": 32, "accuracy": 87,
-        "portrait": "gui/portraits/h.png",
-        "portrait_normal": "gui/portraits/h.png",
-        "portrait_happy": "gui/portraits/h_happy.png",
-        "portrait_hurt": "gui/portraits/h_hurt.png",
-        "icon": "gui/portraits/h.png",
+        "portrait": "gui/system/portraits/h.webp",
+        "portrait_normal": "gui/system/portraits/h.webp",
+        "portrait_happy": "gui/system/portraits/h_happy.webp",
+        "portrait_hurt": "gui/system/portraits/h_hurt.webp",
+        "icon": "gui/system/portraits/h.webp",
         "cast_video": "video/cast/henrietta_cast.webm",
         "lines": {
             "attack": ["Forgive me.", "For Tristain!"],
@@ -318,8 +318,8 @@ define characters = {
         "skills": ["dark_bolt", "dark_nova"],
         "hp": 90, "max_hp": 90, "mp": 120, "max_mp": 120,
         "attack": 35, "defense": 12, "agility": 25, "accuracy": 85,
-        "sprite": "images/enemies/mage.png",
-        "icon": "images/enemies/mage.png",
+        "sprite": "images/enemies/mage.webp",
+        "icon": "images/enemies/mage.webp",
         "cast_video": "video/cast/enemy_cast.webm",
         "lines": {
             "attack": ["Kneel.", "Foolish commoners."],
@@ -335,8 +335,8 @@ define characters = {
         "skills": ["claw"],
         "hp": 80, "max_hp": 80, "mp": 0, "max_mp": 0,
         "attack": 28, "defense": 15, "agility": 22, "accuracy": 80,
-        "sprite": "images/enemies/bandit.png",
-        "icon": "images/enemies/bandit.png",
+        "sprite": "images/enemies/bandit.webp",
+        "icon": "images/enemies/bandit.webp",
         "lines": {
             "attack": ["Yer coin or yer life!", "Ha!"],
             "hurt": ["Argh!"],
@@ -350,8 +350,8 @@ define characters = {
         "skills": ["smash"],
         "hp": 160, "max_hp": 160, "mp": 0, "max_mp": 0,
         "attack": 42, "defense": 40, "agility": 8, "accuracy": 70,
-        "sprite": "images/enemies/golem.png",
-        "icon": "images/enemies/golem.png",
+        "sprite": "images/enemies/golem.webp",
+        "icon": "images/enemies/golem.webp",
         "lines": {
             "attack": ["...GRRR", "*crush*"],
             "hurt": ["*crack*"],

@@ -5,12 +5,12 @@ Drop these 4 files into your project and call `battle(...)` from any dialogue.
 
 ## Files
 
-| File | Responsibility |
-|------|----------------|
-| `battle_data.rpy`    | **Single source of truth.** `characters` (allies AND enemies), `skills`, `items`, `inventory`. |
-| `battle_logic.rpy`   | Pure state + math: setup, damage/heal/buff resolution, items, enemy AI. No UI. |
+| File                 | Responsibility                                                                                                     |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `battle_data.rpy`    | **Single source of truth.** `characters` (allies AND enemies), `skills`, `items`, `inventory`.                     |
+| `battle_logic.rpy`   | Pure state + math: setup, damage/heal/buff resolution, items, enemy AI. No UI.                                     |
 | `battle_screens.rpy` | All UI: prep menu, HUD (enemy sprites + ally cards), skill/item/target bars, info panel, animation window, styles. |
-| `battle_engine.rpy`  | Pacing: turn loop, barks, notices, animations, and the public `battle()` function. |
+| `battle_engine.rpy`  | Pacing: turn loop, barks, notices, animations, and the public `battle()` function.                                 |
 
 ## Usage
 
@@ -59,9 +59,9 @@ label some_event:
 
 All art is optional — anything missing falls back to a styled placeholder, so the battle never crashes.
 
-- `images/battle/forest_bg.png` — battle background (`BATTLE_BG` in `battle_data.rpy`).
-- `images/enemies/<enemy>.png` — enemy sprites.
-- `gui/portraits/<x>.png`, `..._happy.png`, `..._hurt.png` — ally card art + state variants.
+- `images/battle/forest_bg.webp` — battle background (`BATTLE_BG` in `battle_data.rpy`).
+- `images/enemies/<enemy>.webp` — enemy sprites.
+- `gui/system/portraits/<x>.webp`, `..._happy.webp`, `..._hurt.webp` — ally card art + state variants.
 - `video/cast/<name>_cast.webm` — AoE cast videos.
 
 ## Integration note
