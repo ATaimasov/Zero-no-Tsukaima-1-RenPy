@@ -211,3 +211,29 @@ translate russian strings:
 
     old "What are you talking about...?"
     new "О чем вы говорите...?"
+
+
+    #kormeshka_event
+    old "I don't really understand it, but... I guess I should stay on her good side for now."
+    new "Хоть я и не до конца понимаю ситуацию...  но... похоже, сейчас лучше не портить ей настроение."
+
+    old "Looks like it's best not to argue right now. If she gets mad, it'll just be a huge hassle."
+    new "Похоже, сейчас лучше не перечить. А то если она разозлится, проблем не оберешься."
+
+    old "No way am I giving in right now!"
+    new "Только не сейчас! Я не собираюсь уступать!"
+
+    old "I will firmly stand by my own will..."
+    new "Я твёрдо намерен отстоять свою волю..."
+
+    old "Though, she actually seems to be angry!!"
+    new "Хотя, кажется, она и правда злится!!"
+
+    old "It is stew, right...? Why me?"
+    new "Это рагу, да?.. И почему это досталось мне?"
+
+    old "I have no idea what she's scheming, but... it's best not to cross her."
+    new "Понятия не имею, что она задумала, но… разумнее будет ей не сопротивляться."
+
+    old "Why is she getting so mad anyway, she's such a weirdo..."
+    new "И чего это она злится, странная она всё-таки..."

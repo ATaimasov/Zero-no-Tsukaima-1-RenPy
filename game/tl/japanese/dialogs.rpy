@@ -1767,7 +1767,201 @@ translate japanese strings:
     old "Unable to retort, just stewing in rage. I need to make a run for it before things blow up."
     new "(言い返せなくて怒りを溜め込んでるなあ。 爆発しないうちに逃げたいぞ、俺は)"
 
-    Old "By the way, where is that commoner? I, Guiche, would like to lay eyes on him just once."
+    old "By the way, where is that commoner? I, Guiche, would like to lay eyes on him just once."
     new "ところで、例の平民はどこにいるんだい?このギーシュ。一度は見てみたいと思ったんだけど。"
 
+    old "Hey, um, Saito. Are you hungry?"
+    new "ね、ねえ、サイト。おなか、空いてない？"
+
+    old "Huh? Wh-what do you want, out of the blue?"
+    new "えっ?な、なんだよ、いきなり。"
+
+    old "You're hun-gry, aren't you?"
+    new "す・い・て・る・わ・よ・ね?"
+
+    old "Ah... well... uh..."
+    new "あ......ええっと......。"
+
+    old "Seriously, I'm absolutely starving!!"
+    new "もう俺、腹ぺこぺこ!!"
+
+    old "Good. I'm glad."
+    new "そう。良かった。"
+
+    old "Glad?"
+    new "良かった?"
+
+    old "Oh, no. Never mind."
+    new "あ、ううん。なんでもないの。"
+
+    old "Then let's go to the dining hall right now!"
+    new "じゃあ、今から食堂に行きましょう!"
+
+    old "Huh?{#E?}"
+    new "へっ?"
+
+    old "Come on, hurry up! We're going!"
+    new "ほらっ、早く!行くわよっ!"
+
+    old "H-hey, hey now. What's with the sudden rush..."
+    new "お、おいおい。なんだよ、急に......。"
+
+    old "Here... eat."
+    new "ほら......食べなさいよ。"
+
+    old "Yes, exactly. There's no need to hold back just because you're a familiar."
+    new "うん、そうよね。使い魔だからって、遠慮することはないのよ。"
+
+    old "Not in the slightest! Absolutely not! Not even a little bit!!"
+    new "全然!全く!完璧に!!"
+
+    old "Oh, no... On second thought... my stomach might be empty..."
+    new "あ、いや......。やっぱり......空いてるかも......。"
+
+    old "Really?"
+    new "ホント?"
+
+    old "Y-yeah. Really, really. Ah, I'm so hungry!!"
+    new "う、うん。ホントホント。あー、腹減ったなぁ!!"
+
+    old "I'm glad."
+    new "良かった。"
+
+    old "Huh? Glad? What do you mean, 'glad'?"
+    new "へっ?良かったって?何が?"
+
+    old "Huh? What's this?"
+    new "へっ?なにこれ?"
+
+    old "What do you mean 'what'? It's stew. Does this look like a book to you?"
+    new "何って、シチューよ。これが本に見える?"
+
+    old "Well, it doesn't look like it."
+    new "いや、見えないけど。"
+
+    old "But how come?"
+    new "でも、どうして?"
+
+    old "Ah... W-well, d-don't misunderstand me!"
+    new "あ......え、えっと、か、勘違いしないでよね!"
+
+    old "It's not like I prepared this just to make you eat it!!"
+    new "別にあんたに食べさせようってだけで用意したわけじゃないんだから!!"
+
+    old "J-just, um..."
+    new "た、ただ、その......。"
+
+    old "Y-yes, exactly! Because I just had extra!"
+    new "そ、そう!余っちゃったからっ!"
+
+    old "Ah... alright. I get it, I get it. No need to get so mad."
+    new "あ......うん。分かった分かった。別にそんな、怒んなくても。"
+
+    old "I-I'm not angry or anything. So... well? Are you going to eat it?"
+    new "べ、別に怒ってはないけど。それで......どう?食べる?"
+
+    old "Ah, yeah. I'll have some. It looks delicious, after all."
+    new "あ、うん。もらう。美味そうだし。"
+
+    old "W-well then..."
+    new "そ、それじゃあ。"
+
+    old "Yeah. Here's the spoon."
+    new "うん。スプーンを。"
+
+    old "Here, say 'ahh'."
+    new "はい、あーん。"
+
+    old "...Huh?{#a?}"
+    new "......は?"
+
+    old "I'm telling you, say 'ahh'."
+    new "だから、あーん。"
+
+    old "W-what are you saying! I would never do such a thing!"
+    new "な、なんてこと言うのよっ!わたしがそんなことするわけないでしょっ!?"
+
+    old "Ah, n-no, sorry. I was just joking."
+    new "あ、い、いや、ごめん。冗談。"
+
+    old "Good grief, you're a total idiot. You have no idea how a woman's heart works..."
+    new "まったく、あんたってホント馬鹿。女心を分かってないんだから......。"
+
+    old "Huh? Woman's heart?"
+    new "え?女心って?"
+
+    old "Never mind! Just eat, I said!!"
+    new "なんでもないわよっ!いいから食べなさいっ!!"
+
+    old "A-alright, I understand."
+    new "わ、分かったよ。"
+
+    old "{i}Chews{/i}..."
+    new "もぐもぐもぐ……。"
+
+    old "Is it good?"
+    new "おいしい?"
+
+    old "Mhm! It's good!!" 
+    new "うん!美味い!!"
+
+    old "Really!?"
+    new "ホント!?"
+
+    old "Oh yeah, the cafeteria food here is really good, you know!"
+    new "いやー、やっぱ美味いよなあ、この食堂の料理!"
+
+    old "Seriously, having a proper meal is the only thing that brings me joy!!"
+    new "いやー、もう、俺のたったひとつの楽しみなんだよなあ、メシ喰うのはっ!!"
+
+    old "Hold on... Eh? What's going on? Louise?"
+    new "って......あれ?どうした?ルイズ?"
+
+    old "Hey, hey. Louise-san."
+    new "もしもーし。ルイズさーん。"
+
+    old "...What?"
+    new "......なによ。"
+
+    old "Oh, my, you're not being very honest with yourself today. I wish it were always like this."
+    new "あ、あら、今日は素直じゃない。いつもこうだったらいいのに。"
+
+    old "W-what kind of nonsense is that!"
+    new "な、なによそれっ!"
+
+    old "No, I mean like, you made some kind of bet with Kirche and lost."
+    new "いや、だから、キュルケと賭けでもして負けたとか。"
+    
+    old "I would do no such thing! Idiot! Just eat it already!!"
+    new "そんなことしないわよっ!馬鹿っ!いいから食べなさいっっ!!"
+
+    old "Hey, there's no need to get mad."
+    new "お、怒んなくてもいいだろ。"
+
+    old ""
+    new "ほらっ!あーんっ!"
+
+    old "Come on! Say 'ahhh'!"
+    new "あ、あーん......。"
+
+    old "Ah, ahh..."
+    new "あ、あーん......。"
+
+    old "What, what is it?!"
+    new "なによなによっ!"
+
+    old "No... what's wrong?"
+    new "いや......何が?"
+
+    old "Anyway... anyway, I'm just...!!"
+    new "どうせ......、どうせ、わたしなんてっっ!!"
+
+    old "N-no, I mean, what?"
+    new "い、いや、だから、何が?"
+
+    old "Saito, you fool!!!"
+    new "サイトのばかぁぁぁっ!!"
+
+    old "Oh... She ran off."
+    new "あ......。行っちゃった。"
 

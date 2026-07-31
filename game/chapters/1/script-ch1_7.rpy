@@ -39,7 +39,7 @@ label ch1_7:
     voice "ch1.7_o_004"
     o "Judging by the state of the room... Yes, indeed... What exactly happened, Miss Vallière?"
 
-    $ show_sprites(("l 1 sad", "s 1 sad"), anim_out="slide_right")
+    $ show_sprites(("l 1 sad", "s 1 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_l_002"
     l "Yes! Um, well..."
 
@@ -63,26 +63,26 @@ label ch1_7:
 
     th "Well, that's true. She can't really say, 'I let magic get out of control out of some inexplicable jealousy.'"
 
-    $ show_sprites(("o 1"), anim_out="slide_right")
+    $ show_sprites(("o 1"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_o_005"
     o "Hmm... an experiment, huh? And you all participated in it too?"
 
-    $ show_sprites(("m 1"), anim_out="slide_right")
+    $ show_sprites(("m 1"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_m_002"
     m "Y-yes."
 
-    $ show_sprites(("k 1", "t 1"), anim_out="slide_right")
+    $ show_sprites(("k 1", "t 1"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_k_001"
     k "Oh, I was just an observer."
 
     voice "ch1.7_t_001"
     t "The same"
 
-    $ show_sprites(("si 1 sad"), anim_out="slide_right")
+    $ show_sprites(("si 1 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_si_002"
     si "Well, I..."
 
-    $ show_sprites(("o 1"), anim_out="slide_right")
+    $ show_sprites(("o 1"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_o_006"
     o "Ah... As for the fact that you provided this room, there is no need to trouble yourself with forced explanations."
 
@@ -94,18 +94,18 @@ label ch1_7:
     voice "ch1.7_o_008"
     o "However, if it had been the main building, that would be one thing, but wrecking a commoner's private room is hardly commendable."
 
-    $ show_sprites(("l 1 sad"), anim_out="slide_right")
+    $ show_sprites(("l 1 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_l_005"
     l "I-I'm sorry."
 
-    $ show_sprites(("o 1"), anim_out="slide_right")
+    $ show_sprites(("o 1"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_o_009"
     o "Well, think nothing of it. If it was indeed a magical experiment, then it is, after all, a student's proper duty."
 
     voice "ch1.7_o_010"
     o "The academy will cover the costs of repairing the room. Make sure to be more careful from now on."
 
-    $ show_sprites(("l 1 happy", "si 1 sad"), anim_out="slide_right")
+    $ show_sprites(("l 1 happy", "si 1 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_l_006"
     l "Y-yes! Thank you so much!"
 
@@ -114,7 +114,7 @@ label ch1_7:
     voice "ch1.7_si_003"
     si "Um... Headmaster. What am I supposed to do while the repairs are underway?"
 
-    $ show_sprites(("o 1 sad"), anim_out="slide_right")
+    $ show_sprites(("o 1 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_o_011"
     o "Hmm? Indeed... I hadn't thought that far ahead."
 
@@ -162,7 +162,7 @@ label ch1_7:
             l "...Understood."
 
         "What about Kirche's room?":
-            $ show_sprites(("si 1 sad", "s 1"), anim_out="slide_right")
+            $ show_sprites(("si 1 sad", "s 1"), anim_in="slide_right", anim_out="slide_right")
             voice "ch1.7_s_006"
             s "What about using Kirche's room?"
 
@@ -200,7 +200,7 @@ label ch1_7:
             voice "ch1.7_k_006"
             k "I suppose this girl would find Louise's room much more to her liking than mine, right?"
 
-            $ show_sprites(("si 1 shy", "l 1 angry"), anim_out="slide_right")
+            $ show_sprites(("si 1 shy", "l 1 angry"), anim_in="slide_right", anim_out="slide_right")
             voice "ch1.7_si_005-4"
             si "Huh?{#he?}"
 
@@ -248,18 +248,18 @@ label ch1_7:
             voice "ch1.7_o_016-2"
             o "Now, now, just consider it extra lessons while the repairs are underway."
 
-            $ show_sprites(("k 4 happy", "si 1"), anim_out="slide_right")
+            $ show_sprites(("k 4 happy", "si 1"), anim_in="slide_right", anim_out="slide_right")
             voice "ch1.7_k_009"
             k "So with that said, do your best."
 
             voice "ch1.7_si_008"
             si "Yes! I will do my best!"
 
-            $ show_sprites(("s 3 sad"), anim_out="slide_right")
+            $ show_sprites(("s 3 sad"), anim_in="slide_right", anim_out="slide_right")
             th "What are you talking about...?"
 
         "You can come to my room.":
-            $ show_sprites(("si 1 sad", "s 1"), anim_out="slide_right")
+            $ show_sprites(("si 1 sad", "s 1"), anim_in="slide_right", anim_out="slide_right")
             voice "ch1.7_s_010"
             s "In that case, you can stay in my room."
 
@@ -314,11 +314,11 @@ label ch1_7:
             l "...Understood."
             voice "ch1.7_l_015"
 
-    $ show_sprites(("si 1 happy"), anim_out="slide_right")
+    $ show_sprites(("si 1 happy"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_si_006"
     si "Ah, um! Forgive my impertinence, but I’m counting on you both. Mr. Saito! Miss Vallière!"
 
-    $ show_sprites(("l 1 sad", "s 1 happy"), anim_out="slide_right")
+    $ show_sprites(("l 1 sad", "s 1 happy"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_s_005"
     s "Ah, aah... likewise..."
 

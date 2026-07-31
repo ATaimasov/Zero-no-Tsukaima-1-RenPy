@@ -97,3 +97,21 @@ translate japanese strings:
     new "俺の部屋に来るといいよ"
 
 
+    # kormeshka_event
+    old "Looks like I'm actually getting hungry..."
+    new "なんか、空いてる気がしてきた"
+
+    old "Yep! Starving, totally starving!!"
+    new "うん！ 空いてる空いてる！！"
+
+    old "Not hungry one bit."
+    new "断固空いてない"
+
+    old "Is this some kind of punishment game?"
+    new "何の罰ゲーム？"
+
+    old "Ahh..."
+    new "あーん"
+
+    old "Does this have poison in it or something?"
+    new "これ、毒でも入ってる？"

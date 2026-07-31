@@ -112,6 +112,10 @@ image bg louise_room = "bg/louise_room.png"
 image bg louise_room_evening = "bg/louise_room_evening.png"
 image bg louise_room_night = "bg/louise_room_night.png"
 
+#dining_hall
+image bg dining_hall = "bg/dining_hall.png"
+image bg dining_hall_evening = "bg/dining_hall_evening.png"
+image bg dining_hall_night = "bg/dining_hall_night.png"
 
 # ==== CG ==== 
 
@@ -149,6 +153,11 @@ image cg butterbrot = "cg/butterbrot.png"
 
 image cg ready_to_blow = "cg/ready_to_blow.png"
 image cg ready_to_blow_2 = "cg/ready_to_blow_2.png"
+
+image l_feed = "cg/l_feed.png"
+image l_feed_2 = "cg/l_feed_2.png"
+image l_feed_3 = "cg/l_feed_3.png"
+
 
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"

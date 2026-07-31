@@ -217,3 +217,28 @@ translate japanese strings:
 
     old "What are you talking about...?"
     new "(何をだよ......)"
+
+    #kormeshka_event
+    old "I don't really understand it, but... I guess I should stay on her good side for now."
+    new "(なんかよく分かんないけど...... ここはご機嫌とっとくべきだよな)"
+
+    old "Looks like it's best not to argue right now. If she gets mad, it'll just be a huge hassle."
+    new "(ここは逆らわない方が良さそうだ。 怒らせるとやっかいだし)"
+
+    old "No way am I giving in right now!"
+    new "(ここで負けてなるものかっ!)"
+
+    old "I will firmly stand by my own will..."
+    new "(俺は断固として自分の意志を......)"
+
+    old "Though, she actually seems to be angry!!"
+    new "(って、なんか怒ってるし!!)"
+
+    old "It is stew, right...? Why me?"
+    new "(シチューだよな......。 どうして俺に?)"
+
+    old "I have no idea what she's scheming, but... it's best not to cross her." 
+    new "(何たくらんでるのか知らないけど......、 逆らわない方が身のためだよな)"
+
+    old "Why is she getting so mad anyway, she's such a weirdo..."
+    new "(何怒ってるんだよ、変な奴......)"

@@ -1774,3 +1774,195 @@ translate russian strings:
     
     old "By the way, where is that commoner? I, Guiche, would like to lay eyes on him just once."
     new "Кстати, где тот самый простолюдин? Я, Гиш, хотел бы взглянуть на него хоть раз."
+
+    old "Hey, um, Saito. Are you hungry?"
+    new "С-слушай, Сайто. Есть хочешь?"
+
+    old "Huh? Wh-what do you want, out of the blue?"
+    new "А? Ч-что такое, ни с того ни с сего?"
+
+    old "You're hun-gry, aren't you?"
+    new "Ты же го-ло-ден, да?"
+
+    old "Ah... well... uh..."
+    new "А... ну... это..."
+
+    old "Seriously, I'm absolutely starving!!"
+    new "Да я просто умираю с голоду!!"
+
+    old "Good. I'm glad."
+    new "Вот и хорошо. Я рада."
+
+    old "Glad?"
+    new "Рада?"
+
+    old "Oh, no. Never mind."
+    new "А, нет. Не бери в голову."
+
+    old "Then let's go to the dining hall right now!"
+    new "Тогда пойдём в столовую прямо сейчас!"
+
+    old "Huh?{#E?}"
+    new "Э?"
+
+    old "Come on, hurry up! We're going!"
+    new "Давай, живее! Идём!"
+
+    old "H-hey, hey now. What's with the sudden rush..."
+    new "Э-эй, эй. Чего это ты вдруг..."
+
+    old "Here... eat."
+    new "Вот... ешь."
+
+    old "Yes, exactly. There's no need to hold back just because you're a familiar."
+    new "Да, совершенно верно. Не стоит сдерживаться только потому, что ты фамильяр."
+
+    old "Not in the slightest! Absolutely not! Not even a little bit!!"
+    new "Нисколько! Абсолютно нет! И даже не на йоту!!"
+
+    old "Oh, no... On second thought... my stomach might be empty..."
+    new "Ой, нет... Хотя, наверное... у меня, возможно, уже пусто в животе..."
+
+    old "Really?"
+    new "Честно?"
+
+    old "Y-yeah. Really, really. Ah, I'm so hungry!!"
+    new "У-угу. Честно-честно. А-а, как же я проголодался!!"
+
+    old "I'm glad."
+    new "Как же я рада."
+
+    old "Huh? Glad? What do you mean, 'glad'?"
+    new "А? Рада? Что значит «рада»?"
+
+    old "Huh? What's this?"
+    new "А? Что это?"
+
+    old "What do you mean 'what'? It's stew. Does this look like a book to you?"
+    new "Что значит «что»? Это рагу. Неужели это похоже на книгу?"
+
+    old "Well, it doesn't look like it."
+    new "Ну, не похоже."
+
+    old "But how come?"
+    new "Но отчего же?"
+
+    old "Ah... W-well, d-don't misunderstand me!"
+    new "А... Н-ну, т-ты не подумай чего лишнего!"
+
+    old "It's not like I prepared this just to make you eat it!!"
+    new "Я вовсе не специально готовила это, чтобы накормить тебя!!"
+
+    old "J-just, um..."
+    new "П-просто, это..."
+
+    old "Y-yes, exactly! Because I just had extra!"
+    new "В-вот! Потому что у меня просто остались излишки!"
+
+    old "Ah... alright. I get it, I get it. No need to get so mad."
+    new "А... ладно. Понял я, понял. Не стоит так злиться."
+
+    old "I-I'm not angry or anything. So... well? Are you going to eat it?"
+    new "Н-ничего я не злюсь.  И вообще... ну? Будешь есть?"
+
+    old "Ah, yeah. I'll have some. It looks delicious, after all."
+    new "А, угу. Буду. Всё-таки выглядит вкусно."
+
+    old "W-well then..."
+    new "Н-ну, тогда..."
+
+    old "Yeah. Here's the spoon."
+    new "Угу. Ложку."
+
+    old "Here, say 'ahh'."
+    new "Вот, а-а-а."
+
+    old "...Huh?{#a?}"
+    new "...А?"
+
+    old "I'm telling you, say 'ahh'."
+    new "Я же говорю: «а-а-а»."
+
+    old "W-what are you saying! I would never do such a thing!"
+    new "Ч-что ты такое говоришь! Я бы никогда такого не сделала!"
+    
+    old "Ah, n-no, sorry. I was just joking."
+    new "А, н-нет, прости. Я просто пошутил."
+
+    old "Good grief, you're a total idiot. You have no idea how a woman's heart works..."
+    new  "Ну ты и дурак, честное слово. Совсем не понимаешь женского сердца..."
+
+    old "Huh? Woman's heart?"
+    new "А? Женское сердце?"
+
+    old "Never mind! Just eat, I said!!"
+    new "Неважно! Просто ешь, я сказала!!"
+
+    old "A-alright, I understand."
+    new "Л-ладно, понял я."
+
+    old "Is it good?"
+    new "Вкусно?"
+
+    old  "{i}Chews{/i}..."
+    new  "{i}Жует{/i}..."
+
+    old "Mhm! It's good!!"
+    new "М-м! Вкусно!!"
+
+    old "Really!?"
+    new "Правда!?"
+
+    old "Oh yeah, the cafeteria food here is really good, you know!"
+    new "Да-а, еда в этой столовой как всегда на высоте!"
+
+    old "Seriously, having a proper meal is the only thing that brings me joy!!"
+    new "Да-а, серьезно, поесть как следует — это единственное, что меня по-настоящему радует!!"
+
+    old "Hold on... Eh? What's going on? Louise?"
+    new "Погоди-ка... Эм? Что такое? Луиза?"
+
+    old "Hey, hey. Louise-san."
+    new "Ау-у. Луиза-сан."
+
+    old "...What?"
+    new "...Чего?"
+
+    old "Oh, my, you're not being very honest with yourself today. I wish it were always like this."
+    new "Ох, надо же, сегодня ты не слишком-то откровенен в своих чувствах. Вот бы ты всегда таким был."
+
+    old "W-what kind of nonsense is that!"
+    new "Ч-что за ерунда!"
+
+    old "No, I mean like, you made some kind of bet with Kirche and lost."
+    new "Нет, я о том, что ты, наверное, проиграла Кирхе в каком-нибудь пари."
+
+    old "I would do no such thing! Idiot! Just eat it already!!"
+    new "Ничего подобного я не делала! Дурак! Просто ешь уже!!"
+
+    old "Hey, there's no need to get mad."
+    new "Эй, не стоит так злиться."
+
+    old "Come on! Say 'ahhh'!"
+    new "Ну давай! Скажи «а-а»!"
+
+    old "Ah, ahh..."
+    new "А, а-а..." 
+
+    old "What, what is it?!"
+    new "Что, что такое?!" 
+
+    old "No... what's wrong?"
+    new "Да нет... что не так?"
+
+    old "Anyway... anyway, I'm just...!!"
+    new "В любом случае... в любом случае, я просто...!!"
+
+    old "N-no, I mean, what?"
+    new "Н-нет, я к тому, что?"
+
+    old "Saito, you fool!!!"
+    new "Сайто, дурак!!!"
+
+    old "Oh... She ran off."
+    new "Ох... Убежала."

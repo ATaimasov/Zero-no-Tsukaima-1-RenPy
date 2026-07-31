@@ -96,5 +96,25 @@ translate russian strings:
     old "You can come to my room."
     new "Можешь прийти в мою комнату."
 
+    # kormeshka_event
+    old "Looks like I'm actually getting hungry..."
+    new "Похоже, я и правда проголодался..."
+
+    old "Yep! Starving, totally starving!!"
+    new "Угу! Голоден, очень голоден!!"
+
+    old "Not hungry one bit."
+    new "Ни капельки не голоден."
+
+    old "Is this some kind of punishment game?"
+    new "Это что, какое-то наказание?"
+
+    old "Ahh..."
+    new "А-а-а..."
+
+    old "Does this have poison in it or something?"
+    new "Там внутри, часом, не отрава?"
+
+
 
 
