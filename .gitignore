@@ -31,6 +31,7 @@
 /game/images/
 /game/video/
 /game/audio/
+/game/saves/
 
 /game/**/*.wav
 /game/**/*.ogg
