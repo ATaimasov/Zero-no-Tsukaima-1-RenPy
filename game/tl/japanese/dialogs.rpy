@@ -1965,3 +1965,410 @@ translate japanese strings:
     old "Oh... She ran off."
     new "あ......。行っちゃった。"
 
+    old "......。"
+    new "......。"
+
+    old "By the way, Montmorency... I have a question I'd like to ask you once more."
+    new "ところでモンモランシー?改めて尋ねたいことがあるんだけど。"
+
+    old "W-what is it?"
+    new "な、なにかしら?"
+
+    old "Why do you avoid eye contact, I wonder?"
+    new "......なんで目線をそらすのかしら。"
+
+    old "No, not really. Just doing some neck exercises, that's all."
+    new "......いえ、別に。ちょっと首の体操をしてるだけよ。"
+
+    old "Didn't I tell you to stay silent? Why are we being found out like this!"
+    new "ちゃんと黙っててって言ったでしょ!なんでこんなにばれまくってるのよ!"
+
+    old "Ah, ahaha... Sorry, I couldn't help it."
+    new "あ、あはは......。ごめんなさい、つい。"
+
+    old "Don't give me that 'slipped out' excuse. I said it was a secret! If this keeps up, our future looks bleak."
+    new "つい、じゃないわよ、もう。秘密って言ったのにこれじゃ、先が思いやられるわ。"
+
+    old "Eh, why is it a secret? There's no way the beautiful Montmorency would keep things from me!"
+    new "え、なんで秘密なんだい?麗しのモンモランシーがぼくに隠し事をするはずがないじゃないか?"
+
+    old "Sorry, Louise. I wish I hadn't said a word just now."
+    new "......ごめんなさい、ルイズ。今初めて話しちゃったことを後悔したわ、わたし。"
+
+    old "Eh? Did I do something wrong to you!?"
+    new "ええ?ぼくが、きみに何か悪いことをしたのかい!?"
+
+    old "Montmorency. I feel for you."
+    new "モンモランシー。わたし、同情するわ。"
+
+    old "I agree completely."
+    new "右に同じ。"
+
+    old "Whaaat!? Why is everyone ganging up on me like this!?"
+    new "えええ!?みんなして、ぼくが何をしたと言うんだ?"
+
+    old "Anyway, putting that aside. We should go see how she’s doing later. She’s due for a check-up soon."
+    new "まぁ、それはおいておいて。後でもう一度、彼女の様子を見に行きましょ。そろそろ検査の必要もあるしね。"
+
+    old "Agreed. Since I have a lecture, let’s agree to gather everyone once it finishes. Is that fine?"
+    new "そうね。じゃあ、わたしは授業があるから、終わったら全員で集合ってことでいい?"
+
+    old "It’s fine with me."
+    new "わたしは構わないわ。"
+
+    old "I’m fine with that as well."
+    new "ぼくもだよ。"
+
+    old "Understood."
+    new "分かったわ。"
+
+    old "......。"
+    new "......。"
+
+    old "It's okay by me as well... if you say so."
+    new "俺も......いいけどさ。"
+
+    old "Classes... They’re useless to me. It’s just lessons on this world’s magic and history, after all."
+    new "(授業って、俺には役に立たない この世界の魔法や歴史の授業ばかり なんだよね)"
+
+    old "Sorry to Louise, but I think I’ll take a short walk."
+    new "(ルイズには悪いけど、 ちょっと出かけてきますか)"
+
+    old "Not a sound... Libraries are quiet no matter what world you're in."
+    new "音が何もしない......。どの世界の図書室も静かなもんなんだな。"
+
+    old "Oh, what's that?"
+    new "おや、あれは。"
+
+    old "Yo, Tabitha."
+    new "よっ、タバサ。"
+
+    old "......。"
+    new "......。"
+
+    old "Huh, I wonder if she didn't hear me."
+    new "(あれ、聞こえなかったのかな)"
+
+    old "Hey, Tabitha!"
+    new "おーい、タバサ!"
+
+    old "......I'll close my mouth."
+    new "......口を閉じる。"
+
+    old "Ah, sorry."
+    new "あ、すんません。"
+
+    old "......。"
+    new "......。"
+
+    old "She's gotten absorbed in her book again."
+    new "(また、本に集中しちゃったよ)"
+
+    old "Tabitha? Tabitha-san, hellooo?"
+    new "タバサ?タバサさーん、もしもーし?"
+
+    old "......。"
+    new "......。"
+
+    old "Hmm. To be this unresponsive... I have to applaud her."
+    new "(うーむ。 ここまで無反応だと、あっぱれだ)"
+
+    old "Still, just what is in a book that can captivate someone so completely?"
+    new "(でも、そこまで夢中になって読んでる本って いったいどんな内容なんだろう?)"
+
+    old "Library"
+    new "図書館"
+
+    old "Kirche's Room"
+    new "キュルケの部屋"
+
+    old "Louise's Room"
+    new "ルイズの部屋"
+
+    old "Hallway / Corridor"
+    new "廊下"
+
+    old "I'm curious what's inside. Shall I sneak a look from behind her?"
+    new "(なにが書いてあるのか、 後ろから覗いてみるか)"
+
+    old "Well now, what do we have here...?"
+    new "どれどれ......?"
+
+    old "......?"
+    new "......?"
+
+    old "Can't read a word of this."
+    new "なにが書いてあるのか分かんねえ。"
+
+    old "Come to think of it, I can understand the language here, but I can't read the writing at all."
+    new "(そういや、こっちの言葉は分かるけど、 文字は全然読めないんだった)"
+
+    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
+    new "......『風』系統に『火』系統を重ねる際生じる、特殊効果についての最新学説と各国討論の概説。"
+
+    old "Huh?"
+    new "え?"
+
+    old "That's why it's pointless for you to read it."
+    new "......だから、あなたが読んでも無意味。"
+
+    old "Ah... I see."
+    new "ああ......、そうなのか。"
+
+    old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
+    new "(はなから読めないうえに、 内容が魔法に関する論文じゃ、 確かに俺には意味ないなあ)"
+
+    old "Sorry for disturbing you."
+    new "悪い、邪魔したな。"
+
+    old "No problem."
+    new "......大丈夫。"
+
+    old "Well then, I'll be going."
+    new "じゃ、俺は失礼するよ。"
+
+    old "......。"
+    new "......。"
+
+    old "I thought I saw her nod slightly just now... Does that mean she understood?"
+    new "(今、かすかにうなずいたような気が したけど......。 了解したってことなのかな?)"
+
+    old "Ah well, it's fine."
+    new "ま、いいか。"
+
+    old "Let's see, let's see?"
+    new "どれどれ?"
+
+    old "......。"
+    new "......。"
+
+    old "......?"
+    new "......?"
+
+    old "What the heck is this? I can't make out a single word of what's written here."
+    new "なんだ、これ?なにが書いてあるのか、さっぱり分からねえ。"
+
+    old "Come to think of it, I can understand what people say here, but I can't read the writing at all."
+    new "(そういや、こっちの言葉は分かるけど、 文字は全然読めないんだった)"
+
+    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
+    new "......『風』系統に『火』系統を重ねる際生じる、特殊効果についての最新学説と各国討論の概説。"
+
+    old "Huh?"
+    new "え?"
+
+    old "It's something you don't need to understand."
+    new "......あなたには、分からなくてもいいこと。"
+
+    old "Ah... I see."
+    new "ああ......、そうなのか。"
+
+    old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
+    new "(はなから読めないうえに、 内容が魔法に関する論文じゃ、 確かに俺には意味ないなあ)"
+
+    old "My bad for interrupting. Here's the book."
+    new "悪い、邪魔したな。はい、本。"
+
+    old "......。"
+    new "......。"
+
+    old "Can't read her expressionless face, but I wonder if she's actually angry."
+    new "(無表情だから分かんないけど、 ひょっとして怒ってるのかな)"
+
+    old "Now that I think about it, grabbing a book out of someone's hands without warning is pretty rude. Guess I really stepped in it."
+    new "(考えたら、いきなり読んでる本を 取り上げたら普通は気分悪くするよなあ。 まずいことしちまったか)"
+
+    old "Alright, I'm heading out."
+    new "じゃ、俺は失礼するよ。"
+
+    old "......。"
+    new "......。"
+
+    old "I thought I saw her nod slightly just now... Does that mean she understood?"
+    new "(今、かすかにうなずいたような気が したけど......。 了解したってことなのかな?)"
+
+    old "Well, whatever."
+    new "ま、いいか。"
+
+    old "Maybe I should ask Tabitha what's written in it?"
+    new "(なにが書いてあるのか、 タバサに聞いてみるか)"
+
+    old "Come on, what's actually written in this thing?"
+    new "なあ、いったいなにが書いてあるんだ?"
+
+    old "...It's something you don't need to know."
+    new "......あなたは知らなくていいこと。"
+
+    old "...I mean, yeah, perhaps. But..."
+    new "......いや、まあ。そうかもしんないけど。"
+
+    old "Come to think of it, I can't read the writing anyway."
+    new "(よく考えたら、 俺、どのみち文字読めないしな)"
+
+    old "Umm... could you at least give me an explanation?"
+    new "ええーと、せめて説明だけでもしてくれないかな。"
+
+    old "......。"
+    new "......。"
+
+    old "I guess that's a no?"
+    new "駄目かな?"
+
+
+    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
+    new "......『風』系統に『火』系統を重ねる際生じる、特殊効果についての最新学説と各国討論の概説。"
+
+    old "Huh?"
+    new "え?"
+
+    old "That's why it's pointless for you to read it."
+    new "......だから、あなたが読んでも無意味。"
+
+    old "Ah... I see."
+    new "ああ......、そうなのか。"
+
+    old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
+    new "(はなから読めないうえに、 内容が魔法に関する論文じゃ、 確かに俺には意味ないなあ)"
+
+    old "Sorry for disturbing you."
+    new "悪い、邪魔したな。"
+
+    old "...Not really."
+    new "......別に。"
+
+    old "Maybe I shouldn't have been so persistent... She doesn't seem all that angry, though."
+    new "(しつこく聞いたのは悪かったかな。 ......あまり怒ってるようじゃない みたいだけど)"
+
+    old "Alright, I'm heading out."
+    new "じゃ、俺は失礼するよ。"
+
+    old "......。"
+    new "......。"
+
+    old "I thought I saw her nod slightly just now... Does that mean she understood?"
+    new "(今、かすかにうなずいたような気が したけど......。 了解したってことなのかな?)"
+
+    old "Well, whatever."
+    new "ま、いいか。"
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    
