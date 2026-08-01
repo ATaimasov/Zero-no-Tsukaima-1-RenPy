@@ -27,6 +27,11 @@
 
 
 #ignore big files
+/game/gui/
+/game/images/
+/game/video/
+/game/audio/
+
 /game/**/*.wav
 /game/**/*.ogg
 /game/**/*.png
