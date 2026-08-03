@@ -158,6 +158,8 @@ image l_feed = "cg/l_feed.webp"
 image l_feed_2 = "cg/l_feed_2.webp"
 image l_feed_3 = "cg/l_feed_3.webp"
 
+image t_library_read = "cg/t_library_read.webp"
+image t_library_read_2 = "cg/t_library_read_2.webp"
 
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"

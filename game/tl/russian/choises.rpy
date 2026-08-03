@@ -96,6 +96,12 @@ translate russian strings:
     old "You can come to my room."
     new "Можешь прийти в мою комнату."
 
+    old "Library"
+    new "Библиотека"
+
+    old "Kirche's Room"
+    new "Комната Кирхе"
+
     # kormeshka_event
     old "Looks like I'm actually getting hungry..."
     new "Похоже, я и правда проголодался..."

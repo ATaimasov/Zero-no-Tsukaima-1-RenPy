@@ -27,9 +27,6 @@ translate japanese strings:
     old "Siesta's Room"
     new "シエスタの部屋"
 
-    old "Louise's Room"
-    new "ルイズの部屋"
-
     old "Hallway"
     new "廊下"
 
@@ -96,6 +93,14 @@ translate japanese strings:
     old "You can come to my room."
     new "俺の部屋に来るといいよ"
 
+    old "Library"
+    new "図書館"
+
+    old "Kirche's Room"
+    new "キュルケの部屋"
+
+    old "Louise's Room"
+    new "ルイズの部屋"
 
     # kormeshka_event
     old "Looks like I'm actually getting hungry..."
@@ -115,3 +120,6 @@ translate japanese strings:
 
     old "Does this have poison in it or something?"
     new "これ、毒でも入ってる？"
+
+
+    

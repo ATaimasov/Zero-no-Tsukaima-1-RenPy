@@ -237,3 +237,18 @@ translate russian strings:
 
     old "Why is she getting so mad anyway, she's such a weirdo..."
     new "И чего это она злится, странная она всё-таки..."
+
+    old "Guishe is Louise's classmate. He specializes in Earth system magic. He knows as 'Guishe the Bronze'."
+    new "Гиш — одноклассник Луизы. Специалист по магии земли. Его прозвище — «Бронзовый Гиш"
+
+    old "He's a womanizer and a show-off, but you just can't hate the guy."
+    new "Он типичный плейбой и позёр, но как-то не выходит его ненавидеть."
+
+    old "Unable to retort, just stewing in rage. I need to make a run for it before things blow up."
+    new "Не может ответить и копит злость внутри. Надо уносить ноги, пока её не прорвало."
+
+    old "Classes... They’re useless to me. It’s just lessons on this world’s magic and history, after all."
+    new "Эти лекции мне ни к чему. Всё время только про местную магию и историю."
+
+    old "Sorry to Louise, but I think I’ll take a short walk."
+    new "Хоть и неудобно перед Луизой, думаю, прогуляюсь немного."

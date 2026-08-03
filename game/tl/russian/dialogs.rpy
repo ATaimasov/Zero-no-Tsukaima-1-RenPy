@@ -1749,13 +1749,7 @@ translate russian strings:
     new "Мой фамильяр не должен приводить в комнату других людей без моего разрешения!"
 
     old "Oh? I hear the four of you have been summoned by the Headmaster. What on earth happened?"
-    new "О? Говорят, вас четверых вызвал директор академии. Что же у вас стряслось?"
-
-    old "Guishe is Louise's classmate. He specializes in Earth system magic. His title is 'Guishe the Bronze'."
-    new "Гиш — одноклассник Луизы. Специалист по магии земли. Его прозвище — «Бронзовый Гиш"
-
-    old "He's a womanizer and a show-off, but you just can't hate the guy."
-    new "Он типичный плейбой и позёр, но как-то не выходит его ненавидеть."
+    new "Оя? Говорят, вас четверых вызвал директор академии. Что же у вас стряслось?"
 
     old "Listen... There was an unfortunate accident."
     new "Слушай... Произошел несчастный случай."
@@ -1769,9 +1763,6 @@ translate russian strings:
     old "Tch...!"
     new "Чёрт...!"
 
-    old "Unable to retort, just stewing in rage. I need to make a run for it before things blow up."
-    new "Не может ответить и копит злость внутри. Надо уносить ноги, пока её не прорвало."
-    
     old "By the way, where is that commoner? I, Guiche, would like to lay eyes on him just once."
     new "Кстати, где тот самый простолюдин? Я, Гиш, хотел бы взглянуть на него хоть раз."
 
@@ -2024,18 +2015,8 @@ translate russian strings:
     old "Understood."
     new "Договорились."
 
-    old "......。"
-    new "......。"
-
     old "It's okay by me as well... if you say so."
     new "Меня тоже устраивает... пожалуй."
-
-
-    old "Classes... They’re useless to me. It’s just lessons on this world’s magic and history, after all."
-    new "Эти лекции мне ни к чему. Всё время только про местную магию и историю."
-
-    old "Sorry to Louise, but I think I’ll take a short walk."
-    new "Хоть и неудобно перед Луизой, думаю, прогуляюсь немного."
 
     old "Not a sound... Libraries are quiet no matter what world you're in."
     new "Ни звука... Библиотеки тихие в любом мире."
@@ -2046,9 +2027,6 @@ translate russian strings:
     old "Yo, Tabitha."
     new "Йо, Табита."
 
-    old "......。"
-    new "......。"
-
     old "Huh, I wonder if she didn't hear me."
     new "Странно, может, она не расслышала?"
 
@@ -2058,11 +2036,8 @@ translate russian strings:
     old "......I'll close my mouth."
     new "......Я закрыла рот."
 
-    old "Ah, sorry."
+    old "Ah, sorry.{#var2}"
     new "А, извиняюсь."
-
-    old "......。"
-    new "......。"
 
     old "She's gotten absorbed in her book again."
     new "Кажется, она снова погрузилась в книгу."
@@ -2070,26 +2045,11 @@ translate russian strings:
     old "Tabitha? Tabitha-san, hellooo?"
     new "Табита? Табита-саан, аууу?"
 
-    old "......。"
-    new "......。"
-
     old "Hmm. To be this unresponsive... I have to applaud her."
     new "Угу. Не реагировать до такой степени — это надо уметь."
 
     old "Still, just what is in a book that can captivate someone so completely?"
     new "Хотя, что это вообще за книга, раз она так сильно погружена в чтение?"
-
-    old "Library"
-    new "Библиотека"
-
-    old "Kirche's Room"
-    new "Комната Кирхе"
-
-    old "Louise's Room"
-    new "Комната Луизы"
-
-    old "Hallway / Corridor"
-    new "Коридор"
 
     old "I'm curious what's inside. Shall I sneak a look from behind her?"
     new "Интересно, что там написано... Может, заглянуть ей через плечо?"
@@ -2097,8 +2057,8 @@ translate russian strings:
     old "Well now, what do we have here...?"
     new "Ну-ка, ну-ка...?"
 
-    old "......?"
-    new "......?"
+    old "...?"
+    new "...?"
 
     old "Can't read a word of this."
     new "Can't read a word of this."
@@ -2109,32 +2069,11 @@ translate russian strings:
     old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
     new "Обзор новейших научных теорий и международных дискуссий о специальных эффектах, возникающих при наложении системы Огня на систему Ветра."
 
-    old "Huh?"
-    new "Э?"
-
-    old "That's why it's pointless for you to read it."
-    new "Так что даже если ты и прочитаешь, толку не будет."
-
-    old "Ah... I see."
-    new "А-а... Понятно."
-
-    old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
-    new "Мало того что я не умею читать, так это ещё и научный труд по магии... Да уж, мне от него точно никакого толку."
-
-    old "Sorry for disturbing you."
-    new "Прости, не хотел мешать."
-
     old "No problem."
     new "Всё в порядке."
 
     old "Well then, I'll be going."
     new "Тогда я удаляюсь."
-
-    old "......。"
-    new "......。"
-
-    old "I thought I saw her nod slightly just now... Does that mean she understood?"
-    new "Кажется, она сейчас чуть кивнула... Наверное, это значит, что поняла?"
 
     old "Ah well, it's fine."
     new "Ладно, не суть важно."
@@ -2142,29 +2081,14 @@ translate russian strings:
     old "Let's see, let's see?"
     new "Ну-ка, ну-ка?"
 
-    old "......。"
-    new "......。"
-
-    old "......?"
-    new "......?"
-
     old "What the heck is this? I can't make out a single word of what's written here."
     new "Что это вообще? Абсолютно ничего не могу прочитать."
 
     old "Come to think of it, I can understand what people say here, but I can't read the writing at all."
     new "Точно, я понимаю разговорную речь, но читать текст совершенно не могу."
 
-    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
-    new "Обзор новейших научных теорий и международных дискуссий о специальных эффектах, возникающих при наложении системы Огня на систему Ветра."
-
-    old "Huh?"
-    new "А?"
-
     old "It's something you don't need to understand."
     new "Это то, что тебе не обязательно понимать."
-
-    old "Ah... I see."
-    new "А-а... Понятно."
 
     old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
     new "Мало того что я не умею читать, так это ещё и научный труд по магии... Да уж, мне от него точно никакого толку."
@@ -2172,23 +2096,11 @@ translate russian strings:
     old "My bad for interrupting. Here's the book."
     new "Извини, что помешал. Держи, твоя книга."
 
-    old "......。"
-    new "......。"
-
     old "Can't read her expressionless face, but I wonder if she's actually angry."
     new "По её бесстрастному лицу ничего не понять, но вдруг она злится?"
 
     old "Now that I think about it, grabbing a book out of someone's hands without warning is pretty rude. Guess I really stepped in it."
     new "Если подумать, выхватить книгу у читающего человека — это ж надо быть грубияном. Неужели я так накосячил?"
-
-    old "Alright, I'm heading out."
-    new "Ладно, не буду мешать."
-
-    old "......。"
-    new "......。"
-
-    old "I thought I saw her nod slightly just now... Does that mean she understood?"
-    new "Кажется, она сейчас чуть кивнула... Наверное, это значит, что поняла?"
 
     old "Well, whatever."
     new "Ну да ладно."
@@ -2198,7 +2110,6 @@ translate russian strings:
 
     old "Come on, what's actually written in this thing?"
     new "Слушай, что же там всё-таки написано?"
-
 
     old "...It's something you don't need to know."
     new "...Это то, что тебе не нужно знать."
@@ -2212,26 +2123,14 @@ translate russian strings:
     old "Umm... could you at least give me an explanation?"
     new "Э-э... ты могла бы хотя бы объяснить мне?"
 
-    old "......。"
-    new "......。"
-
     old "I guess that's a no?"
     new "Нельзя?"
-
-    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
-    new "Обзор новейших научных теорий и международных дискуссий о специальных эффектах, возникающих при наложении системы Огня на систему Ветра."
-
-    old "Huh?"
-    new "А?"
 
     old "That's why it's pointless for you to read it."
     new "Поэтому тебе бессмысленно это читать."
 
     old "Ah... I see."
     new "А-а... Понятно."
-
-    old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
-    new "Мало того что я не умею читать, так это ещё и научный труд по магии... Да уж, мне от него точно никакого толку."
 
     old "Sorry for disturbing you."
     new "Прости, не хотел мешать."
@@ -2245,16 +2144,13 @@ translate russian strings:
     old "Alright, I'm heading out."
     new "Ладно, не буду мешать."
 
-    old "......。"
-    new "......。"
-
     old "I thought I saw her nod slightly just now... Does that mean she understood?"
     new "Кажется, она сейчас чуть кивнула... Наверное, это значит, что поняла?"
 
-    old "Well, whatever."
-    new "Ну да ладно."
+    old "Right then, everyone is assembled."
+    new "Итак, все в сборе."
 
-    old ""
+     old ""
     new ""
 
     old ""
@@ -2301,59 +2197,3 @@ translate russian strings:
 
     old ""
     new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    

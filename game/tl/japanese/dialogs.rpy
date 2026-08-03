@@ -1746,12 +1746,6 @@ translate japanese strings:
     old "Oh? I hear the four of you have been summoned by the Headmaster. What on earth happened?"
     new "おや?4人そろって、学院長に呼ばれたらしいが、いったいどうしたんだい?"
 
-    old "Guishe is Louise's classmate. He specializes in Earth system magic. His title is 'Guishe the Bronze'."
-    new "(ギーシュは、ルイズのクラスメイト。 土の系統の魔法が得意。 二つ名は「青銅のギーシュ」)"
-
-    old "He's a womanizer and a show-off, but you just can't hate the guy."
-    new "(女たらしで、キザだが、 どうにも憎めないヤツだ)"
-
     old "Listen... There was an unfortunate accident."
     new "......ちょっと、ね。不幸な事故があったの。"
 
@@ -1763,9 +1757,6 @@ translate japanese strings:
 
     old "Tch...!"
     new "くっ......!"
-
-    old "Unable to retort, just stewing in rage. I need to make a run for it before things blow up."
-    new "(言い返せなくて怒りを溜め込んでるなあ。 爆発しないうちに逃げたいぞ、俺は)"
 
     old "By the way, where is that commoner? I, Guiche, would like to lay eyes on him just once."
     new "ところで、例の平民はどこにいるんだい?このギーシュ。一度は見てみたいと思ったんだけど。"
@@ -2022,17 +2013,8 @@ translate japanese strings:
     old "Understood."
     new "分かったわ。"
 
-    old "......。"
-    new "......。"
-
     old "It's okay by me as well... if you say so."
     new "俺も......いいけどさ。"
-
-    old "Classes... They’re useless to me. It’s just lessons on this world’s magic and history, after all."
-    new "(授業って、俺には役に立たない この世界の魔法や歴史の授業ばかり なんだよね)"
-
-    old "Sorry to Louise, but I think I’ll take a short walk."
-    new "(ルイズには悪いけど、 ちょっと出かけてきますか)"
 
     old "Not a sound... Libraries are quiet no matter what world you're in."
     new "音が何もしない......。どの世界の図書室も静かなもんなんだな。"
@@ -2043,9 +2025,6 @@ translate japanese strings:
     old "Yo, Tabitha."
     new "よっ、タバサ。"
 
-    old "......。"
-    new "......。"
-
     old "Huh, I wonder if she didn't hear me."
     new "(あれ、聞こえなかったのかな)"
 
@@ -2055,11 +2034,8 @@ translate japanese strings:
     old "......I'll close my mouth."
     new "......口を閉じる。"
 
-    old "Ah, sorry."
+    old "Ah, sorry.{#var2}"
     new "あ、すんません。"
-
-    old "......。"
-    new "......。"
 
     old "She's gotten absorbed in her book again."
     new "(また、本に集中しちゃったよ)"
@@ -2067,26 +2043,11 @@ translate japanese strings:
     old "Tabitha? Tabitha-san, hellooo?"
     new "タバサ?タバサさーん、もしもーし?"
 
-    old "......。"
-    new "......。"
-
     old "Hmm. To be this unresponsive... I have to applaud her."
     new "(うーむ。 ここまで無反応だと、あっぱれだ)"
 
     old "Still, just what is in a book that can captivate someone so completely?"
     new "(でも、そこまで夢中になって読んでる本って いったいどんな内容なんだろう?)"
-
-    old "Library"
-    new "図書館"
-
-    old "Kirche's Room"
-    new "キュルケの部屋"
-
-    old "Louise's Room"
-    new "ルイズの部屋"
-
-    old "Hallway / Corridor"
-    new "廊下"
 
     old "I'm curious what's inside. Shall I sneak a look from behind her?"
     new "(なにが書いてあるのか、 後ろから覗いてみるか)"
@@ -2094,7 +2055,7 @@ translate japanese strings:
     old "Well now, what do we have here...?"
     new "どれどれ......?"
 
-    old "......?"
+    old "...?"
     new "......?"
 
     old "Can't read a word of this."
@@ -2106,17 +2067,11 @@ translate japanese strings:
     old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
     new "......『風』系統に『火』系統を重ねる際生じる、特殊効果についての最新学説と各国討論の概説。"
 
-    old "Huh?"
-    new "え?"
-
     old "That's why it's pointless for you to read it."
     new "......だから、あなたが読んでも無意味。"
 
     old "Ah... I see."
     new "ああ......、そうなのか。"
-
-    old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
-    new "(はなから読めないうえに、 内容が魔法に関する論文じゃ、 確かに俺には意味ないなあ)"
 
     old "Sorry for disturbing you."
     new "悪い、邪魔したな。"
@@ -2127,9 +2082,6 @@ translate japanese strings:
     old "Well then, I'll be going."
     new "じゃ、俺は失礼するよ。"
 
-    old "......。"
-    new "......。"
-
     old "I thought I saw her nod slightly just now... Does that mean she understood?"
     new "(今、かすかにうなずいたような気が したけど......。 了解したってことなのかな?)"
 
@@ -2139,38 +2091,17 @@ translate japanese strings:
     old "Let's see, let's see?"
     new "どれどれ?"
 
-    old "......。"
-    new "......。"
-
-    old "......?"
-    new "......?"
-
     old "What the heck is this? I can't make out a single word of what's written here."
     new "なんだ、これ?なにが書いてあるのか、さっぱり分からねえ。"
 
     old "Come to think of it, I can understand what people say here, but I can't read the writing at all."
     new "(そういや、こっちの言葉は分かるけど、 文字は全然読めないんだった)"
 
-    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
-    new "......『風』系統に『火』系統を重ねる際生じる、特殊効果についての最新学説と各国討論の概説。"
-
-    old "Huh?"
-    new "え?"
-
     old "It's something you don't need to understand."
     new "......あなたには、分からなくてもいいこと。"
 
-    old "Ah... I see."
-    new "ああ......、そうなのか。"
-
-    old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
-    new "(はなから読めないうえに、 内容が魔法に関する論文じゃ、 確かに俺には意味ないなあ)"
-
     old "My bad for interrupting. Here's the book."
     new "悪い、邪魔したな。はい、本。"
-
-    old "......。"
-    new "......。"
 
     old "Can't read her expressionless face, but I wonder if she's actually angry."
     new "(無表情だから分かんないけど、 ひょっとして怒ってるのかな)"
@@ -2180,12 +2111,6 @@ translate japanese strings:
 
     old "Alright, I'm heading out."
     new "じゃ、俺は失礼するよ。"
-
-    old "......。"
-    new "......。"
-
-    old "I thought I saw her nod slightly just now... Does that mean she understood?"
-    new "(今、かすかにうなずいたような気が したけど......。 了解したってことなのかな?)"
 
     old "Well, whatever."
     new "ま、いいか。"
@@ -2208,30 +2133,11 @@ translate japanese strings:
     old "Umm... could you at least give me an explanation?"
     new "ええーと、せめて説明だけでもしてくれないかな。"
 
-    old "......。"
-    new "......。"
-
     old "I guess that's a no?"
     new "駄目かな?"
 
-
-    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
-    new "......『風』系統に『火』系統を重ねる際生じる、特殊効果についての最新学説と各国討論の概説。"
-
-    old "Huh?"
-    new "え?"
-
-    old "That's why it's pointless for you to read it."
-    new "......だから、あなたが読んでも無意味。"
-
-    old "Ah... I see."
-    new "ああ......、そうなのか。"
-
     old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
     new "(はなから読めないうえに、 内容が魔法に関する論文じゃ、 確かに俺には意味ないなあ)"
-
-    old "Sorry for disturbing you."
-    new "悪い、邪魔したな。"
 
     old "...Not really."
     new "......別に。"
@@ -2239,19 +2145,10 @@ translate japanese strings:
     old "Maybe I shouldn't have been so persistent... She doesn't seem all that angry, though."
     new "(しつこく聞いたのは悪かったかな。 ......あまり怒ってるようじゃない みたいだけど)"
 
-    old "Alright, I'm heading out."
-    new "じゃ、俺は失礼するよ。"
+    old "Right then, everyone is assembled."
+    new "さて、みんな集まったわね。"
 
-    old "......。"
-    new "......。"
-
-    old "I thought I saw her nod slightly just now... Does that mean she understood?"
-    new "(今、かすかにうなずいたような気が したけど......。 了解したってことなのかな?)"
-
-    old "Well, whatever."
-    new "ま、いいか。"
-
-    old ""
+     old ""
     new ""
 
     old ""
@@ -2298,77 +2195,3 @@ translate japanese strings:
 
     old ""
     new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    
