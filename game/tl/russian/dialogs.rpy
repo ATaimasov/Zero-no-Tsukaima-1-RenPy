@@ -2033,8 +2033,8 @@ translate russian strings:
     old "Hey, Tabitha!"
     new "Эй, Табита!"
 
-    old "......I'll close my mouth."
-    new "......Я закрыла рот."
+    old "...Silence."
+    new "...Молчу."
 
     old "Ah, sorry.{#var2}"
     new "А, извиняюсь."
@@ -2061,16 +2061,16 @@ translate russian strings:
     new "...?"
 
     old "Can't read a word of this."
-    new "Can't read a word of this."
+    new "Ни слова не могу прочитать."
 
     old "Come to think of it, I can understand the language here, but I can't read the writing at all."
-    new "Точно, я понимаю разговорную речь, но читать текст совершенно не могу."
+    new "Точно, я понимаю разговорную речь, но читать текст вообще не умею."
 
-    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
-    new "Обзор новейших научных теорий и международных дискуссий о специальных эффектах, возникающих при наложении системы Огня на систему Ветра."
+    old "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
+    new "...Обзор современных теорий и международных дискуссий о специальных эффектах, возникающих при сочетании магических систем «ветра» и «огня»."
 
-    old "No problem."
-    new "Всё в порядке."
+    old "...No problem."
+    new "...Всё в порядке."
 
     old "Well then, I'll be going."
     new "Тогда я удаляюсь."
@@ -2082,13 +2082,10 @@ translate russian strings:
     new "Ну-ка, ну-ка?"
 
     old "What the heck is this? I can't make out a single word of what's written here."
-    new "Что это вообще? Абсолютно ничего не могу прочитать."
+    new "Что это? Вообще ничего не могу прочитать."
 
-    old "Come to think of it, I can understand what people say here, but I can't read the writing at all."
-    new "Точно, я понимаю разговорную речь, но читать текст совершенно не могу."
-
-    old "It's something you don't need to understand."
-    new "Это то, что тебе не обязательно понимать."
+    old "...It's something you don't need to understand."
+    new "...Это то, что тебе не обязательно понимать."
 
     old "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
     new "Мало того что я не умею читать, так это ещё и научный труд по магии... Да уж, мне от него точно никакого толку."
@@ -2108,7 +2105,7 @@ translate russian strings:
     old "Maybe I should ask Tabitha what's written in it?"
     new "Может, спросить у Табиты, что там написано?"
 
-    old "Come on, what's actually written in this thing?"
+    old "Hey, what's actually written in this thing?"
     new "Слушай, что же там всё-таки написано?"
 
     old "...It's something you don't need to know."
@@ -2126,8 +2123,8 @@ translate russian strings:
     old "I guess that's a no?"
     new "Нельзя?"
 
-    old "That's why it's pointless for you to read it."
-    new "Поэтому тебе бессмысленно это читать."
+    old "...That's why it's pointless for you to read it."
+    new "...Поэтому тебе бессмысленно это читать."
 
     old "Ah... I see."
     new "А-а... Понятно."
@@ -2144,56 +2141,20 @@ translate russian strings:
     old "Alright, I'm heading out."
     new "Ладно, не буду мешать."
 
-    old "I thought I saw her nod slightly just now... Does that mean she understood?"
-    new "Кажется, она сейчас чуть кивнула... Наверное, это значит, что поняла?"
+    old "Did she just nod a little?... So she confirmed it?"
+    new "Она только что чуть-чуть кивнула?... Значит, она это подтвердила?"
 
     old "Right then, everyone is assembled."
     new "Итак, все в сборе."
 
-     old ""
-    new ""
+    old "Kirche, are you there?"
+    new "Кирхе, ты тут?"
 
-    old ""
-    new ""
+    old "Oh, Darling? The door isn't locked. Feel free to come in."
+    new "Ой, Дорогой? Дверь не на ключе. Заходи, если хочешь."
 
-    old ""
-    new ""
+    old "Well then, excuse me!"
+    new "Ну тогда, с вашего позволения!"
 
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
+    old "Come in! What a surprise. To what do I owe the pleasure?"
+    new "Проходи! Какой сюрприз. Чем обязана?"

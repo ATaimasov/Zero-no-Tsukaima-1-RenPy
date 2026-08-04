@@ -112,6 +112,11 @@ image bg louise_room = "bg/louise_room.webp"
 image bg louise_room_evening = "bg/louise_room_evening.webp"
 image bg louise_room_night = "bg/louise_room_night.webp"
 
+#kirche_room
+image bg kirche_room = "bg/louise_room.webp"
+image bg kirche_evening = "bg/louise_room_evening.webp"
+image bg kirche_night = "bg/louise_room_night.webp"
+
 #dining_hall
 image bg dining_hall = "bg/dining_hall.webp"
 image bg dining_hall_evening = "bg/dining_hall_evening.webp"
@@ -160,6 +165,8 @@ image l_feed_3 = "cg/l_feed_3.webp"
 
 image t_library_read = "cg/t_library_read.webp"
 image t_library_read_2 = "cg/t_library_read_2.webp"
+image t_library_read_3 = "cg/t_library_read_3.webp"
+image t_library_read_4 = "cg/t_library_read_4.webp"
 
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"
@@ -203,3 +210,5 @@ define audio.take_sword = "audio/sfx/take_sword.wav"
 define audio.knock_door = "audio/sfx/knock_door.wav"
 define audio.close_door = "audio/sfx/close_door.wav"
 define audio.open_door = "audio/sfx/open_door.wav"
+define audio.read = "audio/sfx/read.wav"
+

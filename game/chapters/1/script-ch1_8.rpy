@@ -109,110 +109,227 @@ label ch1_8:
 
     th "Classes... They’re useless to me. It’s just lessons on this world’s magic and history, after all."
     th "Sorry to Louise, but I think I’ll take a short walk."
+
+    $ fade_fx("hallway_night", new_music="t3")
     
     menu:
         "Library":
             $ fade_fx("library", new_music="t8")
             $ show_sprites(("s 1"))
 
+            voice "ch1.8_s_003"
             s "Not a sound... Libraries are quiet no matter what world you're in."
+
+            voice "ch1.8_s_004"
             s "Oh, what's that?"
 
             $ fade_fx("t_library_read")
+            voice "ch1.8_s_005"
             s "Yo, Tabitha."
             t "..."
             $ update_sympathy(20, char_key="tabitha")
 
             th "Huh, I wonder if she didn't hear me."
 
+            voice "ch1.8_s_006"
             s "Hey, Tabitha!"
 
-            $ fade_fx("t_library_read_2")
-            t "......I'll close my mouth."
+            $ dissolve_fx("t_library_read_2")
+            voice "ch1.8_t_001"
+            t "...Silence."
+
+            voice "ch1.8_s_007"
             s "Ah, sorry.{#var2}"
 
-            #! звук перелистывания страницы
+            $ dissolve_fx("t_library_read")
+            pause(0.5)
+            play sound read
             t "..."
             th "She's gotten absorbed in her book again."
+
+            voice "ch1.8_s_008"
             s "Tabitha? Tabitha-san, hellooo?"
 
-            #! звук перелистывания страницы
+            play sound read
+            pause(0.5)
             t "..."
             th "Hmm. To be this unresponsive... I have to applaud her."
             th "Still, just what is in a book that can captivate someone so completely?"
 
             menu:
-                "Peek at the book":
+                "See what's in the book":
                     th "I'm curious what's inside. Shall I sneak a look from behind her?"
+                    
+                    voice "ch1.8_s_009"
                     s "Well now, what do we have here...?"
+
+                    voice "ch1.8_s_010"
                     s "...?"
+
+                    voice "ch1.8_s_011"
                     s "Can't read a word of this."
                     th "Come to think of it, I can understand the language here, but I can't read the writing at all."
                    
-                    $ fade_fx("t_library_read_2")
-                    t "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
+                    $ dissolve_fx("t_library_read_2")
+                    voice "ch1.8_t_002"
+                    t "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
                     
+                    voice "ch1.8_s_012"
                     s "Eh?{#e?}"
-                    t "That's why it's pointless for you to read it."
-                    s "Ah... I see."
-                    th "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
-                    s "Sorry for disturbing you."
-                    t "No problem."
-                    s "Well then, I'll be going."
-                    t "..."
-                    th "I thought I saw her nod slightly just now... Does that mean she understood?"
-                    s "Ah well, it's fine."
 
-                "Take away the book":
-                    s "Let's see, let's see?"
-                    t "..."
-                    s "......?"
-                    s "What the heck is this? I can't make out a single word of what's written here."
-                    th "Come to think of it, I can understand what people say here, but I can't read the writing at all."
-                    t "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
-                    s "Eh?"
-                    t "It's something you don't need to understand."
+                    voice "ch1.8_t_003"
+                    t "...That's why it's pointless for you to read it."
+
+                    voice "ch1.8_s_013"
                     s "Ah... I see."
                     th "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
+                    
+                    voice "ch1.8_s_014"
+                    s "Sorry for disturbing you."
+
+                    voice "ch1.8_t_004"
+                    t "...No problem."
+
+                "Snatch the book":
+                    th "Let's see what's written here... I suppose I'll just borrow it for a moment."
+                    
+                    voice "ch1.8_s_009-2"
+                    s "Well now, what do we have here...?"
+
+                    $ dissolve_fx("t_library_read_3", duration=2.0)
+                    t "..."
+
+                    $ update_sympathy(-20, char_key="tabitha")
+                    $ update_sympathy(20, char_key="louise")
+
+                    voice "ch1.8_s_010-2"
+                    s "...?"
+
+                    voice "ch1.8_s_021"
+                    s "What the heck is this? I can't make out a single word of what's written here."
+
+                    th "Come to think of it, I can understand the language here, but I can't read the writing at all."
+                    
+                    $ dissolve_fx("t_library_read_4")
+                    voice "ch1.8_t_002-2"
+                    t "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
+                    
+                    voice "ch1.8_s_012-2"
+                    s "Eh?"
+
+                    voice "ch1.8_t_003-2"
+                    t "...It's something you don't need to understand."
+
+                    voice "ch1.8_s_013-3"
+                    s "Ah... I see."
+                    th "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
+                    
+                    voice "ch1.8_s_022"
                     s "My bad for interrupting. Here's the book."
+
+                    $ dissolve_fx("t_library_read")
                     t "..."
                     th "Can't read her expressionless face, but I wonder if she's actually angry."
                     th "Now that I think about it, grabbing a book out of someone's hands without warning is pretty rude. Guess I really stepped in it."
-                    s "Alright, I'm heading out."
-                    t "..."
-                    th "I thought I saw her nod slightly just now... Does that mean she understood?"
-                    s "Well, whatever."
 
-                "Ask about the book's contents":
+                "Inquire about the book":
                     th "Maybe I should ask Tabitha what's written in it?"
-                    s "Come on, what's actually written in this thing?"
+                    
+                    voice "ch1.8_s_017"
+                    s "Hey, what's actually written in this thing?"
+
+                    voice "ch1.8_t_005"
                     t "...It's something you don't need to know."
+                    
+                    $ update_sympathy(20, char_key="tabitha")
+                    $ update_sympathy(-20, char_key="louise")
+                    
+                    voice "ch1.8_s_018"
                     s "...I mean, yeah, perhaps. But..."
                     th "Come to think of it, I can't read the writing anyway."
+
+                    voice "ch1.8_s_019"
                     s "Umm... could you at least give me an explanation?"
+                    
                     t "..."
+
+                    voice "ch1.8_s_020"
                     s "I guess that's a no?"
-                    t "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
+
+                    $ dissolve_fx("t_library_read_2")
+                    voice "ch1.8_t_002-3"
+                    t "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
+                    
+                    voice "ch1.8_s_012-3"
                     s "Eh?"
-                    t "That's why it's pointless for you to read it."
+
+                    voice "ch1.8_t_003-3"
+                    t "...That's why it's pointless for you to read it."
+
+                    voice "ch1.8_s_013-3"
                     s "Ah... I see."
                     th "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
+                    
+                    voice "ch1.8_s_014-3"
                     s "Sorry for disturbing you."
+
+                    $ dissolve_fx("t_library_read")
+                    voice "ch1.8_t_006"
                     t "...Not really."
                     th "Maybe I shouldn't have been so persistent... She doesn't seem all that angry, though."
-                    s "Alright, I'm heading out."
-                    t "..."
-                    th "I thought I saw her nod slightly just now... Does that mean she understood?"
-                    s "Well, whatever."
-                    
+        
+            voice "ch1.8_s_015"
+            s "Well then, I'll be going."
+
+            t "..."
+            th "Did she just nod a little?... So she confirmed it?"
+            
+            voice "ch1.8_s_016"
+            s "Well, whatever."
+
         "Kirche's Room":
-            "n"
+            $ fade_fx("hallway_down_night", new_music="t7")
+
+            play sound knock_door
+            pause(1)
+            voice "ch1.8_s_023"
+            s "Kirche, are you there?"
+
+            k "Oh, Darling? The door isn't locked. Feel free to come in."
+
+            voice "ch1.8_s_024"
+            s "Well then, excuse me!"
+
+            play sound open_door
+            $ show_sprites(None, anim="slide_right") 
+            pause(1.0)
+            
+            $ fade_fx("kirche_room")
+            play sound close_door
+            pause(1.0)
+            $ show_sprites(("k 3 happy", "s 1"), anim="slide_right")
+
+            k "Come in! What a surprise. To what do I owe the pleasure?"
+            
+            $ update_sympathy(20, char_key="kirche")
+
+
         
         "Louise's Room":
             "n"
         
         "Hallway":
-            "n"
+            $ fade_fx("hallway_down_night", new_music="t18")
+            
+            $ show_sprites(("s 1"))
+            # !
+            voice "ch1.8_s_"
+            s "..."
+            th "Looks like I don't know anyone here."
+            # !
+            voice "ch1.8_s_"
+            s "..."
+            th "Then again, I don't really have any business here. I suppose I should just head back."
 
     jump ch1_9
     return

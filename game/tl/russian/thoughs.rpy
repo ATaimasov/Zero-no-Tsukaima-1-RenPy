@@ -252,3 +252,12 @@ translate russian strings:
 
     old "Sorry to Louise, but I think I’ll take a short walk."
     new "Хоть и неудобно перед Луизой, думаю, прогуляюсь немного."
+
+    old "Let's see what's written here... I suppose I'll just borrow it for a moment."
+    new "Что же тут написано... Пожалуй, одолжу-ка это на минутку."
+
+    old "Похоже, знакомых тут нет."
+    new "(知り合いは誰もいないみたいだな)"
+
+    old "Then again, I don't really have any business here. I suppose I should just head back."
+    new "Впрочем, делать мне тут нечего. Пожалуй, пойду-ка обратно."
