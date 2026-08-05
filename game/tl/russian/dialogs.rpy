@@ -2150,7 +2150,202 @@ translate russian strings:
     old "Right then, everyone is assembled."
     new "Итак, все в сборе."
 
-     old ""
+    old "Kirche, are you there?"
+    new "Кирхе, ты тут?"
+
+    old "Oh, Darling? I haven't locked the door. Feel free to come in."
+    new "Ах, Дорогой? Я не заперла дверь. Заходи, не стесняйся."
+
+    old "Well then, excuse me for coming in."
+    new "Ну что ж, тогда я войду."
+
+    old "Come in. This is a rare occasion. What brings you here?"
+    new "Добро пожаловать. Нечасто ты меня навещаешь. Что стряслось?"
+
+    old "Well, I don't really have any business here, but... uh..."
+    new "Нет, я не то чтобы по делу... просто... ну..."
+
+    old "Wha—wha-what!?"
+    new "Э-э-эй, ч-ч-чего!?"
+
+    old "Eh? What's going on!?"
+    new "Э? Что такое!?"
+
+    old "What's with that outfit-!?"
+    new "Ты в чём вообще ходишь-!?"
+
+    old "Huh? Is something wrong with this outfit?"
+    new "А? Разве с моим видом что-то не так?"
+
+    old "Don't give me that 'is something wrong' crap—!"
+    new "Не прикидывайся дурочкой—!"
+
+    old "Act like a gentleman and close my eyes."
+    new "Поступить по-джентльменски и закрыть глаза."
+
+    old "Take this opportunity to get a good look."
+    new "Использовать момент и изучить всё как следует."
+
+    old "Scold her."
+    new "Отчитать её."
+
+    old "Th-this is my chance? I should take this moment to enjoy the view... No, wait, observe!"
+    new "Э-это возможность! Грех не воспользоваться моментом и как следует полюбоваться... Нет, я имею в виду — понаблюдать!"
+
+    old "...stares intently."
+    new "......уставился без отрыва."
+
+    old "...My, my?"
+    new "...Ну-ну?"
+
+    old "Seeing it up close again, how should I put it... it's amazing... Like 'boom, squeeze, boom!' or something."
+    new "Если смотреть в упор, то... блин, ничего себе... Фигура просто „пышно, узко, пышно!"
+
+    old "Fufu, what do you think? Are you getting turned on?"
+    new "Хе-хе, что скажешь? Возбуждаешься?"
+
+    old "Yeah, a lot..."
+    new "Ещё как......"
+
+    old "Oh my, aren't you honest."
+    new "Ну надо же, какой ты честный."
+
+    old "In that case, want to get a closer look?"
+    new "Ну тогда, не хочешь рассмотреть поближе?"
+
+    old "E-e-even closer... What?"
+    new "Е-ещё ближе... Чего?"
+
+    old "Oh, I'm just teasing, Darling. Let's just focus on building up the tension between us today, shall we?"
+    new "Да нет же, я шучу, Дорогой. Давай сегодня просто подогреем чувства друг к другу, а?"
+
+    old "Uh... yeah..."
+    new "Э-э... ага..."
+
+    old "W-well, in any case... I'll be heading back now."
+    new "Н-ну ладно... Пойду-ка я домой на сегодня."
+
+    old "My, my... even an innocent Darling like you is charming. Do come back again."
+    new "Ну ты даёшь, мой невинный Дорогой тоже прелесть. Приходи ещё."
+
+    old "Haa... haa... haa... Phew, that was a dangerous situation."
+    new "Ф-фух... ф-фух... ф-фух... Ох, это было близко."
+
+    old "My reason was about to be swept away by youthful passions that had exceeded all limits..."
+    new "Мой разум едва не был сметён волной юношеских страстей, вышедших за все пределы..."
+
+    old "...Better go back and behave myself."
+    new "...Лучше спокойно вернуться восвояси."
+
+    old "R-right, in situations like this, it's only polite to close your eyes like a gentleman. As a true gentleman!"
+    new "Э-эх, когда такое происходит, джентльмен обязан отвести взгляд. Таковы правила хорошего тона. Во имя джентльменства!"
+
+    old "Oh my, what's wrong, Darling? Closing your eyes all of a sudden like that."
+    new "Ах, что с тобой, Дарлинг? Вдруг закрыл глаза."
+
+    old "Anyway, hurry up and get dressed. I've got my eyes closed. If you want, I can even step outside."
+    new "Ладно, лучше быстрее одевайся. Я глаза закрыл. Если хочешь, могу вообще выйти."
+
+    old "Oh, you really don't need to worry about that. I'm staying like this as long as I'm in my room anyway."
+    new "Ах, не стоит так беспокоиться. Я всё равно хожу так, пока нахожусь в своей комнате."
+
+    old "Well, I agree you're free to dress however you want in your own room, but... I'm still a guy, after all."
+    new "Ну, я согласен, что у себя дома ты можешь ходить в чём угодно, но... я всё-таки парень, знаешь ли."
+
+    old "Ah... don't tell me you're turned on?"
+    new "А, ты что, возбудился?"
+
+    old "If I'm honest, I'm scared of what happens next, so I'll deliberately keep my mouth shut!"
+    new "Если честно, боюсь последствий, поэтому намеренно храню молчание!"
+
+    old "What happens next'... Oh! You mean you're scared of Louise finding out!"
+    new "Последствия...? Ах, ты боишься, что Луиза узнает, да?"
+
+    old "...I didn't say anything, you know?"
+    new "...Я ничего не говорил, между прочим."
+
+    old "Well, fine then. Anyway, how long are you going to keep your eyes closed?"
+    new "Ну ладно, неважно. Кстати, сколько ещё ты будешь стоять с закрытыми глазами?"
+
+    old "How long? Well, until you get dressed, obviously..."
+    new "До каких пор? Ну пока ты не оденешься, естественно..."
+
+    old "Hup!"
+    new "Хоп!"
+
+    old "Wha—!? What are these two soft, warm, and absolutely blissful sensations pressing against my chest—!?"
+    new "А-а!? Эти два мягких, тёплых и просто божественных ощущения, прижавшихся к моей груди... это...!?"
+
+    old "Hehe... Do you still intend not to open your eyes, even now?"
+    new "Хе-хе... Неужели ты всё ещё намерен не открывать глаза, даже сейчас?"
+
+    old "Ugh—!? No good, I can't hold back anymore!"
+    new "У-у-ух!? Всё, больше не могу терпеть!"
+
+    old "You mustn't go out in public dressed so sloppily! Besides, it's unseemly for a girl your age to act like that!"
+    new "Нельзя появляться перед людьми в таком неряшливом виде! В конце концов, девушке твоих лет совершенно не пристало вести себя так неприлично!"
+
+    old "What's the big deal? It's perfectly fine, isn't it?"
+    new "Да ладно тебе, в этом нет ничего плохого!"
+
+    old "It's not okay! You should just wear your uniform like a normal person!"
+    new "Это никуда не годится! Надень просто форму или что-то приличное!"
+
+    old "No way! It's just too hot, that's all!"
+    new "Ни за что! Просто жарко очень, вот и всё."
+
+    old "Is that really how it works?"
+    new "Разве это нормально?"
+
+    old "That's just how it is!"
+    new "Просто так устроен мир!"
+
+    old "Well, I guess there's no helping it then..."
+    new "Ну ладно, ничего не поделаешь..."
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
     new ""
 
     old ""
@@ -2197,3 +2392,88 @@ translate russian strings:
 
     old ""
     new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+

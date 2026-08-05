@@ -206,7 +206,82 @@ label ch1_8:
                     s "Well, whatever."
                     
         "Kirche's Room":
-            "n"
+            s "Kirche, are you there?"
+            k "Oh, Darling? I haven't locked the door. Feel free to come in."
+            s "Well then, excuse me for coming in."
+            k "Come in. This is a rare occasion. What brings you here?"
+            s "Well, I don't really have any business here, but... uh..."
+            s "Wha—wha-what!?"
+            k "Eh? What's going on!?"
+            s "What's with that outfit-!?"
+            k "Huh? Is something wrong with this outfit?"
+            s "Don't give me that 'is something wrong' crap—!"
+                menu:
+                    "Act like a gentleman and close my eyes.":
+                        th "R-right, in situations like this, it's only polite to close your eyes like a gentleman. As a true gentleman!"
+                        k "Oh my, what's wrong, Darling? Closing your eyes all of a sudden like that."
+                        s "Anyway, hurry up and get dressed. I've got my eyes closed. If you want, I can even step outside."
+                        k "Oh, you really don't need to worry about that. I'm staying like this as long as I'm in my room anyway."
+                        s "Well, I agree you're free to dress however you want in your own room, but... I'm still a guy, after all."
+                        k "Ah... don't tell me you're turned on?"
+                        s "If I'm honest, I'm scared of what happens next, so I'll deliberately keep my mouth shut!"
+                        k "What happens next'... Oh! You mean you're scared of Louise finding out!"
+                        s "...I didn't say anything, you know?"
+                        k "Well, fine then. Anyway, how long are you going to keep your eyes closed?"
+                        s "How long? Well, until you get dressed, obviously..."
+                        k "Hup!"
+                        th "Wha—!? What are these two soft, warm, and absolutely blissful sensations pressing against my chest—!?"
+                        k "Hehe... Do you still intend not to open your eyes, even now?"
+                        s "Ugh—!? No good, I can't hold back anymore!"
+                        s "W-well, in any case... I'll be heading back now."
+                        k "My, my... even an innocent Darling like you is charming. Do come back again."
+                        th "Haa... haa... haa... Phew, that was a dangerous situation."
+                        th "My reason was about to be swept away by youthful passions that had exceeded all limits..."
+                        s "...Better go back and behave myself."
+                    
+
+                    "Take this opportunity to get a good look.":
+                        th "Th-this is my chance? I should take this moment to enjoy the view... No, wait, observe!"
+                        th "...stares intently."
+                        k "...My, my?"
+                        th "Seeing it up close again, how should I put it... it's amazing... Like 'boom, squeeze, boom!' or something."
+                        k "Fufu, what do you think? Are you getting turned on?"
+                        s "Yeah, a lot..."
+                        k "Oh my, aren't you honest."
+                        k "In that case, want to get a closer look?"
+                        s "E-e-even closer... What?"
+                        k "Oh, I'm just teasing, Darling. Let's just focus on building up the tension between us today, shall we?"
+                        s "Uh... yeah..."
+                        s "W-well, in any case... I'll be heading back now."
+                        k "My, my... even an innocent Darling like you is charming. Do come back again."
+                        th "Haa... haa... haa... Phew, that was a dangerous situation."
+                        th "My reason was about to be swept away by youthful passions that had exceeded all limits..."
+                        s "...Better go back and behave myself."
+
+
+
+
+
+
+                    "Scold her.":
+                        s "You mustn't go out in public dressed so sloppily! Besides, it's unseemly for a girl your age to act like that!"
+                        k "What's the big deal? It's perfectly fine, isn't it?"
+                        s "It's not okay! You should just wear your uniform like a normal person!"
+                        k "No way! It's just too hot, that's all!"
+                        s "Is that really how it works?"
+                        k "That's just how it is!"
+                        s "Well, I guess there's no helping it then..."
+                        s "W-well, in any case... I'll be heading back now."
+                        k "My, my... even an innocent Darling like you is charming. Do come back again."
+                        th "Haa... haa... haa... Phew, that was a dangerous situation."
+                        th "My reason was about to be swept away by youthful passions that had exceeded all limits..."
+                        s "...Better go back and behave myself."
+
+
+
+
+
+
         
         "Louise's Room":
             "n"

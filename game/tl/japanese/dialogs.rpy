@@ -2148,7 +2148,265 @@ translate japanese strings:
     old "Right then, everyone is assembled."
     new "さて、みんな集まったわね。"
 
-     old ""
+    old "Kirche, are you there?"
+    new "キュルケー、いるかー?"
+
+    old "Oh, Darling? I haven't locked the door. Feel free to come in."
+    new "あら、ダーリン?鍵は掛けてないわよ。入るんだったらどうぞ。"
+
+    old "Well then, excuse me for coming in."
+    new "んじゃ、ちょっと失礼しまーす。"
+
+    old "Come in. This is a rare occasion. What brings you here?"
+    new "いらっしゃい。珍しいわね、どうしたの?"
+
+    old "Well, I don't really have any business here, but... uh..."
+    new "いや、別に用はないんだけ......ど......。"
+
+    old "Wha—wha-what!?"
+    new "なっ、なななー!?"
+
+    old "Eh? What's going on!?"
+    new "え?なに!?"
+
+    old "What's with that outfit-!?"
+    new "その格好はー!?"
+
+    old "Huh? Is something wrong with this outfit?"
+    new "え?この格好がどうかした?"
+
+    old "Don't give me that 'is something wrong' crap—!"
+    new "どうかした?じゃねえー!"
+
+    old "Act like a gentleman and close my eyes."
+    new "紳士らしく目を閉じる"
+
+    old "Take this opportunity to get a good look."
+    new "この際じっくりと観察する"
+
+    old "Scold her."
+    new "お説教する"
+
+    old "Th-this is my chance? I should take this moment to enjoy the view... No, wait, observe!"
+    new "(こ、これはチャンスですよ? この際じっくりと目の保養を......。 いや観察を!)"
+
+    old "...stares intently."
+    new "(......じいーっ)"
+
+    old "...My, my?"
+    new "......ふふん?"
+
+    old "Seeing it up close again, how should I put it... it's amazing... Like 'boom, squeeze, boom!' or something."
+    new "(改めて目の当たりにするとなんつーか、 すごいな......『ぼんっ、きゅっ、ぼんっ!』 って感じで)"
+
+    old "Fufu, what do you think? Are you getting turned on?"
+    new "ふふっ、どうかしら?興奮する?"
+
+    old "Yeah, a lot..."
+    new "すっごく......。"
+
+    old "Oh my, aren't you honest."
+    new "あらん、正直ねえ。"
+
+    old "In that case, want to get a closer look?"
+    new "それじゃ、もっと近くで観察してみる?"
+
+    old "E-e-even closer... What?"
+    new "ももも、もっと近くって......ええ?"
+
+    old "Oh, I'm just teasing, Darling. Let's just focus on building up the tension between us today, shall we?"
+    new "いやねぇ、冗談よダーリン。今日はお互いの気持ちを高めるだけにしましょ?"
+
+    old "Uh... yeah..."
+    new "あ、ああ......。"
+
+    old "W-well, in any case... I'll be heading back now."
+    new "と、とにかく。今日はカエリマスヨ。"
+
+    old "My, my... even an innocent Darling like you is charming. Do come back again."
+    new "もう、ウブなダーリンも素敵。また、来てね。"
+
+    old "Haa... haa... haa... Phew, that was a dangerous situation."
+    new "(ぜーっ、ぜーっ、ぜーっ......。 あ、危ないところだった)"
+
+    old "My reason was about to be swept away by youthful passions that had exceeded all limits..."
+    new "(俺の理性が、限界を超えた青春の情動に 押し流されるところだった......)"
+
+    old "...Better go back and behave myself."
+    new "......おとなしく戻ろう。"
+
+    old "R-right, in situations like this, it's only polite to close your eyes like a gentleman. As a true gentleman!"
+    new "(こっ、こういうときは紳士的に目を閉じる のが礼儀というものだよな。 ジェントルマンとして!)"
+
+    old "Oh my, what's wrong, Darling? Closing your eyes all of a sudden like that."
+    new "あら、どうしちゃったのよダーリン。いきなり目をつぶっちゃって。"
+
+    old "Anyway, hurry up and get dressed. I've got my eyes closed. If you want, I can even step outside."
+    new "それより、早いとこ服を着ろよ。俺、目をつぶってるから。なんだったら外に出てもいい。"
+
+    old "Oh, you really don't need to worry about that. I'm staying like this as long as I'm in my room anyway."
+    new "あら、そんなこと気にしなくていいのに。どうせ、部屋にいるときはこのままだし。"
+
+    old "Well, I agree you're free to dress however you want in your own room, but... I'm still a guy, after all."
+    new "そりゃ、部屋にいるときはどんな格好しても自由だと俺も思いますけど、でも、俺、一応オトコノコなんですよ。"
+
+    old "Ah... don't tell me you're turned on?"
+    new "あ、もしかして興奮した?"
+
+    old "If I'm honest, I'm scared of what happens next, so I'll deliberately keep my mouth shut!"
+    new "正直に言うと後が怖いのであえて黙秘する!"
+
+    old "What happens next'... Oh! You mean you're scared of Louise finding out!"
+    new "後って......ああ、ルイズにばれると怖いのね。"
+
+    old "...I didn't say anything, you know?"
+    new "......俺はなにも言ってないぞ?"
+
+    old "Well, fine then. Anyway, how long are you going to keep your eyes closed?"
+    new "ま、いいわ。それより、いつまで目をつぶってるの?"
+
+    old "How long? Well, until you get dressed, obviously..."
+    new "いつまでって、そりゃおまえが服を着るまで......。"
+
+    old "Hup!"
+    new "えい。"
+
+    old "Wha—!? What are these two soft, warm, and absolutely blissful sensations pressing against my chest—!?"
+    new "(なー!? この胸に当たる柔らかく暖かい 幸せなふたつの感触はー!?)"
+
+    old "Hehe... Do you still intend not to open your eyes, even now?"
+    new "うふふ、これでも目を開けないつもりかしら?"
+
+    old "Ugh—!? No good, I can't hold back anymore!"
+    new "う ゙ぉー!?駄目だ、我慢の限界だー!"
+
+    old "You mustn't go out in public dressed so sloppily! Besides, it's unseemly for a girl your age to act like that!"
+    new "人前にそんなだらしない格好で出るんじゃありません!だいたい、年頃の女の子がそんなはしたない!"
+
+    old "What's the big deal? It's perfectly fine, isn't it?"
+    new "なによー、いいじゃないこれくらい。"
+
+    old "It's not okay! You should just wear your uniform like a normal person!"
+    new "良くない!普通に制服とか着てればいいだろう。"
+
+    old "No way! It's just too hot, that's all!"
+    new "いやよ、だって暑いんだもん。"
+
+    old "Is that really how it works?"
+    new "そういうもんなのか?"
+
+    old "That's just how it is!"
+    new "そういうものなの!"
+
+    old "Well, I guess there's no helping it then..."
+    new "まあ、それじゃ仕方ないか......。"
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
     new ""
 
     old ""
