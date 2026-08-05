@@ -121,5 +121,14 @@ translate japanese strings:
     old "Does this have poison in it or something?"
     new "これ、毒でも入ってる？"
 
+    old "See what's in the book"
+    new "本をのぞきこむ"
+
+    old "Inquire about the book"
+    new "本の内容を訊ねる"
+
+    old "Snatch the book"
+    new "本を取り上げる"
+
 
     

@@ -121,6 +121,15 @@ translate russian strings:
     old "Does this have poison in it or something?"
     new "Там внутри, часом, не отрава?"
 
+    old "See what's in the book"
+    new "Посмотреть, что в книге"
+
+    old "Inquire about the book"
+    new "Расспросить о книге"
+
+    old "Snatch the book"
+    new "Выхватить книгу"
+
 
 
 

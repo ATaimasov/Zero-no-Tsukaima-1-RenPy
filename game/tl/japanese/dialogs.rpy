@@ -2031,7 +2031,7 @@ translate japanese strings:
     old "Hey, Tabitha!"
     new "おーい、タバサ!"
 
-    old "......I'll close my mouth."
+    old "...Silence."
     new "......口を閉じる。"
 
     old "Ah, sorry.{#var2}"
@@ -2064,10 +2064,10 @@ translate japanese strings:
     old "Come to think of it, I can understand the language here, but I can't read the writing at all."
     new "(そういや、こっちの言葉は分かるけど、 文字は全然読めないんだった)"
 
-    old "An overview of the latest academic theories and international debates regarding special effects generated when combining Wind and Fire magic systems."
+    old "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
     new "......『風』系統に『火』系統を重ねる際生じる、特殊効果についての最新学説と各国討論の概説。"
 
-    old "That's why it's pointless for you to read it."
+    old "...That's why it's pointless for you to read it."
     new "......だから、あなたが読んでも無意味。"
 
     old "Ah... I see."
@@ -2076,13 +2076,13 @@ translate japanese strings:
     old "Sorry for disturbing you."
     new "悪い、邪魔したな。"
 
-    old "No problem."
+    old "...No problem."
     new "......大丈夫。"
 
     old "Well then, I'll be going."
     new "じゃ、俺は失礼するよ。"
 
-    old "I thought I saw her nod slightly just now... Does that mean she understood?"
+    old "Did she just nod a little?... So she confirmed it?"
     new "(今、かすかにうなずいたような気が したけど......。 了解したってことなのかな?)"
 
     old "Ah well, it's fine."
@@ -2094,10 +2094,7 @@ translate japanese strings:
     old "What the heck is this? I can't make out a single word of what's written here."
     new "なんだ、これ?なにが書いてあるのか、さっぱり分からねえ。"
 
-    old "Come to think of it, I can understand what people say here, but I can't read the writing at all."
-    new "(そういや、こっちの言葉は分かるけど、 文字は全然読めないんだった)"
-
-    old "It's something you don't need to understand."
+    old "...It's something you don't need to understand."
     new "......あなたには、分からなくてもいいこと。"
 
     old "My bad for interrupting. Here's the book."
@@ -2118,7 +2115,7 @@ translate japanese strings:
     old "Maybe I should ask Tabitha what's written in it?"
     new "(なにが書いてあるのか、 タバサに聞いてみるか)"
 
-    old "Come on, what's actually written in this thing?"
+    old "Hey, what's actually written in this thing?"
     new "なあ、いったいなにが書いてあるんだ?"
 
     old "...It's something you don't need to know."
@@ -2411,45 +2408,14 @@ translate japanese strings:
 
     old ""
     new ""
+    old "Kirche, are you there?"
+    new "キュルケー、いるかー?"
 
-    old ""
-    new ""
+    old "Oh, Darling? The door isn't locked. Feel free to come in."
+    new "あら、ダーリン?鍵は掛けてないわよ。入るんだったらどうぞ。"
 
-    old ""
-    new ""
+    old "Well then, excuse me!"
+    new "んじゃ、ちょっと失礼しまーす。"
 
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
+    old "Come in! What a surprise. To what do I owe the pleasure?"
+    new "いらっしゃい。珍しいわね、どうしたの?"

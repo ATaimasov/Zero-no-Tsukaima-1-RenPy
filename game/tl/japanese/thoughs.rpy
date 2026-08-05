@@ -257,3 +257,12 @@ translate japanese strings:
 
     old "Sorry to Louise, but I think I’ll take a short walk."
     new "(ルイズには悪いけど、 ちょっと出かけてきますか)"
+
+    old "Let's see what's written here... I suppose I'll just borrow it for a moment."
+    new "(なにが書いてあるのか、 ちょっと借りてみるか)"
+
+    old "Looks like I don't know anyone here."
+    new "(知り合いは誰もいないみたいだな)"
+    
+    old "Then again, I don't really have any business here. I suppose I should just head back."
+    new "(まぁ、何をするわけでもないし、 とりあえず、帰りますか)"
