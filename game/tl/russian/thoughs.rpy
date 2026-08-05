@@ -261,3 +261,12 @@ translate russian strings:
 
     old "Then again, I don't really have any business here. I suppose I should just head back."
     new "Впрочем, делать мне тут нечего. Пожалуй, пойду-ка обратно."
+
+    old "Ugh, this is so awkward... Or rather, I can't stand these gaps in the conversation!"
+    new "Ууух, как же неловко... Вернее, паузы в разговоре просто невыносимы!"
+
+    old "Even though there's so much I want to ask, I just don't know where to start..."
+    new "Хотя спросить хочется о многом, я даже не знаю, с чего начать..."
+
+    old "Waaah! Super awkward!"
+    new "Уа-а-а! Чертовски неловко!"

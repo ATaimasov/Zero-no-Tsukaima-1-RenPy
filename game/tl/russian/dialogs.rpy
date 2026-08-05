@@ -2150,14 +2150,14 @@ translate russian strings:
     old "Kirche, are you there?"
     new "Кирхе, ты тут?"
 
-    old "Oh, Darling? I haven't locked the door. Feel free to come in."
-    new "Ах, Дорогой? Я не заперла дверь. Заходи, не стесняйся."
+    old "Oh, Darling? The door isn't locked. Feel free to come in."
+    new "Ой, Дорогой? Дверь не на ключе. Заходи, если хочешь."
 
-    old "Well then, excuse me for coming in."
-    new "Ну что ж, тогда я войду."
+    old "Well then, excuse me!"
+    new "Ну тогда, с вашего позволения!"
 
-    old "Come in. This is a rare occasion. What brings you here?"
-    new "Добро пожаловать. Нечасто ты меня навещаешь. Что стряслось?"
+    old "Come in! What a surprise. To what do I owe the pleasure?"
+    new "Проходи! Какой сюрприз. Чем обязана?"
 
     old "Well, I don't really have any business here, but... uh..."
     new "Нет, я не то чтобы по делу... просто... ну..."
@@ -2222,8 +2222,8 @@ translate russian strings:
     old "W-well, in any case... I'll be heading back now."
     new "Н-ну ладно... Пойду-ка я домой на сегодня."
 
-    old "My, my... even an innocent Darling like you is charming. Do come back again."
-    new "Ну ты даёшь, мой невинный Дорогой тоже прелесть. Приходи ещё."
+    old "Oh, Darling, you're so adorable when you're this innocent <3. Do come back again."
+    new "Ох, Дорогой, в твоей наивности тоже есть свой шарм <3. Приходи ещё."
 
     old "Haa... haa... haa... Phew, that was a dangerous situation."
     new "Ф-фух... ф-фух... ф-фух... Ох, это было близко."
@@ -2238,7 +2238,7 @@ translate russian strings:
     new "Э-эх, когда такое происходит, джентльмен обязан отвести взгляд. Таковы правила хорошего тона. Во имя джентльменства!"
 
     old "Oh my, what's wrong, Darling? Closing your eyes all of a sudden like that."
-    new "Ах, что с тобой, Дарлинг? Вдруг закрыл глаза."
+    new "Ах, что с тобой, Дорогой? Вдруг закрыл глаза."
 
     old "Anyway, hurry up and get dressed. I've got my eyes closed. If you want, I can even step outside."
     new "Ладно, лучше быстрее одевайся. Я глаза закрыл. Если хочешь, могу вообще выйти."
@@ -2300,177 +2300,30 @@ translate russian strings:
     old "Well, I guess there's no helping it then..."
     new "Ну ладно, ничего не поделаешь..."
 
-    old ""
-    new ""
+    old "H-hey there."
+    new "П-привет."
 
-    old ""
-    new ""
+    old "Is it really alright for you to stay awake? If you're feeling weary, I believe you should lie down."
+    new "Не слишком ли ты бодрствуешь? Если чувствуешь утомление, полагаю, тебе стоит прилечь."
 
-    old ""
-    new ""
+    old "No, I'm fine. It's nothing serious, doesn't seem to be any real problem."
+    new "Нет, я в порядке. Ничего страшного, вроде бы особых проблем нет."
 
-    old ""
-    new ""
+    old "R-right."
+    new "П-понятно."
 
-    old ""
-    new ""
+    old "Yeah.{#um}"
+    new "Угу."
 
-    old ""
-    new ""
+    old "Ah, sorry."
+    new "Ой, извини."
 
-    old ""
-    new ""
+    old "Ah, no, p-please go ahead."
+    new "А, нет, п-прошу."
 
-    old ""
-    new ""
+    old "Um, no, Hiraga-kun should go first."
+    new "Ну-у, нет, пусть сначала Хирага-кун."
 
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
+    old "No, not at all... You can go first."
+    new "Да нет же... Давай ты сначала."
+    

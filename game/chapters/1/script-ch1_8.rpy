@@ -288,80 +288,276 @@ label ch1_8:
             s "Well, whatever."
 
         "Kirche's Room":
+            $ fade_fx("hallway_down_night", new_music="t7")
+
+            $ show_sprites('s 1', anim="slide_right") 
+
+            play sound knock_door
+            pause(1)
+            
+            voice "ch1.8_s_023"
             s "Kirche, are you there?"
-            k "Oh, Darling? I haven't locked the door. Feel free to come in."
-            s "Well then, excuse me for coming in."
-            k "Come in. This is a rare occasion. What brings you here?"
+
+            voice "ch1.8_k_003"
+            k "Oh, Darling? The door isn't locked. Feel free to come in."
+
+            voice "ch1.8_s_024"
+            s "Well then, excuse me!"
+
+            play sound open_door
+            $ show_sprites(None, anim="slide_right") 
+            pause(1.0)
+            
+            $ fade_fx("bg kirche_room_night")
+            play sound close_door
+            pause(1.0)
+            $ show_sprites(("k 3 happy", "s 1"), anim="slide_right")
+
+            voice "ch1.8_k_004"
+            k "Come in! What a surprise. To what do I owe the pleasure?"
+            
+            $ update_sympathy(20, char_key="kirche")
+
+            voice "ch1.8_s_025"
             s "Well, I don't really have any business here, but... uh..."
+            voice "ch1.8_s_026"
+
+            $ show_sprites(("k 3 happy", "s 1 angry"))
             s "Wha—wha-what!?"
+
+            $ show_sprites(("k 3 angry", "s 1 angry"))
+            voice "ch1.8_k_005"
             k "Eh? What's going on!?"
+
+            voice "ch1.8_s_027"
             s "What's with that outfit-!?"
+
+            $ show_sprites(("k 3", "s 1 angry"))
+            voice "ch1.8_k_006"
             k "Huh? Is something wrong with this outfit?"
+
+            voice "ch1.8_s_028"
             s "Don't give me that 'is something wrong' crap—!"
-                menu:
-                    "Act like a gentleman and close my eyes.":
-                        th "R-right, in situations like this, it's only polite to close your eyes like a gentleman. As a true gentleman!"
-                        k "Oh my, what's wrong, Darling? Closing your eyes all of a sudden like that."
-                        s "Anyway, hurry up and get dressed. I've got my eyes closed. If you want, I can even step outside."
-                        k "Oh, you really don't need to worry about that. I'm staying like this as long as I'm in my room anyway."
-                        s "Well, I agree you're free to dress however you want in your own room, but... I'm still a guy, after all."
-                        k "Ah... don't tell me you're turned on?"
-                        s "If I'm honest, I'm scared of what happens next, so I'll deliberately keep my mouth shut!"
-                        k "What happens next'... Oh! You mean you're scared of Louise finding out!"
-                        s "...I didn't say anything, you know?"
-                        k "Well, fine then. Anyway, how long are you going to keep your eyes closed?"
-                        s "How long? Well, until you get dressed, obviously..."
-                        k "Hup!"
-                        th "Wha—!? What are these two soft, warm, and absolutely blissful sensations pressing against my chest—!?"
-                        k "Hehe... Do you still intend not to open your eyes, even now?"
-                        s "Ugh—!? No good, I can't hold back anymore!"
-                        s "W-well, in any case... I'll be heading back now."
-                        k "My, my... even an innocent Darling like you is charming. Do come back again."
-                        th "Haa... haa... haa... Phew, that was a dangerous situation."
-                        th "My reason was about to be swept away by youthful passions that had exceeded all limits..."
-                        s "...Better go back and behave myself."
+            
+            menu:
+                "Act like a gentleman and close my eyes.":
+                    th "R-right, in situations like this, it's only polite to close your eyes like a gentleman. As a true gentleman!"
+
+                    $ fade_fx("black", bg_position="default")
+                    voice "ch1.8_k_007"
+                    k "Oh my, what's wrong, Darling? Closing your eyes all of a sudden like that."
+
+                    voice "ch1.8_s_029"
+                    s "Anyway, hurry up and get dressed. I've got my eyes closed. If you want, I can even step outside."
                     
+                    voice "ch1.8_k_008"
+                    k "Oh, you really don't need to worry about that. I'm staying like this as long as I'm in my room anyway."
+                    
+                    voice "ch1.8_s_030"
+                    s "Well, I agree you're free to dress however you want in your own room, but... I'm still a guy, after all."
+                    
+                    voice "ch1.8_k_009"
+                    k "Ah... don't tell me you're turned on?"
+                    
+                    voice "ch1.8_s_031"
+                    s "If I'm honest, I'm scared of what happens next, so I'll deliberately keep my mouth shut!"
+                    
+                    voice "ch1.8_k_010"
+                    k "What happens next'... Oh! You mean you're scared of Louise finding out!"
+                    
+                    voice "ch1.8_s_032"
+                    s "...I didn't say anything, you know?"
+                    
+                    voice "ch1.8_k_011"
+                    k "Well, fine then. Anyway, how long are you going to keep your eyes closed?"
+                    
+                    voice "ch1.8_s_033"
+                    s "How long? Well, until you get dressed, obviously..."
+                    
+                    voice "ch1.8_k_012"
+                    k "Hup!"
+                    
+                    play music t29 fadein 1.0
+                    
+                    th "Wha—!? What are these two soft, warm, and absolutely blissful sensations pressing against my chest—!?"
+                    
+                    voice "ch1.8_k_013"
+                    k "Hehe... Do you still intend not to open your eyes, even now?"
+                    
+                    voice "ch1.8_s_034"
+                    s "Ugh—!? No good, I can't hold back anymore!"
 
-                    "Take this opportunity to get a good look.":
-                        th "Th-this is my chance? I should take this moment to enjoy the view... No, wait, observe!"
-                        th "...stares intently."
-                        k "...My, my?"
-                        th "Seeing it up close again, how should I put it... it's amazing... Like 'boom, squeeze, boom!' or something."
-                        k "Fufu, what do you think? Are you getting turned on?"
-                        s "Yeah, a lot..."
-                        k "Oh my, aren't you honest."
-                        k "In that case, want to get a closer look?"
-                        s "E-e-even closer... What?"
-                        k "Oh, I'm just teasing, Darling. Let's just focus on building up the tension between us today, shall we?"
-                        s "Uh... yeah..."
-                        s "W-well, in any case... I'll be heading back now."
-                        k "My, my... even an innocent Darling like you is charming. Do come back again."
-                        th "Haa... haa... haa... Phew, that was a dangerous situation."
-                        th "My reason was about to be swept away by youthful passions that had exceeded all limits..."
-                        s "...Better go back and behave myself."
+                    $ fade_fx("bg kirche_room_night", sprites=("k 3", "s 1 sad"))
 
+                "Take this opportunity to get a good look.":
+                    th "Th-this is my chance? I should take this moment to enjoy the view... No, wait, observe!"
+                    th "...stares intently."
 
+                    $ show_sprites(("k 3 happy", "s 1 angry"))
 
+                    voice "ch1.8_k_015"
+                    k "...My, my?"
 
+                    $ update_sympathy(-20, char_key="louise")
+                    $ update_sympathy(20, char_key="kirche")
 
+                    th "Seeing it up close again, how should I put it... it's amazing... Like 'boom, squeeze, boom!' or something."
+                    
+                    voice "ch1.8_k_016"
+                    k "Fufu, what do you think? Are you getting turned on?"
 
-                    "Scold her.":
-                        s "You mustn't go out in public dressed so sloppily! Besides, it's unseemly for a girl your age to act like that!"
-                        k "What's the big deal? It's perfectly fine, isn't it?"
-                        s "It's not okay! You should just wear your uniform like a normal person!"
-                        k "No way! It's just too hot, that's all!"
-                        s "Is that really how it works?"
-                        k "That's just how it is!"
-                        s "Well, I guess there's no helping it then..."
-                        s "W-well, in any case... I'll be heading back now."
-                        k "My, my... even an innocent Darling like you is charming. Do come back again."
-                        th "Haa... haa... haa... Phew, that was a dangerous situation."
-                        th "My reason was about to be swept away by youthful passions that had exceeded all limits..."
-                        s "...Better go back and behave myself."
+                    $ show_sprites(("k 3 happy", "s 1 shy"))
+                    
+                    voice "ch1.8_s_037"
+                    s "Yeah, a lot..."
+                    
+                    voice "ch1.8_k_017"
+                    k "Oh my, aren't you honest."
 
+                    $ show_sprites(("k 3 shy", "s 1 shy"))
+
+                    voice "ch1.8_k_018"
+                    k "In that case, want to get a closer look?"
+
+                    pause(1)
+                    play music t29 fadein 1.0 
+                    $ show_sprites(("k 3 shy", "s 1 angry"))
+                    
+                    voice "ch1.8_s_038"
+                    s "E-e-even closer... What?"
+
+                    $ show_sprites(("k 3 happy", "s 1 angry"))
+
+                    voice "ch1.8_k_019"
+                    k "Oh, I'm just teasing, Darling. Let's just focus on building up the tension between us today, shall we?"
+                    
+                    $ show_sprites(("k 3 happy", "s 1"))
+                    voice "ch1.8_s_039"
+                    s "Uh... yeah..."
+
+                "Scold her.":
+                    play music t29 fadein 1.0
+
+                    voice "ch1.8_s_040"
+                    s "You mustn't go out in public dressed so sloppily! Besides, it's unseemly for a girl your age to act like that!"
+                    
+                    $ show_sprites(("k 3 angry", "s 1 angry")) 
+                    voice "ch1.8_k_020"
+                    k "What's the big deal? It's perfectly fine, isn't it?"
+
+                    $ update_sympathy(20, char_key="louise")
+                    $ update_sympathy(-20, char_key="kirche")
+                    
+                    voice "ch1.8_s_041"
+                    s "It's not okay! You should just wear your uniform like a normal person!"
+                    
+                    voice "ch1.8_k_021"
+                    k "No way! It's just too hot, that's all!"
+                    
+                    $ show_sprites(("k 3 angry", "s 1 sad")) 
+                    voice "ch1.8_s_042"
+                    s "Is that really how it works?"
+                    
+                    voice "ch1.8_k_022"
+                    k "That's just how it is!"
+                    
+                    voice "ch1.8_s_043"
+                    s "Well, I guess there's no helping it then..."
+
+            voice "ch1.8_s_044"
+            s "W-well, in any case... I'll be heading back now."
+
+            $ show_sprites(("k 3 shy", "s 1 sad"))
+            
+            voice "ch1.8_k_014"
+            k "Oh, Darling, you're so adorable when you're this innocent <3. Do come back again."
+
+            window hide
+            $ show_sprites(None, anim="slide_left") 
+
+            # трюк с black сделан, чтобы звук закрытия двери был с анимацией затухания
+            pause(0.5)
+            play sound open_door
+            pause(1.0)
+            
+            $ fade_fx("black", bg_position="default")
+            play sound close_door
+            pause (1.0)
+            
+            $ fade_fx("hallway_down_night")
+            $ show_sprites(("s 1 angry"), anim="slide_left") 
+            
+            th "Haa... haa... haa... Phew, that was a dangerous situation."
+            
+            th "My reason was about to be swept away by youthful passions that had exceeded all limits..."
+            
+            voice "ch1.8_s_045"
+            $ show_sprites(("s 1 sad")) 
+            s "...Better go back and behave myself."
         
         "Louise's Room":
-            "n"
+            $ fade_fx("louise_room_night", new_music="t10", sprites=("ha 3 shy"))
+            voice "ch1.8_ha_001"
+            ha "Ah..."
+
+            $ update_sympathy(20, char_key="haruna")   
+
+            $ show_sprites(("ha 3 shy", "s 1"), anim="slide_right") 
+            
+            voice "ch1.8_s_046"
+            s "H-hey there."
+
+            voice "ch1.8_s_047"
+            s "Is it really alright for you to stay awake? If you're feeling weary, I believe you should lie down."
+
+            $ show_sprites(("ha 3", "s 1")) 
+            voice "ch1.8_ha_002"
+            ha "No, I'm fine. It's nothing serious, doesn't seem to be any real problem."
+
+            voice "ch1.8_s_048"
+            s "R-right."
+
+            voice "ch1.8_ha_003"
+            ha "Yeah.{#um}"
+
+            $ show_sprites(("ha 3", "s 1 shy"))
+            voice "ch1.8_s_049"
+            s "..."
+
+            $ show_sprites(("ha 3 shy", "s 1 shy")) 
+            ha "..."
+
+            $ show_sprites(("ha 3 shy", "s 3 sad")) 
+
+            th "Ugh, this is so awkward... Or rather, I can't stand these gaps in the conversation!"
+            th "Even though there's so much I want to ask, I just don't know where to start..."
+
+            voice "ch1.8_ha_004"
+            ha "U-um..."
+
+            $ show_sprites(("ha 3 shy", "s 3 shy")) 
+            voice "ch1.8_s_050"
+            s "Ah, um..."
+
+            $ show_sprites(("ha 3 sad", "s 3 shy")) 
+            voice "ch1.8_ha_005"
+            ha "Ah, sorry."
+
+            $ show_sprites(("ha 3 sad", "s 3 sad")) 
+            voice "ch1.8_s_051"
+            s "Ah, no, p-please go ahead."
+
+            $ show_sprites(("ha 3 shy", "s 3 sad")) 
+            voice "ch1.8_ha_006"
+            ha "Um, no, Hiraga-kun should go first."
+
+            $ show_sprites(("ha 3 shy", "s 3 shy")) 
+            voice "ch1.8_s_052"
+            s "No, not at all... You can go first."
+
+            th "Waaah! Super awkward!"
+            #!
+
         
         "Hallway":
             $ fade_fx("hallway_down_night", new_music="t18")

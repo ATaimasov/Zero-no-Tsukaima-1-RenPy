@@ -114,8 +114,8 @@ image bg louise_room_night = "bg/louise_room_night.webp"
 
 #kirche_room
 image bg kirche_room = "bg/louise_room.webp"
-image bg kirche_evening = "bg/louise_room_evening.webp"
-image bg kirche_night = "bg/louise_room_night.webp"
+image bg kirche_room_evening = "bg/louise_room_evening.webp"
+image bg kirche_room_night = "bg/louise_room_night.webp"
 
 #dining_hall
 image bg dining_hall = "bg/dining_hall.webp"

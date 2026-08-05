@@ -2148,15 +2148,15 @@ translate japanese strings:
     old "Kirche, are you there?"
     new "キュルケー、いるかー?"
 
-    old "Oh, Darling? I haven't locked the door. Feel free to come in."
+    old "Oh, Darling? The door isn't locked. Feel free to come in."
     new "あら、ダーリン?鍵は掛けてないわよ。入るんだったらどうぞ。"
 
-    old "Well then, excuse me for coming in."
+    old "Well then, excuse me!"
     new "んじゃ、ちょっと失礼しまーす。"
 
-    old "Come in. This is a rare occasion. What brings you here?"
+    old "Come in! What a surprise. To what do I owe the pleasure?"
     new "いらっしゃい。珍しいわね、どうしたの?"
-
+   
     old "Well, I don't really have any business here, but... uh..."
     new "いや、別に用はないんだけ......ど......。"
 
@@ -2220,7 +2220,7 @@ translate japanese strings:
     old "W-well, in any case... I'll be heading back now."
     new "と、とにかく。今日はカエリマスヨ。"
 
-    old "My, my... even an innocent Darling like you is charming. Do come back again."
+    old "Oh, Darling, you're so adorable when you're this innocent <3. Do come back again."
     new "もう、ウブなダーリンも素敵。また、来てね。"
 
     old "Haa... haa... haa... Phew, that was a dangerous situation."
@@ -2298,124 +2298,37 @@ translate japanese strings:
     old "Well, I guess there's no helping it then..."
     new "まあ、それじゃ仕方ないか......。"
 
-    old ""
-    new ""
+    old "H-hey there."
+    new "や、やあ。"
 
-    old ""
-    new ""
+    old "Is it really alright for you to stay awake? If you're feeling weary, I believe you should lie down."
+    new "起きてて大丈夫か?疲れてるようだったら、ゆっくり横になっていた方がいいと思うぞ。"
 
-    old ""
-    new ""
+    old "No, I'm fine. It's nothing serious, doesn't seem to be any real problem."
+    new "ううん、大丈夫。これくらいなら、特に問題はないみたい。"
 
-    old ""
-    new ""
+    old "R-right."
+    new "そ、そっか。"
 
-    old ""
-    new ""
+    old "Yeah.{#um}"
+    new "うん。"
 
-    old ""
-    new ""
+    old "U-um..."
+    new "え、ええと......。"
 
-    old ""
-    new ""
+    old "Ah, um..."
+    new "あー、ええと......。"
 
-    old ""
-    new ""
+    old "Ah, sorry."
+    new "あ、ごめんなさい。"
 
-    old ""
-    new ""
+    old "Ah, no, p-please go ahead."
+    new "あ、いや、ど、どうぞ。"
 
-    old ""
-    new ""
+    old "Um, no, Hiraga-kun should go first."
+    new "えと、そんな、平賀くんから。"
 
-    old ""
-    new ""
+    old "No, not at all... You can go first."
+    new "いや、そんな......そっちが先でいいよ。"
 
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-    old "Kirche, are you there?"
-    new "キュルケー、いるかー?"
-
-    old "Oh, Darling? The door isn't locked. Feel free to come in."
-    new "あら、ダーリン?鍵は掛けてないわよ。入るんだったらどうぞ。"
-
-    old "Well then, excuse me!"
-    new "んじゃ、ちょっと失礼しまーす。"
-
-    old "Come in! What a surprise. To what do I owe the pleasure?"
-    new "いらっしゃい。珍しいわね、どうしたの?"
+   

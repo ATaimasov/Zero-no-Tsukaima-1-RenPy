@@ -266,3 +266,12 @@ translate japanese strings:
     
     old "Then again, I don't really have any business here. I suppose I should just head back."
     new "(まぁ、何をするわけでもないし、 とりあえず、帰りますか)"
+
+    old "Ugh, this is so awkward... Or rather, I can't stand these gaps in the conversation!"
+    new "(うおおーっ、気まずいっつーか 会話の間が持たねえー!)"
+
+    old "Even though there's so much I want to ask, I just don't know where to start..."
+    new "(そもそも、聞きたいことは いくらでもあるのに、 何を聞いていいのか分かんねえ......)"
+
+    old "Waaah! Super awkward!"
+    new "(うわーっ! すっげー気まずい)"
