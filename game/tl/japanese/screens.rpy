@@ -8,6 +8,18 @@ translate japanese strings:
     old "Skip"
     new "スキップ"
 
+    old "Preferences"
+    new "設定"
+
+    old "New Game"
+    new "新作ゲーム"
+
+    old "Load Game"
+    new "ゲームを読み込む"
+
+    old "Display"
+    new "表示"
+
     old "Auto"
     new "オート"
 

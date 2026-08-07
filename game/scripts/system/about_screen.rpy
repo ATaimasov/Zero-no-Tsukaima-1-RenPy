@@ -7,19 +7,16 @@
 ## example of how to make a custom screen.
 
 # ==== ABOUT ====
-define gui.about = _p("""
-This project is a non-commercial, amateur development created by fans for fans.
-All rights to the characters, setting, names, and other elements of Zero no tsukaima belong to their respective owners.
-""")
+define gui.about ="""This project is a non-commercial, amateur development created by fans for fans. 
+All rights to the characters, setting, names, and other elements of Zero no tsukaima belong to their respective owners."""
 
-define gui.credits_text = _p("""
-Created by {a=https://t.me/timeasoff}timeasoff{/a}.
-Guide to the entire ecosystem of Zero no Tsukaima on the {a=https://t.me/ZeroNoTsukaima_EN}Halkeginia Map{/a}.
-""")
+define gui.credits_text = """Prepared by {a=https://t.me/timeasoff}timeasoff{/a}. Translation assistance provided by {a=https://t.me/Alex_Hrst}Alex_Hrst{/a}.
+Project available on {a=https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy}GitHub{/a}. You can contribute to the translation❗
 
-define gui.support = _p("""
-You can support me here: {a=https://t.me/timeasoff_support}Support{/a}
-""")
+My channel is here: {a=https://t.me/halkeginia}Halkeginia Archives{/a}.
+A guide to all Zero no Tsukaima channels and projects can be found on the {a=https://t.me/ZeroNoTsukaima_RU}Halkeginia Map{/a}."""
+
+define gui.support = "You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕"
 
 screen about():
 
@@ -33,16 +30,16 @@ screen about():
         style_prefix "about"
 
         vbox:
-
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
 
             ## gui.about is usually set in options.rpy.
             if gui.about:
-                text "[gui.about!t]"
+                text "[gui.about!t]\n"
 
             if gui.credits_text:
                 text "[gui.credits_text!t]"
+                spacing 10
 
             if gui.support:
                 text "[gui.support!t]"    

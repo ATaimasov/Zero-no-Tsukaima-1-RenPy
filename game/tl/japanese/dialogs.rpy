@@ -2319,7 +2319,7 @@ translate japanese strings:
     old "Ah, um..."
     new "あー、ええと......。"
 
-    old "Ah, sorry."
+    old "Ah, sorry.{#ver2}"
     new "あ、ごめんなさい。"
 
     old "Ah, no, p-please go ahead."

@@ -2315,7 +2315,7 @@ translate russian strings:
     old "Yeah.{#um}"
     new "Угу."
 
-    old "Ah, sorry."
+    old "Ah, sorry.{#ver2}"
     new "Ой, извини."
 
     old "Ah, no, p-please go ahead."

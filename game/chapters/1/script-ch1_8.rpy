@@ -541,7 +541,7 @@ label ch1_8:
 
             $ show_sprites(("ha 3 sad", "s 3 shy")) 
             voice "ch1.8_ha_005"
-            ha "Ah, sorry."
+            ha "Ah, sorry.{#ver2}"
 
             $ show_sprites(("ha 3 sad", "s 3 sad")) 
             voice "ch1.8_s_051"
