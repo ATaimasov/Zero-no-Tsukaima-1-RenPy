@@ -1541,6 +1541,9 @@ translate russian strings:
     old "No, look closely! I can't move a muscle, even if I wanted to get away!"
     new "Да нет же, присмотрись! Я бы и рад отойти, да вот только пошевелиться не могу!"
 
+    old "Hiraga-kun...~"
+    new "Хирага-кун...~"
+
     old "Hiraga-kun..."
     new "Хирага-кун..."
 
@@ -2315,6 +2318,12 @@ translate russian strings:
     old "Yeah.{#um}"
     new "Угу."
 
+    old "U-um..."
+    new "Э-эм..."
+
+    old "Ah, um..."
+    new "А-а, эм..."
+
     old "Ah, sorry.{#ver2}"
     new "Ой, извини."
 
@@ -2326,4 +2335,114 @@ translate russian strings:
 
     old "No, not at all... You can go first."
     new "Да нет же... Давай ты сначала."
+
+    old "Ah... um, well... It's really nothing, so..."
+    new "А... с-слушай... Да так, ерунда, ничего серьезного..."
+
+    old "Nah, same here... yeah."
+    new "Не, у меня тоже самое... да."
+
+    old "Hey, um... There's something I want to ask you."
+    new "Слушай, э-э... Я, вообще-то, спросить кое-что хотел."
+
+    old "What is it? What do you want to ask?"
+    new "Что такое? О чем спросить?"
+
+    old "Huh, whoa!?"
+    new "Твою ж... ого!?"
+
+    old "Louise, where did you come from!? I thought you said you were going to class?"
+    new "Луиза, ты откуда вылезла!? Ты же вроде на занятия шла?"
+
+    old "Somebody somewhere was acting awfully suspicious, so I got worried and came back to check on the room. Good thing I came back!"
+    new "Кто-то кое-где вел себя подозрительно, вот я и заволновалась, решила вернуться в комнату. Кажется, не зря вернулась!"
+
+    old "I wonder what exactly you were trying to do while your Master was in class?"
+    new "Интересно, что же ты пытался сделать, пока твоя госпожа была на занятиях?"
     
+    old "Uh, um...{#eto}"
+    new "Э-э, ну..."
+
+    old "Nah, I just realized I haven't done any room cleaning or anything at all today."
+    new "Да нет, я тут подумал, что сегодня ещё совсем не занимался уборкой комнаты."
+
+    old "I figured I might as well do it while my Master is busy with her studies, you know."
+    new "Подумал, что пока моя госпожа усердно учится, займусь этим, ну или что-то вроде того."
+
+    old "Oh, really?{#ver2}"
+    new "Ого, неужели?"
+
+    old "Yeah, yeah.{#dada}"
+    new "Да-да."
+
+    old "That's rather commendable attitude for a familiar, I must say."
+    new "Неплохое отношение к делу для фамильяра, надо сказать."
+
+    old "Heh-heh, maybe."
+    new "Хе-хе, может быть."
+
+    old "Still, it's not like it's something you should do without my knowing..."
+    new "Но всё-таки не стоило делать это втайне от меня, согласись..."
+
+    old "No, look. A good familiar is someone who takes care of things before being asked, isn't he?"
+    new "Да нет, смотри. Хороший фамильяр — это тот, кто делает всё до того, как госпожа попросит, верно?"
+    
+    old "Hmmm. Well, I'll accept that explanation for today."
+    new "Хм-м. Что ж, сегодня я закрою на это глаза."
+
+    old "Hiraga-kun... Totally whipped..."
+    new "Хирага-кун... Совсем под каблуком..."
+
+    old "Wh-what!? Ah, no, that's not true... I'd like to think so."
+    new "Ч-что!? А, нет, это не так... хотелось бы так думать."
+
+    old "Well, fine. We can't get back to class now anyway, so let's wait here for the others."
+    new "Ладно, неважно. На урок всё равно уже не попасть, так что подождём здесь остальных."
+
+    old "Any complaints?"
+    new "Есть какие-то претензии?"
+
+    old "...n-none."
+    new "...н-никаких."
+
+    old "Um... nothing."
+    new "Э-эм... Ничего"
+
+    old "Huh?{#a}"
+    new "А?"
+
+    old "No, really. I just felt like it, so I came here. There's no particular reason, that's just how it is."
+    new "Нет, правда. Просто захотелось, вот и пришёл сюда. Особой причины нет, вот так вот."
+
+    old "What's that supposed to mean. Think of a better reason, would you!"
+    new "Это ещё что. Придумал бы хоть какую-то нормальную причину!"
+
+    old "Even if you tell me to think of one..."
+    new "Ну вот говоришь «придумай», а что тут придумаешь..."
+
+    old "Haa... Getting really mad over something like this... it's ridiculous."
+    new "Ха-а... Сердиться всерьёз на такую ерунду... это просто смешно."
+
+    old "That's right. Louise-san is absolutely correct."
+    new "Именно. Луиза-сан абсолютно права."
+
+    old "Don't you think?"
+    new "Правда же?"
+
+    old "Yes." 
+    new "Да."
+
+    old "I had something I needed to ask Haruna right away. I couldn't just wait until class ended."
+    new "Мне нужно было срочно кое-что спросить у Харуны. Не мог же я ждать до конца занятий."
+
+    old "Hmmm. So what exactly do you want to ask? Go ahead and ask it right now, with me watching."
+    new "Хм-м. И что именно ты хочешь спросить? Давай, спроси прямо сейчас, при мне."
+
+    old "N-no, the thing is... Nothing's coming to me. So, you see, I'm stuck."
+    new "Н-нет, ну вот... Совсем ничего не приходит в голову. Поэтому, знаешь, в тупике."
+
+    old "So, you were trying to ask something you didn't want me to find out about, weren't you?"
+    new "Ты же хотел спросить что-то, о чём не хотел, чтобы я узнала, верно?"
+
+    old "E-eh, what!? W-wait a minute..."
+    new "Э-э, чего!? П-подожди секунду..."

@@ -275,3 +275,6 @@ translate japanese strings:
 
     old "Waaah! Super awkward!"
     new "(うわーっ! すっげー気まずい)"
+
+    old "Huh, why are you two agreeing all of a sudden?!"
+    new "(ええっ、なんでそこで意気投合しちゃうの?)"

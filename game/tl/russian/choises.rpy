@@ -130,6 +130,15 @@ translate russian strings:
     old "Snatch the book"
     new "Выхватить книгу"
 
+    old "I thought I might clean the room a bit..."
+    new "Думал, может, немного прибрать в комнате..."
+
+    old "Nothing special"
+    new "Ничего особенного"
+
+    old "There's something I want to ask Haruna right away..."
+    new "Мне нужно кое-что спросить у Харуны, и поскорее..."
+
 
 
 

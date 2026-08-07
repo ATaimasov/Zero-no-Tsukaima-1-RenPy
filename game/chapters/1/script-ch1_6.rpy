@@ -473,7 +473,7 @@ label ch1_6:
             s "No, look closely! I can't move a muscle, even if I wanted to get away!"
 
             voice "ch1.6_ha_024"
-            ha "Hiraga-kun..."
+            ha "Hiraga-kun...~"
             $ update_sympathy(20, char_key="haruna")
 
             voice "ch1.6_si_008"

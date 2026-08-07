@@ -556,19 +556,198 @@ label ch1_8:
             s "No, not at all... You can go first."
 
             th "Waaah! Super awkward!"
-            #!
+            
+            voice "ch1.8_ha_007"
+            ha "Ah... um, well... It's really nothing, so..."
 
+            voice "ch1.8_s_053"
+            s "Nah, same here... yeah." 
+
+            ha "..."
+
+            voice "ch1.8_s_054"
+            s "..."
+
+            voice "ch1.8_s_055"
+            s "Hey, um... There's something I want to ask you."
+            
+            play music t29 fadein 1.0
+            $ show_sprites(("l 1 angry", "s 3 shy")) 
+
+            voice "ch1.8_l_009"
+            l "What is it? What do you want to ask?"
+
+            $ show_sprites(("l 1 angry", "s 3 angry")) 
+            voice "ch1.8_s_056"
+            s "Huh, whoa!?"
+
+            $ show_sprites(("l 1 angry", "s 1 angry")) 
+            voice "ch1.8_s_057"
+            s "Louise, where did you come from!? I thought you said you were going to class?"
+
+            $ show_sprites(("l 1 happy", "s 1 angry")) 
+            voice "ch1.8_l_010"
+            l "Somebody somewhere was acting awfully suspicious, so I got worried and came back to check on the room. Good thing I came back!"
+
+
+            $ show_sprites(("l 3 angry", "s 1 angry")) 
+            voice "ch1.8_l_011"
+            l "I wonder what exactly you were trying to do while your Master was in class?"
+
+            $ show_sprites(("l 3 angry", "s 3 sad")) 
+            voice "ch1.8_s_058"
+            s "Uh, um...{#eto}"
+
+            menu:
+                "I thought I might clean the room a bit...":
+                    voice "ch1.8_s_059"
+                    s "Nah, I just realized I haven't done any room cleaning or anything at all today."
+
+                    $ show_sprites(("l 3 angry", "s 1 happy")) 
+                    voice "ch1.8_s_060"
+                    s "I figured I might as well do it while my Master is busy with her studies, you know."
+
+                    $ show_sprites(("l 3 happy", "s 1 happy")) 
+                    voice "ch1.8_l_012"
+                    l "Oh, really?{#ver2}"
+
+                    $ update_sympathy(20, char_key="louise")  
+                    voice "ch1.8_s_061"
+                    s "Yeah, yeah.{#dada}"
+
+                    voice "ch1.8_l_013"
+                    l "That's rather commendable attitude for a familiar, I must say."
+
+                    voice "ch1.8_s_062"
+                    s "Heh-heh, maybe."
+
+                    voice "ch1.8_l_014"
+                    l "Still, it's not like it's something you should do without my knowing..."
+
+                    $ show_sprites(("l 3 happy", "s 3 happy")) 
+                    voice "ch1.8_s_063"
+                    s "No, look. A good familiar is someone who takes care of things before being asked, isn't he?"
+
+                    $ show_sprites(("l 3", "s 3 happy")) 
+                    voice "ch1.8_l_015"
+                    l "Hmmm. Well, I'll accept that explanation for today."
+
+                    $ show_sprites(("ha 3 sad", "s 3 happy")) 
+                    voice "ch1.8_ha_008"
+                    ha "Hiraga-kun... Totally whipped..."
+
+                    $ show_sprites(("ha 3 sad", "s 1 sad")) 
+                    voice "ch1.8_s_066"
+                    s "Wh-what!? Ah, no, that's not true... I'd like to think so."
+
+                "Nothing special":
+                    voice "ch1.8_s_067"
+                    s "Um... nothing."
+
+                    voice "ch1.8_l_018"
+                    l "Huh?{#a}"
+
+                    $ show_sprites(("ha 3 angry", "s 3 sad")) 
+                    voice "ch1.8_ha_009"
+                    ha "Eh?{#e?}"
+
+                    $ show_sprites(("ha 3 angry", "s 1"))
+                    voice "ch1.8_s_068"
+                    s "No, really. I just felt like it, so I came here. There's no particular reason, that's just how it is."
+
+                    $ show_sprites(("ha 3 sad", "s 1"))
+                    voice "ch1.8_ha_010"
+                    ha "Hiraga-kun..."
+
+                    $ update_sympathy(-20, char_key="haruna")  
+
+                    $ show_sprites(("l 3 angry", "s 1"))
+                    voice "ch1.8_l_019"
+                    l "What's that supposed to mean. Think of a better reason, would you!"
+
+                    $ show_sprites(("l 3 angry", "s 3 sad"))
+                    voice "ch1.8_s_069"
+                    s "Even if you tell me to think of one..."
+
+                    $ show_sprites(("l 1 sad", "s 3 sad"))
+                    voice "ch1.8_l_020"
+                    l "Haa... Getting really mad over something like this... it's ridiculous."
+
+                    $ show_sprites(("l 1 sad", "ha 3 sad"))
+                    voice "ch1.8_ha_011"
+                    ha "That's right. Louise-san is absolutely correct."
+
+                    voice "ch1.8_l_021"
+                    l "Don't you think?"
+
+                    voice "ch1.8_ha_012"
+                    ha "Yes."
+
+                    $ show_sprites(("l 1 sad", "s 1 sad"))
+                    th "Huh, why are you two agreeing all of a sudden?!"
+                
+                "There's something I want to ask Haruna right away...":
+                    $ show_sprites(("l 3 angry", "s 1")) 
+                    voice "ch1.8_s_070"
+                    s "I had something I needed to ask Haruna right away. I couldn't just wait until class ended."
+
+                    $ show_sprites(("ha 3 shy", "s 1")) 
+                    voice "ch1.8_ha_013"
+                    ha "Hiraga-kun..."
+
+                    $ update_sympathy(20, char_key="haruna")  
+                    $ update_sympathy(-20, char_key="louise")  
+
+                    $ show_sprites(("l 1 angry", "s 1")) 
+                    voice "ch1.8_l_022"
+                    l "Hmmm. So what exactly do you want to ask? Go ahead and ask it right now, with me watching."
+
+                    $ show_sprites(("l 1 angry", "s 1 sad")) 
+                    voice "ch1.8_s_071"
+                    s "N-no, the thing is... Nothing's coming to me. So, you see, I'm stuck."
+
+                    $ show_sprites(("l 3 angry", "s 1 sad")) 
+                    voice "ch1.8_l_023"
+                    l "So, you were trying to ask something you didn't want me to find out about, weren't you?"
+
+                    voice "ch1.8_s_072"
+                    s "E-eh, what!? W-wait a minute..."
+
+                    $ show_sprites(("l 2 angry", "s 1 sad")) 
+                    voice "ch1.8_l_024"
+                    l "Words are useless!!"
+
+                    stop music fadeout 4.0
+                    $ scene_fx("blow flash", sound="blow_2", duration=(0.5, 4), sprites=("l 1", "s 1 sad"))
+                    pause(1)
+
+            stop music fadeout 1.0
+            $ show_sprites(("l 1", "s 1 sad")) 
+            play music t18 fadein 1.0
+
+            voice "ch1.8_l_016"
+            l "Well, fine. We can't get back to class now anyway, so let's wait here for the others."
+
+            $ show_sprites(("l 1", "s 1 angry"))
+            voice "ch1.8_s_064"
+            s "Huh?{#eee}" 
+
+            $ show_sprites(("l 1 angry", "s 1 angry"))
+            voice "ch1.8_l_017"
+            l "Any complaints?"
+
+            $ show_sprites(("l 1 angry", "s 1 sad"))
+            voice "ch1.8_s_065"
+            s "...n-none."
         
         "Hallway":
             $ fade_fx("hallway_down_night", new_music="t18")
             
             $ show_sprites(("s 1"))
-            # !
-            voice "ch1.8_s_"
+            voice "ch1.8_s_073"
             s "..."
             th "Looks like I don't know anyone here."
-            # !
-            voice "ch1.8_s_"
+            voice "ch1.8_s_074"
             s "..."
             th "Then again, I don't really have any business here. I suppose I should just head back."
 

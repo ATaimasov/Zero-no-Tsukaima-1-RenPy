@@ -270,3 +270,6 @@ translate russian strings:
 
     old "Waaah! Super awkward!"
     new "Уа-а-а! Чертовски неловко!"
+
+    old "Huh, why are you two agreeing all of a sudden?!"
+    new "Э-э, и чего вы вдруг сговорились?!"

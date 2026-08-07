@@ -960,7 +960,7 @@ translate japanese strings:
     old "Shut up, shut up! Hurry up and do your work!"
     new "うるさいうるさい!早く仕事するの!"
 
-    old "Yeah, yeah."
+    old "Yeah, yeah.{#dada}"
     new "へいへい。"
 
     old "I've already forgotten about my original world. This place is my home now."
@@ -1542,7 +1542,7 @@ translate japanese strings:
     old "No, look closely! I can't move a muscle, even if I wanted to get away!"
     new "いや、よく見ろって。離れようにも、俺身動きとれねえって。"
 
-    old "Hiraga-kun..."
+    old "Hiraga-kun...~"
     new "平賀くん......っ。"
 
     old "Saito-san!"
@@ -2331,4 +2331,120 @@ translate japanese strings:
     old "No, not at all... You can go first."
     new "いや、そんな......そっちが先でいいよ。"
 
-   
+    old "Ah... um, well... It's really nothing, so..."
+    new "あ......そ、その......。たいしたことじゃない、から。"
+
+    old "Nah, same here... yeah."
+    new "いや、俺の方も、そんな......うん。"
+
+    old "Hey, um... There's something I want to ask you."
+    new "あの、ええと......。俺っ、聞きたいことがあってさ。"
+
+    old "What is it? What do you want to ask?"
+    new "なあに?何を聞きたいの?"
+
+    old "Huh, whoa!?"
+    new "ってうわあっ!?"
+
+    old "Louise, where did you come from!? I thought you said you were going to class?"
+    new "ルイズ、おまえどこから湧いて出たんだよ!?たしか、授業に行くって言ってたよな?"
+
+    old "Somebody somewhere was acting awfully suspicious, so I got worried and came back to check on the room. Good thing I came back!"
+    new "どこかの誰かさんが挙動不審だったから、気になって部屋に戻ってみたのよ。戻ってきて正解だったみたいね!"
+
+    old "I wonder what exactly you were trying to do while your Master was in class?"
+    new "ご主人様が授業に出てる隙に、いったい何をしようとしていたのかしら?"
+
+    old "Uh, um...{#eto}"
+    new "え、えーと......。"
+
+    old "Nah, I just realized I haven't done any room cleaning or anything at all today."
+    new "いやほら、考えたら今日はまだ部屋の片付けとか全然やってなかったから。"
+
+    old "I figured I might as well do it while my Master is busy with her studies, you know."
+    new "ご主人様が学問に打ち込んでる間にやっておこうかなーなんて。"
+
+    old "Oh, really?{#ver2}"
+    new "へー、そうなの?"
+
+    old "Yeah, yeah."
+    new "そう、そう。"
+
+    old "That's rather commendable attitude for a familiar, I must say."
+    new "使い魔にしては、ずいぶん立派な心がけね。"
+
+    old "Heh-heh, maybe."
+    new "は、はは、そうかな。"
+
+    old "Still, it's not like it's something you should do without my knowing..."
+    new "でも、わたしに黙ってやることでもないわよねぇ......。"
+
+    old "No, look. A good familiar is someone who takes care of things before being asked, isn't he?"
+    new "いや、ほら。ご主人様に言われる前にやっておくのが、良い使い魔ってやつだろ?"
+    
+    old "Hmmm. Well, I'll accept that explanation for today."
+    new "ふーん。まぁ、今日はそういうことにしてあげる。"
+
+    old "Hiraga-kun... Totally whipped..."
+    new "平賀くん......。すっかり尻に敷かれちゃって......。"
+
+    old "Wh-what!? Ah, no, that's not true... I'd like to think so."
+    new "なにいっ!?あ、いや、そんなことはない......と思いたい。"
+
+    old "Well, fine. We can't get back to class now anyway, so let's wait here for the others."
+    new "まあいいわ。今から授業に戻れないし、みんなが来るまで、ここで待ちましょう。"
+
+    old "Any complaints?"
+    new "何か文句ある?"
+
+    old "...n-none."
+    new "......ありません。"
+
+    old "Um... nothing."
+    new "えーと......なんとなく。"
+
+    old "Huh?{#a}"
+    new "は?"
+
+    old "No, really. I just felt like it, so I came here. There's no particular reason, that's just how it is."
+    new "いや、本当。なんとなく気が向いたんで、ここに来たの。特に理由はないんだわ、これが。"
+
+    old "Hiraga-kun..."
+    new "平賀くん......。"
+
+    old "What's that supposed to mean. Think of a better reason, would you!"
+    new "なによ、それ。もう少しまともな理由を考えなさいよ!"
+
+    old "Even if you tell me to think of one..."
+    new "考えなさいよって言われてもなあ。"
+
+    old "Haa... Getting really mad over something like this... it's ridiculous."
+    new "はあ......こんなのを相手に本気で怒るのも、バカみたいだわ。"
+
+    old "That's right. Louise-san is absolutely correct."
+    new "そうです。ルイズさんの言うとおりです。"
+
+    old "Don't you think?"
+    new "ねえ?"
+
+    old "Yes." 
+    new "はい。"
+
+    old "I had something I needed to ask Haruna right away. I couldn't just wait until class ended."
+    new "春奈に一刻も早く聞きたいことがあったんだ。授業が終わるまで待ってなんていられるか。"
+
+    old "Hmmm. So what exactly do you want to ask? Go ahead and ask it right now, with me watching."
+    new "ふーん。で、何を聞きたいわけ?わたしの目の前で聞いてみなさいよ。"
+
+    old "N-no, the thing is... Nothing's coming to me. So, you see, I'm stuck."
+    new "い、いや、それがその......。何も浮かばなくてな。その、困ってるわけで。"
+
+    old "So, you were trying to ask something you didn't want me to find out about, weren't you?"
+    new "ほら、わたしに聞かれたくないこと、聞こうと思ってたんでしょ?"
+
+    old "E-eh, what!? W-wait a minute..."
+    new "え、ええー!?ちょ、ちょっと待って......。"
+
+    
+
+

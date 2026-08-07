@@ -130,5 +130,14 @@ translate japanese strings:
     old "Snatch the book"
     new "本を取り上げる"
 
+    old "I thought I might clean the room a bit..."
+    new "部屋の片付けでもしようかと"
+
+    old "Nothing special"
+    new "なんとなく"
+
+    old "There's something I want to ask Haruna right away..."
+    new "春奈に一刻も早く聞きたいことが"
+
 
     
