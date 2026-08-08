@@ -139,6 +139,18 @@ translate russian strings:
     old "There's something I want to ask Haruna right away..."
     new "Мне нужно кое-что спросить у Харуны, и поскорее..."
 
+    old "Come on, can't something be done about that?"
+    new "Ну нельзя ли как-нибудь это уладить?"
+
+    old "Don't say such awful things!"
+    new "Не говори таких ужасных вещей!"
+
+    old "Isn't it possible that we overlooked something?"
+    new "А не упустили ли мы что-то из виду?"
+
+    old "Was it by chance that she came to this world?"
+    new "Неужели она попала в этот мир случайно?"
+
 
 
 

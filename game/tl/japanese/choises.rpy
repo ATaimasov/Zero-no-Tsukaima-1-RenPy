@@ -139,5 +139,17 @@ translate japanese strings:
     old "There's something I want to ask Haruna right away..."
     new "春奈に一刻も早く聞きたいことが"
 
+    old "Come on, can't something be done about that?"
+    new "そこをなんとかならないか？"
+
+    old "Don't say such awful things!"
+    new "そんなひどいこと言うなよ！"
+
+    old "Isn't it possible that we overlooked something?"
+    new "見落としたってことはないのか？"
+
+    old "Was it by chance that she came to this world?"
+    new "彼女がこの世界に来たのは偶然？"
+
 
     

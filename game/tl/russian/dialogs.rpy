@@ -2147,9 +2147,6 @@ translate russian strings:
     old "Did she just nod a little?... So she confirmed it?"
     new "Она только что чуть-чуть кивнула?... Значит, она это подтвердила?"
 
-    old "Right then, everyone is assembled."
-    new "Итак, все в сборе."
-
     old "Kirche, are you there?"
     new "Кирхе, ты тут?"
 
@@ -2446,3 +2443,81 @@ translate russian strings:
 
     old "E-eh, what!? W-wait a minute..."
     new "Э-э, чего!? П-подожди секунду..."
+
+    old "Right then, everyone is assembled."
+    new "Итак, все в сборе."
+
+    old "Yes, everyone has gathered."
+    new "Да, все в сборе."
+
+    old "Oh, lovely young lady. Would you be willing to become my personal maid?"
+    new "Ох, прелестная барышня. Не согласишься ли ты стать моей личной служанкой?"
+
+    old "Eh, umm…"
+    new "А, эм-м…"
+
+    old "Gish! You're drooling over every girl you see again!"
+    new "Гиш! Опять ты пускаешь слюни на каждую встречную!"
+
+    old "Oh my, are you jealous? My dear Montmorency."
+    new "Фу-фу, неужели ты ревнуешь? Моя дорогая Монморанси."
+
+    old "But don't worry. My heart will never forget you."
+    new "Но можешь не волноваться. Мое сердце никогда тебя не забудет."
+
+    old "All you do is say you won't forget me, but then you're immediately checking out other girls! How am I supposed not to worry after that?"
+    new "Только и делаешь, что не забываешь меня, а сам тут же заглядываешься на других! И как после этого не волноваться?"
+
+    old "Listen, did you even need to come? Take one look, and that's it—goodbye."
+    new "Слушай, а тебе вообще нужно было приходить? Глянул одним глазком и давай, до свидания."
+
+    old "What an impolite tone. I'm offering to lend you my strength, so you shouldn't speak to me like that."
+    new "Какой невежливый тон. Я ведь предлагаю тебе свою помощь, так что не стоит так разговаривать."
+
+    old "It can't be helped. Montmorency let it slip. Since it's come to this, I'll accept your help."
+    new "Ничего не поделаешь. Монморанси ведь всё разболтала.  В таком случае мне придётся воспользоваться твоей помощью."
+
+    old "Mmmmm… That's a rather humiliating way to put it, but… fine…"
+    new "М-м-м-м-м… Что-то в этой формулировке унизительное, но… ладно…"
+
+    old "Yes, yes. That's enough commotion."
+    new "Да-да, хватит уже этого переполоха."
+
+    old "First, we need to decide where she should stay… That's the biggest problem."
+    new "Сперва нужно решить, где её расположить… Это самая главная проблема."
+
+    old "Where she should stay… Can't it be here?"
+    new "Где расположить... Неужели здесь нельзя?"
+
+    old "Hiding a commoner in secret is a serious matter. In any case, it seems to me that this situation is beyond our capabilities."
+    new "Тайно укрывать простолюдинку — это серьёзно. Во всяком случае, мне кажется, ситуация нам не по зубам."
+
+    old "Oh, it's fine. We'll have this girl leave right away."
+    new "О, ничего страшного. Эта девушка сейчас же уйдёт."
+
+    old "What!? Wait, Louise!"
+    new "Что!? Погоди, Луиза!"
+
+    old "You…"
+    new "Ты…"
+
+    old "What do you mean by 'something'?"
+    new "Что еще за «как-нибудь»?"
+
+    old "What's awful about it? I'm just stating the obvious."
+    new "Что тут ужасного? Я говорю совершенно очевидные вещи."
+
+    old "You want to leave her all alone in this world! That's exactly what I mean when I say 'awful'!"
+    new "Ты хочешь бросить её одну в этом мире! Именно это я и имею в виду, когда говорю «ужасно»!"
+
+    old "Actually, we brought this girl to the academy to look after her, since she had passed out on the road."
+    new "Вообще-то мы принесли эту девушку в академию, чтобы позаботиться о ней, потому что она потеряла сознание на дороге."
+
+    old "W-well, yeah. That's true, but…"
+    new "Н-ну да. Это верно, но…"
+
+    old "Do you seriously think we're capable of hiding a commoner? That's just unrealistic."
+    new "Ты всерьез думаешь, что нам по силам укрывать простолюдинку? Это же нереально." 
+
+    old "B-but isn't that cruel?"
+    new "Н-но разве её не жалко?"

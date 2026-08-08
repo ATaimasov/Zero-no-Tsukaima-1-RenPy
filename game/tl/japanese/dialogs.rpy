@@ -2142,9 +2142,6 @@ translate japanese strings:
     old "Maybe I shouldn't have been so persistent... She doesn't seem all that angry, though."
     new "(しつこく聞いたのは悪かったかな。 ......あまり怒ってるようじゃない みたいだけど)"
 
-    old "Right then, everyone is assembled."
-    new "さて、みんな集まったわね。"
-
     old "Kirche, are you there?"
     new "キュルケー、いるかー?"
 
@@ -2444,6 +2441,88 @@ translate japanese strings:
 
     old "E-eh, what!? W-wait a minute..."
     new "え、ええー!?ちょ、ちょっと待って......。"
+
+    old "Right then, everyone is assembled."
+    new "さて、みんな集まったわね。"
+
+    old "Yes, everyone has gathered."
+    new "ええ、集まったわよ。"
+
+    old "Oh, lovely young lady. Would you be willing to become my personal maid?"
+    new "ふっ、可愛い娘さん。ぼくの専属の召使いにならないか?"
+
+    old "Eh, umm…"
+    new "え、えっと......。"
+
+    old "Gish! You're drooling over every girl you see again!"
+    new "ギーシュ!あなた、また見境なく色目を使って!"
+
+    old "Oh my, are you jealous? My dear Montmorency."
+    new "ふふっ、ヤキモチをやいてくれるのかい?ぼくのモンモランシー。"
+
+    old "But don't worry. My heart will never forget you."
+    new "だが、安心してくれ。ぼくの心は常にきみを忘れたりはしないから。"
+
+    old "All you do is say you won't forget me, but then you're immediately checking out other girls! How am I supposed not to worry after that?"
+    new "わたしのことを忘れないだけで、すぐ他の娘にふらふらと目移りするでしょ!どこが安心できるのよ。"
+
+    old "Listen, did you even need to come? Take one look, and that's it—goodbye."
+    new "っていうか、おまえまで来る必要あるのか?一回見たら、すぐ帰れよ。"
+
+    old "What an impolite tone. I'm offering to lend you my strength, so you shouldn't speak to me like that."
+    new "失敬な言い方だな。ぼくが力を貸してやろうというのに、その言い方はないだろう。"
+
+    old "It can't be helped. Montmorency let it slip. Since it's come to this, I'll accept your help."
+    new "仕方ないわよ。モンモランシーがばらしちゃったんだもの。この際、手を貸してもらうわ。"
+
+    old "Mmmmm… That's a rather humiliating way to put it, but… fine…"
+    new "むむむむむ......。何だか、屈辱的な言い回しだが、まぁ、いいだろう......。"
+
+    old "Yes, yes. That's enough commotion."
+    new "はいはい。騒ぎもそこまで。"
+
+    old "First, we need to decide where she should stay… That's the biggest problem."
+    new "まず、どこに居てもらうか......、それが問題になりそうね。"
+
+    old "Where she should stay… Can't it be here?"
+    new "居場所って......ここじゃ駄目なのか?"
+
+    old "Hiding a commoner in secret is a serious matter. In any case, it seems to me that this situation is beyond our capabilities."
+    new "平民を隠し通すなんて、大変なことだろう。少なくとも、ぼくらの手に負える事態じゃないような気がするんだが?"
+
+    old "Oh, it's fine. We'll have this girl leave right away."
+    new "あら、大丈夫よ。この娘には、すぐに出てってもらうから。"
+
+    old "What!? Wait, Louise!"
+    new "なに!?ちょっと待て、ルイズ!"
+
+    old "You…"
+    new "おまえ......。"
+
+    old "What do you mean by 'something'?"
+    new "なんとかって、なによ。"
+
+    old "What's awful about it? I'm just stating the obvious."
+    new "なにがひどいのよ。わたしは当たり前のことを言ってるだけよ。"
+
+    old "You want to leave her all alone in this world! That's exactly what I mean when I say 'awful'!"
+    new "彼女を1人でこの世界に放り出すつもりかよ!それがひどいって言ってんじゃねえか。"
+
+    old "Actually, we brought this girl to the academy to look after her, since she had passed out on the road."
+    new "元々は、この娘が道ばたで倒れてたから介抱するために学院まで連れてきたわけでしょ。"
+
+    old "W-well, yeah. That's true, but…"
+    new "お、おう。そうだけど......。"
+
+    old "Do you seriously think we're capable of hiding a commoner? That's just unrealistic."
+    new "平民1人をわたし達だけでかくまえって言うの?そんなの無理だわ。"
+
+    old "B-but isn't that cruel?"
+    new "だ、だけど、可哀相じゃないか。"
+
+
+
+
 
     
 
