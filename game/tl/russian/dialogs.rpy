@@ -2521,3 +2521,184 @@ translate russian strings:
 
     old "B-but isn't that cruel?"
     new "Н-но разве её не жалко?"
+
+    old "Ahhh... Hmm, what a nice morning."
+    new "А-а-ах... М-м-м, какое чудесное утро."
+
+    old "Louise has finished her morning routine and headed out somewhere too... Hmm, it's a truly pleasant morning."
+    new "Луиза тоже закончила утренние сборы и куда-то ушла... Хм-м, какое же приятное утро."
+
+    old "Well then... what should I do next?"
+    new "Ну что ж... что теперь делать?"
+
+    old "Hey, Louise! You in there?"
+    new "Эй, Луиза! Ты тут?"
+
+    old "What? Do you need something?"
+    new "Что? Дело есть?"
+
+    old "Huh... oh..."
+    new "Э? Ой..."
+
+    old "What? What's the matter with you? Standing there like a statue."
+    new "Что? Что с тобой? Стоишь как вкопанный."
+
+    old "No, no, never mind... well, actually..."
+    new "Не-не, неважно... ну, хотя..."
+
+    old "She's wearing something different from her usual outfit. I feel like this is the first time I've ever seen Louise in casual clothes..."
+    new "На ней совсем не то, что обычно. Такое чувство, будто я впервые вижу Луизу в домашней одежде.."
+
+    old "It's strange... just changing her outfit makes her seem like a completely different person."
+    new "Надо же... стоит сменить наряд, как она словно совсем другим человеком выглядит."
+
+    old "Hey, Saito!"
+    new "Эй, Сайто!"
+
+    old "Huh? Oh, what?"
+    new "А? Э-э, что?"
+
+    old "It's not just 'what'. Don't you have anything to say?"
+    new ""Что" — это не ответ! У тебя нет никаких слов?"
+
+    old "Like, what exactly am I supposed to say...?"
+    new "Что именно сказать-то...?"
+
+    old "Geez!"
+    new "Ох, ну что ж ты такой!"
+
+    old "If you're my familiar, when you notice your master is wearing something different than usual, you should at least say something, right?"
+    new "Ты же мой фамильяр! Если видишь, что я одета по-другому, не мог бы хоть слово молвить?"
+
+    old "An opinion, huh..."
+    new "Мнение, говоришь..."
+
+    old "You look really beautiful."
+    new "Ты очень красивая."
+
+    old "I don't really get it."
+    new "Не очень понимаю."
+
+    old "You don't seem like Louise."
+    new "Ты не похожа на Луизу."
+
+    old "Huh? W-what's with the sudden...?"
+    new "А? Ч-чего это ты вдруг...?"
+
+    old "You told me to give my opinion all of a sudden, so I just said honestly what I was thinking."
+    new "Ты сама потребовала высказать мнение ни с того ни с сего, вот я и сказал честно, что думаю."
+
+    old "H-honestly...? I-is that so. Th...thank you."
+    new "Ч-честно...? П-правда. С...спасибо."
+
+    old "No, I don't think it's something you need to thank me for."
+    new "Нет, не думаю, что за это нужно благодарить."
+
+    old "Ugh... It's fine! Just stay quiet!"
+    new "Уф... Всё нормально! Просто помолчи!"
+
+    old "...? Why are you getting angry?"
+    new "..? Эй, ты чего вдруг разозлилась?"
+
+    old "Who knows! Enough is enough, just go outside!"
+    new "Откуда мне знать! Ладно тебе, иди лучше на улицу!"
+
+    old "Ah... yeah."
+    new "А-а... ну ладно."
+
+    old "Did I say something wrong...?"
+    new "Наверное, я сказал что-то не то..."
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+

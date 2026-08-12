@@ -2520,6 +2520,127 @@ translate japanese strings:
     old "B-but isn't that cruel?"
     new "だ、だけど、可哀相じゃないか。"
 
+    old "Ahhh... Hmm, what a nice morning."
+    new "(ふわああ......。 んー、いい朝だなあ)"
+
+    old "Louise has finished her morning routine and headed out somewhere too... Hmm, it's a truly pleasant morning."
+    new "(ルイズも朝の支度を終えて どっか出て行ったし、 うーむ、気持ちの良い朝だ)"
+
+    old "Well then... what should I do next?"
+    new "(さて......これからどうしよう?)"
+
+    old "Hey, Louise! You in there?"
+    new "おーいルイズ、いるかー?"
+
+    old "What? Do you need something?"
+    new "なに?なにか用?"
+
+    old "Huh... oh..."
+    new "え、あ......。"
+
+    old "What? What's the matter with you? Standing there like a statue."
+    new "なに?どうしたのよ。そんなところで固まって。"
+
+    old "No, no, never mind... well, actually..."
+    new "い、いや、なんでもない、ん、だが......。"
+
+    old "She's wearing something different from her usual outfit. I feel like this is the first time I've ever seen Louise in casual clothes..."
+    new "(いつも見てる服装と違う。 ルイズの私服なんて初めて見るような 気がする......)"
+
+    old "It's strange... just changing her outfit makes her seem like a completely different person."
+    new "(なんだか、服が違うと、 雰囲気からして違って見えるな)"
+
+    old "Hey, Saito!"
+    new "ちょっと、サイト!"
+
+    old "Huh? Oh, what?"
+    new "え?あ、なに?"
+
+    old "It's not just 'what'. Don't you have anything to say?"
+    new "なに?じゃないわよ。なにか言うことはないの?"
+
+    old "Like, what exactly am I supposed to say...?"
+    new "言うことって......。"
+
+    old "Geez!"
+    new "もう!"
+
+    old "If you're my familiar, when you notice your master is wearing something different than usual, you should at least say something, right?"
+    new "使い魔だったら、ご主人様がいつもと違った格好してるって気づいたら、何か意見くらい言いなさいよね!"
+
+    old "An opinion, huh..."
+    new "意見ねえ。"
+
+    old "You look really beautiful."
+    new "すっごくきれいだ"
+
+    old "I don't really get it."
+    new "よく分かんねえ"
+
+    old "You don't seem like Louise."
+    new "ルイズじゃないみたいだ"
+
+    old "Huh? W-what's with the sudden...?"
+    new "え?な、なによ急に......。"
+
+    old ""You told me to give my opinion all of a sudden, so I just said honestly what I was thinking."
+    new "急に意見言えっていうから、思ったとおり、正直に言っただけだぞ。"
+
+    old "H-honestly...? I-is that so. Th...thank you."
+    new "しょ、正直に......?そ、そうなの。あ......ありがとう。"
+
+    old "No, I don't think it's something you need to thank me for."
+    new "いや、お礼を言われることじゃないと思うけど。"
+
+    old "Ugh... It's fine! Just stay quiet!"
+    new "う......、いいのっ!あんたは黙ってなさい!"
+
+    old "...? Why are you getting angry?"
+    new "......?なに怒ってんだ?"
+
+    old "Who knows! Enough is enough, just go outside!"
+    new "知らない!いいから出て行きなさい!"
+
+    old "Ah... yeah."
+    new "あー、うん。"
+
+    old "Did I say something wrong...?"
+    new "(なんか、悪いこと言っちゃったかなぁ......)"
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+
 
 
 
