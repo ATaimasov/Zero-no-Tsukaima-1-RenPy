@@ -2583,7 +2583,7 @@ translate japanese strings:
     old "Huh? W-what's with the sudden...?"
     new "え?な、なによ急に......。"
 
-    old ""You told me to give my opinion all of a sudden, so I just said honestly what I was thinking."
+    old "You told me to give my opinion all of a sudden, so I just said honestly what I was thinking."
     new "急に意見言えっていうから、思ったとおり、正直に言っただけだぞ。"
 
     old "H-honestly...? I-is that so. Th...thank you."
@@ -2607,29 +2607,89 @@ translate japanese strings:
     old "Did I say something wrong...?"
     new "(なんか、悪いこと言っちゃったかなぁ......)"
 
-    old ""
-    new ""
+    old "She seems to have recovered after resting for the night, so it is improper for an outsider to remain at the academy."
+    new "一晩休んで疲れはとれたみたいだし、なら部外者が学院にいるのはおかしいの。"
 
-    old ""
-    new ""
+    old "Am I saying something wrong?"
+    new "わたし、なにか間違ったこと言ってる?"
 
-    old ""
-    new ""
+    old "T-That's... Your logic isn't wrong, but... but that's just heartless!"
+    new "そ、それは......。その理屈は間違ってないけど......、でも、そんなの薄情だろ!"
 
-    old ""
-    new ""
+    old "Then how are we supposed to take care of her from now on?"
+    new "それじゃあ、わたし達でこの先どうやって彼女の面倒を見てくの?"
 
-    old ""
-    new ""
+    old "We're not talking about a dog or a cat here. It's obviously impossible to just keep her."
+    new "犬や猫じゃないのよ。そんなこと、無理に決まってるじゃない。"
 
-    old ""
-    new ""
+    old "What did you say...?!"
+    new "なんだとお......!"
 
-    old ""
-    new ""
+    old "U-Um, Saito-san, Miss Valliere, please calm down"
+    new "あのあの、サイトさんも、ミス・ヴァリエールも、落ち着いてください。"
 
-    old ""
-    new ""
+    old "Hmph..."
+    new "ふーん......。"
+
+    old "Hey, Louise? Could it be... you're jealous?"
+    new "ねぇ、ルイズ？あなたもしかして、嫉妬してるわけ？"
+
+    old "Are you trying to kick her out just because Saito is so devoted to her?"
+    new "サイトが彼女にご執心だから、そのまま追い出そうとしてるの?"
+
+    old "Wha...! I-I-I don't mean it like that!"
+    new "な......っ!そ、そ、そんなんじゃないわよ!"
+
+    old "After all, sheltering her doesn't mean we can keep it up indefinitely, right?"
+    new "だって、かくまうったってこの先ずっとってわけじゃないんでしょ?"
+
+    old "Still, that level of desperation is nothing short of jealousy!"
+    new "なのにそこまで必死になってるのは、嫉妬以外なにものでもないじゃない!"
+
+    old "That can't be! Why would I be jealous of this Saito!" (С
+    new "そんなはずない!なんで、このサイトに嫉妬なんて、しなくちゃならないのよ!"
+
+    old "Then that's fine. Even if it's just for a while, why not shelter her?" 
+    new "じゃあ、いいじゃない。当分の間でいいんでしょ、かくまってあげれば?"
+
+    old "Ugh..."
+    new "う......。"
+
+    old "Louise, please. Just let her stay for a while."
+    new "ルイズ、頼む。彼女を、しばらくでいい、置いてやってくれ。"
+
+    old "Fine! We just need to hide her for a while, right!"
+    new "分かったわよ!当分の間かくまえばいいんでしょ!"
+
+    old "That settles it."
+    new "決まりね。"
+
+    old "...Thanks, Louise."
+    new "......サンキューな、ルイズ。"
+
+    old "Thank you, Hiraga-kun." 
+    new "ありがとう、平賀くん。"
+
+    old "Huh? N-No, I didn't do anything..."
+    new "へ?い、いや、俺はなにも......。"
+
+    old "I mean, being thrown into this world all alone is tough, isn't it?"
+    new "やっぱさ、この世界に飛ばされて1人きりって、辛いじゃないか。"
+
+    old "But if she came from the same place as Saito, 'Japan', doesn't she have a master who summoned her?"
+    new "でも、サイトと同じニホンってところから来たのなら、彼女を召喚した主がいるんじゃないのか?"
+
+    old "I'm just saying that, just like Louise, she might have a master who summoned her."
+    new "ルイズと同じ、召喚した主がいるのかもしれないだろってことだよ。"
+
+    old "Ah... I see. That possibility does exist, doesn't it."
+    new "あ......そうか、その可能性もあるんだよな。"
+
+    old "So you're saying the people who attacked us are actually the mages who summoned her, or their subordinates?"
+    new "襲ってきた連中が、実は彼女を召喚した魔法使いかその部下ってこと?"
+
+    old "The people who attacked?"
+    new "襲ってきた連中?"
 
     old ""
     new ""

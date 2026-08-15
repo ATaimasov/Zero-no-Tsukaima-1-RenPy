@@ -119,6 +119,119 @@ label ch1_9:
     voice "ch1.9_s_007"
     s "W-well, yeah. That's true, but…"
 
+    voice "ch1.9_l_008"
+    l "She seems to have recovered after resting for the night, so it is improper for an outsider to remain at the academy."
+
+    voice "ch1.9_l_009"
+    l "Am I saying something wrong?"
+
+    voice "ch1.9_s_008"
+    s "T-That's... Your logic isn't wrong, but... but that's just heartless!"
+
+    $ show_sprites(("l 1 angry", "s 3 sad"))
+    voice "ch1.9_l_010"
+    l "Then how are we supposed to take care of her from now on?"
+
+    voice "ch1.9_l_011"
+    l "We're not talking about a dog or a cat here. It's obviously impossible to just keep her."
+
+    $ show_sprites(("l 1 angry", "s 3 angry"))
+    voice "ch1.9_s_009"
+    s "What did you say...?!"
+
+    $ show_sprites(("l 1 angry", "si 1 sad"))
+    voice "ch1.9_si_001"
+    si "U-Um, Saito-san, Miss Valliere, please calm down"
+
+    $ show_sprites(("l 1 angry", "k 4"))
+    voice "ch1.9_k_004"
+    k "Hmph..."
+
+    $ show_sprites(("l 1 angry", "k 4 happy"))
+    voice "ch1.9_k_005"
+    k "Hey, Louise? Could it be... you're jealous?"
+
+    voice "ch1.9_l_012"
+    l "Huh?{#a}"
+
+    $ show_sprites(("l 1 angry", "k 1 happy"))
+    voice "ch1.9_k_006"
+    k "Are you trying to kick her out just because Saito is so devoted to her?"
+
+    $ show_sprites(("l 3 angry", "k 1 happy"))
+    voice "ch1.9_l_013"
+    l "Wha...! I-I-I don't mean it like that!"
+
+    $ show_sprites(("l 3 angry", "k 1"))
+    voice "ch1.9_k_007"
+    k "After all, sheltering her doesn't mean we can keep it up indefinitely, right?"
+
+    voice "ch1.9_k_008"
+    k "Still, that level of desperation is nothing short of jealousy!"
+
+    $ show_sprites(("l 1 angry", "k 1"))
+    voice "ch1.9_l_014"
+    l "That can't be! Why would I be jealous of this Saito!" (С
+
+    $ show_sprites(("l 1 angry", "k 1 happy"))
+    voice "ch1.9_k_009"
+    k "Then that's fine. Even if it's just for a while, why not shelter her?" 
+
+    $ show_sprites(("l 1 sad", "k 1 happy"))
+    voice "ch1.9_l_015"
+    l "Ugh..."
+
+    $ show_sprites(("l 1 sad", "s 1 sad"))
+    voice "ch1.9_s_010"
+    s "Louise, please. Just let her stay for a while."
+
+    $ show_sprites(("l 3 angry", "s 1 sad"))
+    voice "ch1.9_l_016"
+    l "Fine! We just need to hide her for a while, right!"
+
+    $ show_sprites(("l 3 angry", "k 4 happy"))
+    voice "ch1.9_k_010"
+    k "That settles it."
+
+    $ show_sprites(("l 3 angry", "s 1"))
+    voice "ch1.9_s_011"
+    s "...Thanks, Louise."
+
+    $ show_sprites(("ha 1 happy", "s 1"))
+    voice "ch1.9_ha_002"
+    ha "Thank you, Hiraga-kun." 
+
+    $ show_sprites(("ha 1 happy", "s 3 shy"))
+    voice "ch1.9_s_012"
+    s "Huh? N-No, I didn't do anything..."
+
+    $ show_sprites(("ha 1 happy", "s 3 happy"))
+    voice "ch1.9_s_013"
+    s "I mean, being thrown into this world all alone is tough, isn't it?"
+
+    $ show_sprites(("g 1", "s 3 happy"))
+    voice "ch1.9_g_007"
+    g "But if she came from the same place as Saito, 'Japan', doesn't she have a master who summoned her?"
+
+    $ show_sprites(("g 1", "s 1 sad"))
+    voice "ch1.9_s_014"
+    s "Eh?{#e?}"
+
+    voice "ch1.9_g_008"
+    g "I'm just saying that, just like Louise, she might have a master who summoned her."
+
+    $ show_sprites(("g 1", "s 1"))
+    voice "ch1.9_s_015"
+    s "Ah... I see. That possibility does exist, doesn't it." 
+
+    $ show_sprites(("g 1", "l 1 angry"))
+    voice "ch1.9_l_017"
+    l "So you're saying the people who attacked us are actually the mages who summoned her, or their subordinates?"
+
+    $ show_sprites(("g 2 angry", "l 1 angry"))
+    voice "ch1.9_g_009"
+    g "The people who attacked?"
+    
 
     #! диалоги диалоги диалоги
 

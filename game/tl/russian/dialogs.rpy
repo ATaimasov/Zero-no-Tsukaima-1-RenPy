@@ -2609,89 +2609,89 @@ translate russian strings:
     old "Did I say something wrong...?"
     new "Наверное, я сказал что-то не то..."
 
-    old ""
-    new ""
+    old "She seems to have recovered after resting for the night, so it is improper for an outsider to remain at the academy."
+    new "Раз за ночь она отдохнула и силы восстановились, то посторонним находиться в академии не подобает."
 
-    old ""
-    new ""
+    old "Am I saying something wrong?"
+    new "Разве я говорю что-то неправильное?"
 
-    old ""
-    new ""
+    old "T-That's... Your logic isn't wrong, but... but that's just heartless!"
+    new "Э-это... В твоих словах есть логика, но... но это слишком жестоко!"
 
-    old ""
-    new ""
+    old "Then how are we supposed to take care of her from now on?"
+    new "И как мы тогда будем заботиться о ней дальше?"
 
-    old ""
-    new ""
+    old "We're not talking about a dog or a cat here. It's obviously impossible to just keep her."
+    new "Она тебе не собака и не кошка. Такую ношу мы точно не потянем."
 
-    old ""
-    new ""
+    old "What did you say...?!"
+    new "Что ты сказала...?!"
 
-    old ""
-    new ""
+    old "U-Um, Saito-san, Miss Valliere, please calm down"
+    new "П-пожалуйста, Сайто-сан, мисс Вальер, успокойтесь."
 
-    old ""
-    new ""
+    old "Hmph..."
+    new "Хм..."
 
-    old ""
-    new ""
+    old "Hey, Louise? Could it be... you're jealous?"
+    new "Слушай, Луиза? Неужели ты... ревнуешь?"
 
-    old ""
-    new ""
+    old "Are you trying to kick her out just because Saito is so devoted to her?"
+    new "Поскольку Сайто так увлечён ею, ты пытаешься просто выставить её за дверь?"
 
-    old ""
-    new ""
+    old "Wha...! I-I-I don't mean it like that!"
+    new "Что...! Я, я, я совсем не это имела в виду!"
 
-old ""
-    new ""
+    old "After all, sheltering her doesn't mean we can keep it up indefinitely, right?"
+    new "Но ведь укрывать её — это не значит, что она останется здесь навсегда, верно?"
 
-    old ""
-    new ""
+    old "Still, that level of desperation is nothing short of jealousy!"
+    new "И всё-таки, подобная настойчивость — это чистая ревность!"
 
-    old ""
-    new ""
+    old "That can't be! Why would I be jealous of this Saito!" (С
+    new "Не может быть! С чего бы мне ревновать к этому Сайто!"
 
-    old ""
-    new ""
+    old "Then that's fine. Even if it's just for a while, why not shelter her?" 
+    new "Тогда в чём проблема? Даже если это ненадолго, мы можем её приютить?"
 
-    old ""
-    new ""
+    old "Ugh..."
+    new "Угх..."
 
-    old ""
-    new ""
+    old "Louise, please. Just let her stay for a while."
+    new "Луиза, прошу тебя. Позволь ей остаться, хотя бы ненадолго." 
 
-    old ""
-    new ""
+    old "Fine! We just need to hide her for a while, right!"
+    new "Ладно! Просто спрячем её на время, и всё!" 
 
-    old ""
-    new ""
+    old "That settles it."
+    new "На том и порешили."
 
-    old ""
-    new ""
+    old "...Thanks, Louise."
+    new "...Спасибо, Луиза."
 
-    old ""
-    new ""
+    old "Thank you, Hiraga-kun." 
+    new "Спасибо, Хирага-кун."
 
-    old ""
-    new ""
+    old "Huh? N-No, I didn't do anything..."
+    new "А? Д-да нет, я ничего такого не сделал..."
 
-    old ""
-    new ""
+    old "I mean, being thrown into this world all alone is tough, isn't it?"
+    new "Всё-таки, когда тебя забрасывает в этот мир и ты остаёшься совсем один, это тяжело."
 
-    old ""
-    new ""
+    old "But if she came from the same place as Saito, 'Japan', doesn't she have a master who summoned her?"
+    new "Но если она из того же места, что и Сайто, из этой 'Японии', то разве у неё нет хозяина, который её призвал?"
 
-    old ""
-    new ""
+    old "I'm just saying that, just like Louise, she might have a master who summoned her."
+    new "Я к тому, что, возможно, у неё тоже есть хозяин, призвавший её, прямо как в случае с Луизой."
 
-    old ""
-    new ""
+    old "Ah... I see. That possibility does exist, doesn't it." 
+    new "Ах... Точно. Такое ведь тоже вполне может быть."
 
-    old ""
-    new ""
+    old "So you're saying the people who attacked us are actually the mages who summoned her, or their subordinates?"
+    new "То есть те, кто на нас напал, на самом деле маги, призвавшие её, или их подчиненные?"
 
-    old ""
-    new ""
+    old "The people who attacked?"
+    new "Те, кто напал?"
 
     old ""
     new ""
