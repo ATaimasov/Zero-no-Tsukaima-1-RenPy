@@ -127,6 +127,55 @@ init -1 python:
         dur  = dur / max(SLIDE_SPEED, 0.01)
         return max(_SLIDE_DUR_MIN, min(_SLIDE_DUR_MAX, dur))
 
+    # -------------------------------------------------------------------------
+    #  [ЗАДАЧА 1] БЫСТРЫЙ "КОРОТКИЙ" СЛАЙД
+    #
+    #  Вместо того чтобы гнать спрайт через весь экран из-за края (эффект
+    #  "карусели"), он появляется совсем рядом со своим финальным местом,
+    #  проходит короткую траекторию из alpha 0 в alpha 1 и резко встаёт на
+    #  место. Насколько близко к цели он появляется — задаёт SLIDE_SHORT_DIST,
+    #  длительность рывка — SLIDE_SHORT_DUR.
+    #
+    #  Полностью совместимо с mode="big": стартовая точка считается от
+    #  РЕАЛЬНОЙ финальной координаты слота (target_xa), которая уже учитывает
+    #  режим (normal/big).
+    # -------------------------------------------------------------------------
+    def _entry_x_short(slot, slide_dir, target_xa):
+        # откуда ВЪЕЗЖАЕТ новый спрайт (рядом с целью)
+        if slide_dir == "right":
+            return target_xa - SLIDE_SHORT_DIST   # въезд слева-направо
+        if slide_dir == "left":
+            return target_xa + SLIDE_SHORT_DIST   # въезд справа-налево
+        # nearest — из ближней стороны
+        if slot == "right":
+            return target_xa + SLIDE_SHORT_DIST
+        return target_xa - SLIDE_SHORT_DIST
+
+    def _exit_x_short(slot, slide_dir, target_xa):
+        # куда УЕЗЖАЕТ уходящий спрайт (рядом с местом, откуда стоял)
+        if slide_dir == "left":
+            return target_xa - SLIDE_SHORT_DIST
+        if slide_dir == "right":
+            return target_xa + SLIDE_SHORT_DIST
+        # nearest — в ближнюю сторону
+        if slot == "left":
+            return target_xa - SLIDE_SHORT_DIST
+        return target_xa + SLIDE_SHORT_DIST
+
+    def _slide_in_geom(slot, slide_dir, target_xa):
+        """(start_x, duration) для въезжающего спрайта."""
+        if SLIDE_SHORT:
+            return _entry_x_short(slot, slide_dir, target_xa), SLIDE_SHORT_DUR
+        sx = _entry_x(slot, slide_dir)
+        return sx, _slide_dur(sx, target_xa)
+
+    def _slide_out_geom(slot, slide_dir, target_xa):
+        """(exit_x, duration) для уезжающего спрайта."""
+        if SLIDE_SHORT:
+            return _exit_x_short(slot, slide_dir, target_xa), SLIDE_SHORT_DUR
+        ex = _exit_x(slot, slide_dir)
+        return ex, _slide_dur(target_xa, ex)
+
     def _zorder(side, center_front):
         if side == "center":
             if center_front is True:
@@ -165,6 +214,46 @@ define SLIDE_SPEED     = 1.3
 define _SLIDE_REF_DIST = 0.5
 define _SLIDE_DUR_MIN  = 0.3
 define _SLIDE_DUR_MAX  = 0.9
+
+# =============================================================================
+#  [ЗАДАЧА 1] НАСТРОЙКИ БЫСТРОГО КОРОТКОГО СЛАЙДА
+# =============================================================================
+# True  -> новый быстрый режим: спрайт появляется у самого своего места и
+#          делает короткий резкий слайд (alpha 0 -> 1). Быстро, без "карусели".
+# False -> прежнее поведение: длинный слайд из-за края экрана
+#          (по старым правилам _slide_dur / _entry_x / _exit_x).
+define SLIDE_SHORT      = True
+
+# Насколько ДАЛЕКО от финальной точки начинается слайд (в единицах xalign).
+# Это тот самый "момент, на котором появляется слайд":
+#   меньше значение -> спрайт возникает ещё ближе к месту (короче путь);
+#   больше значение -> путь длиннее (ближе к старому виду).
+define SLIDE_SHORT_DIST = 0.22
+
+# Длительность короткого слайда в секундах (резкий и быстрый рывок).
+define SLIDE_SHORT_DUR  = 0.22
+
+# =============================================================================
+#  [ЗАДАЧА 2] АНИМАЦИЯ ПОЛНОЙ ЗАМЕНЫ ВСЕХ СПРАЙТОВ
+# =============================================================================
+# Что делать по умолчанию, когда на экране ВСЕ спрайты заменяются другими
+# персонажами (именно персонажи, а не смена эмоции у тех же). Тогда больше не
+# нужно каждый раз писать anim_in="slide_right", anim_out="slide_right".
+# Срабатывает ТОЛЬКО если вызывающий не указал анимацию явно.
+#   "slide_right" -> все уезжают вправо, новые въезжают справа-налево
+#   "slide_left"  -> то же, но влево
+#   "slide"       -> прежняя логика "в ближайшую сторону"
+#   None          -> ничего не навязывать (полностью старое поведение)
+define FULL_REPLACE_ANIM = "slide_right"
+
+# =============================================================================
+#  [ЗАДАЧА 3] АНИМАЦИЯ СМЕНЫ ЭМОЦИИ
+# =============================================================================
+# Эффект, когда у того же персонажа в том же режиме меняется только картинка
+# (например "k 1" -> "k 1 happy"). Перекрывается аргументом emote=... в вызове.
+#   "dissolve" -> плавное растворение (по умолчанию)
+#   None       -> без анимации (мгновенно)
+define EMOTION_ANIM = "dissolve"
 
 
 # =============================================================================
@@ -244,11 +333,10 @@ init -1 python:
             renpy.with_statement(None)
             return
 
-        _max_dur = _SLIDE_DUR_MIN
+        _max_dur = 0.0
         for s, (tag, img, m, z) in slots.items():
             zoom_, xa, ya = _geom(m, s)
-            ex = _exit_x(s, dir_of(s))
-            d = _slide_dur(xa, ex)
+            ex, d = _slide_out_geom(s, dir_of(s), xa)   # [ЗАДАЧА 1]
             _max_dur = max(_max_dur, d)
             renpy.show(img, at_list=[chara_slide_out(zoom_, xa, ya, ex, d)],
                        tag=tag, zorder=z)
@@ -303,13 +391,28 @@ init -1 python:
         return "dissolve", dir_by_slot
 
 
-    def show_sprites(chars, mode="normal", anim_in="slide", anim_out=_ANIM_UNSET,
+    def show_sprites(chars, mode="normal", anim_in=_ANIM_UNSET, anim_out=_ANIM_UNSET,
                      side=None, center_front=None, hide_window=False,
-                     raise_z=True, anim=_ANIM_UNSET):
+                     raise_z=True, anim=_ANIM_UNSET, emote=_ANIM_UNSET):
+        # --- [ЗАДАЧА 2] запоминаем, задал ли ВЫЗЫВАЮЩИЙ анимацию явно ---
+        # Нужно, чтобы автоподстановка FULL_REPLACE_ANIM не перезатирала то,
+        # что явно прописано в существующих вызовах (обратная совместимость).
+        in_explicit  = (anim is not _ANIM_UNSET) or (anim_in is not _ANIM_UNSET)
+        out_explicit = (anim is not _ANIM_UNSET) or (anim_out is not _ANIM_UNSET)
+
+        # общий anim= (как раньше) перекрывает anim_in
         if anim is not _ANIM_UNSET:
             anim_in = anim
+
+        # значения по умолчанию (прежнее поведение: базово slide)
+        if anim_in is _ANIM_UNSET:
+            anim_in = "slide"
         if anim_out is _ANIM_UNSET:
             anim_out = anim_in
+
+        # --- [ЗАДАЧА 3] эффект смены эмоции: аргумент перекрывает константу ---
+        if emote is _ANIM_UNSET:
+            emote = EMOTION_ANIM
 
         if chars is None:
             _hide_all(anim_out)
@@ -331,15 +434,33 @@ init -1 python:
 
         layout = {slots_order[i]: chars[i] for i in range(n)}
 
+        # --- [ЗАДАЧА 2] определяем ПОЛНУЮ замену всех спрайтов ---
+        # Полная замена = на экране кто-то был И ни один старый ПЕРСОНАЖ
+        # (сравниваем теги персонажей, а не эмоции) не остаётся среди новых.
+        # Смена эмоции ("k 1" -> "k 1 happy") сюда не попадает, т.к. тег "k"
+        # остаётся -> множества пересекаются.
+        _old_char_tags = set(_tag_of(oimg)
+                             for _s, (_t, oimg, _m, _z) in store._sprite_slots.items())
+        _new_char_tags = set(_tag_of(img) for img in layout.values())
+        _full_replace = bool(_old_char_tags) and bool(_new_char_tags) \
+                        and _old_char_tags.isdisjoint(_new_char_tags)
+
+        if _full_replace and FULL_REPLACE_ANIM is not None:
+            if not in_explicit:
+                anim_in = FULL_REPLACE_ANIM
+            if not out_explicit:
+                anim_out = FULL_REPLACE_ANIM
+
         anim_family_in, dir_in = _parse_show_anim(anim_in, slots_order)
         anim_family_out, dir_out = _parse_show_anim(anim_out, ["left", "center", "right"])
 
         _apply_layout(layout, mode, anim_family_in, anim_family_out,
-                      center_front, hide_window, raise_z, dir_in, dir_out)
+                      center_front, hide_window, raise_z, dir_in, dir_out, emote)
 
 
     def _apply_layout(layout, mode, anim_in, anim_out, center_front,
-                      hide_window=False, raise_z=True, dir_in=None, dir_out=None):
+                      hide_window=False, raise_z=True, dir_in=None, dir_out=None,
+                      emote_anim="dissolve"):
         slots = store._sprite_slots
         if dir_in is None:
             dir_in = {}
@@ -488,11 +609,10 @@ init -1 python:
         # ---- 1) УХОДЯЩИЕ ----
         if leavers:
             if slide_out:
-                _max_dur = _SLIDE_DUR_MIN
+                _max_dur = 0.0
                 for s, tag, oimg, om in leavers:
                     z, xa, ya = _geom(om, s)
-                    ex = _exit_x(s, dir_out.get(s))
-                    d = _slide_dur(xa, ex)
+                    ex, d = _slide_out_geom(s, dir_out.get(s), xa)   # [ЗАДАЧА 1]
                     _max_dur = max(_max_dur, d)
                     renpy.show(oimg, at_list=[chara_slide_out(z, xa, ya, ex, d)],
                                tag=tag, zorder=old_z_by_slot.get(s, 20))
@@ -538,7 +658,7 @@ init -1 python:
                     renpy.hide(otag)
             renpy.with_statement(None)
 
-        # ---- 3b) СМЕНА ЭМОЦИИ ----
+        # ---- 3b) СМЕНА ЭМОЦИИ ----  [ЗАДАЧА 3]
         if emotions:
             for s, otag, ntag, nimg in emotions:
                 z, xa, ya = _geom(mode, s)
@@ -546,20 +666,29 @@ init -1 python:
                            tag=ntag, zorder=slot_z[s])
                 if otag != ntag and otag not in new_tags_set:
                     renpy.hide(otag)
-            renpy.with_statement(None if noanim_in else dissolve)
+            # Эффект смены эмоции задаётся аргументом emote / константой
+            # EMOTION_ANIM. Если весь показ идёт без анимации (anim=None),
+            # эмоция тоже мгновенная — сохраняем прежнее поведение.
+            if noanim_in:
+                _emote_trans = None
+            elif emote_anim == "dissolve":
+                _emote_trans = dissolve
+            else:
+                _emote_trans = None
+            renpy.with_statement(_emote_trans)
 
         # задержка перед появлением новых
+        # [ЗАДАЧА 1] в быстром режиме зазор меньше, чтобы замена ощущалась резкой
         if (leavers or movers) and entrants and not noanim_in:
-            renpy.pause(0.2)
+            renpy.pause(0.05 if SLIDE_SHORT else 0.2)
 
         # ---- 4) НОВЫЕ ПЕРСОНАЖИ ----
         if entrants:
             if slide_in:
-                _max_dur = _SLIDE_DUR_MIN
+                _max_dur = 0.0
                 for s, tag, nimg in entrants:
                     z, xa, ya = _geom(mode, s)
-                    sx = _entry_x(s, dir_in.get(s))
-                    d = _slide_dur(sx, xa)
+                    sx, d = _slide_in_geom(s, dir_in.get(s), xa)   # [ЗАДАЧА 1]
                     _max_dur = max(_max_dur, d)
                     renpy.show(nimg, at_list=[chara_slide_in(z, xa, ya, sx, d)],
                                tag=tag, zorder=slot_z[s])

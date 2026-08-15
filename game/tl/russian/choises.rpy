@@ -151,6 +151,19 @@ translate russian strings:
     old "Was it by chance that she came to this world?"
     new "Неужели она попала в этот мир случайно?"
 
+    old "Go on a date with Louise"
+    new "Пойти на свидание с Луизой"
 
+    old "Go on a date with Siesta" 
+    new "Пойти на свидание с Сиестой"
+
+    old "Go on a date with Tabitha"
+    new "Пойти на свидание с Табитой"
+
+    old "Go on a date with Kirche"
+    new "Пойти на свидание с Кирке"
+
+    old "Go on a date with Haruna"
+    new "Пойти на свидание с Харуной"
 
 

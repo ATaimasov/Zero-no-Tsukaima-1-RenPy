@@ -171,7 +171,7 @@ label ch1_9:
 
     $ show_sprites(("l 1 angry", "k 1"))
     voice "ch1.9_l_014"
-    l "That can't be! Why would I be jealous of this Saito!" (С
+    l "That can't be! Why would I be jealous of this Saito!"
 
     $ show_sprites(("l 1 angry", "k 1 happy"))
     voice "ch1.9_k_009"
@@ -211,7 +211,7 @@ label ch1_9:
 
     $ show_sprites(("g 1", "s 3 happy"))
     voice "ch1.9_g_007"
-    g "But if she came from the same place as Saito, 'Japan', doesn't she have a master who summoned her?"
+    g "But if she came from the same place as Saito, {i}'Japan'{/i}, doesn't she have a master who summoned her?"
 
     $ show_sprites(("g 1", "s 1 sad"))
     voice "ch1.9_s_014"
@@ -231,19 +231,160 @@ label ch1_9:
     $ show_sprites(("g 2 angry", "l 1 angry"))
     voice "ch1.9_g_009"
     g "The people who attacked?"
-    
 
-    #! диалоги диалоги диалоги
+    $ show_sprites(("g 2 angry", "s 3 happy"))
+    voice "ch1.9_s_016"
+    s "Well, it's nothing you need to worry about." 
+
+    $ show_sprites(("k 1 angry", "s 3 happy"))
+    voice "ch1.9_k_011"
+    k "That could very well be. If so, she could possess a special ability just like Darling."
+
+    $ show_sprites(("k 1 angry", "s 3 angry"))
+    voice "ch1.9_s_017"
+    s "A special ability... like mine?"
+
+    th "My special ability as a familiar, the power to master any weapon... Could Haruna have that kind of ability too...?"
+
+    $ show_sprites(("m 1 angry", "s 3 angry"))
+    voice "ch1.9_m_003"
+    m "Oh, I actually looked into that. There's no mark of a familiar contract anywhere on her." 
+
+    $ show_sprites(("m 1 angry", "l 1"))
+    voice "ch1.9_l_018"
+    l "Ah, is that so?" 
+
+    $ show_sprites(("m 1", "l 1"))
+    voice "ch1.9_m_004"
+    m "Yes. That is for sure."
+
+    $ show_sprites(("m 1", "s 3 sad"))
+    voice "ch1.9_s_018"
+    s "Then that means..."  
 
     menu:
         "Isn't it possible that we overlooked something?":
-            "ss"
+            $ show_sprites(("m 1", "s 1"))
+            voice "ch1.9_s_019"
+            s "Is it possible Monmon overlooked it?" 
+
+            $ show_sprites(("m 4 angry", "s 1"))
+            voice "ch1.9_m_005"
+            m "How rude. I looked properly, all over her body. But there was no crest anywhere."
+
+            $ show_sprites(("m 4 angry", "g 1 shy"))
+            voice "ch1.9_g_010"
+            g "W-what, h-her whole body?"
+
+            voice "ch1.9_g_011"
+            g "Th-then, Montmorency, you looked at every single corner of this girl's body, didn't you?"
+
+            voice "ch1.9_g_012"
+            g "With your own eyes, leaving nothing unseen!"
+
+            $ show_sprites(("m 1 sad", "g 1 shy"))
+            voice "ch1.9_m_006"
+            m "Uh, yes..."
+
+            $ show_sprites(("m 1 sad", "g 2 shy"))
+            voice "ch1.9_g_013"
+            g "Aaaah. What an exquisite scenario! Ah, why wasn't I there too!"
+
+            $ show_sprites(("m 4 angry", "g 2 shy"))
+            voice "ch1.9_m_007"
+            m "If you were there, I'd have thrown you out of the room!"  
+
+            $ show_sprites(("m 4 angry", "s 3 shy"))
+            th "Right, so while I was waiting out in the hall, Montmorency was up to that... Ah, I feel a nosebleed coming on."
+
+            $ show_sprites(("l 2 angry", "s 3 shy"))
+            voice "ch1.9_l_019"
+            l "Saito? You just had a dirty thought, didn't you?"
+
+            $ show_sprites(("l 2 angry", "s 3 sad"))
+            voice "ch1.9_s_020"
+            s "No, nothing of the sort!"
+
+            $ show_sprites(("l 2 angry", "s 1"))
+            voice "ch1.9_s_021"
+            s "But that means she wasn't summoned as a familiar the way I was, right?"
+
+            $ show_sprites(("l 1", "s 1"))
+            voice "ch1.9_l_020"
+            l "I can't say for sure, but that seems to be the case."
 
         "Was it by chance that she came to this world?":
-            "ss"
+            $ show_sprites(("m 1", "s 1"))
+            voice "ch1.9_s_025"
+            s "Does that mean she ended up in this world by coincidence? That instead of being summoned like me, she just happened to stumble in here?" 
 
+            voice "ch1.9_m_008"
+            m "I'm just saying that's a possibility. At the very least, she isn't a contracted familiar." 
 
-    #! прыгаем на новый файл когда утро (последний файл для первой главы)
+            $ show_sprites(("k 1", "s 1 sad"))
+            voice "ch1.9_k_014"
+            k "For instance, maybe she was summoned but fled before the contract was finalized. That's a possibility too."
+
+            voice "ch1.9_s_026"
+            s "Hmmm..."
+
+    voice "ch1.9_s_022"
+    s "Well, but if we hear her full story, it might give a clue on how to return to Japan."
+
+    $ show_sprites(("l 1", "s 3 happy"))
+    voice "ch1.9_s_023"
+    s "Anyway, I'll do whatever I can to help. So let's cheer up."
+
+    $ show_sprites(("ha 1 shy", "s 3 happy"))
+    voice "ch1.9_ha_003"
+    ha "Yeah... Thank you, Hiraga-kun. Just having you here makes me feel so much more at ease."
+
+    $ show_sprites(("ha 1 shy", "s 3 shy"))
+    voice "ch1.9_s_024"
+    s "R-really?"
+
+    $ show_sprites(("l 1 angry"), anim_out="slide_right", mode="big")
+    voice "ch1.9_l_021"
+    l "..."
+
+    $ show_sprites(("si 1 angry"), anim_out="slide_right", mode="big")
+    voice "ch1.9_si_002"
+    si "..."
+
+    $ show_sprites(("k 4 happy"), anim_out="slide_right")
+    voice "ch1.9_k_012"
+    k "Oh my. It seems things are going to get quite interesting from here on out."
+
+    $ show_sprites(("g 2", "k 4 happy"))
+    voice "ch1.9_g_014"
+    g "Eh? What is?"
+
+    $ show_sprites(("g 2", "k 1"))
+    voice "ch1.9_k_013"
+    k "No, it's just my own business." 
+
+    $ fade_fx("sky_night", new_music="t17")
+    voice "ch1.9_unk_001"
+    unk "What's the situation with that girl?"
+
+    voice "ch1.9_unds_001"
+    unds "We found her collapsed on the road, but before we could make contact, a pair got to her first. We engaged in battle and were defeated." 
+
+    voice "ch1.9_unk_002"
+    unk "Two people?"
+
+    voice "ch1.9_unds_002"
+    unds "Yes, a young noble girl and a commoner with an intelligence sword."
+
+    voice "ch1.9_unds_003"
+    unds "It seems the girl was taken by those two and went to the Tristain Magical Academy."
+
+    voice "ch1.9_unk_003"
+    unk "Understood. Continue your surveillance as is. We will make our next move when the time is right."
+
+    voice "ch1.9_unds_004"
+    unds "Yes, sir."
+
     jump ch1_10
     return
         

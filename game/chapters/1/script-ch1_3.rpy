@@ -7,23 +7,11 @@ label ch1_3:
     $ show_sprites(("s 3 sad"))
     th "Maybe I should go somewhere before going to bed?"
 
-    play music t3 
-    #$ fade_fx(new_music="t3")
-    #$ show_sprites(("si 1"), side="right")
-    ## меню выбора особое, выбор слева а персонаж справа к кому идем 
-    ## музыка t3.ogg
-    menu:
-        "Siesta's Room":
-            call si_room_ch1_3
-        "Louise's Room":
-            call l_room_ch1_3
-        "Hallway": ## Тут спрайт монморанси
-            call hallway_ch1_3
-
-    #Варианты выбора (куда пойти перед сном):
-    #Комната Сиесты (シエスタの部屋)
-    #Комната Луизы (ルイズの部屋)
-    #Коридор (廊下)
+    $ sprite_choice([
+        {"char": "siesta",      "text": "Siesta's Room", "target": "si_room_ch1_3"},
+        {"char": "louise",      "text": "Louise's Room", "target": "l_room_ch1_3"},
+        {"char": "montmorency", "text": "Hallway",       "target": "hallway_ch1_3"},
+    ])
 
     jump ch1_4
     return
@@ -197,10 +185,9 @@ label si_room_ch1_3:
     stop music fadeout 1.0
     pause(1.0)
     
-    show black with fade
+    $ fade_fx("black", bg_position="default")
     play sound close_door
     pause (1.0)
-    hide black
 
     return
 label l_room_ch1_3:

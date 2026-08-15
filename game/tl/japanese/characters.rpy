@@ -44,3 +44,6 @@ translate japanese strings:
     old "Montmorency"
     new "モンモランシー"
 
+    old "Underlings"
+    new "部下"
+

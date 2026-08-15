@@ -1929,9 +1929,6 @@ translate japanese strings:
     old "Hey, there's no need to get mad."
     new "お、怒んなくてもいいだろ。"
 
-    old ""
-    new "ほらっ!あーんっ!"
-
     old "Come on! Say 'ahhh'!"
     new "あ、あーん......。"
 
@@ -2646,7 +2643,7 @@ translate japanese strings:
     old "Still, that level of desperation is nothing short of jealousy!"
     new "なのにそこまで必死になってるのは、嫉妬以外なにものでもないじゃない!"
 
-    old "That can't be! Why would I be jealous of this Saito!" (С
+    old "That can't be! Why would I be jealous of this Saito!"
     new "そんなはずない!なんで、このサイトに嫉妬なんて、しなくちゃならないのよ!"
 
     old "Then that's fine. Even if it's just for a while, why not shelter her?" 
@@ -2676,7 +2673,7 @@ translate japanese strings:
     old "I mean, being thrown into this world all alone is tough, isn't it?"
     new "やっぱさ、この世界に飛ばされて1人きりって、辛いじゃないか。"
 
-    old "But if she came from the same place as Saito, 'Japan', doesn't she have a master who summoned her?"
+    old "But if she came from the same place as Saito, {i}'Japan'{/i}, doesn't she have a master who summoned her?"
     new "でも、サイトと同じニホンってところから来たのなら、彼女を召喚した主がいるんじゃないのか?"
 
     old "I'm just saying that, just like Louise, she might have a master who summoned her."
@@ -2691,20 +2688,120 @@ translate japanese strings:
     old "The people who attacked?"
     new "襲ってきた連中?"
 
-    old ""
-    new ""
+    old "Well, it's nothing you need to worry about."
+    new "まあ、おまえは知らなくていいから。"
 
-    old ""
-    new ""
+    old "That could very well be. If so, she could possess a special ability just like Darling."
+    new "確かにそれはいえるかも。その場合、ダーリンのような特殊能力を持っている可能性もあるわね。"
 
-    old ""
-    new ""
+    old "A special ability... like mine?"
+    new "俺みたいな、特殊能力......。"
 
+    old "My special ability as a familiar, the power to master any weapon... Could Haruna have that kind of ability too...?"
+    new "(俺の使い魔としての特殊能力、あらゆる武器を 使いこなすという能力......そんな能力が、 春奈にもある......?)"
 
+    old "Oh, I actually looked into that. There's no mark of a familiar contract anywhere on her."
+    new "あ、それについては一応調べたわ。彼女には、使い魔の契約の証である紋章がどこにも現れていないの。"
 
+    old "Ah, is that so?"
+    new "あ、そうなの?"
 
+    old "Yes. That is for sure."
+    new "ええ。それは確かよ。"
 
+    old "Then that means..."
+    new "それって......。"
 
+    old "Is it possible Monmon overlooked it?"
+    new "モンモンが見落としたってことはないのか?"
+
+    old "How rude. I looked properly, all over her body. But there was no crest anywhere."
+    new "失礼ね。ちゃんと見たわよ、体中。でも、紋章はどこにもなかったわ。"
+
+    old "W-what, h-her whole body?"
+    new "なに、か、体中?"
+
+    old "Th-then, Montmorency, you looked at every single corner of this girl's body, didn't you?"
+    new "じゃ、じゃあ、モンモランシー、きみはこの娘の体の隅から隅までをくまなく見たんだね?"
+
+    old "With your own eyes, leaving nothing unseen!"
+    new "その目で、余すところなく!"
+
+    old "Uh, yes..."
+    new "え、ええ......。"
+
+    old "Aaaah. What an exquisite scenario! Ah, why wasn't I there too!"
+    new "むふー。なんという素敵なシチュエーションじゃないか!ああ、何故その場にぼくもいなかったのか!"
+
+    old "If you were there, I'd have thrown you out of the room!"
+    new "あなたがいたら、部屋から叩き出してるわよ!"
+
+    old "Right, so while I was waiting out in the hall, Montmorency was up to that... Ah, I feel a nosebleed coming on."
+    new "(そうか、俺が部屋の外で待ってる間に、 モンモランシーはそんなことを......。 あ、鼻血が出そう)"
+
+    old "Saito? You just had a dirty thought, didn't you?"
+    new "サイト?あんた、今エッチなこと考えたでしょ。"
+
+    old "No, nothing of the sort!"
+    new "いいえ、滅相もない。"
+
+    old "But that means she wasn't summoned as a familiar the way I was, right?"
+    new "でも、ということは、彼女は俺みたいに使い魔として召喚されたわけじゃないってことか。"
+
+    old "I can't say for sure, but that seems to be the case."
+    new "断言はできないけど、そういうことになるわね。"
+
+    old "Well, but if we hear her full story, it might give a clue on how to return to Japan."
+    new "ま、でも、詳しい話を聞けば、お互い日本に戻る手がかりになるかもしれないしな。"
+
+    old "Anyway, I'll do whatever I can to help. So let's cheer up."
+    new "とりあえず、俺で良かったら力になるからさ。元気だしていこうぜ。"
+
+    old "Yeah... Thank you, Hiraga-kun. Just having you here makes me feel so much more at ease."
+    new "うん......、ありがとう、平賀くん。平賀くんがいてくれるだけで、私とっても心強いわ。"
+
+    old "R-really?"
+    new "そ、そうか?"
+
+    old "Oh my. It seems things are going to get quite interesting from here on out."
+    new "へええ。これから面白いことになりそうじゃない。"
+
+    old "Eh? What is?"
+    new "え?なにがだい?"
+
+    old "No, it's just my own business."
+    new "いいえ、こっちの話。"
+
+    old "What's the situation with that girl?"
+    new "例の娘はどうなった?"
+
+    old "Does that mean she ended up in this world by coincidence? That instead of being summoned like me, she just happened to stumble in here?"
+    new "彼女がこの世界に来たのは、偶然ってことか?俺のように召喚されて来たんじゃなくて、たまたま来ちまったと?"
+
+    old "I'm just saying that's a possibility. At the very least, she isn't a contracted familiar." 
+    new "その可能性もあるんじゃないかってこと。少なくとも、彼女は契約された使い魔じゃないわ。"
+
+    old "For instance, maybe she was summoned but fled before the contract was finalized. That's a possibility too."
+    new "例えば、召喚されたけど契約を交わす前に逃げ出したとか、そういう可能性だってあるわけよ。"
+
+    old "Hmmm..."
+    new "うーん......。"
+
+    old "We found her collapsed on the road, but before we could make contact, a pair got to her first. We engaged in battle and were defeated." 
+    new "道に倒れていたのを発見しましたが、我々が接触する前に2人連れが先に接触。戦闘になり、敗退しました。"
+
+    old "Two people?"
+    new "2人連れ?"
+
+    old "Yes, a young noble girl and a commoner with an intelligence sword."
+    new "はい、若い貴族の娘とインテリジェンスソードを持った平民の2人連れです。"
     
+    old "It seems the girl was taken by those two and went to the Tristain Magical Academy."
+    new "例の娘はその2人連れに連れられて、トリステインの魔法学院に行ったようです。"
 
+    old "Understood. Continue your surveillance as is. We will make our next move when the time is right."
+    new "分かった。そのまま監視を続けろ。時を見て、次の行動に移る。"
 
+    old "Yes, sir."
+    new "ははっ。"
+    

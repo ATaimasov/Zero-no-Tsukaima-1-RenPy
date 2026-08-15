@@ -44,3 +44,6 @@ translate russian strings:
     old "Montmorency"
     new "Монморанси"
 
+    old "Underlings"
+    new "Приспешники"
+

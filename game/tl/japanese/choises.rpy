@@ -151,5 +151,20 @@ translate japanese strings:
     old "Was it by chance that she came to this world?"
     new "彼女がこの世界に来たのは偶然？"
 
+    old "Go on a date with Louise"
+    new "ルイズとデートをします"
+
+    old "Go on a date with Siesta" 
+    new "シエスタとデートをします"
+
+    old "Go on a date with Tabitha"
+    new "タバサとデートをします"
+
+    old "Go on a date with Kirche"
+    new "キュルケとデートをします"
+
+    old "Go on a date with Haruna"
+    new "ハルナとデートをします"
+
 
     

@@ -2559,7 +2559,7 @@ translate russian strings:
     new "А? Э-э, что?"
 
     old "It's not just 'what'. Don't you have anything to say?"
-    new ""Что" — это не ответ! У тебя нет никаких слов?"
+    new "«Что» — это не ответ! У тебя нет никаких слов?"
 
     old "Like, what exactly am I supposed to say...?"
     new "Что именно сказать-то...?"
@@ -2648,7 +2648,7 @@ translate russian strings:
     old "Still, that level of desperation is nothing short of jealousy!"
     new "И всё-таки, подобная настойчивость — это чистая ревность!"
 
-    old "That can't be! Why would I be jealous of this Saito!" (С
+    old "That can't be! Why would I be jealous of this Saito!"
     new "Не может быть! С чего бы мне ревновать к этому Сайто!"
 
     old "Then that's fine. Even if it's just for a while, why not shelter her?" 
@@ -2678,8 +2678,8 @@ translate russian strings:
     old "I mean, being thrown into this world all alone is tough, isn't it?"
     new "Всё-таки, когда тебя забрасывает в этот мир и ты остаёшься совсем один, это тяжело."
 
-    old "But if she came from the same place as Saito, 'Japan', doesn't she have a master who summoned her?"
-    new "Но если она из того же места, что и Сайто, из этой 'Японии', то разве у неё нет хозяина, который её призвал?"
+    old "But if she came from the same place as Saito, {i}'Japan'{/i}, doesn't she have a master who summoned her?"
+    new "Но если она из того же места, что и Сайто, из этой {i}«Японии»{/i}, то разве у неё нет хозяина, который её призвал?"
 
     old "I'm just saying that, just like Louise, she might have a master who summoned her."
     new "Я к тому, что, возможно, у неё тоже есть хозяин, призвавший её, прямо как в случае с Луизой."
@@ -2693,12 +2693,122 @@ translate russian strings:
     old "The people who attacked?"
     new "Те, кто напал?"
 
-    old ""
-    new ""
+    old "Well, it's nothing you need to worry about."
+    new "Ну, вам не обязательно об этом знать."
 
-    old ""
-    new ""
+    old "That could very well be. If so, she could possess a special ability just like Darling."
+    new "Что ж, это звучит логично. Если так, то у неё может быть особая способность, прямо как у Дорогого."
 
-    old ""
-    new ""
+    old "A special ability... like mine?"
+    new "Особая способность... как у меня?"
+
+    old "My special ability as a familiar, the power to master any weapon... Could Haruna have that kind of ability too...?"
+    new "Моя особая способность как фамильяра — умение в совершенстве владеть любым оружием... Неужели у Харуны тоже есть такая способность...?"
+
+    old "Oh, I actually looked into that. There's no mark of a familiar contract anywhere on her."
+    new "О, я вообще-то это проверила. На её теле нет никаких рун, подтверждающих контракт фамильяра."
+
+    old "Ah, is that so?"
+    new "О, правда?"
+
+    old "Yes. That is for sure."
+    new "Да. В этом я уверена."
+
+    old "Then that means..."
+    new "Значит..."
+
+    old "Is it possible Monmon overlooked it?"
+    new "Возможно, Мон-мон просто проглядела?"
+
+    old "How rude. I looked properly, all over her body. But there was no crest anywhere."
+    new "Какая грубость. Я внимательно осмотрела всё её тело. Но клейма нигде не было."
+
+    old "W-what, h-her whole body?"
+    new "Ч-что, в-всё тело?"
+
+    old "Th-then, Montmorency, you looked at every single corner of this girl's body, didn't you?"
+    new "Т-то есть, Монморанси, ты осмотрела каждый уголок тела этой девушки?"
+
+    old "With your own eyes, leaving nothing unseen!"
+    new "Этими самыми глазами, не оставив ничего без внимания!"
+
+    old "Uh, yes..."
+    new "Э-эм, да..."
+
+    old "Aaaah. What an exquisite scenario! Ah, why wasn't I there too!"
+    new "Ааах. Какой чудесный расклад! Ах, почему же меня не оказалось рядом!"
+
+    old "If you were there, I'd have thrown you out of the room!"
+    new "Будь ты там, я бы выгнала тебя взашей!"
+
+    old "Right, so while I was waiting out in the hall, Montmorency was up to that... Ah, I feel a nosebleed coming on."
+    new "Так вот оно что... пока я торчал снаружи, Монморанси делала такие вещи... Ох, сейчас из носа закапает."
+
+    old "Saito? You just had a dirty thought, didn't you?"
+    new "Сайто? Ты только что подумал о всяких непристойностях?"
+
+    old "No, nothing of the sort!"
+    new "Нет, упаси боже!"
+
+    old "But that means she wasn't summoned as a familiar the way I was, right?"
+    new "Но это значит, что она не была призвана как фамильяр, как я?"
+
+    old "I can't say for sure, but that seems to be the case."
+    new "Не могу утверждать наверняка, но, похоже, так и есть."
+
+    old "Well, but if we hear her full story, it might give a clue on how to return to Japan."
+    new "Ну, но если мы выслушаем её историю, это может дать зацепку, как вернуться в Японию."
+
+    old "Anyway, I'll do whatever I can to help. So let's cheer up."
+    new "Короче, я помогу тебе чем смогу. Так что не вешай нос."
+
+    old "Yeah... Thank you, Hiraga-kun. Just having you here makes me feel so much more at ease."
+    new "Да... Спасибо, Хирага-кун. От одного твоего присутствия мне становится намного спокойнее."
+
+    old "R-really?"
+    new "В-вот как?"
+
+    old "Oh my. It seems things are going to get quite interesting from here on out."
+    new "Ого. Кажется, впереди нас ждёт нечто весьма занятное."
+
+    old "Eh? What is?"
+    new "А? Что именно?"
+
+    old "No, it's just my own business."
+    new "Нет, это я так, про себя."
+
+    old "What's the situation with that girl?"
+    new "Что там с той самой девушкой?"
+
+    old "Does that mean she ended up in this world by coincidence? That instead of being summoned like me, she just happened to stumble in here?"
+    new "То есть она оказалась в этом мире случайно? Её не призывали, как меня, она просто так сюда попала?"
+
+    old "I'm just saying that's a possibility. At the very least, she isn't a contracted familiar." 
+    new "Я к тому, что такая вероятность существует. По крайней мере, она не является фамильяром, связанным контрактом."
+
+    old "For instance, maybe she was summoned but fled before the contract was finalized. That's a possibility too."
+    new "К примеру, её могли призвать, но она сбежала, не успев заключить контракт. Такая возможность ведь тоже есть."
+
+    old "Hmmm..."
+    new "Хм..."
+
+    old "We found her collapsed on the road, but before we could make contact, a pair got to her first. We engaged in battle and were defeated." 
+    new "Мы обнаружили её без сознания на дороге, но прежде чем мы успели к ней приблизиться, нас опередили двое. Завязался бой, и мы потерпели поражение."
+
+    old "Two people?"
+    new "Двое?"
+
+    old "Yes, a young noble girl and a commoner with an intelligence sword."
+    new "Так точно. Молодая дворянка и простолюдин, вооружённый разумным мечом." 
+
+    old "It seems the girl was taken by those two and went to the Tristain Magical Academy."
+    new "Судя по всему, они забрали эту девушку в Магическую академию Тристейна."
+
+    old "Understood. Continue your surveillance as is. We will make our next move when the time is right."
+    new "Ясно. Продолжайте наблюдение. Как только представится случай, перейдём к действиям."
+
+    old "Yes, sir."
+    new "Слушаюсь!" 
+
+    
 
