@@ -1,5 +1,7 @@
 # kormeshka_event
 label sp_l1:
+    call overlay_screen("overlay",  "A tsundere event occurred!", isUseBlur=False, text_mode="orange") from _call_sp_l1
+
     $ fade_fx("ready_to_blow_2", new_music="t3")
     voice "sp_l1_l_001"
     l "Hey, um, Saito. Are you hungry?"

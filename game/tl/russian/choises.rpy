@@ -166,4 +166,22 @@ translate russian strings:
     old "Go on a date with Haruna"
     new "Пойти на свидание с Харуной"
 
+    old "You look really beautiful."
+    new "Ты очень красивая."
+
+    old "I don't really get it."
+    new "Не очень понимаю."
+
+    old "You don't seem like Louise."
+    new "Ты не похожа на Луизу."
+
+    old "You'll make an excellent wife"
+    new "Из тебя получится отличная жена"
+
+    old "Is that delicious?"
+    new "Это вкусно?"
+
+    old "You're a thrifty person, right?"
+    new "Ты экономный человек, да?"
+
 

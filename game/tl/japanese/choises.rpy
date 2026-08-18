@@ -166,5 +166,23 @@ translate japanese strings:
     old "Go on a date with Haruna"
     new "ハルナとデートをします"
 
+    old "You look really beautiful."
+    new "すっごくきれいだ"
+
+    old "I don't really get it."
+    new "よく分かんねえ"
+
+    old "You don't seem like Louise."
+    new "ルイズじゃないみたいだ"
+
+    old "You'll make an excellent wife"
+    new "いいお嫁さんになれるよ"
+
+    old "Is that delicious?"
+    new "それ、おいしいの？"
+
+    old "You're a thrifty person, right?"
+    new "節約家なんだね"
+
 
     

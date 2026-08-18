@@ -267,8 +267,8 @@ label ch1_5:
     voice "ch1.5_si_010"
     si "Right. I came regarding that girl."
 
-    voice "ch1.5_s_038"
     $ show_sprites(("s 5 angry", "si 1"))
+    voice "ch1.5_s_038"
     s "Eh?{#e?}"
 
     voice "ch1.5_si_011"

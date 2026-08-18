@@ -314,13 +314,8 @@ label k_room_ch1_8:
     voice "ch1.8_s_024"
     s "Well then, excuse me!"
 
-    play sound open_door
-    $ show_sprites(None, anim="slide_right") 
-    pause(1.0)
-    
-    $ fade_fx("bg kirche_room_night")
-    play sound close_door
-    pause(1.0)
+    call open_door("right", "bg kirche_room_night")
+
     $ show_sprites(("k 3 happy", "s 1"), anim="slide_right")
 
     voice "ch1.8_k_004"
@@ -482,18 +477,8 @@ label k_room_ch1_8:
     voice "ch1.8_k_014"
     k "Oh, Darling, you're so adorable when you're this innocent <3. Do come back again."
 
-    window hide
-    $ show_sprites(None, anim="slide_left") 
+    call open_door("left")
 
-    # трюк с black сделан, чтобы звук закрытия двери был с анимацией затухания
-    pause(0.5)
-    play sound open_door
-    pause(1.0)
-    
-    $ fade_fx("black", bg_position="default")
-    play sound close_door
-    pause (1.0)
-    
     $ fade_fx("hallway_down_night")
     $ show_sprites(("s 1 angry"), anim="slide_left") 
     

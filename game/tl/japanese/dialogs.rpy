@@ -2568,15 +2568,6 @@ translate japanese strings:
     old "An opinion, huh..."
     new "意見ねえ。"
 
-    old "You look really beautiful."
-    new "すっごくきれいだ"
-
-    old "I don't really get it."
-    new "よく分かんねえ"
-
-    old "You don't seem like Louise."
-    new "ルイズじゃないみたいだ"
-
     old "Huh? W-what's with the sudden...?"
     new "え?な、なによ急に......。"
 
@@ -2804,4 +2795,87 @@ translate japanese strings:
 
     old "Yes, sir."
     new "ははっ。"
+
+    old "I mean, I don't know anything about women's clothes, so when you ask me what I think, I just don't know what to tell you."
+    new "ほら、俺、女の子の服ってよく分かんないから、意見とか感想とか聞かれても、答えようがないんだよな。"
     
+    old "S-Surely you have something to say. Like, 'You look cute,' 'You look pretty,' or 'It suits you'—something like that."
+    new "な、なにかあるでしょ。可愛いとか、きれいとか、似合ってるとか、そういうのが。"
+
+    old "But what am I supposed to say?"
+    new "って言われてもなあ。"
+
+    old "Ugh... that's enough! You're so dense!"
+    new "うー......もういいわよ!この鈍感!"
+
+    old "Somehow, it doesn't feel like you're Louise."
+    new "なんだか、ルイズじゃないみたいだ。"
+
+    old "What's that supposed to mean?! Are you saying clothes like this don't suit me?!"
+    new "なによそれ!わたしがこういう服を着ちゃ、似合わないってこと!?"
+
+    old "No, I think it suits you. It's just that I'm not at all used to seeing you dressed like that..."
+    new "いや、似合ってると思う。けど、普段そういう格好を全然見慣れてないから......、"
+
+    old "It just doesn't feel like you're the Louise I'm used to."
+    new "なんだか同じルイズだって気がしないんだよな。"
+
+    old "U-um...?"
+    new "え、ええと......?"
+
+    old "So you're saying I don't look like my usual self!?"
+    new "つまり、普段のわたしっぽくないって言いたいわけ!?"
+
+    old "Now that you put it that way, maybe you're right. Though maybe I'm just not used to seeing you like this... Well, I guess your usual outfit is the best after all."
+    new "そう言われてみればそうかもな。単に見慣れてないだけかもしれないけど......。ま、いつもの格好が一番かな。"
+
+    old "I went out of my way to show you my new outfit, and that's all you have to say!?"
+    new "せっかく、新しい服を見せてあげたのに、そういうことしか言えないの、あんたは!"
+
+    old "I'm sorry, Saito-san, for making you come all the way here with me."
+    new "すみません、サイトさん。こんなところまでついて来てもらって。"
+
+    old "It's okay. I was the one who decided to tag along, even though you were busy with work."
+    new "ああ、構わないよ。シエスタが仕事で忙しいのに、俺が勝手についてくって言ったんだからさ。"
+
+    old "But you come out to this forest alone every time?"
+    new "でも、シエスタはこんな森にいつも1人で来るわけ?"
+
+    old "Yes. Since this area is close to the Academy, there's no particular danger."
+    new "はい。この辺りなら、学院から近いので、特に危険はありませんから。"
+
+    old "Hmm. Siesta, it seems like you're always working."
+    new "ふーん。でも、シエスタってずっと働きっぱなしなんだな。"
+
+    old "Well, it's my job. Besides, I do take proper breaks between work quite often."
+    new "それは、お仕事ですから。それに、結構仕事の合間にちゃんと休憩とかしてるんですよ。"
+
+    old "So I'm fine. Besides, Saito-san, you work nonstop too, don't you?"
+    new "だから、大丈夫です。それにサイトさんだって、働きづめじゃないですか?"
+
+    old "Ah, well, I'm basically a househusband, so I don't really think much of it."
+    new "あー。まぁ、あれは主夫みたいなもんだしな。あまり気にしてないよ。"
+
+    old "{i}Sighs{/i}... Oh, there it is. Saito-san, I found it."
+    new "はぁ......。あ、あった。サイトさん、ありましたよ。"
+
+    old "Oh, wild edible plants."
+    new "へえ、山菜か。"
+
+    old "Yes. The kinds you can gather differ depending on the season, but I often come here like this to pick wild edible plants."
+    new "ええ。季節によって採れる種類は違いますけど、よくこうして山菜を摘みに来るんです。"
+
+    old "The nobles don't seem to care for them, but we often use them in our cooking. If they're prepared properly, they're actually pretty good."
+    new "貴族の方々の口には合わないみたいですが、わたし達が食べる料理によく使うんです。料理しだいでは結構食べられるんですよ。"
+
+    old "I see..."
+    new "へえ......。"
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""

@@ -133,6 +133,6 @@ translate russian strings:
     old "Side Story: 'School Uniform's Appears'"
     new "制服の魅力"
     
-    
-
+    old "A tsundere event occurred!"
+    new "Произошло цундере-событие!"
 

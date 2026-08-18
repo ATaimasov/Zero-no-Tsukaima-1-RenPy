@@ -2573,15 +2573,6 @@ translate russian strings:
     old "An opinion, huh..."
     new "Мнение, говоришь..."
 
-    old "You look really beautiful."
-    new "Ты очень красивая."
-
-    old "I don't really get it."
-    new "Не очень понимаю."
-
-    old "You don't seem like Louise."
-    new "Ты не похожа на Луизу."
-
     old "Huh? W-what's with the sudden...?"
     new "А? Ч-чего это ты вдруг...?"
 
@@ -2809,6 +2800,92 @@ translate russian strings:
 
     old "Yes, sir."
     new "Слушаюсь!" 
+
+    old "I mean, I don't know anything about women's clothes, so when you ask me what I think, I just don't know what to tell you."
+    new "Ну понимаешь, я вообще не разбираюсь в женской одежде, поэтому, когда ты спрашиваешь, что я думаю или как мне, я не знаю, что тебе сказать."
+
+    old "S-Surely you have something to say. Like, 'You look cute,' 'You look pretty,' or 'It suits you'—something like that."
+    new "Н-ну должна же быть хоть какая-нибудь реакция! Что-нибудь вроде «миленько», «красиво», «тебе идёт» или что-то в этом духе."
+
+    old "But what am I supposed to say?"
+    new "Ну а что я могу сказать..."
+
+    old "Ugh... that's enough! You're so dense!"
+    new "Ну-у... ладно, всё! Какой же ты нечуткий!"
+
+    old "Somehow, it doesn't feel like you're Louise."
+    new "Как-то даже не верится, что это Луиза."
+
+    old "What's that supposed to mean?! Are you saying clothes like this don't suit me?!"
+    new "Это ещё что значит?! Ты хочешь сказать, что мне не идёт такая одежда?!"
+    
+    old "No, I think it suits you. It's just that I'm not at all used to seeing you dressed like that..."
+    new "Нет, я думаю, тебе идёт. Просто я совсем не привык видеть тебя в такой одежде..."
+
+    old "It just doesn't feel like you're the Louise I'm used to."
+    new "Как-то даже не ощущается, что передо мной всё та же Луиза."
+
+    old "U-um...?"
+    new "Э-э-э...?"
+
+    old "So you're saying I don't look like my usual self!?"
+    new "То есть ты хочешь сказать, что я совсем на себя не похожа?!"
+
+    old "Now that you put it that way, maybe you're right. Though maybe I'm just not used to seeing you like this... Well, I guess your usual outfit is the best after all."
+    new "Если так подумать, может, и правда. Хотя, возможно, я просто не привык видеть тебя в таком виде... Ну, наверное, твоя обычная одежда всё-таки лучше всего."
+
+    old "I went out of my way to show you my new outfit, and that's all you have to say!?"
+    new "Я ведь специально показала тебе свою новую одежду, а ты только это и можешь сказать?!"
+
+    old "I'm sorry, Saito-san, for making you come all the way here with me."
+    new "Извините, Сайто-сан, что вам пришлось пойти со мной даже сюда."
+
+    old "It's okay. I was the one who decided to tag along, even though you were busy with work."
+    new "Да ничего страшного. Это ведь я сам решил пойти с тобой, хотя ты занята работой."
+
+    old "But you come out to this forest alone every time?"
+    new "Но ты что, всегда одна сюда, в этот лес, ходишь?"
+
+    old "Yes. Since this area is close to the Academy, there's no particular danger."
+    new "Да. Здесь недалеко от Академии, поэтому особой опасности нет."
+
+    old "Hmm. Siesta, it seems like you're always working."
+    new "Хм. А ты, Сиеста, похоже, вообще всё время работаешь."
+
+    old "Well, it's my job. Besides, I do take proper breaks between work quite often."
+    new "Ну, это же моя работа. К тому же, я довольно часто как следует отдыхаю в перерывах между работой."
+
+    old "So I'm fine. Besides, Saito-san, you work nonstop too, don't you?"
+    new "Так что всё нормально. К тому же, Сайто-сан, вы ведь тоже работаете не покладая рук."
+
+    old "Ah, well, I'm basically a househusband, so I don't really think much of it."
+    new "А-а, ну, я ведь вроде как домохозяин, так что меня это особо не напрягает."
+
+    old "{i}Sighs{/i}... Oh, there it is. Saito-san, I found it."
+    new "{i}Вздохнула{/i}... А, вот оно. Сайто-сан, я нашла."
+
+    old "Oh, wild edible plants."
+    new "О, дикорастущая зелень."
+
+    old "Yes. The kinds you can gather differ depending on the season, but I often come here like this to pick wild edible plants."
+    new "Да. В зависимости от сезона виды, которые можно собирать, отличаются, но я часто прихожу сюда вот так собирать дикорастущую зелень."
+
+    old "The nobles don't seem to care for them, but we often use them in our cooking. If they're prepared properly, they're actually pretty good."
+    new "Похоже, дворянам они не по вкусу, но мы часто используем их в своих блюдах. Если правильно приготовить, их вполне можно есть."
+
+    old "I see..."
+    new "А-а..."
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+    old ""
+    new ""
+
+
 
     
 

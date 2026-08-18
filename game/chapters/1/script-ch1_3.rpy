@@ -31,13 +31,8 @@ label si_room_ch1_3:
     voice "ch1.3_si_002"
     si "Ah, Saito-san? Please, come in."
 
-    play sound open_door
-    $ show_sprites(None, anim="slide_right") 
-    pause(1.0)
-    
-    $ fade_fx("si_room_night")
-    play sound close_door
-    pause(1.0)
+    call open_door("right", "si_room_night")
+
     $ show_sprites(("s 1", "si 1"), anim="slide_right")
     voice "ch1.3_si_003"
     si "What's the matter, Saito? Did you happen to forget something, perhaps?"
@@ -176,18 +171,7 @@ label si_room_ch1_3:
     voice "ch1.3_s_034"
     s "Ah, good night, Siesta."
 
-    window hide
-    $ show_sprites(None, anim="slide_left") 
-
-    # трюк с black сделан, чтобы звук закрытия двери был с анимацией затухания
-    pause(0.5)
-    play sound open_door
-    stop music fadeout 1.0
-    pause(1.0)
-    
-    $ fade_fx("black", bg_position="default")
-    play sound close_door
-    pause (1.0)
+    call open_door("left", stop_music=True)
 
     return
 label l_room_ch1_3:
