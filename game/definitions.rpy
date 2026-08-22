@@ -14,12 +14,7 @@ init python:
         return path
 
 
-default chapter = 0
-
 # ==== IMAGES ====
-
-image black = "#000"
-image white = "#fff"
 image bg overlay = "bg/overlay.webp"
 
 # forest

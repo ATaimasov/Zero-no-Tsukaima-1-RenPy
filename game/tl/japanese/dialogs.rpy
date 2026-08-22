@@ -2871,11 +2871,4 @@ translate japanese strings:
     old "I see..."
     new "へえ......。"
 
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
+   

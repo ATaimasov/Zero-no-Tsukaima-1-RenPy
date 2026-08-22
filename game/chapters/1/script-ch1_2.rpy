@@ -2,7 +2,7 @@
 label ch1_2:
     call overlay_screen("yard_night",  "Tristain Academy of Magic") from _call_overlay_screen_6
     pause(2)
-    $ fade_fx("ha_sick", new_music="t28")
+    $ fade_fx("ha_sick", new_music="t28", type="cg")
 
     th "In the end, Siesta kindly let us keep the girl we'd brought back hidden in her room."
     th "Since calling a doctor was out of the question, we decided to have Montmorency examine her."

@@ -2,7 +2,7 @@
 label sp_l1:
     call overlay_screen("overlay",  "A tsundere event occurred!", isUseBlur=False, text_mode="orange") from _call_sp_l1
 
-    $ fade_fx("ready_to_blow_2", new_music="t3")
+    $ fade_fx("ready_to_blow_2", new_music="t3", type="cg")
     voice "sp_l1_l_001"
     l "Hey, um, Saito. Are you hungry?"
 
@@ -144,7 +144,7 @@ label sp_l1:
     voice "sp_l1_s_018"
     s "Yeah. Here's the spoon."
 
-    $ fade_fx("l_feed")
+    $ fade_fx("l_feed", type="cg")
     voice "sp_l1_l_019"
     l "Here, say 'ahh'."
 
@@ -162,7 +162,7 @@ label sp_l1:
             voice "sp_l1_s_032"
             s "Is this some kind of punishment game?"
 
-            $ dissolve_fx("l_feed_3")
+            $ dissolve_fx("l_feed_3", type="cg")
             voice "sp_l1_l_031"
             l "W-what kind of nonsense is that!"
 
@@ -194,7 +194,7 @@ label sp_l1:
             voice "sp_l1_s_021"
             s "Does this have poison in it or something?"
 
-            $ dissolve_fx("l_feed_3")
+            $ dissolve_fx("l_feed_3", type="cg")
             voice "sp_l1_l_021"
             l "W-what are you saying! I would never do such a thing!"
 
@@ -213,7 +213,7 @@ label sp_l1:
             voice "sp_l1_s_024"
             s "A-alright, I understand."
 
-    $ dissolve_fx("l_feed")
+    $ dissolve_fx("l_feed", type="cg")
     voice "sp_l1_s_025"
     s "{i}Chews{/i}..."
 
@@ -229,7 +229,7 @@ label sp_l1:
     voice "sp_l1_s_027"
     s "Oh yeah, the cafeteria food here is really good, you know!"
 
-    $ dissolve_fx("l_feed_2")
+    $ dissolve_fx("l_feed_2", type="cg")
     voice "sp_l1_l_026"
     l "..."
 
@@ -248,7 +248,7 @@ label sp_l1:
     voice "sp_l1_s_030"
     s "Hey, hey. Louise-san."
 
-    $ dissolve_fx("l_feed_3")
+    $ dissolve_fx("l_feed_3", type="cg")
     pause(0.5)
     voice "sp_l1_l_029"
     l "...What?"

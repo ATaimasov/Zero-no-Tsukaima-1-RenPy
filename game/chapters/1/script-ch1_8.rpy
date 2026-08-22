@@ -132,7 +132,7 @@ label library_ch1_8:
     voice "ch1.8_s_004"
     s "Oh, what's that?"
 
-    $ fade_fx("t_library_read")
+    $ fade_fx("t_library_read", type="cg")
     voice "ch1.8_s_005"
     s "Yo, Tabitha."
     t "..."
@@ -143,14 +143,14 @@ label library_ch1_8:
     voice "ch1.8_s_006"
     s "Hey, Tabitha!"
 
-    $ dissolve_fx("t_library_read_2")
+    $ dissolve_fx("t_library_read_2", type="cg")
     voice "ch1.8_t_001"
     t "...Silence."
 
     voice "ch1.8_s_007"
     s "Ah, sorry.{#var2}"
 
-    $ dissolve_fx("t_library_read")
+    $ dissolve_fx("t_library_read", type="cg")
     pause(0.5)
     play sound read
     t "..."
@@ -179,7 +179,7 @@ label library_ch1_8:
             s "Can't read a word of this."
             th "Come to think of it, I can understand the language here, but I can't read the writing at all."
             
-            $ dissolve_fx("t_library_read_2")
+            $ dissolve_fx("t_library_read_2", type="cg")
             voice "ch1.8_t_002"
             t "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
             
@@ -205,7 +205,7 @@ label library_ch1_8:
             voice "ch1.8_s_009-2"
             s "Well now, what do we have here...?"
 
-            $ dissolve_fx("t_library_read_3", duration=2.0)
+            $ dissolve_fx("t_library_read_3", duration=2.0, type="cg")
             t "..."
 
             $ update_sympathy(-20, char_key="tabitha")
@@ -219,7 +219,7 @@ label library_ch1_8:
 
             th "Come to think of it, I can understand the language here, but I can't read the writing at all."
             
-            $ dissolve_fx("t_library_read_4")
+            $ dissolve_fx("t_library_read_4", type="cg")
             voice "ch1.8_t_002-2"
             t "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
             
@@ -236,7 +236,7 @@ label library_ch1_8:
             voice "ch1.8_s_022"
             s "My bad for interrupting. Here's the book."
 
-            $ dissolve_fx("t_library_read")
+            $ dissolve_fx("t_library_read", type="cg")
             t "..."
             th "Can't read her expressionless face, but I wonder if she's actually angry."
             th "Now that I think about it, grabbing a book out of someone's hands without warning is pretty rude. Guess I really stepped in it."
@@ -265,7 +265,7 @@ label library_ch1_8:
             voice "ch1.8_s_020"
             s "I guess that's a no?"
 
-            $ dissolve_fx("t_library_read_2")
+            $ dissolve_fx("t_library_read_2", type="cg")
             voice "ch1.8_t_002-3"
             t "...A general overview of the latest theories and discussions from various countries regarding the special effects that occur when superimposing the 'fire' system onto the 'wind' system."
             
@@ -282,7 +282,7 @@ label library_ch1_8:
             voice "ch1.8_s_014-3"
             s "Sorry for disturbing you."
 
-            $ dissolve_fx("t_library_read")
+            $ dissolve_fx("t_library_read", type="cg")
             voice "ch1.8_t_006"
             t "...Not really."
             th "Maybe I shouldn't have been so persistent... She doesn't seem all that angry, though."
@@ -348,7 +348,7 @@ label k_room_ch1_8:
         "Act like a gentleman and close my eyes.":
             th "R-right, in situations like this, it's only polite to close your eyes like a gentleman. As a true gentleman!"
 
-            $ fade_fx("black", bg_position="default")
+            $ fade_fx("black")
             voice "ch1.8_k_007"
             k "Oh my, what's wrong, Darling? Closing your eyes all of a sudden like that."
 

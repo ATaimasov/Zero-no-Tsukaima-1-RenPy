@@ -363,7 +363,7 @@ label ch1_9:
     voice "ch1.9_k_013"
     k "No, it's just my own business." 
 
-    $ fade_fx("sky_night", new_music="t17")
+    $ fade_fx("sky_night", new_music="t17", type="cg")
     voice "ch1.9_unk_001"
     unk "What's the situation with that girl?"
 

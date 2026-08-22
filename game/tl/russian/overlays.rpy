@@ -1,12 +1,18 @@
 translate russian strings:
+    old "The Familiar Zero: The Little Devil and Spring Breeze Concerto"
+    new "Подручный бездарной Луизы: Концерт маленькой чертовки и весеннего бриза"
+
     old "The Familiar Zero: The Little Devil and Spring Breeze Concerto (Unnoficial remaster)"
-    new "Подручный бездарной Луизы: Концерт чертёнка и весеннего бриза (Неофициальный ремастер)"
+    new "Подручный бездарной Луизы: Концерт маленькой чертовки и весеннего бриза (Неофициальный ремастер)"
 
     old "The Familiar of Zero"
     new "Подручный бездарной Луизы"
 
     old "My name is Louise Françoise Le Blanc de La Vallière"
     new "Моё имя — Луиза Франсуаза Ле Блан де ла Вальер"
+
+    old "My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallière"
+    new "Моё имя — Луиза Франсуаза Ле\u00A0Блан\u00A0де\u00A0ла\u00A0Вальер"
 
     old "The Pentagon that governs the five powers"
     new "Пентагон, управляющий пятью стихиями"
@@ -30,14 +36,17 @@ translate russian strings:
 
     # CHAPTERS
 
+    old "Prologue"
+    new "Пролог"
+
     old "Chapter One: \"Louise of Zero\""
-    new "Глава 1: \"Луиза-Нулиза\""
+    new "Глава 1: «Луиза-Нулиза»"
 
     old "Chapter Two: 'The Black-Haired Visitor'"
     new "Глава вторая: «Черноволосый гость»"
 
     old "Chapter Three: 'A Woman's Battle'"
-    new "Глава третья: «Битва женщин»"
+    new "Глава третья: «Битва девушек»"
 
     old "Chapter Four: 'Crisis in Tristania'"
     new "Глава четвертая: «Кризис Тристании»"
@@ -55,83 +64,83 @@ translate russian strings:
 
     # Koakuma to Harukaze no Concerto - game name
     old "Chapter Eight: 'The Little Devil and Spring Breeze Concerto'"
-    new "Глава восьмая: «Концерт чертёнка и весеннего бриза»"
+    new "Глава восьмая: «Концерт маленькой чертовки и весеннего бриза»"
     # new "Глава восьмая: «Концерт маленького демона и весеннего ветра»"
 
     old "Side Story: 'Punishment of the Little Devil'"
-    new "Дополнительная глава: «Расплата чертёнка»"
-    #new "Дополнительная глава: «Наказание маленького демона»"
+    new "Дополнительная история: «Расплата маленькой чертовки»"
+    #new "Дополнительная история: «Наказание маленького демона»"
 
     # Tabitha's Route
 
     old "Chapter Six: 'The Letter's Secret'"
-    new "Глава шестая: «Секрет, скрытый в письме»"
+    new "Глава шестая: «Тайна письма»"
 
     old "Chapter Seven: 'Tabitha's Secret'"
-    new "七章「タバサの秘密」"
+    new "Глава седьмая: «Тайна Табиты»"
 
     # Koakuma to Harukaze no Concerto - game name
     old "Chapter Eight: 'Haruna's Secret'"
-    new "八章「ハルナの秘密」"
+    new "Глава восьмая: «Тайна Харуны»"
 
     old "Side Story: 'Night's Secret'"
-    new "外伝「夜の秘密」"
+    new "Дополнительная история: «Тайна ночи»"
 
     # Henrietta's Route
 
     old "Chapter Six: 'Princess Who Left a Home'"
-    new "六章「家出のお姫さま」"
+    new "Глава шестая: «Принцесса, покинувшая дом»"
 
     old "Chapter Seven: 'Princess's Despair'"
-    new "七章「失望のお姫さま」"
+    new "Глава седьмая: «Отчаяние принцессы»"
 
     old "Chapter Eight: 'Princess's Decision'"
-    new "八章「決意のお姫さま」"
+    new "Глава восьмая: «Решение принцессы»"
 
     old "Side Story: 'Charmed Princess'"
-    new "外伝「魅惑のお姫さま」"
+    new "Дополнительная история: «Очаровательная принцесса»"
 
     # Kirche's Route
 
     old "Chapter Six: 'Flame Premonition'"
-    new "六章「炎の予感」"
+    new "Глава шестая: «Предчувствие пламени»"
 
     old "Chapter Seven: 'My Older Brother'"
-    new "七章「私のお兄ちゃん」"
+    new "Глава седьмая: «Мой старший брат»"
 
     old "Chapter Eight: 'Magic Potion'"
-    new "Глава восьмая: «Волшебное зелье»"
+    new "Глава восьмая: «Магическое зелье»"
 
     old "Side Story: 'Master of a Slight Fever'"
-    new "外伝「微熱の使い手」"
+    new "Дополнительная история: «Мастер лёгкого жара»"
 
     # Haruna's Route
 
     old "Chapter Six: 'Unexpected Scout'"
-    new "六章「突然のスカウト」"
+    new "Глава шестая: «Неожиданный вербовщик»"
 
     old "Chapter Seven: 'Haruna's Decision'"
-    new "七章「ハルナの決意」"
+    new "Глава седьмая: «Решение Харуны»"
 
     old "Chapter Eight: 'One More Haruna'"
-    new "八章「もう一人のハルナ」"
+    new "Глава восьмая: «Ещё одна Харуна»"
 
     old "Side Story: 'Genuine Feelings'"
-    new "外伝「ホントのキモチ」"
+    new "Дополнительная история: «Настоящие чувства»"
 
     # Siesta's Route
 
     old "Chapter Six: 'Saito's Maid'"
-    new "六章「サイトのメイド」"
+    new "Глава шестая: «Горничная Сайто»"
 
     old "Chapter Seven: 'Iron Man of Cooking'"
-    new "七章「料理の鉄人」"
+    new "Глава седьмая: «Железный человек кулинарии»"
 
     old "Chapter Eight: 'Silent Support'"
-    new "八章「沈黙の応援」"
+    new "Глава восьмая: «Молчаливая поддержка»"
 
     old "Side Story: 'School Uniform's Appears'"
-    new "制服の魅力"
+    new "Дополнительная история: «Очарование школьной формы»"
     
     old "A tsundere event occurred!"
     new "Произошло цундере-событие!"

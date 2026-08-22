@@ -1,6 +1,6 @@
 # hallway night
 label ch1_3:
-    $ fade_fx("sky_night", new_music="t19")
+    $ fade_fx("sky_night", new_music="t19", type="cg")
     th "Phew... what a crazy day..."
     $ fade_fx("hallway_night")
 

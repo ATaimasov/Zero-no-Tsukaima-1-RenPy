@@ -1,6 +1,6 @@
 # Осман вызывает в кабинет
 label ch1_7:
-    $ fade_fx("yard", new_music="t31")
+    $ fade_fx("yard", new_music="t31", type="cg")
     voice "ch1.7_o_001"
     o "So? What exactly happened here?"
 

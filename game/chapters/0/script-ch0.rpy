@@ -20,9 +20,8 @@ label ch0:
     voice "ch0_npc1_004"
     npc2 "Yes, Sir!"
 
-    call overlay_screen(None,  "My name is Louise Françoise Le Blanc de La Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001") from _call_overlay_screen_1
-    $ dissolve_fx("town_square_night")
-    $ show_sprites(("npc 1", "npc 1"), anim="dissolve")
+    call overlay_screen(None,  "My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001") from _call_overlay_screen_1
+    $ fade_fx("town_square_night", sprites=("npc 1", "npc 1"))
 
     voice "ch0_un_001"
     unk "Hahahaha. You're always working hard."
@@ -37,7 +36,7 @@ label ch0:
     npc2 "Sir, he's on top of that mansion."
 
     call overlay_screen(None, "The Pentagon that governs the five powers", text_mode="white", delay=3.5, sound_path="ch0_l_002") from _call_overlay_screen_2
-    $ dissolve_fx("terrorist")
+    $ fade_fx("terrorist", type="cg")
 
     voice "ch0_un_002"
     unk "Let's call it a day. Hurry up and put out the fire."
@@ -54,7 +53,7 @@ label ch0:
     voice "ch0_un_004"
     unk "Until then, you'll just have to cherish your mundane lives, won't you?"
 
-    $ flash_fx("terrorist2")
+    $ flash_fx("terrorist2", type="cg")
 
     voice "ch0_npc1_009"
     npc2 "He... did he just vanish?"

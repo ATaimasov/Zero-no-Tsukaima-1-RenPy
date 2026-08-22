@@ -2876,15 +2876,7 @@ translate russian strings:
     old "I see..."
     new "А-а..."
 
-    old ""
-    new ""
-
-    old ""
-    new ""
-
-    old ""
-    new ""
-
+   
 
 
     

@@ -18,3 +18,9 @@ A guide to all Zero no Tsukaima channels and projects can be found on the {a=htt
 
     old "You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕"
     new "お礼のメッセージは {a=https://t.me/timeasoff_support}こちら{/a} へお寄せください ☕"
+
+    old "An interactive story about the remaster ⬅️⬅️⬅️"
+    new "リマスター版をテーマにしたインタラクティブストーリー ⬅️⬅️⬅️"
+
+    old "Start the interactive story?\n\nUnsaved progress will be lost."
+    new "インタラクティブストーリーを開始しますか？\n\n現在のゲームの未保存の進行状況は失われます。"

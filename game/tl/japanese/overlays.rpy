@@ -1,4 +1,7 @@
 translate japanese strings:
+    old "The Familiar Zero: The Little Devil and Spring Breeze Concerto"
+    new "ゼロの使い魔 小悪魔と春風の協奏曲"
+
     old "The Familiar Zero: The Little Devil and Spring Breeze Concerto (Unnoficial remaster)"
     new "ゼロの使い魔 小悪魔と春風の協奏曲 (非公式リマスター)"
     
@@ -6,6 +9,9 @@ translate japanese strings:
     new "ゼロの使い魔"
 
     old "My name is Louise Françoise Le Blanc de La Vallière"
+    new "我が名はルイズ・フランソワーズ・ル・ブラン・ド・ラ・ヴァリエール"
+
+    old "My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallière"
     new "我が名はルイズ・フランソワーズ・ル・ブラン・ド・ラ・ヴァリエール"
 
     old "The Pentagon that governs the five powers"
@@ -29,6 +35,9 @@ translate japanese strings:
     new "トリステイン王宮"
 
     # CHAPTERS
+
+    old "Prologue"
+    new "プロローグ"
 
     old "Chapter One: \"Louise of Zero\""
     new "一章「ゼロのルイズ」"

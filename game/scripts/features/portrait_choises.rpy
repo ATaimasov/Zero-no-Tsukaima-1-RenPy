@@ -80,8 +80,8 @@ define SPRITE_CHOICE_BG   = "images/bg/hallway_night.webp"     # экран "к�
 # Позиция/масштаб фона - имя трансформы из sf_effect.rpy:
 # "center" -> bg_center (zoom 0.85) | "default" -> bg_default (zoom 1) | "vignette" -> bg_vignette (zoom 0.65).
 # Так фон на экране выбора выглядит ИДЕНТИЧНО фону в предыдущей сцене и не "скачет".
-define PORTRAIT_CHOICE_BG_POS = "center"
-define SPRITE_CHOICE_BG_POS   = "center"
+define PORTRAIT_CHOICE_BG_POS = "vignette"
+define SPRITE_CHOICE_BG_POS   = "default"
 
 # Музыка по умолчанию для обоих экранов
 define CHOICE_DEFAULT_MUSIC = "t3"
@@ -183,6 +183,7 @@ init python:
         Экран выбора с портретами. При наведении на портрет снизу меняется подпись.
         При выборе -> уходим в чёрный (спрайты убираются) и CALL на target.
         """
+
         _choice_play_music(music)
         target = renpy.call_screen(
             "portrait_choice_screen",
@@ -257,6 +258,10 @@ screen portrait_choice_screen(choices, background, bg_position="center"):
     # Фон показываем ТОЙ ЖЕ трансформой, что и в диалогах (bg_center и т.п.) -
     # разрешение/перспектива совпадают с предыдущей сценой, без "скачка".
     add background at _choice_bg_transform(bg_position)
+
+    if bg_position == "vignette":
+        add "border" at border_left
+        add "border" at border_right
 
     # Ряд портретов - карточками фиксированного размера (не на весь экран).
     # Чуть выше центра (PORTRAIT_ROW_YALIGN), чтобы не наезжали на нижний бар.

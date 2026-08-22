@@ -1,6 +1,6 @@
 # Сиеста спалила Сайто и Луизу
 label ch1_5:
-    $ fade_fx("sky", new_music="t4")
+    $ fade_fx("sky", new_music="t4", type="cg")
     voice "ch1.5_s_001"
     s "Hmm... {i}yawns{/i}. It's already morning, huh... I wonder what time it is?"
 
@@ -30,7 +30,7 @@ label ch1_5:
     voice "ch1.5_si_002"
     si "I'm sorry to bother you so early in the morning, but actually, about last night..."
 
-    $ fade_fx("si_wakeup", new_music="t29")
+    $ fade_fx("si_wakeup", new_music="t29", type="cg")
     pause(2)
     voice "ch1.5_si_003"
     si "..."
@@ -60,7 +60,7 @@ label ch1_5:
     s "So I was like, 'this is annoying,' but I still got into the same bed anyway. Just thinking to myself, {i}'man, this is a pain...'{/i} or whatever."
 
     pause(1)
-    $ dissolve_fx("si_wakeup_2")
+    $ dissolve_fx("si_wakeup_2", type="cg")
 
     voice "ch1.5_si_005"
     si "...Is that so?"

@@ -42,7 +42,12 @@ screen about():
                 spacing 10
 
             if gui.support:
-                text "[gui.support!t]"    
+                text "[gui.support!t]"  
+
+            textbutton _("An interactive story about the remaster ⬅️⬅️⬅️") action Confirm(
+                _("Start the interactive story?\n\nUnsaved progress will be lost."),
+                Start("remark")
+            )
 
 style about_label is gui_label
 style about_label_text is gui_label_text

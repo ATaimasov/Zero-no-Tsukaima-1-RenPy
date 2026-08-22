@@ -306,9 +306,9 @@ label ch1_6:
     si "And it was you two who rescued her at that point. What incredible luck she had, honestly."
     
     #! перекрывает морду сиесты. надо в рамки впихать cg изображения
-    $ fade_fx("ha_hug", new_music="t29")
+    $ fade_fx("ha_hug", new_music="t29", type="cg")
     pause(0.2)
-    $ shake_fx("ha_hug")
+    $ shake_fx("ha_hug", type="cg")
     pause(0.2)
 
     voice "ch1.6_ha_015"
@@ -317,11 +317,11 @@ label ch1_6:
     voice "ch1.6_s_017"
     s "Whoa!?"
     
-    $ dissolve_fx("ha_hug_2", duration=1)
+    $ dissolve_fx("ha_hug_2", duration=1, type="cg")
     voice "ch1.6_si_005"
     si "Wah!?"
     
-    $ dissolve_fx("ha_hug_3", duration=1)
+    $ dissolve_fx("ha_hug_3", duration=1, type="cg")
     #! скорее всего реплика другая от уровня симпатии 
     #! использовать ch1.6_l_016_2
     voice "ch1.6_l_016"
@@ -390,9 +390,9 @@ label ch1_6:
     voice "ch1.6_k_010"
     k "Well, that’s a fair point. Besides, it doesn't matter who hugs Darling, there's nothing wrong with that!"
 
-    $ fade_fx("k_hug", new_music="t29")
+    $ fade_fx("k_hug", new_music="t29", type="cg")
     pause(0.2)
-    $ shake_fx("k_hug")
+    $ shake_fx("k_hug", type="cg")
     pause(0.2)
 
     voice "ch1.6_s_019"
@@ -408,9 +408,9 @@ label ch1_6:
     si "I-I won't lose either!"
     
     #! сцена не помещается нужно сделать виньетку и уменьшить размер через bg_border
-    $ dissolve_fx("butterbrot", duration=1)
+    $ dissolve_fx("butterbrot", duration=1, type="cg")
     pause(0.2)
-    $ shake_fx("butterbrot")
+    $ shake_fx("butterbrot", type="cg")
     pause(0.2)
 
     voice "ch1.6_s_020"
@@ -439,25 +439,25 @@ label ch1_6:
             voice "ch1.6_ha_023"
             ha "No! And here I was, so happy to finally meet Hiraga-kun again...!"
 
-            $ shake_fx("butterbrot", sound=None)
+            $ shake_fx("butterbrot", sound=None, type="cg")
             $ update_sympathy(-20, char_key="haruna")
 
             voice "ch1.6_si_007"
             si "If we back off now, we lose!"
 
-            $ shake_fx("butterbrot", sound=None)
+            $ shake_fx("butterbrot", sound=None, type="cg")
             $ update_sympathy(-20, char_key="siesta")
 
             voice "ch1.6_k_012"
             k "Ohoho! If you can pull away, then go ahead and try! Look, look!"
 
-            $ shake_fx("butterbrot", sound=None)
+            $ shake_fx("butterbrot", sound=None, type="cg")
             $ update_sympathy(-20, char_key="kirche")
 
             voice "ch1.6_s_024"
             s "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
 
-            $ fade_fx("ready_to_blow")
+            $ fade_fx("ready_to_blow", type="cg")
             voice "ch1.6_l_027"
             l "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
 
@@ -484,7 +484,7 @@ label ch1_6:
             k "Vallière. You’ve lost. There isn't even a gap left to hug him now."
             $ update_sympathy(20, char_key="kirche")
 
-            $ fade_fx("ready_to_blow")
+            $ fade_fx("ready_to_blow", type="cg")
             voice "ch1.6_l_027-2"
             l "Fufufu, fufufu... Ah, I see. So Saito has absolutely no intention of pulling away?"
 
@@ -499,7 +499,7 @@ label ch1_6:
 
     voice "ch1.6_l_029"
     l "Words are useless!!"
-    $ flash_fx("white", duration=1, bg_position="default")
+    $ flash_fx("white", duration=1)
     pause(0.5)
     # Взрыв
     play sound blow_2
@@ -508,7 +508,7 @@ label ch1_6:
     voice "ch1.6_s_029"
     s "Gwaaah!!"
 
-    $ flash_fx("sky")
+    $ flash_fx("sky", type="cg")
     hide white
 
     voice "ch1.6_t_004"

@@ -1,6 +1,6 @@
 # утро. с кем его провести
 label ch1_10:
-    $ fade_fx("sky", new_music="t4")
+    $ fade_fx("sky", new_music="t4", type="cg")
     
     th "Ahhh... Hmm, what a nice morning."
     th "Louise has finished her morning routine and headed out somewhere too... Hmm, it's a truly pleasant morning."

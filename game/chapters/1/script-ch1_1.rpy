@@ -28,7 +28,7 @@ label ch1:
     
     call overlay_screen("forest",  "The Road (Highway)") from _call_overlay_screen_5
     pause(1)
-    $ dissolve_fx("l_s_forest")
+    $ dissolve_fx("l_s_forest", type="cg")
 
     l "....."
     voice "ch1_s_001"
@@ -40,7 +40,7 @@ label ch1:
     voice "ch1_s_002"
     s "I was wondering…"
 
-    $ dissolve_fx("l_s_forest_l_speak")
+    $ dissolve_fx("l_s_forest_l_speak", type="cg")
 
     voice "ch1_l_002"
     l "……go ahead and say it"
@@ -51,12 +51,12 @@ label ch1:
     voice "ch1_s_004"
     s "…or something along those lines, didn't you say? I seem to recall it sounded like you were having quite a bit of fun."
 
-    $ dissolve_fx("l_s_forest")
+    $ dissolve_fx("l_s_forest", type="cg")
 
     voice "ch1_l_003"
     l "I wonder if something like that really happened..."
 
-    $ dissolve_fx("l_s_forest_s_speak")
+    $ dissolve_fx("l_s_forest_s_speak", type="cg")
 
     voice "ch1_s_005"
     s "No, no, no, of course I'm curious! You seemed to be having so much fun back then—why on earth are you in such a bad mood now?"
@@ -67,12 +67,12 @@ label ch1:
     voice "ch1_l_005"
     l "Really, nothing could be more unseemly!"
 
-    $ dissolve_fx("l_s_forest")
+    $ dissolve_fx("l_s_forest", type="cg")
 
     voice "ch1_s_006"
     s "I wasn't being all lovey-dovey or anything! Wait… could it be you're jealous?"
 
-    $ dissolve_fx("l_s_forest_l_speak")
+    $ dissolve_fx("l_s_forest_l_speak", type="cg")
 
     voice "ch1_l_006"
     l "Th-th-that's ridiculous, of course not!"
@@ -80,7 +80,7 @@ label ch1:
     voice "ch1_l_007"
     l "If my stupid familiar goes around causing trouble everywhere, it'll reflect badly on me—your master! It's not like I'm jealous or anything, okay!"
 
-    $ dissolve_fx("l_s_forest_s_speak")
+    $ dissolve_fx("l_s_forest_s_speak", type="cg")
     
     voice "ch1_s_007"
     s "Is that so, huh?"
@@ -96,7 +96,7 @@ label ch1:
     $ show_sprites("l 1", mode="big")
     th "But now, I'm with this willful master — Louise Françoise Le Blanc de La Vallière..."
     th "Long story short: thanks to Louise's summoning spell, I — who got called here as a familiar — am now living in her room."
-    $ fade_fx("sky")
+    $ fade_fx("sky", type="cg")
 
     th "In another world, \"Halkeginia\", where mages rule the land as nobility... It was a world entirely unlike Japan."
     th "What's more, the country we live in—Tristain—suddenly came under invasion from \"Reconquista\"."
@@ -107,12 +107,12 @@ label ch1:
     th "Well, I guess it'll all work out somehow… It's always been like that up to now, anyway…"
     th "Then again, my lower back really aches… I still haven't gotten used to riding a horse…"
 
-    $ fade_fx("l_s_forest")
+    $ fade_fx("l_s_forest", type="cg")
 
     voice "ch1_s_008"
     s "Still, she went on a bit of a weird clothes-shopping spree this time. And it takes forever to pick anything out... Honestly, I was just killing time the whole way through..."
 
-    $ fade_fx("l_s_forest_l_speak")
+    $ fade_fx("l_s_forest_l_speak", type="cg")
 
     voice "ch1_l_009"
     l "W-well, it's not like it's a bad thing! What's so wrong with me dressing up!?"
@@ -134,7 +134,7 @@ label ch1:
         voice "ch1_s_009"
         s "I thoughts it's great! You've got good looks to begin with. So paying more attention to your appearance is totally fine."
 
-        $ dissolve_fx("l_s_forest")
+        $ dissolve_fx("l_s_forest", type="cg")
 
         voice "ch1_l_010"
         l "I-is that so...?"
@@ -154,7 +154,7 @@ label ch1:
         s "Just one thing though: don't go dumping any extra hassle on me, alright?"
     elif choise_result == "bad":
 
-        $ dissolve_fx("l_s_forest_s_speak")
+        $ dissolve_fx("l_s_forest_s_speak", type="cg")
         voice "ch1_s_013"
         s "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
 
@@ -166,7 +166,7 @@ label ch1:
 
     ## louise shows tsun-tsun side in any case :)
 
-    $ dissolve_fx("l_s_forest_l_speak")
+    $ dissolve_fx("l_s_forest_l_speak", type="cg")
 
     voice "ch1_l_011"
     l "Ugh, what is it, what is it?! You've done nothing but complain this whole time! Hello? You're my familiar, aren't you? So stop whining and get to work!"
@@ -182,9 +182,9 @@ label ch1:
 
     voice "ch1_s_015"
     s "Yeah yeah, sure thing~"
-    $ dissolve_fx("l_s_forest")
+    $ dissolve_fx("l_s_forest", type="cg")
     th "Jeez... She's got such a cute look going for her. If only her personality had even a tiny bit of that same charm, I wouldn't have a single complaint..."
-    $ dissolve_fx("l_s_forest_l_speak")
+    $ dissolve_fx("l_s_forest_l_speak", type="cg")
 
     voice "ch1_l_014"
     l "Did you say something!?"
@@ -253,7 +253,7 @@ label ch1:
     th "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
 
     # ==== SUBCHAPTER 2 ====
-    $ fade_fx("l_s_forest_l_s_speak", new_music="t27")
+    $ fade_fx("l_s_forest_l_s_speak", new_music="t27", type="cg")
     
     th "Hm...? Someone's collapsed."
 
@@ -263,7 +263,7 @@ label ch1:
     voice "ch1_s_019"
     s "Over there... Isn't someone lying at the foot of that tree?"
 
-    $ dissolve_fx("l_s_forest_s_speak")
+    $ dissolve_fx("l_s_forest_s_speak", type="cg")
 
     voice "ch1_l_018"
     l "What? Where?"
@@ -271,12 +271,12 @@ label ch1:
     voice "ch1_s_020"
     s "Hey, over there... nah, better to see for myself. My bad, Louise! I'm going first!"
 
-    $ dissolve_fx("l_forest")
+    $ dissolve_fx("l_forest", type="cg")
 
     voice "ch1_l_019"
     l "Ah—wait, Saito! Ugh, what is wrong with you?!"
 
-    $ fade_fx("ha_forest")
+    $ fade_fx("ha_forest", type="cg")
 
     voice "ch1_s_021"
     s "Just as I thought... There really is someone collapsed... I wonder if she is okay... wait—huh, hey!?"
@@ -507,7 +507,7 @@ label ch1:
     l "...Well, I suppose you might be right. But still, something about this just doesn't sit right with me."
 
     #$ fade_clear("cg ha_forest")
-    $ fade_fx("ha_forest")
+    $ fade_fx("ha_forest", type="cg")
 
     voice "ch1_s_040"
     s "There, there. But more importantly, I think what we really need here is artificial respiration..."
@@ -515,7 +515,7 @@ label ch1:
     voice "ch1_l_037"
     l "You're so persistent!"
 
-    $ hit_fx()
+    $ hit_fx(type="cg")
     voice "ch1_s_041"
     s "Ooow! My head hurts like hell, like it's about to burst!"
 

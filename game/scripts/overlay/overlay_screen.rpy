@@ -8,7 +8,7 @@ default overlay_styles = {
         'line': { 'color': "#000000", 'outline_color': "#000000", 'thickness': 6, 'width': 1000 }
     },
     'white': {
-        'title': { 'size': 90, 'color': "#ffffff", 'outlines': [(2, "#ffffff", 0, 0), (1, "#ffffff", 2, 2)] },
+        'title': { 'size': 78, 'color': "#ffffff", 'outlines': [(2, "#ffffff", 0, 0), (1, "#ffffff", 2, 2)] },
         'subtitle': { 'size': 48, 'color': "#ffffff", 'outlines': [(1, "#ffffff", 0, 0)] },
         'line': { 'color': "#ffffff", 'outline_color': "#ffffff", 'thickness': 6, 'width': 1000 }
     },

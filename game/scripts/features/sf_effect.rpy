@@ -1,3 +1,22 @@
+# ==== IMAGES ====
+image black = "#000"
+image white = "#fff"
+
+image border = "gui/border.png"
+
+transform border_left:
+    zoom 0.85
+    xalign 0.05
+    yalign 0.5
+
+    
+transform border_right:
+    zoom 0.85
+    xzoom -1
+    xalign 0.95
+    yalign 0.5
+
+
 # =============================================================================
 #  ПОЗИЦИЯ ФОНА
 # =============================================================================
@@ -16,9 +35,18 @@ transform bg_vignette:
     xalign 0.5
     yalign 0.5
 
+transform color_cover:
+    zoom 2.0
+    xalign 0.5
+    yalign 0.5
+
+transform fullscreen:
+    xysize (config.screen_width, config.screen_height)
+
 # =============================================================================
 #  БАЗОВЫЕ ПЕРЕХОДЫ (используются в обычных scene ... with fade / with flash)
 # =============================================================================
+
 define flash = Fade(0.1, 0.5, 0.5, color="#fff")
 define fade  = Fade(0.5, 0.0, 0.5)
 
@@ -103,6 +131,34 @@ init -1 python:
     _FX_SCENE    = ("fade", "flash", "dissolve") # меняют сцену -> commit до эффекта
     _FX_KNOWN    = ("fade", "flash", "hit", "blow", "dissolve")
     _FX_DEFAULT_DUR = {"fade": 1.0, "flash": 1.0, "hit": 0.35, "blow": 0.7, "dissolve": 0.5}
+
+    def _show_vignette():
+        renpy.show(
+            "black",
+            at_list=[color_cover],
+            tag="_fx_black",
+            layer="master",
+            zorder=-100
+        )
+
+        renpy.show(
+            "border",
+            at_list=[border_left],
+            tag="_fx_border_left",
+            layer="master",
+            zorder=1000
+        )
+
+        renpy.show(
+            "border",
+            at_list=[border_right],
+            tag="_fx_border_right",
+            layer="master",
+            zorder=1000
+        )
+    def _hide_vignette():
+        renpy.hide("_fx_border_left", layer="master")
+        renpy.hide("_fx_border_right", layer="master")
 
     # --- ФИКС БАГА 2 ---
     # Единый тег для ВСЕХ фонов/CG, которые показываются через эффекты.
@@ -211,9 +267,20 @@ init -1 python:
             new_state[s] = (tag, img, mode, store._sprite_z)
         store._sprite_slots = new_state
 
-    def scene_fx(effect="fade", new_bg=None, duration=None, hide=None, window_hide=None, sprites=None, mode="normal", side=None, center_front=None, sound=None, hud=None, stop_music=False, music_fadeout=1.0, new_music=None, music_fadein=1.0, strength=None, bg_position="center"):
+    def scene_fx(effect="fade", new_bg=None, duration=None, hide=None, window_hide=None, sprites=None, mode="normal", side=None, center_front=None, sound=None, hud=None, stop_music=False, music_fadeout=1.0, new_music=None, music_fadein=1.0, strength=None, bg_position="default", type="bg"):
         effects = _parse_effects(effect)
         has_cover = any(e in _FX_COVERING for e in effects)
+
+        renpy.show(
+            "black",
+            at_list=[color_cover],
+            tag="_fx_black",
+            layer="master",
+            zorder=-100
+        )
+
+        if type is "cg":
+            bg_position = "vignette"
 
         # По умолчанию перекрывающие эффекты (fade/flash) убирают персонажей,
         # тряска (hit/blow) — оставляет.
@@ -258,6 +325,8 @@ init -1 python:
                 store._sprite_slots = {}
                 store._sprite_z = 0
             if new_bg is not None:
+                _hide_vignette()
+
                 # --- ФИКС БАГА 2 ---
                 # На случай, если предыдущий фон был показан кем-то ещё под
                 # СВОИМ естественным тегом ("cg ..." -> "cg"), отличным от
@@ -274,7 +343,12 @@ init -1 python:
                 elif bg_position == "default":
                     position = bg_default
                 elif bg_position == "vignette":
+                    _show_vignette()
                     position = bg_vignette
+                elif bg_position == "fullscreen":
+                    position = fullscreen
+                elif bg_position is None and new_bg is "black" or new_bg is "white":
+                    position = color_cover
 
                 renpy.show(new_bg, at_list=[position], tag=_FX_BG_TAG, layer="master")
                 store._fx_bg_name = new_bg

@@ -57,7 +57,7 @@ label ch1_4:
     voice "ch1.4_l_007"
     l "W-what's with you...? You're suddenly saying all these weird things."
 
-    $ dissolve_fx("sky_night")
+    $ dissolve_fx("sky_night", type="cg")
     voice "ch1.4_s_008"
     s "Louise. There are two moons in this world, aren't there?"
 
