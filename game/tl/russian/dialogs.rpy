@@ -2876,7 +2876,210 @@ translate russian strings:
     old "I see..."
     new "А-а..."
 
-   
+    old "I have to say, I'm impressed. Siesta, you'd make a good wife."
+    new "Что-то я даже восхищаюсь. Сиеста, из тебя выйдет хорошая жена."
+
+    old "Hm? What's wrong?"
+    new "Мм? Что случилось?"
+
+    old "U-Um... S-Saito-san, what did you just say...?"
+    new "Э-э… С-Сайто-сан, что вы сейчас сказали…?"
+
+    old "I just said you'd make a good wife. You're good at cooking, but you're good at housework too, and you're so dependable..."
+    new "Я просто сказал, что ты будешь хорошей женой. Ты ведь хорошо готовишь, по дому всё умеешь, да и вообще ты такая надёжная…"
+
+    old "I think the guy who marries Siesta is definitely going to be a lucky man."
+    new "Думаю, тому, кто возьмёт Сиесту в жёны, точно повезёт."
+
+    old "N-No, don't say that... Saito-san..."
+    new "Н-ну что вы… Сайто-сан…"
+
+    old "What's wrong, Siesta? Your face looks kind of red."
+    new "Что с тобой, Сиеста? Что-то ты покраснела."
+
+    old "I-I... well... N-Next time, I'll make some dishes with wild mountain greens for you too, Saito-san!"
+    new "Я-я… ну… В-в следующий раз я приготовлю и для вас, Сайто-сан, блюда из дикорастущей зелени!"
+
+    old "Huh? Yeah, I'll look forward to it."
+    new "А? Ага, буду ждать."
+
+    old "Come on, let's keep picking and take plenty home!"
+    new "Ну же, давайте соберём побольше и отнесём всё домой!"
+
+    old "Got it. I'll carry the wild greens we pick, so don't hold back."
+    new "Хорошо. Я понесу собранную зелень, так что не стесняйся и собирай сколько хочешь."
+
+    old "Thank you. Ufufu... I'll pick lots of them today."
+    new "Спасибо. Уфуфу… Сегодня я соберу их очень много."
+
+    old "Is that tasty?"
+    new "Это вкусно?"
+
+    old "It is. It's just right. I'll make some for you next time."
+    new "Да, очень. Как раз то, что нужно. В следующий раз я приготовлю для вас."
+
+    old "Really? Is that okay?"
+    new "Правда? Можно?"
+
+    old "Yes. You seem to enjoy the dishes from my hometown, Saito-san."
+    new "Конечно. Похоже, вам нравятся блюда из моего родного края, Сайто-сан."
+
+    old "I know quite a few wild-vegetable recipes that my mother and the others taught me, so I can make all sorts of things."
+    new "Я знаю довольно много рецептов блюд из дикорастущей зелени, которым меня научили мама и другие, так что могу приготовить самые разные блюда."
+
+    old "Oh, that's something to look forward to."
+    new "Ого. Тогда буду ждать с нетерпением."
+
+    old "You're pretty thrifty, Siesta."
+    new "Сиеста, ты, оказывается, очень экономная."
+
+    old "It's not really about being thrifty... It just seems like such a waste when something is perfectly edible."
+    new "Дело не совсем в экономии… Просто как-то жалко выбрасывать то, что вполне можно съесть."
+
+    old "I think that's what you call being thrifty, though."
+    new "По-моему, это и называется экономностью."
+
+    old "I-Is that so?"
+    new "П-правда?"
+
+    old "Yeah.{#var2}"
+    new "Ага."
+
+    old "I see... I thought this was just normal."
+    new "Понятно… А я думала, что это совершенно нормально."
+
+    old "…What do you want?"
+    new "…Чего тебе?"
+
+    old "Hmm, well, not really anything in particular, but since we're here, why don't we go somewhere?"
+    new "Хм-м, ну, вообще-то ничего особенного. Но раз уж представилась возможность, может, куда-нибудь сходим?"
+
+    old "…I'd rather read a book."
+    new "…Лучше почитать книгу."
+
+    old "Ah… I see."
+    new "А-а… понятно."
+
+    old "Books, huh… I still can't read the writing here."
+    new "Книги, значит… Я всё ещё не умею читать здешние письмена."
+
+    old "Wait, the conversation's already over, and she's reading a book!"
+    new "Эй, так разговор уже закончился, а она уже читает книгу!"
+
+    old "…Hey. Is there anything I can help you with?"
+    new "…Слушай. Может, есть что-нибудь, чем я могу тебе помочь?"
+
+    old "…Everything that needs to be done can be done with magic. So, not really."
+    new "…Всё необходимое можно сделать с помощью магии. Так что, особо нечем."
+
+    old "Is that so?{#ver2}"
+    new "Правда?"
+
+    old "…Yes."
+    new "…Да."
+
+    old "Even so… If I just go home like this, I'll feel like an idiot."
+    new "Всё же… Если я просто уйду домой вот так, буду чувствовать себя идиотом."
+
+    old "Oh, that's right."
+    new "А, точно."
+
+    old "Want me to turn the pages for you?"
+    new "Мне переворачивать тебе страницы?"
+
+    old "…No."
+    new "…Нет."
+
+    old "…I don't think you could turn the pages at the same speed I read."
+    new "…Не думаю, что ты сможешь переворачивать страницы с той же скоростью, с какой я читаю."
+
+    old "Hmph. When you put it that way, I guess I'm not so sure."
+    new "Хм. Если так подумать, я и правда не уверен, что смогу."
+
+    old "Then I'll watch you for a while so I can get a feel for your pace, Tabitha."
+    new "Тогда я немного за тобой понаблюдаю, чтобы понять твой темп, Табита."
+
+    old "Hmm. I don't really get it, but she reads at a pretty fast pace."
+    new "Хм-м. Не совсем понимаю, но читает она довольно быстро."
+
+    old "Come to think of it, what kind of book is this?"
+    new "Кстати, а что это за книга?"
+
+    old "…A spellbook."
+    new "…Книга заклинаний."
+
+    old "I see."
+    new "Понятно."
+
+    old "Somehow, I feel like just watching Tabitha read like this isn't such a bad idea."
+    new "Почему-то мне кажется, что просто смотреть, как Табита вот так читает, тоже не так уж плохо."
+
+    old "In the end, all I did was watch Tabitha read her book. Well, I guess some days are like this."
+    new "В итоге я только и делал, что смотрел, как Табита читает свою книгу. Ну, видимо, и такие дни бывают."
+
+    old "I'll give your shoulders a massage."
+    new "Давай я разомну тебе плечи."
+
+    old "Don't be shy. I won't disturb your reading."
+    new "Не стесняйся. Я не буду мешать тебе читать."
+
+    old "There we go. I guess I'll start around here."
+    new "Ну вот. Пожалуй, начну вот здесь."
+
+    old "Rub, rub, rub…"
+    new "Мну-мну-мну…"
+
+    old "Whoa, you've got quite a lot of tension in your shoulders! Is your posture usually not very good?"
+    new "Ого, у тебя плечи довольно сильно напряжены! Ты обычно не очень хорошо держишь осанку?"
+
+    old "Rub, rub, rub, rub…"
+    new "Мну-мну-мну-мну…"
+
+    old "Hmm, maybe around here…"
+    new "Хм-м, может, вот здесь…"
+
+    old "Rub, rub, rub, rub, rub…"
+    new "Мну-мну-мну-мну-мну…"
+
+    old "…A little higher."
+    new "…Немного выше."
+
+    old "Oh, a little higher. Got it."
+    new "А, немного выше. Понял."
+
+    old "Rub, rub, rub, rub, rub, rub…"
+    new "Мну-мну-мну-мну-мну-мну…"
+
+    old "Like this?"
+    new "Вот так?"
+
+    old "Want me to carry you?"
+    new "Давай я тебя на руки возьму?"
+
+    old "Don't be shy."
+    new "Не стесняйся."
+
+    old "…I'm not."
+    new "…Я не стесняюсь."
+
+    old "All right! Up you go."
+    new "Ну давай! Иди сюда."
+
+    old "How's this?"
+    new "Ну как?"
+
+    old "…It's hard to read."
+    new "…Так читать неудобно."
+
+    old "I see.{#ver2}"
+    new "Понятно."
+
+    old "…Put me down."
+    new "…Опусти меня."
+
+    old "Okay."
+    new "Хорошо."
+
 
 
     

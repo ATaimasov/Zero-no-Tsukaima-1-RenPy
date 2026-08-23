@@ -112,6 +112,11 @@ image bg kirche_room = "bg/louise_room.webp"
 image bg kirche_room_evening = "bg/louise_room_evening.webp"
 image bg kirche_room_night = "bg/louise_room_night.webp"
 
+#tabitha_room
+image bg tabitha_room = "bg/louise_room.webp"
+image bg tabitha_room_evening = "bg/louise_room_evening.webp"
+image bg tabitha_room_night = "bg/louise_room_night.webp"
+
 #dining_hall
 image bg dining_hall = "bg/dining_hall.webp"
 image bg dining_hall_evening = "bg/dining_hall_evening.webp"
@@ -162,6 +167,11 @@ image t_library_read = "cg/t_library_read.webp"
 image t_library_read_2 = "cg/t_library_read_2.webp"
 image t_library_read_3 = "cg/t_library_read_3.webp"
 image t_library_read_4 = "cg/t_library_read_4.webp"
+
+image cg t_massage = "cg/t_massage.webp"
+image cg t_massage_2 = "cg/t_massage_2.webp"
+image cg t_massage_3 = "cg/t_massage_3.webp"
+
 
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"

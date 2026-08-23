@@ -481,3 +481,6 @@ translate japanese strings:
 
     old "Restore HP and MP"
     new "HPとMPを回復"
+
+    old "Return to the main menu"
+    new "メインメニューに戻る"

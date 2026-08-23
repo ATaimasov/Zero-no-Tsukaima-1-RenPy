@@ -2871,4 +2871,206 @@ translate japanese strings:
     old "I see..."
     new "へえ......。"
 
-   
+    old "I have to say, I'm impressed. Siesta, you'd make a good wife."
+    new "なんか、感心するな。シエスタっていいお嫁さんになれるね。"
+
+    old "Hm? What's wrong?"
+    new "ん?どうかした?"
+
+    old "U-Um... S-Saito-san, what did you just say...?"
+    new "え、ええっと......。サ、サイトさん今なんて......。"
+
+    old "I just said you'd make a good wife. You're good at cooking, but you're good at housework too, and you're so dependable..."
+    new "いいお嫁さんになれるなあって。料理もだけど家事とか上手だし、しっかりしてるし......。"
+
+    old "I think the guy who marries Siesta is definitely going to be a lucky man."
+    new "シエスタを奥さんにもらうヤツって絶対、幸せ者だと思うなー。"
+
+    old "N-No, don't say that... Saito-san..."
+    new "そ、そんな......。やだ、サイトさんたら......。"
+
+    old "What's wrong, Siesta? Your face looks kind of red."
+    new "どうかしたのシエスタ?なんだか顔が赤いよ?"
+
+    old "I-I... well... N-Next time, I'll make some dishes with wild mountain greens for you too, Saito-san!"
+    new "わ、わたし......、その......。こっ、今度サイトさんにも山菜料理をご馳走しますね!"
+
+    old "Huh? Yeah, I'll look forward to it."
+    new "あ?うん、楽しみにしてるよ。"
+
+    old "Come on, let's keep picking and take plenty home!"
+    new "さ、どんどん摘んで、たくさん持って帰りましょう!"
+
+    old "Got it. I'll carry the wild greens we pick, so don't hold back."
+    new "分かった。摘んだ山菜は俺が持つから、遠慮しなくていいからな。"
+
+    old "Thank you. Ufufu... I'll pick lots of them today."
+    new "ありがとうございます。うふふ......。今日は、いっぱい摘んじゃいますね。"
+
+    old "Is that tasty?"
+    new "それ、おいしいの?"
+
+    old "It is. It's just right. I'll make some for you next time."
+    new "おいしいですよ。ちょうどいいです。今度、ご馳走しますよ。"
+
+    old "Really? Is that okay?"
+    new "え、いいの?"
+
+    old "Yes. You seem to enjoy the dishes from my hometown, Saito-san."
+    new "はい。サイトさん、わたしの実家の料理を気に入っていただいているようですし。"
+
+    old "I know quite a few wild-vegetable recipes that my mother and the others taught me, so I can make all sorts of things."
+    new "母さんとかから教わった山菜料理のレパートリー。結構ありますから、いろいろ作れますよ。"
+
+    old "Oh, that's something to look forward to."
+    new "へえ。そりゃあ楽しみだな。"
+
+    old "You're pretty thrifty, Siesta."
+    new "シエスタって節約家なんだね。"
+
+    old "It's not really about being thrifty... It just seems like such a waste when something is perfectly edible."
+    new "節約っていうか......。せっかく食べられるのに、なんだかもったいないじゃないですか。"
+
+    old "I think that's what you call being thrifty, though."
+    new "そういうのを節約家って言うと思うけど。"
+
+    old "I-Is that so?"
+    new "そ、そうなんですか。"
+
+    old "Yeah.{#var2}"
+    new "そうだよ。"
+
+    old "I see... I thought this was just normal."
+    new "そうですか......。わたしは、これが普通だと思っていました。"
+
+    old "…What do you want?"
+    new "......何か用?"
+
+    old "Hmm, well, not really anything in particular, but since we're here, why don't we go somewhere?"
+    new "んー、まあ特にはないんだけど、せっかくだし、どこかに出かけないか?"
+
+    old "…I'd rather read a book."
+    new "......本を読むのがいい。"
+
+    old "Ah… I see."
+    new "ああ......そう。"
+
+    old "Books, huh… I still can't read the writing here."
+    new "(本はなあ......。 俺、未だにこっちの文字読めないんだよな)"
+    
+    old "Wait, the conversation's already over, and she's reading a book!"
+    new "(って、もう話が終了して、本を読んでるし!)"
+
+    old "…Hey. Is there anything I can help you with?"
+    new "......なあ。何か手伝うことはないか?"
+
+    old "…Everything that needs to be done can be done with magic. So, not really."
+    new "......必要なことは、全部魔法でできる。だから、特にない。"
+
+    old "Is that so?{#ver2}"
+    new "そうなの?"
+
+    old "…Yes."
+    new "......そう。"
+
+    old "Even so… If I just go home like this, I'll feel like an idiot."
+    new "(と言ってもなあ。 このまま帰ったら、なんだか馬鹿みたいだし)"
+
+    old "Oh, that's right."
+    new "あ、そうだ。"
+
+    old "Want me to turn the pages for you?"
+    new "本をめくってあげようか?"
+
+    old "…No."
+    new "......いい。"
+
+    old "Don't be shy." 
+    new "遠慮するなよ。"
+
+    old "…I don't think you could turn the pages at the same speed I read."
+    new "......わたしの読書速度に合わせてページをめくることが、できると思えない。"
+
+    old "Hmph. When you put it that way, I guess I'm not so sure."
+    new "む。そう言われると、確かに自信がない。"
+
+    old "Then I'll watch you for a while so I can get a feel for your pace, Tabitha."
+    new "じゃあ、タバサのペースを掴むために観察でもするか。"
+
+    old "Hmm. I don't really get it, but she reads at a pretty fast pace."
+    new "(ふむ。 よく分からんが、結構速いペースで 本を読んでるんだな)"
+
+    old "Come to think of it, what kind of book is this?"
+    new "そう言えば、これなんの本なんだ?"
+
+    old "…A spellbook."
+    new "......魔法書。"
+
+    old "I see."
+    new "そうか。"
+
+    old "Somehow, I feel like just watching Tabitha read like this isn't such a bad idea."
+    new "(なんか、こうして本を読んでるタバサを 見てるだけってのもアリのような気は するなあ)"
+
+    old "In the end, all I did was watch Tabitha read her book. Well, I guess some days are like this."
+    new "(結局タバサの本を読んでる姿を 見るだけで終わっちまったな。 まぁ、こんな日もあるか)"
+
+    old "I'll give your shoulders a massage."
+    new "肩を揉んであげよう。"
+
+    old "Don't be shy. I won't disturb your reading."
+    new "遠慮するなって。読書の邪魔はしないからさ。"
+
+    old "There we go. I guess I'll start around here."
+    new "よっと。とりあえず、このへんかなーっと。"
+
+    old "Rub, rub, rub…"
+    new "(もみもみもみ......)"
+ 
+    old "Whoa, you've got quite a lot of tension in your shoulders! Is your posture usually not very good?"
+    new "うわ、お客さん結構凝ってますね!普段の姿勢、あまり良くないとか?"
+
+    old "Rub, rub, rub, rub…"
+    new "(もみもみもみもみ......)"
+
+    old "Hmm, maybe around here…"
+    new "ふむ、このへんかな......。"
+
+    old "Rub, rub, rub, rub, rub…"
+    new "(もみもみもみもみもみ......)"
+
+    old "…A little higher."
+    new "......もう少し上。"
+
+    old "Oh, a little higher. Got it."
+    new "ああ、もう少し上ね。了解。"
+
+    old "Rub, rub, rub, rub, rub, rub…"
+    new "(もみもみもみもみもみもみ......)"
+
+    old "Like this?"
+    new "こんな感じ?"
+
+    old "Want me to carry you?"
+    new "抱っこしてあげようか?"
+
+    old "…I'm not."
+    new "......遠慮してない。"
+
+    old "All right! Up you go."
+    new "どれ!よいしょ。"
+
+    old "How's this?"
+    new "どうだ?"
+
+    old "…It's hard to read."
+    new "......読みづらい。"
+
+    old "I see.{#ver2}"
+    new "さいですか。"
+
+    old "…Put me down."
+    new "......おろして。"
+
+    old "Okay."
+    new "はい。"

@@ -145,3 +145,18 @@ translate russian strings:
     old "A tsundere event occurred!"
     new "Произошло цундере-событие!"
 
+    old "{size=+14}Congratulations!!!{/size}"
+    new "{size=+14}Поздравляем!!!{/size}"
+
+    old "{size=+14}You've reached the end of the first chapter!{/size}"
+    new "{size=+14}Вы дошли до конца первой главы!{/size}"
+
+    old "{size=+14}The translation is not yet complete.{/size}"
+    new "{size=+14}Перевод еще не завершен.{/size}"
+
+    old "{size=+14}You can actively participate in the translation!{/size}"
+    new "{size=+14}Вы можете принять активное участие в переводе!{/size}"
+
+    old "{size=+14}You can find the contact information in the \"About the Game\" section.{/size}"
+    new "{size=+14}Контакты в разделе \"Об игре\".{/size}"
+

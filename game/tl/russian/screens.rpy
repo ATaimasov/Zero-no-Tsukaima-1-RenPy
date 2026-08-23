@@ -480,3 +480,6 @@ translate russian strings:
 
     old "Restore HP and MP"
     new "Восстановить HP и MP (здоровье и ману)"
+
+    old "Return to the main menu"
+    new "Вернуться в главное меню"

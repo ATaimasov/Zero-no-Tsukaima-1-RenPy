@@ -181,7 +181,18 @@ translate russian strings:
     old "Is that delicious?"
     new "Это вкусно?"
 
-    old "You're a thrifty person, right?"
-    new "Ты экономный человек, да?"
+    old "So you're a thrifty person."
+    new "Значит, ты экономная."
+
+    old "Let me turn the pages for you."
+    new "Давай я полистаю тебе книгу"
+
+    old "Let me massage your shoulders."
+    new "Давай я помассирую тебе плечи"
+
+    old "Let me hold you."
+    new "Давай я возьму тебя на руки"
+
+    
 
 

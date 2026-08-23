@@ -181,8 +181,19 @@ translate japanese strings:
     old "Is that delicious?"
     new "それ、おいしいの？"
 
-    old "You're a thrifty person, right?"
+    old "So you're a thrifty person."
     new "節約家なんだね"
+
+    old "Let me turn the pages for you."
+    new "本をめくってあげよう"
+
+    old "Let me massage your shoulders."
+    new "肩を揉んであげよう"
+
+    old "Let me hold you."
+    new "抱っこしてあげよう"
+
+ 
 
 
     
