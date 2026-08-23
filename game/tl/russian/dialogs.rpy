@@ -3236,6 +3236,120 @@ translate russian strings:
     old "That's how it works."
     new "Именно так."
 
+    old "Yeah, maybe I should invite Haruna…"
+    new "Да, пожалуй, стоит пригласить Харуну…"
+
+    old "Then again, with all these people around during the day, I guess we can't really go out."
+    new "Хотя днём вокруг слишком много людей, так что, наверное, нам не стоит выходить."
+
+    old "Hey, Saito! What are you spacing out for? You haven't finished cleaning the room yet, have you?"
+    new "Эй, Сайто! Чего ты там задумался? Ты ведь ещё не закончил убирать комнату, да?"
+
+    old "What?! But I have somewhere to be…"
+    new "Что?! Но мне ещё надо кое-куда…"
+
+    old "Quit your whining and get over here!"
+    new "Хватит препираться и живо сюда!"
+
+    old "Whaaat?! Wait a second, whoa!"
+    new "Чегооо?! Подожди, эй!"
+
+
+    old "Huff, huff, huff… Good grief, that was rough."
+    new "Фух, фух, фух… Ну и досталось же мне."
+
+    old "Louise doesn't have to work me to the bone even on my days off."
+    new "Могла бы Луиза хотя бы в выходной не заставлять меня так вкалывать."
+
+    old "Oh, Haruna."
+    new "А, Харуна."
+
+    old "Phew…"
+    new "Фух…"
+
+    old "So this is where you were."
+    new "Так вот где ты была."
+
+    old "Ah… Hiraga-kun."
+    new "А… Хирага-кун."
+
+    old "If you stay here, the students will find out about you, right? Come on, let's get back to the room."
+    new "Если ты будешь здесь, тебя заметят ученики Академии. Давай скорее вернёмся в комнату."
+
+    old "And you're still not feeling completely better, right? You'll catch a cold."
+    new "К тому же ты ещё не до конца поправилась, да? Простудишься."
+
+    old "Hey, Hiraga-kun."
+    new "Слушай, Хирага-кун."
+
+    old "Hmm?"
+    new "М-м?"
+
+    old "Do you know what I was doing?"
+    new "Ты знаешь, чем я занималась?"
+
+    old "You were walking outside… maybe?"
+    new "Ты гуляла на улице… наверное?"
+
+    old "That's right… You weren't far off…"
+    new "Да… Не совсем ошибся…"
+
+    old "You know, I was looking at the sky."
+    new "Знаешь, я смотрела на небо."
+
+    old "The sky?"
+    new "На небо?"
+
+    old "Hey, Hiraga-kun. There are two moons in this world."
+    new "Слушай, Хирага-кун. В этом мире две луны."
+
+    old "…Yeah. That's right."
+    new "…Ага. Точно."
+
+    old "When I looked at the moon and realized that, I thought, {i}'Ah, this really isn't Earth. This is another world.'{/i}"
+    new "Когда я посмотрела на луну и поняла это, я подумала: {i}«Ага, это и правда не Земля. Это другой мир»{/i}."
+
+    old "Yeah… I thought the same thing when I first came here."
+    new "Ага… Я тоже подумал об этом, когда только сюда попал."
+
+    old "I see…"
+    new "Вот как…"
+
+    old "Come on, I think that's enough for now, don't you?"
+    new "Ну, думаю, уже хватит, да?"
+
+    old "Louise and Siesta will be worried too, so let's get back to the room."
+    new "Луиза и Сиеста тоже будут переживать, так что давай вернёмся в комнату."
+
+    old "Yeah. You're right."
+    new "Ага. Ты прав."
+
+    old "I see, you don't know."
+    new "Понятно, не знаешь."
+
+    old "You were looking at the night sky.{#var2}"
+    new "Ты смотрела на ночное небо."
+
+    old "Wow, Hiraga-kun, how did you know?"
+    new "Ничего себе, Хирага-кун, как ты догадался?"
+
+    old "I know the feeling. I was like that every day when I first came to this world, too."
+    new "Знаю это чувство. Когда я только попал в этот мир, я тоже каждый день так делал."
+
+    old "Ah… I see.{#ver2}"
+    new "А… понятно."
+
+    old "That's right. I was looking at the moon in the night sky."
+    new "Да. Я смотрела на луну в ночном небе."
+
+
+
+
+
+
+
+
+
 
 
 

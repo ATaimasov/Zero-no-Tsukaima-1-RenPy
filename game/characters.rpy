@@ -42,15 +42,200 @@ define th = Character(None,
 #                 ("images/sprites/siesta.webp"). Оба варианта работают в add.
 # ----------------------------------------------------------------------------
 define char_data = {
-    "saito":       {"name": "Saito",       "portrait_choise": "gui/system/portraits/choises/s_full.webp",  "sprite_choise": "s 1"},
-    "louise":      {"name": "Louise",      "portrait_choise": "gui/system/portraits/choises/l_full.webp",  "sprite_choise": "l 1"},
-    "siesta":      {"name": "Siesta",      "portrait_choise": "gui/system/portraits/choises/si_full.webp", "sprite_choise": "si 1"},
-    "tabitha":     {"name": "Tabitha",     "portrait_choise": "gui/system/portraits/choises/t_full.webp",  "sprite_choise": "t 1"},
-    "kirche":      {"name": "Kirche",      "portrait_choise": "gui/system/portraits/choises/k_full.webp",  "sprite_choise": "k 1"},
-    "henrietta":   {"name": "Henrietta",   "portrait_choise": "gui/system/portraits/choises/h_full.webp",  "sprite_choise": "h 1"},
-    "montmorency": {"name": "Montmorency", "portrait_choise": "gui/system/portraits/choises/m_full.webp",  "sprite_choise": "m 1"},
-    "haruna": {"name": "Haruna", "portrait_choise": "gui/system/portraits/choises/ha_full.webp",  "sprite_choise": "ha 1"},
+    "saito":       {
+        "name": "Saito",  
+        "color": "#3874a3",
+        'description': "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise.", 
+
+        "portrait_choise": "gui/system/portraits/choises/s_full.webp",  
+        "sprite_choise": "s 1",
+
+        # battle: {
+        #     "is_mage": False, "is_enemy": False,
+        #     "skills": ["slash", "d_slash", "wind_moon_slash"],
+        #     "hp": 255, "max_hp": 255, "mp": 100, "max_mp": 100,
+        #     "attack": 45, "defense": 30, "agility": 35, "accuracy": 95,
+        #     "battle_normal": "gui/system/battle/s.webp",
+        #     "battle_happy": "gui/system/battle/s_happy.webp",
+        #     "battle_sad": "gui/system/battle/s_sad.webp",
+        #     "battle_cast_1": "video/cast/s_cast_1.webm", 
+        #     "battle_cast_2": "video/cast/s_cast_2.webm", 
+        #     "lines": { ## реплики
+        #         "attack": [],
+        #         "cast": [],
+        #         "hurt": [],
+        #         "defend": [],
+        #         "defeat": [],
+        #         "win": [],
+        #     },
+        # }
+        
+    },
+    "louise":      {
+        "name": "Louise",      
+        "color": "#fd7589",
+        "description": "The magician who summoned Saito.\nAlthough she can use Void magic,\nits true nature remains unknown.",
+
+        #CHOISES
+        "portrait_choise": "gui/system/portraits/choises/l_full.webp",  
+        "sprite_choise": "l 1",
+
+        # battle: {
+        #     "is_mage": True, "is_enemy": False,
+        #     "skills": ["arrow", "heroism", "meteor", "dispel", "heal"],
+        #     "hp": 200, "max_hp": 200, "mp": 150, "max_mp": 150,
+        #     "attack": 25, "defense": 20, "agility": 30, "accuracy": 85,
+        #     "battle_normal": "gui/system/battle/l.webp",
+        #     "battle_happy": "gui/system/battle/l_happy.webp",
+        #     "battle_sad": "gui/system/battle/l_sad.webp",
+        #     "battle_cast_1": "video/cast/l_cast_1.webm", 
+        #     "battle_cast_2": "video/cast/l_cast_2.webm", 
+        #     "lines": { ## реплики
+        #         "attack": [],
+        #         "cast": [],
+        #         "hurt": [],
+        #         "defend": [],
+        #         "defeat": [],
+        #         "win": [],
+        #     },
+        # }
+
+    },
+    "siesta":      {
+        "name": "Siesta",      
+        'description': "A maid working at Tristain Academy of Magic.\nSince she is a commoner, she cannot use magic.\nShe has feelings for Saito.",
+
+        #CHOISES
+        "portrait_choise": "gui/system/portraits/choises/si_full.webp", 
+        "sprite_choise": "si 1",
+    },
+    "tabitha":     {
+        "name": "Tabitha", 
+        "color": "#b4dfec",
+        'description': "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\".", 
+
+        #CHOISES
+        "portrait_choise": "gui/system/portraits/choises/t_full.webp",  
+        "sprite_choise": "t 1",
+
+        # battle: {
+        #     "is_mage": True, "is_enemy": False,
+        #     "skills": ["wing", "air_needle", "wind_break", "air_force", "heal"],
+        #     "hp": 180, "max_hp": 180, "mp": 180, "max_mp": 180,
+        #     "attack": 20, "defense": 18, "agility": 40, "accuracy": 90,
+        #     "battle_normal": "gui/system/battle/t.webp",
+        #     "battle_happy": "gui/system/battle/t_happy.webp",
+        #     "battle_sad": "gui/system/battle/t_sad.webp",
+        #     "battle_cast_1": "video/cast/t_cast_1.webm", 
+        #     "battle_cast_2": "video/cast/t_cast_2.webm", 
+        #     "lines": { ## реплики
+        #         "attack": [],
+        #         "cast": [],
+        #         "hurt": [],
+        #         "defend": [],
+        #         "defeat": [],
+        #         "win": [],
+        #     },
+        # }
+    },
+    "kirche":      {
+        "name": "Kirche",      
+        "color": "#e36566",
+        'description': "Louise's classmate.\nSpecializes in fire magic.\nHer nickname is \"Kirche of the Mild Fever\".",
+
+        #CHOISES
+        "portrait_choise": "gui/system/portraits/choises/k_full.webp", 
+        "sprite_choise": "k 1",
+
+        # battle: {
+        #     "is_mage": True, "is_enemy": False,
+        #     "skills": ["fire", "fire_needle", "fire_arrow", "fire_shield", "heal"],
+        #     "hp": 190, "max_hp": 190, "mp": 170, "max_mp": 170,
+        #     "attack": 22, "defense": 22, "agility": 28, "accuracy": 88,
+        #     "battle_normal": "gui/system/battle/k.webp",
+        #     "battle_happy": "gui/system/battle/k_happy.webp",
+        #     "battle_sad": "gui/system/battle/k_sad.webp",
+        #     "battle_cast_1": "video/cast/k_cast_1.webm", 
+        #     "battle_cast_2": "video/cast/k_cast_2.webm", 
+        #     "lines": { ## реплики
+        #         "attack": [],
+        #         "cast": [],
+        #         "hurt": [],
+        #         "defend": [],
+        #         "defeat": [],
+        #         "win": [],
+        #     },
+        # }
+        
+    },
+    "henrietta":   {
+        "name": "Henrietta",   
+        "color": "#782163",
+        'description': "Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecializes in water magic.",
+
+        #CHOISES
+        "portrait_choise": "gui/system/portraits/choises/h_full.webp", 
+        "sprite_choise": "h 1",
+
+        # battle: {
+        #     "is_mage": True, "is_enemy": False,
+        #     "skills": ["water", "water_needle", "water_hazard", "water_blade", "heal"],
+        #     "hp": 185, "max_hp": 185, "mp": 175, "max_mp": 175,
+        #     "attack": 23, "defense": 25, "agility": 32, "accuracy": 87,
+        #     "battle_normal": "gui/system/battle/h.webp",
+        #     "battle_happy": "gui/system/battle/h_happy.webp",
+        #     "battle_sad": "gui/system/battle/h_sad.webp",
+        #     "battle_cast_1": "video/cast/h_cast_1.webm", 
+        #     "battle_cast_2": "video/cast/h_cast_2.webm", 
+        #     "lines": { ## реплики
+        #         "attack": [],
+        #         "cast": [],
+        #         "hurt": [],
+        #         "defend": [],
+        #         "defeat": [],
+        #         "win": [],
+        #     },
+        # }
+    },
+    "montmorency": {
+        "name": "Montmorency", 
+
+        #CHOISES
+        "portrait_choise": "gui/system/portraits/choises/m_full.webp",  
+        "sprite_choise": "m 1"
+    },
+    "haruna": {
+        "name": "Haruna", 
+
+        #CHOISES
+        "portrait_choise": "gui/system/portraits/choises/ha_full.webp",  
+        "sprite_choise": "ha 1"
+    },
+
+    "mage": {
+        "name": "Mage", 
+        "color": "#d82b2b",
+
+        # battle: {
+        #     "sprite_attack": "mage attack",
+        #     "sprite_idle": "mage",
+        #     "is_mage": True, "is_enemy": True,
+        #     "skills": ["dark_bolt", "dark_nova"],
+        #     "hp": 90, "max_hp": 90, "mp": 120, "max_mp": 120,
+        #     "attack": 35, "defense": 12, "agility": 25, "accuracy": 85,
+        #     "battle_cast_1": "video/cast/m_cast_1.webm", 
+        #     "battle_cast_2": "video/cast/m_cast_2.webm", 
+        #     "lines": {
+        #         "attack": [],
+        #         "cast": [],
+        #         "hurt": [],
+        #         "defeat": [],
+        #     },
+        # }
+    },
 }
+
+
 
 
 

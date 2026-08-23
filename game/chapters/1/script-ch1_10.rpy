@@ -747,7 +747,7 @@ label date_kirche_1:
                 s "Kirche, have you ever truly fallen in love with someone?"
 
                 $ show_sprites(("k 1 angry", "s 1"))
-                voice "ch1.10_k_022"
+                voice "ch1.10_k_023"
                 k "What kind of question is that? You think I don't ever seriously fall for anyone?"
 
                 $ update_sympathy(-20, char_key="kirche")
@@ -757,20 +757,20 @@ label date_kirche_1:
                 s "Ah, no, I phrased that badly. Sorry."
 
                 $ show_sprites(("k 1", "s 3 sad"))
-                voice "ch1.10_k_023"
+                voice "ch1.10_k_024"
                 k "Whenever I'm with a gentleman who tells me he loves me, I'm always serious."
 
                 $ show_sprites(("k 1", "s 1"))
                 voice "ch1.10_s_087"
                 s "But you also ignore some of them and brush them off, like you did earlier."
 
-                voice "ch1.10_k_024"
+                voice "ch1.10_k_025"
                 k "Of course. If he's not a man I could fall for, then he never stood a chance with me in the first place."
 
                 voice "ch1.10_s_088"
                 s "Is that how it works?"
 
-                voice "ch1.10_k_025"
+                voice "ch1.10_k_026"
                 k "That's how it works."
 
                 $ show_sprites(("k 4 happy", "s 1"))
@@ -782,16 +782,163 @@ label date_kirche_1:
         $ show_sprites(("k 4 happy", "s 3 sad"))
         voice "ch1.10_s_081"
         s "Ah, Kirche. Wait up."
-
-
-
     return
 
 label date_haruna_1:
     if louise_sympathy == 100:
         call sp_l1
     else:
-        "s"
+        $ fade_fx("louise_room", new_music="t18", sprites=("s 1"))
+        voice "ch1.10_s_089"
+        s "Yeah, maybe I should invite Haruna…"
+
+        voice "ch1.10_s_090"
+        s "Then again, with all these people around during the day, I guess we can't really go out."
+
+        $ show_sprites(("l 1 angry", "s 1"))
+        voice "ch1.10_l_018"
+        l  "Hey, Saito! What are you spacing out for? You haven't finished cleaning the room yet, have you?"
+
+        $ show_sprites(("l 1 angry", "s 1 sad"))
+        voice "ch1.10_s_091"
+        s "What?! But I have somewhere to be…"
+
+        voice "ch1.10_l_019"
+        l "Quit your whining and get over here!"
+
+        voice "ch1.10_s_092"
+        s "Whaaat?! Wait a second, whoa!"
+
+        $ fade_fx("hallway_down_night", new_music="t16")
+        $ show_sprites(("s 1 sad"))
+
+        voice "ch1.10_s_093"
+        s "Huff, huff, huff… Good grief, that was rough."
+
+        voice "ch1.10_s_094"
+        s "Louise doesn't have to work me to the bone even on my days off."
+
+        voice "ch1.10_s_095"
+        s "Oh, Haruna."
+
+        $ fade_fx("yard_night", sprites=("ha 1 sad"))
+        voice "ch1.10_ha_001"
+        ha "Phew…"
+
+        $ show_sprites(("ha 1 sad", "s 1"))
+        th "So this is where you were."
+
+        $ show_sprites(("ha 1", "s 1"))
+        voice "ch1.10_ha_002"
+        ha "Ah… Hiraga-kun."
+
+        $ update_sympathy(20, char_key="haruna")
+
+        voice "ch1.10_s_096"
+        s "If you stay here, the students will find out about you, right? Come on, let's get back to the room."
+
+        voice "ch1.10_s_097"
+        s  "And you're still not feeling completely better, right? You'll catch a cold."
+
+        $ show_sprites(("ha 1 sad", "s 1"))
+        voice "ch1.10_ha_003"
+        ha "Hey, Hiraga-kun."
+
+        voice "ch1.10_s_098"
+        s "Hmm?"  
+
+        voice "ch1.10_ha_004"
+        ha "Do you know what I was doing?"
+
+        voice "ch1.10_s_099"
+        s "That is..." 
+
+        menu:
+            "You were walking outside.":
+                voice "ch1.10_s_100"
+                s "You were walking outside… maybe?"
+
+                voice "ch1.10_ha_005"
+                ha "That's right… You weren't far off…"
+
+                $ show_sprites(("ha 1", "s 1"))
+
+                voice "ch1.10_ha_006"
+                ha "You know, I was looking at the sky."
+
+                $ show_sprites(("ha 1", "s 1 sad"))
+                voice "ch1.10_s_101-2"
+                s "The sky?"
+
+            "I don't know.":
+                voice "ch1.10_s_106"
+                s "I don't know."
+
+                $ show_sprites(("ha 4 sad", "s 1"))
+
+                voice "ch1.10_ha_011"
+                ha "I see, you don't know."
+
+                $ update_sympathy(-20, char_key="haruna")
+
+                voice "ch1.10_ha_006-2"
+                ha "You know, I was looking at the sky."
+
+                $ show_sprites(("ha 4 sad", "s 1 sad"))
+                voice "ch1.10_s_101"
+                s "The sky?"
+                
+                $ show_sprites(("ha 4", "s 1 sad"))
+                voice "ch1.10_ha_014"
+                s "That's right. I was looking at the moon in the night sky."
+
+            "You were looking at the night sky.":
+                voice "ch1.10_s_107"
+                s "You were looking at the night sky.{#var2}" 
+
+                $ show_sprites(("ha 4 happy", "s 1"))
+                voice "ch1.10_ha_012"
+                ha "Wow, Hiraga-kun, how did you know?"
+
+                $ update_sympathy(20, char_key="haruna")
+
+                voice "ch1.10_s_108"
+                s "I know the feeling. I was like that every day when I first came to this world, too."
+
+                voice "ch1.10_ha_013"
+                ha "Ah… I see.{#ver2}"
+
+        $ fade_fx("ha_moon", type="cg")
+
+        voice "ch1.10_ha_007"
+        ha "Hey, Hiraga-kun. There are two moons in this world."
+
+        voice "ch1.10_s_102"
+        s "…Yeah. That's right."
+
+        voice "ch1.10_ha_008"
+        ha "When I looked at the moon and realized that, I thought, {i}'Ah, this really isn't Earth. This is another world.'{/i}"
+
+        voice "ch1.10_s_103"
+        s "Yeah… I thought the same thing when I first came here." 
+
+        voice "ch1.10_ha_009"
+        ha "I see…"
+
+        $ fade_fx("yard_night", sprites=("ha 1", "s 3"))
+        voice "ch1.10_s_104"
+        s "Come on, I think that's enough for now, don't you?"
+
+        voice "ch1.10_s_105"
+        s "Louise and Siesta will be worried too, so let's get back to the room."
+
+        $ show_sprites(("ha 4", "s 3"))
+        voice "ch1.10_ha_010"
+        ha "Yeah. You're right."
+
+        $ show_sprites(None, anim_in="slide_right")
+
+
     return
 
 

@@ -202,4 +202,14 @@ translate russian strings:
     old "Have you ever truly fallen in love with someone?"
     new "Ты когда-нибудь по-настоящему влюблялась в кого-нибудь?"
 
+    old "You were walking outside."
+    new "Ты гуляла на улице."
+
+    old "I don't know."
+    new "Не знаю."
+
+    old "You were looking at the night sky."
+    new "Ты смотрела на ночное небо."
+
+
 

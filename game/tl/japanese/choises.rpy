@@ -202,6 +202,15 @@ translate japanese strings:
     old "Have you ever truly fallen in love with someone?"
     new "本気で人を好きになったことは？"
 
+    old "You were walking outside."
+    new "外を歩いてた"
+
+    old "I don't know."
+    new "分からない"
+
+    old "You were looking at the night sky."
+    new "夜空を見てた"
+
  
 
 

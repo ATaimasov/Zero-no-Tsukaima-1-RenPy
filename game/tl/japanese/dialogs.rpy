@@ -3231,4 +3231,107 @@ translate japanese strings:
     old "That's how it works."
     new "そういうものよ。"
 
-   
+    old "Yeah, maybe I should invite Haruna…"
+    new "そうだな、春奈を誘おうっか......。"
+
+    old "Then again, with all these people around during the day, I guess we can't really go out."
+    new "っていっても、昼の間は人目があるから、外を出歩けないか。"
+
+    old  "Hey, Saito! What are you spacing out for? You haven't finished cleaning the room yet, have you?"
+    new "ちょっとサイト!何をぼんやりしてるの?部屋の掃除がまだ終わってないでしょ?"
+
+    old "What?! But I have somewhere to be…"
+    new "ええっ!俺、これから用事が......。"
+
+    old "Quit your whining and get over here!"
+    new "つべこべ言わずに、さっさと来る!"
+
+    old "Whaaat?! Wait a second, whoa!"
+    new "えええっ!ちょっと待って、うわっ!"
+
+    old "Huff, huff, huff… Good grief, that was rough."
+    new "ぜい、ぜい、ぜい......。やれやれ、ひどい目にあった。"
+
+    old "Louise doesn't have to work me to the bone even on my days off."
+    new "ルイズのやつ、休みの日まで俺をこき使うことはないだろ。"
+
+    old "Oh, Haruna."
+    new "あっ、春奈。"
+
+    old "Phew…"
+    new "ふう......。"
+
+    old "So this is where you were."
+    new "(ここにいたのか)"
+
+    old "Ah… Hiraga-kun."
+    new "あ......平賀くん。"
+
+    old "If you stay here, the students will find out about you, right? Come on, let's get back to the room."
+    new "ここにいると、なにも知らない学院の生徒達にばれちまうだろ?早く、部屋に戻ろうぜ。"
+
+    old  "And you're still not feeling completely better, right? You'll catch a cold."
+    new "それにまだ体調が戻ってないんだろ?風邪をひいちまうぞ?"
+
+    old "Hey, Hiraga-kun."
+    new "ねえ、平賀くん。"
+
+    old "Hmm?" 
+    new "ん?"
+
+    old "Do you know what I was doing?"
+    new "私が何をしてたか、分かる?"
+
+    old "You were walking outside… maybe?"
+    new "外を歩いてた。......とか?"
+
+    old "That's right… You weren't far off…"
+    new "そうだね......。外れじゃない......。"
+
+    old "You know, I was looking at the sky."
+    new "あのね、空を見てたの。"
+
+    old "The sky?"
+    new "空?"
+
+    old "Hey, Hiraga-kun. There are two moons in this world."
+    new "ねえ、平賀くん。この世界には月が2つあるんだね。"
+
+    old "…Yeah. That's right."
+    new "......ああ。そうだな。"
+    
+    old "When I looked at the moon and realized that, I thought, {i}'Ah, this really isn't Earth. This is another world.'{/i}"
+    new "月を見て、それを知ったとき思ったの。ああ、本当にここは地球じゃないんだ、別の世界なんだ、って。"
+
+    old "Yeah… I thought the same thing when I first came here."
+    new "うん......俺も、ここに来たばかりの時、同じことを思ったよ。"
+
+    old "I see…"
+    new "そうなんだ......。"
+
+    old "Come on, I think that's enough for now, don't you?"
+    new "さっ、そろそろいいだろ?"
+
+    old "Louise and Siesta will be worried too, so let's get back to the room."
+    new "ルイズや、シエスタも心配するし、早く部屋に戻ろうぜ。"
+
+    old "Yeah. You're right."
+    new "うん。そうだね。"
+
+    old "I see, you don't know."
+    new "そう、分からないんだ。"
+
+    old "You were looking at the night sky.{#var2}" 
+    new "夜空を見てただろう。"
+
+    old "Wow, Hiraga-kun, how did you know?"
+    new "すごい、平賀くんなんで分かったの？"
+
+    old "I know the feeling. I was like that every day when I first came to this world, too."
+    new "ちょっと、な。俺も、この世界に来た時、毎日そうだったから。"
+
+    old "Ah… I see.{#ver2}"
+    new "ああ......そうなんだ。"
+
+    old "That's right. I was looking at the moon in the night sky."
+    new "そう。夜空の月を見てたんだ。"

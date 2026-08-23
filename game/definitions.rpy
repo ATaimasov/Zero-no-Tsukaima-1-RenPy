@@ -175,6 +175,7 @@ image t_library_read_4 = "cg/t_library_read_4.webp"
 image cg t_massage = "cg/t_massage.webp"
 image cg t_massage_2 = "cg/t_massage_2.webp"
 image cg t_massage_3 = "cg/t_massage_3.webp"
+image cg ha_moon = "cg/ha_moon.webp"
 
 
 # ==== MUSIC ====

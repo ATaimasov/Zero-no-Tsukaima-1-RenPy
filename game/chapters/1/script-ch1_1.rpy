@@ -461,8 +461,8 @@ label ch1:
     # call screen battle_menu
 
     # ==== BATTLE ==== 
-
-    $ show_sprites(None, anim="dissolve") 
+    $ fade_fx("black")
+    
     #call forest_battle from _call_forest_battle
 
     # ==== SUBCHAPTER 4 ====
