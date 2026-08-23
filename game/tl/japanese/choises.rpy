@@ -193,6 +193,15 @@ translate japanese strings:
     old "Let me hold you."
     new "抱っこしてあげよう"
 
+    old "What kind of men do you like?"
+    new "どんな男性が好みなんだ？"
+
+    old "What do you think of me?"
+    new "俺のこと、どう思ってる？"
+
+    old "Have you ever truly fallen in love with someone?"
+    new "本気で人を好きになったことは？"
+
  
 
 

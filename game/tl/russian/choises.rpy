@@ -193,6 +193,13 @@ translate russian strings:
     old "Let me hold you."
     new "Давай я возьму тебя на руки"
 
-    
+    old "What kind of men do you like?"
+    new "Какие мужчины тебе нравятся?"
+
+    old "What do you think of me?"
+    new "Что ты обо мне думаешь?"
+
+    old "Have you ever truly fallen in love with someone?"
+    new "Ты когда-нибудь по-настоящему влюблялась в кого-нибудь?"
 
 

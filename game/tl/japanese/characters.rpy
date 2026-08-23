@@ -47,3 +47,6 @@ translate japanese strings:
     old "Underlings"
     new "部下"
 
+    old "Villager"
+    new "村人"
+

@@ -11,6 +11,7 @@ define d = Character(_("Derflinger"), color="#9d996b")
 define o = Character(_("Osmond"), color="#ddd7d4")
 define m = Character(_("Montmorency"), color="#e2d79d")
 
+define villager = Character(_("Villager"), color="#797979")
 
 define npc1 = Character(_("Сommander"), color="#797979")
 define npc2 = Character(_("Soldier"), color="#797979")

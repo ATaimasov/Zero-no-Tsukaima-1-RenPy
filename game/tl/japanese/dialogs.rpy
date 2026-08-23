@@ -3074,3 +3074,161 @@ translate japanese strings:
 
     old "Okay."
     new "はい。"
+
+    old "Hey, Kirche, are you there?"
+    new "おーいキュルケ、いるかー?"
+
+    old "Oh, isn't it my Darling? What is it? Are you asking me out on a date?"
+    new "あら、ダーリンじゃない。なあに?デートのお誘い?"
+    
+    old "Uh, no, not exactly, but something like that. I was thinking maybe we could go into town together."
+    new "あー、違うけど、そんな感じ。街にでも一緒にどうかなぁって。"
+
+    old "Oh, you indecisive Darling, you're adorable. All right! Let's go right now!"
+    new "もう、煮え切らないダーリンも素敵。分かったわ!今すぐでかけましょう!"
+
+    old "Ah, wait! Don't pull me so hard…"
+    new "あ、ちょっと!そんなに引っぱらないで......。"
+
+    old "So, where shall we go?"
+    new "それじゃあどこに行こうかしら?"
+
+    old "Wherever you say… It's just, I still don't really know the shops in town very well."
+    new "どこって言われても......。考えたら俺、まだ街の店とかよく分かんないんだよな。"
+
+    old "Oh, is that so?"
+    new "あら、そうなの?"
+
+    old "Yeah. I only really go into town when I have to accompany Louise while she goes shopping on her days off."
+    new "うん。街に出るのって、休日にルイズの買い出しに付き合わされるときくらいかな?"
+
+    old "Oh my, what a poor thing. Well then, I guess I'll show you around today."
+    new "あらら、それは可哀相な話ねえ。じゃ、今日はあたしが案内してあげよっかな。"
+
+    old "Oh, miss, you're quite a beauty. How about you and I go to that tea house over there…"
+    new "おっ、そこのお姉さん、きれいだね。どう、俺とそこの茶房で......。"
+
+    old "Sorry. I'm with someone today. Maybe another time."
+    new "残念。今日は連れがいるのよ。また今度ね。"
+
+    old "Uh… Ah, wait…"
+    new "え......あ、ちょっと......。"
+
+    old "Let's go."
+    new "行きましょ。"
+
+    old "Ah, yeah."
+    new "あ、ああ。"
+
+    old "Look, the street vendors around here have some pretty nice accessories."
+    new "ほら、この辺の露店は、結構いいアクセサリーを扱ってるのよ。"
+
+    old "Huh."
+    new "へえ。"
+
+    old "As you'd expect, they're pretty expensive too… I can't afford any of this with what I have."
+    new "(さすがにその分、高そうだな......。 俺の手持ちじゃ手が出ないよ)"
+
+    old "Oh, young lady. My ring whispers that it wishes to be with you."
+    new "おお、そこのお嬢さん。私の指輪が、あなたと共にいたいと囁いておりますよ。"
+
+    old "Oh, what an honor. Perhaps we'll be able to be together when our paths cross again."
+    new "あら、それは光栄ね。次に巡り会えたとき、ご一緒できたらいいわね。"
+
+    old "Ah, how cold of you…"
+    new "おお、なんとつれない......。"
+
+    old "That's a tavern over there. The shops around here serve regular drinks during the day. Some of them are pretty nice."
+    new "あっちは酒場、この辺の店は昼の間は普通の飲み物を出すの。結構いい感じのところもあるわ。"
+
+    old "Huh. So, kind of like a café?"
+    new "へえ。喫茶店みたいなもんか。"
+
+    old "Hey there, pretty lady. How about having a drink with me over there? It's on me, sweetheart."
+    new "よ、べっぴんさんだねい。どうだい、俺とあそこで一杯やるってなあ。お姉ちゃん、おごるぜ。"
+
+    old "Oh, thank you. But I don't drink alcohol while the sun is still up. See you."
+    new "あら、ありがとう。でも、日の高いうちはお酒は控えてるの。じゃあね。"
+
+    old "H-hey…"
+    new "お、おい......。"
+
+    old "I know it's nothing new, but Kirche, you're really popular, aren't you?"
+    new "改めて言うのもなんだけど、キュルケってもてるよな。"
+
+    old "Hehe, I'll take that as a compliment."
+    new "ふふ、褒め言葉ととっておくわね。"
+
+    old "There's something I wanted to ask you…"
+    new "ちょっと聞きたいんだけど......。"
+
+    old "Kirche, what kind of men do you like?"
+    new "キュルケはどんな男性が好みなんだ?"
+
+    old "Oh, Darling. Have you finally decided to try to win me over?"
+    new "あら、ダーリン。やっと、あたしを落とす気になったの?"
+
+    old "N-no, it's not like that… I was just a little curious."
+    new "い、いや、別にそういうわけじゃ......、ないんだけど、ちょっと気になったもんで。"
+
+    old "Oh, what a shame. But I suppose I can tell you anyway."
+    new "なんだ、残念。でも、まあ教えてあげてもいいか。"
+
+    old "It's not like I have a particular type… If I had to name just one thing, though."
+    new "特別にどんなタイプ......、って決まってるわけじゃないわね。しいてあげるなら、たったひとつ。"
+
+    old "One thing? What?"
+    new "ひとつ?どんな?"
+
+    old "A man who can make me fall for him. Anything less than that just doesn't interest me."
+    new "あたしを惚れさせる男。それくらいじゃないと、興味がないのよねー。"
+
+    old "I-I see."
+    new "そ、そうか。"
+
+    old "Anyway, let's go check out that shop over there next. There's a clothing store I like."
+    new "それより、今度はあっちの店に行ってみましょ。割といい感じの洋服屋があるのよ。"
+
+    old "Ah, Kirche. Wait up."
+    new "あ、キュルケ。ちょっと、待ってくれよ。"
+
+    old "Oh, are you curious?"
+    new "あら、気になる?"
+
+    old "Hmm, I guess so."
+    new "んー、まあな。"
+
+    old "Well, I like you. I really like you."
+    new "そうね、好きよ。大好きね。"
+
+    old "Seriously?"
+    new "本気?"
+
+    old "Oh, you silly. I'm always serious. Of course, it all depends on how you feel, Darling."
+    new "やあねえ、あたしはいつでも本気よ?もちろん、ダーリンの気持ち次第だけどね。"
+
+    old "Kirche, have you ever truly fallen in love with someone?"
+    new "キュルケは、本気で人を好きになったことはある?"
+
+    old "What kind of question is that? You think I don't ever seriously fall for anyone?"
+    new "なに、それ。あたしが本気で惚れたりしないと思ってるの?"
+
+    old "Ah, no, I phrased that badly. Sorry."
+    new "あ、いや、聞き方が悪かったな。ごめん。"
+
+    old "Whenever I'm with a gentleman who tells me he loves me, I'm always serious."
+    new "好きだと言ってくる殿方の相手をしてるときは、いつも本気よ。"
+
+    old "But you also ignore some of them and brush them off, like you did earlier."
+    new "でも、さっきみたいに相手にしないでスルーしたりもするわけだろ。"
+
+    old "Of course. If he's not a man I could fall for, then he never stood a chance with me in the first place."
+    new "そりゃあね。あたしが惚れるくらいの男でなければ、はなから相手になんてならないわ。"
+
+    old "Is that how it works?" 
+    new "そういうもん?"
+
+    old "That's how it works."
+    new "そういうものよ。"
+
+   

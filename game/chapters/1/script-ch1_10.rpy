@@ -565,7 +565,226 @@ label date_kirche_1:
     if louise_sympathy == 100:
         call sp_l1
     else:
-        "s"
+        $ fade_fx("bg kirche_room", new_music="t7", sprites=("s 1"))
+        voice "ch1.10_s_065"
+        s "Hey, Kirche, are you there?"
+
+        $ show_sprites(("k 1", "s 1"))
+        voice "ch1.10_k_001"
+        k "Oh, isn't it my Darling? What is it? Are you asking me out on a date?"
+
+        $ update_sympathy(20, char_key="kirche")
+        $ show_sprites(("k 1", "s 3"))
+        voice "ch1.10_s_066"
+        s "Uh, no, not exactly, but something like that. I was thinking maybe we could go into town together."
+
+        $ show_sprites(("k 4 shy", "s 3"))
+        voice "ch1.10_k_002"
+        k "Oh, you indecisive Darling, you're adorable. All right! Let's go right now!"
+
+        $ show_sprites(("k 4 shy", "s 3 sad"))
+        voice "ch1.10_s_067"
+        s "Ah, wait! Don't pull me so hard…"
+
+        $ fade_fx("town_square", sprites=("k 1", "s 3 sad"))
+        voice "ch1.10_k_003"
+        k "So, where shall we go?"
+
+        voice "ch1.10_s_068"
+        s "Wherever you say… It's just, I still don't really know the shops in town very well."
+
+        voice "ch1.10_k_004"
+        k "Oh, is that so?"
+
+        voice "ch1.10_s_069"
+        s "Yeah. I only really go into town when I have to accompany Louise while she goes shopping on her days off."
+
+        voice "ch1.10_k_005"
+        k "Oh my, what a poor thing. Well then, I guess I'll show you around today."
+
+        voice "ch1.10_villager_001"
+        villager "Oh, miss, you're quite a beauty. How about you and I go to that tea house over there…"
+
+        voice "ch1.10_k_006"
+        k "Sorry. I'm with someone today. Maybe another time."
+
+        voice "ch1.10_villager_002"
+        villager "Uh… Ah, wait…"
+
+        voice "ch1.10_k_007"
+        k "Let's go."  
+
+        voice "ch1.10_s_070"
+        s "Ah, yeah."
+
+        $ fade_fx("town")
+        $ show_sprites(("k 1", "s 1"), anim_in="slide_right")
+
+        voice "ch1.10_k_008"
+        k "Look, the street vendors around here have some pretty nice accessories."
+
+        voice "ch1.10_s_071"
+        s "Huh."
+
+        th "As you'd expect, they're pretty expensive too… I can't afford any of this with what I have."
+
+        voice "ch1.10_villager_003"
+        villager "Oh, young lady. My ring whispers that it wishes to be with you."
+
+        voice "ch1.10_k_009"
+        k "Oh, what an honor. Perhaps we'll be able to be together when our paths cross again."  
+
+        voice "ch1.10_villager_004"
+        villager "Ah, how cold of you…"
+
+        voice "ch1.10_k_010"
+        k "Let's go."  
+
+        $ show_sprites(("k 1", "s 3 sad"))
+        voice "ch1.10_s_072"
+        s "Ah, yeah."
+
+        $ fade_fx("cafe_entrance")
+        $ show_sprites(("k 1", "s 1"), anim_in="slide_right")
+
+        voice "ch1.10_k_011"
+        k "That's a tavern over there. The shops around here serve regular drinks during the day. Some of them are pretty nice." 
+
+        voice "ch1.10_s_073"
+        s "Huh. So, kind of like a café?"
+
+        voice "ch1.10_villager_005"
+        villager "Hey there, pretty lady. How about having a drink with me over there? It's on me, sweetheart."
+
+        voice "ch1.10_k_012"
+        k "Oh, thank you. But I don't drink alcohol while the sun is still up. See you."
+
+        voice "ch1.10_villager_006"
+        villager "H-hey…"
+
+        voice "ch1.10_k_013"
+        k "Let's go."  
+
+        $ show_sprites(("k 1", "s 3 sad"))
+        voice "ch1.10_s_074"
+        s "Ah, yeah."
+
+        $ fade_fx("town_square")
+        $ show_sprites(("k 1", "s 1"), anim_in="slide_right")
+
+        voice "ch1.10_s_075"
+        s "I know it's nothing new, but Kirche, you're really popular, aren't you?"
+
+        voice "ch1.10_k_014"
+        k "Hehe, I'll take that as a compliment."
+
+        voice "ch1.10_s_076"
+        s "There's something I wanted to ask you…"
+
+        menu:
+            "What kind of men do you like?":
+                voice "ch1.10_s_077"
+                s "Kirche, what kind of men do you like?"
+
+                $ show_sprites(("k 4 shy", "s 1"))
+                voice "ch1.10_k_015"
+                k "Oh, Darling. Have you finally decided to try to win me over?"
+
+                $ show_sprites(("k 4 shy", "s 3 shy"))
+                voice "ch1.10_s_078"
+                s "N-no, it's not like that… I was just a little curious."
+
+                $ show_sprites(("k 1 sad", "s 3 shy"))
+                voice "ch1.10_k_016"
+                k "Oh, what a shame. But I suppose I can tell you anyway."
+
+                $ show_sprites(("k 1", "s 1"))
+                voice "ch1.10_k_017"
+                k "It's not like I have a particular type… If I had to name just one thing, though."
+
+                $ show_sprites(("k 1", "s 1"))
+                voice "ch1.10_s_079"
+                s "One thing? What?"
+
+                $ show_sprites(("k 1 shy", "s 1"))
+                voice "ch1.10_k_018"
+                k "A man who can make me fall for him. Anything less than that just doesn't interest me."
+
+                voice "ch1.10_s_080"
+                s "I-I see."
+
+                $ show_sprites(("k 4 happy", "s 1"))
+
+            "What do you think of me?":
+                voice "ch1.10_s_082"
+                s "What do you think of me?"
+
+                $ show_sprites(("k 4 happy", "s 1"))
+                voice "ch1.10_k_020"
+                k "Oh, are you curious?"
+
+                $ update_sympathy(20, char_key="kirche")
+
+                voice "ch1.10_s_083"
+                s "Hmm, I guess so."
+
+                $ show_sprites(("k 4 shy", "s 1"))
+                voice "ch1.10_k_021"
+                k "Well, I like you. I really like you."
+
+                $ show_sprites(("k 4 shy", "s 3 shy"))
+                voice "ch1.10_s_084"
+                s "Seriously?"
+
+                $ show_sprites(("k 1", "s 3 shy"))
+                voice "ch1.10_k_022"
+                k "Oh, you silly. I'm always serious. Of course, it all depends on how you feel, Darling."
+
+                $ show_sprites(("k 4 happy", "s 3 shy"))
+
+            "Have you ever truly fallen in love with someone?":
+                voice "ch1.10_s_085"
+                s "Kirche, have you ever truly fallen in love with someone?"
+
+                $ show_sprites(("k 1 angry", "s 1"))
+                voice "ch1.10_k_022"
+                k "What kind of question is that? You think I don't ever seriously fall for anyone?"
+
+                $ update_sympathy(-20, char_key="kirche")
+
+                $ show_sprites(("k 1 angry", "s 3 sad"))
+                voice "ch1.10_s_086"
+                s "Ah, no, I phrased that badly. Sorry."
+
+                $ show_sprites(("k 1", "s 3 sad"))
+                voice "ch1.10_k_023"
+                k "Whenever I'm with a gentleman who tells me he loves me, I'm always serious."
+
+                $ show_sprites(("k 1", "s 1"))
+                voice "ch1.10_s_087"
+                s "But you also ignore some of them and brush them off, like you did earlier."
+
+                voice "ch1.10_k_024"
+                k "Of course. If he's not a man I could fall for, then he never stood a chance with me in the first place."
+
+                voice "ch1.10_s_088"
+                s "Is that how it works?"
+
+                voice "ch1.10_k_025"
+                k "That's how it works."
+
+                $ show_sprites(("k 4 happy", "s 1"))
+
+        
+        voice "ch1.10_k_019"
+        k "Anyway, let's go check out that shop over there next. There's a clothing store I like."
+
+        $ show_sprites(("k 4 happy", "s 3 sad"))
+        voice "ch1.10_s_081"
+        s "Ah, Kirche. Wait up."
+
+
+
     return
 
 label date_haruna_1:

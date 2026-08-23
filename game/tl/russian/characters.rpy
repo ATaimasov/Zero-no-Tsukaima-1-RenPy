@@ -47,3 +47,7 @@ translate russian strings:
     old "Underlings"
     new "Приспешники"
 
+    old "Villager"
+    new "Деревенский житель"
+
+

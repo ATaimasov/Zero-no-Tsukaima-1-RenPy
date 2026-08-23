@@ -3080,6 +3080,173 @@ translate russian strings:
     old "Okay."
     new "Хорошо."
 
+    old "Hey, Kirche, are you there?"
+    new "Эй, Кирхе, ты здесь?"
+
+    old "Oh, isn't it my Darling? What is it? Are you asking me out on a date?"
+    new "О, а это мой Дорогой! Что такое? Приглашаешь меня на свидание?"
+
+    old "Uh, no, not exactly, but something like that. I was thinking maybe we could go into town together."
+    new "Э-э, не совсем, но что-то вроде того. Я подумал, может, вместе в город сходим."
+
+    old "Oh, you indecisive Darling, you're adorable. All right! Let's go right now!"
+    new "Ох, какой же ты нерешительный, Дорогой, но мне это даже нравится. Хорошо! Давай прямо сейчас!"
+
+    old "Ah, wait! Don't pull me so hard…"
+    new "А, подожди! Не тяни меня так сильно…"
+
+    old "So, where shall we go?"
+    new "Так, куда же нам пойти?"
+
+    old "Wherever you say… It's just, I still don't really know the shops in town very well."
+    new "Куда скажешь… Просто я до сих пор не очень хорошо знаю магазины в городе."
+
+    old "Oh, is that so?"
+    new "О, правда?"
+
+    old "Yeah. I only really go into town when I have to accompany Louise while she goes shopping on her days off."
+    new "Ага. Я разве что хожу в город вместе с Луизой, когда она отправляется за покупками в выходные."
+
+    old "Oh my, what a poor thing. Well then, I guess I'll show you around today."
+    new "Ох, бедняжка. Тогда, пожалуй, сегодня я сама покажу тебе город."
+
+    old "Oh, miss, you're quite a beauty. How about you and I go to that tea house over there…"
+    new "Эй, девушка, какая красавица. Как насчёт того, чтобы нам с тобой зайти вон в ту чайную…"
+
+    old "Sorry. I'm with someone today. Maybe another time."
+    new "Жаль. Сегодня я не одна. Может, в другой раз."
+
+    old "Uh… Ah, wait…"
+    new "Э… А, подожди…"
+
+    old "Let's go."
+    new "Пойдём."
+
+    old "Ah, yeah."
+    new "А, ага."
+
+    old "Look, the street vendors around here have some pretty nice accessories."
+    new "Смотри, у уличных торговцев здесь довольно хорошие украшения."
+
+    old "Huh."
+    new "Ого."
+
+    old "As you'd expect, they're pretty expensive too… I can't afford any of this with what I have."
+    new "Неудивительно, что они и стоят недёшево… Мне такое не по карману."
+
+    old "Oh, young lady. My ring whispers that it wishes to be with you."
+    new "Ох, юная леди. Моё кольцо шепчет, что хочет быть с тобой."
+
+    old "Oh, what an honor. Perhaps we'll be able to be together when our paths cross again."
+    new "Ох, какая честь. Может быть, когда мы встретимся снова, нам удастся побыть вместе."
+
+    old "Ah, how cold of you…"
+    new "Ах, как же вы холодны…"
+
+    old "That's a tavern over there. The shops around here serve regular drinks during the day. Some of them are pretty nice."
+    new "Вон там таверна. В здешних заведениях днём подают обычные напитки. Есть довольно приятные места."
+
+    old "Huh. So, kind of like a café?"
+    new "Ага. То есть вроде кафе?"
+
+    old "Hey there, pretty lady. How about having a drink with me over there? It's on me, sweetheart."
+    new "Эй, красавица. Как насчёт пропустить со мной стаканчик вон там? Я угощаю, милая."
+
+    old "Oh, thank you. But I don't drink alcohol while the sun is still up. See you."
+    new "О, спасибо. Но пока солнце ещё высоко, я стараюсь не пить. Ну, до встречи."
+
+    old "H-hey…"
+    new "Э-эй…"
+
+    old "I know it's nothing new, but Kirche, you're really popular, aren't you?"
+    new "Вроде ничего нового, но Кирхе, ты и правда популярна."
+
+    old "Hehe, I'll take that as a compliment."
+    new "Хи-хи, буду считать это комплиментом."
+
+    old "There's something I wanted to ask you…"
+    new "Я хотел кое о чём спросить…"
+
+    old "Kirche, what kind of men do you like?"
+    new "Кирхе, какие мужчины тебе нравятся?"
+
+    old "Oh, Darling. Have you finally decided to try to win me over?"
+    new "О, Дорогой. Ты наконец решил за мной приударить?"
+
+    old "N-no, it's not like that… I was just a little curious."
+    new "Н-нет, ничего такого… Просто мне стало интересно."
+
+    old "Oh, what a shame. But I suppose I can tell you anyway."
+    new "Ох, жаль. Но, пожалуй, всё-таки расскажу тебе."
+
+    old "It's not like I have a particular type… If I had to name just one thing, though."
+    new "Не то чтобы у меня был какой-то определённый типаж… Но если назвать, то что-то одно."
+
+    old "One thing? What?"
+    new "Одно? Что именно?"
+
+    old "A man who can make me fall for him. Anything less than that just doesn't interest me."
+    new "Мужчина, который сможет заставить меня в него влюбиться. Всё, что меньше этого, меня не интересует."
+
+    old "I-I see."
+    new "П-понятно."
+
+    old "Anyway, let's go check out that shop over there next. There's a clothing store I like."
+    new "Ладно, давай теперь заглянем вон в тот магазин. Там есть довольно неплохой магазин одежды."
+
+    old "Ah, Kirche. Wait up."
+    new "А, Кирхе. Подожди меня."
+
+    old "Oh, are you curious?"
+    new "О, тебе интересно?"
+
+    old "Hmm, I guess so."
+    new "Хм-м, наверное."
+
+    old "Well, I like you. I really like you."
+    new "Ну, ты мне нравишься. Очень нравишься."
+
+    old "Seriously?"
+    new "Серьёзно?"
+
+    old "Oh, you silly. I'm always serious. Of course, it all depends on how you feel, Darling."
+    new "Ох, ну какой же ты. Я всегда говорю серьёзно. Конечно, всё зависит от твоих чувств, Дорогой."
+
+    old "Kirche, have you ever truly fallen in love with someone?"
+    new "Кирхе, ты когда-нибудь по-настоящему влюблялась в кого-нибудь?"
+
+    old "What kind of question is that? You think I don't ever seriously fall for anyone?"
+    new "Что это ещё за вопрос? Думаешь, я никогда по-настоящему ни в кого не влюбляюсь?"
+
+    old "Ah, no, I phrased that badly. Sorry."
+    new "А, нет, я неудачно спросил. Извини."
+
+    old "Whenever I'm with a gentleman who tells me he loves me, I'm always serious."
+    new "Когда я общаюсь с кавалером, который говорит, что любит меня, я всегда отношусь к этому серьёзно."
+
+    old "But you also ignore some of them and brush them off, like you did earlier."
+    new "Но некоторых ты всё-таки игнорируешь и отшиваешь, как тех парней раньше."
+
+    old "Of course. If he's not a man I could fall for, then he never stood a chance with me in the first place."
+    new "Конечно. Если это не тот мужчина, в которого я могла бы влюбиться, то с самого начала у него не было никаких шансов."
+
+    old "Is that how it works?"
+    new "Вот как это работает?"
+
+    old "That's how it works."
+    new "Именно так."
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
