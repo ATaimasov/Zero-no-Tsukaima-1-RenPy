@@ -107,15 +107,19 @@ image bg louise_room = "bg/louise_room.webp"
 image bg louise_room_evening = "bg/louise_room_evening.webp"
 image bg louise_room_night = "bg/louise_room_night.webp"
 
+image bg room = "bg/room.webp"
+image bg room_evening = "bg/room_evening.webp"
+image bg room_night = "bg/room_night.webp"
+
 #kirche_room
-image bg kirche_room = "bg/louise_room.webp"
-image bg kirche_room_evening = "bg/louise_room_evening.webp"
-image bg kirche_room_night = "bg/louise_room_night.webp"
+image bg kirche_room = "bg room"
+image bg kirche_room_evening = "bg room_evening"
+image bg kirche_room_night = "bg room_night"
 
 #tabitha_room
-image bg tabitha_room = "bg/louise_room.webp"
-image bg tabitha_room_evening = "bg/louise_room_evening.webp"
-image bg tabitha_room_night = "bg/louise_room_night.webp"
+image bg tabitha_room = "bg room"
+image bg tabitha_room_evening = "bg room_evening"
+image bg tabitha_room_night = "bg room_night"
 
 #dining_hall
 image bg dining_hall = "bg/dining_hall.webp"

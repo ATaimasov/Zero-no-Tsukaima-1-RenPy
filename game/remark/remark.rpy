@@ -168,7 +168,7 @@ label remark:
     pause(1)
     
 
-    $ fade_fx("cr1")
+    $ fade_fx("cr1", bg_position="default")
 
     # ФОН: тёмная комната / рабочее место
 

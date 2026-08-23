@@ -8,7 +8,10 @@
 screen main_menu():
     tag menu
 
-    add gui.main_menu_background
+    add gui.main_menu_background:
+        xalign 0.5
+        yalign 0.5
+        fit "cover"
 
     frame:
         style "main_menu_frame"

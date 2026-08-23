@@ -81,7 +81,7 @@ define SPRITE_CHOICE_BG   = "images/bg/hallway_night.webp"     # экран "к�
 # "center" -> bg_center (zoom 0.85) | "default" -> bg_default (zoom 1) | "vignette" -> bg_vignette (zoom 0.65).
 # Так фон на экране выбора выглядит ИДЕНТИЧНО фону в предыдущей сцене и не "скачет".
 define PORTRAIT_CHOICE_BG_POS = "vignette"
-define SPRITE_CHOICE_BG_POS   = "default"
+define SPRITE_CHOICE_BG_POS   = "fullscreen"
 
 # Музыка по умолчанию для обоих экранов
 define CHOICE_DEFAULT_MUSIC = "t3"
@@ -148,6 +148,7 @@ init python:
             "center":   bg_center,
             "default":  bg_default,
             "vignette": bg_vignette,
+            "fullscreen": fullscreen,
         }.get(pos, bg_center)
 
     def _choice_sprite_of(ch):

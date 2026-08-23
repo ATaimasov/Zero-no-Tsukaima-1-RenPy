@@ -14,6 +14,9 @@ translate russian strings:
     old "Save"
     new "Сохранить"
 
+    old "Preferences"
+    new "Настройки"
+
     old "Q.Save"
     new "Б.Сохр"
 

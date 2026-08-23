@@ -466,8 +466,7 @@ label ch1:
     #call forest_battle from _call_forest_battle
 
     # ==== SUBCHAPTER 4 ====
-    $ fade_fx("forest",new_music="t24")
-    $ show_sprites(("mage", "s 1 angry"), anim="dissolve") 
+    $ fade_fx("forest", new_music="t24", sprites=("mage", "s 1 angry"))
 
     voice "ch1_mage_005"
     mage "To think I'd struggle against such a little girl and a commoner... Retreat!"

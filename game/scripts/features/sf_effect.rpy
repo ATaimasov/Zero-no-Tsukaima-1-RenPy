@@ -43,6 +43,11 @@ transform color_cover:
 transform fullscreen:
     xysize (config.screen_width, config.screen_height)
 
+transform cover:
+    xalign 0.5
+    yalign 0.5
+    fit "cover"
+
 # =============================================================================
 #  БАЗОВЫЕ ПЕРЕХОДЫ (используются в обычных scene ... with fade / with flash)
 # =============================================================================
@@ -133,14 +138,6 @@ init -1 python:
     _FX_DEFAULT_DUR = {"fade": 1.0, "flash": 1.0, "hit": 0.35, "blow": 0.7, "dissolve": 0.5}
 
     def _show_vignette():
-        renpy.show(
-            "black",
-            at_list=[color_cover],
-            tag="_fx_black",
-            layer="master",
-            zorder=-100
-        )
-
         renpy.show(
             "border",
             at_list=[border_left],
@@ -267,7 +264,7 @@ init -1 python:
             new_state[s] = (tag, img, mode, store._sprite_z)
         store._sprite_slots = new_state
 
-    def scene_fx(effect="fade", new_bg=None, duration=None, hide=None, window_hide=None, sprites=None, mode="normal", side=None, center_front=None, sound=None, hud=None, stop_music=False, music_fadeout=1.0, new_music=None, music_fadein=1.0, strength=None, bg_position="default", type="bg"):
+    def scene_fx(effect="fade", new_bg=None, duration=None, hide=None, window_hide=None, sprites=None, mode="normal", side=None, center_front=None, sound=None, hud=None, stop_music=False, music_fadeout=1.0, new_music=None, music_fadein=1.0, strength=None, bg_position="fullscreen", type="bg"):
         effects = _parse_effects(effect)
         has_cover = any(e in _FX_COVERING for e in effects)
 
@@ -278,8 +275,7 @@ init -1 python:
             layer="master",
             zorder=-100
         )
-
-        if type is "cg":
+        if type == "cg":
             bg_position = "vignette"
 
         # По умолчанию перекрывающие эффекты (fade/flash) убирают персонажей,
@@ -338,7 +334,9 @@ init -1 python:
                         renpy.hide(_ptag, layer="master")
                 # Показываем ЛЮБОЙ фон (bg или cg) под одним фиксированным тегом,
                 # поэтому новый фон всегда полностью заменяет предыдущий.
-                if bg_position == "center":
+                if new_bg == "black" or new_bg == "white":
+                    position = color_cover
+                elif bg_position == "center":
                     position = bg_center
                 elif bg_position == "default":
                     position = bg_default
@@ -347,10 +345,19 @@ init -1 python:
                     position = bg_vignette
                 elif bg_position == "fullscreen":
                     position = fullscreen
-                elif bg_position is None and new_bg is "black" or new_bg is "white":
-                    position = color_cover
+                elif bg_position == "cover":
+                    position = cover
 
-                renpy.show(new_bg, at_list=[position], tag=_FX_BG_TAG, layer="master")
+                renpy.hide(_FX_BG_TAG, layer="master")
+
+                renpy.show(
+                    new_bg,
+                    at_list=[position],
+                    tag=_FX_BG_TAG,
+                    layer="master"
+                )
+
+                #renpy.show(new_bg, at_list=[position], tag=_FX_BG_TAG, layer="master")
                 store._fx_bg_name = new_bg
             if sprites is not None:
                 if hide:

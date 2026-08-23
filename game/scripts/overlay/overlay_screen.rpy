@@ -81,9 +81,9 @@ label overlay_screen(scene_name=None, title_text="", show_subtitle=False, text_m
         scene black with dissolve
         $ show_subtitle = False ## no need
     elif isUseBlur is True:
-        scene expression "bg " + scene_name + "_blurred" at bg_center with dissolve
+        scene expression "bg " + scene_name + "_blurred" at fullscreen with dissolve
     else:
-        scene expression "bg " + scene_name at bg_center with dissolve
+        scene expression "bg " + scene_name at fullscreen with dissolve
     pause 0.2
 
     # show title
@@ -107,6 +107,6 @@ label overlay_screen(scene_name=None, title_text="", show_subtitle=False, text_m
 
     # return original scene
     if scene_name is not None and isUseBlur is True:
-        scene expression "bg " + scene_name at bg_center with dissolve
+        scene expression "bg " + scene_name at fullscreen with dissolve
         pause 0.2
     return
