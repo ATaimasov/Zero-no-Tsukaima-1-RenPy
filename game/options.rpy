@@ -177,13 +177,10 @@ define config.voice_filename_format = "audio/voices/{filename}.ogg"
 
 define gui.show_name = False
 
-define config.developer = True
-
-    # disable ctrl skip
-    #define config.keymap['skip'] = []
-    # disable rollback
-    #define config.keymap['rollback'] = [] 
-    #define config.rollback_enabled = False
+#define config.developer = False
+#define config.keymap['rollback'] = [] 
+#define config.keymap['skip'] = []
+#define config.rollback_enabled = False
 
 # ============================================
 # ЗВУК И МУЗЫКА

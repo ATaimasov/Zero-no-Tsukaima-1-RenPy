@@ -13,8 +13,8 @@ define m = Character(_("Montmorency"), color="#e2d79d")
 
 define villager = Character(_("Villager"), color="#797979")
 
-define npc1 = Character(_("Сommander"), color="#797979")
-define npc2 = Character(_("Soldier"), color="#797979")
+define commander = Character(_("Сommander"), color="#797979")
+define soldier = Character(_("Soldier"), color="#797979")
 define mage = Character(_("Mage"), color="#d82b2b")
 define unds = Character(_("Underlings"), color="#d82b2b")
 
