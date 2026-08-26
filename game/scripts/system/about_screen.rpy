@@ -11,7 +11,7 @@ define gui.about ="""This project is a non-commercial, amateur development creat
 All rights to the characters, setting, names, and other elements of Zero no tsukaima belong to their respective owners."""
 
 define gui.credits_text = """Prepared by {a=https://t.me/timeasoff}timeasoff{/a}. Translation assistance provided by {a=https://t.me/Alex_Hrst}Alex_Hrst{/a}.
-Project available on {a=https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy}GitHub{/a}. You can contribute to the translation❗
+Project available on {a=https://github.com/timeasoff/Zero-no-Tsukaima-1-RenPy}GitHub{/a}. You can contribute to the translation❗
 
 My channel is here: {a=https://t.me/halkeginia}Halkeginia Archives{/a}.
 A guide to all Zero no Tsukaima channels and projects can be found on the {a=https://t.me/ZeroNoTsukaima_RU}Halkeginia Map{/a}."""

@@ -6,12 +6,12 @@ All rights to the characters, setting, names, and other elements of Zero no tsuk
 『ゼロの使い魔』のキャラクター、設定、名称、その他の要素に関するすべての権利は、それぞれの権利者に帰属します。"""
 
     old """Prepared by {a=https://t.me/timeasoff}timeasoff{/a}. Translation assistance provided by {a=https://t.me/Alex_Hrst}Alex_Hrst{/a}.
-Project available on {a=https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy}GitHub{/a}. You can contribute to the translation❗
+Project available on {a=https://github.com/timeasoff/Zero-no-Tsukaima-1-RenPy}GitHub{/a}. You can contribute to the translation❗
 
 My channel is here: {a=https://t.me/halkeginia}Halkeginia Archives{/a}.
 A guide to all Zero no Tsukaima channels and projects can be found on the {a=https://t.me/ZeroNoTsukaima_RU}Halkeginia Map{/a}."""
     new """作成者：{a=https://t.me/timeasoff}timeasoff{/a}。翻訳協力：{a=https://t.me/Alex_Hrst}Alex_Hrst{/a}。
-このプロジェクトは {a=https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy}GitHub{/a} で公開されています。翻訳へのご協力をお待ちしています❗
+このプロジェクトは {a=https://github.com/timeasoff/Zero-no-Tsukaima-1-RenPy}GitHub{/a} で公開されています。翻訳へのご協力をお待ちしています❗
 
 私のチャンネルはこちら：{a=https://t.me/halkeginia}Halkeginia Archives{/a}。
 『ゼロの使い魔』関連のすべてのチャンネルやプロジェクトのガイドは、{a=https://t.me/ZeroNoTsukaima_RU}Halkeginia Map{/a}でご覧いただけます。"""

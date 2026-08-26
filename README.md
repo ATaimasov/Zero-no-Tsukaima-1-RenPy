@@ -82,7 +82,7 @@ If you would like to help with translation, testing, or finding bugs:
 - 🗺 **Map of all Zero no Tsukaima projects and channels:** [@ZeroNoTsukaima_RU](https://t.me/ZeroNoTsukaima_RU)
 - 💬 **Contact the author:** [@timeasoff](https://t.me/timeasoff)
 - 🎮 **Download the game:** [itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)
-- 🐙 **Source code on GitHub:** https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy
+- 🐙 **Source code on GitHub:** https://github.com/timeasoff/Zero-no-Tsukaima-1-RenPy
 - ☕ **Support the project:** [@timeasoff_support](https://t.me/timeasoff_support)
 - 🐘 **Russian-speaking ZnT fandom:** [VK Community](https://vk.ru/zeronotsukaima)
 
@@ -178,7 +178,7 @@ _Made with ❤️ and sleepless nights. Welcome back to Halkeginia!_ 🌬️🔥
 - 🗺 **Карта всех проектов и каналов по Zero no Tsukaima:** [@ZeroNoTsukaima_RU](https://t.me/ZeroNoTsukaima_RU)
 - 💬 **Связь с автором:** [@timeasoff](https://t.me/timeasoff)
 - 🎮 **Скачать игру:** [itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)
-- 🐙 **Исходный код на GitHub:** https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy
+- 🐙 **Исходный код на GitHub:** https://github.com/timeasoff/Zero-no-Tsukaima-1-RenPy
 - ☕ **Поддержать проект:** [@timeasoff_support](https://t.me/timeasoff_support)
 - 🐘 **Русскоязычный фендом ZnT:** [Сообщество ВКонтакте](https://vk.ru/zeronotsukaima)
 
@@ -276,7 +276,7 @@ _Сделано с ❤️ и бессонными ночами. Возвраща
 - 🗺 **『ゼロの使い魔』関連プロジェクト・チャンネル一覧:** [@ZeroNoTsukaima_RU](https://t.me/ZeroNoTsukaima_RU)
 - 💬 **作者への連絡:** [@timeasoff](https://t.me/timeasoff)
 - 🎮 **ゲームのダウンロード:** [itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)
-- 🐙 **GitHubのソースコード:** https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy
+- 🐙 **GitHubのソースコード:** https://github.com/timeasoff/Zero-no-Tsukaima-1-RenPy
 - ☕ **プロジェクトへの支援:** [@timeasoff_support](https://t.me/timeasoff_support)
 - 🐘 **ロシア語圏のZnTファンダム:** [VKコミュニティ](https://vk.ru/zeronotsukaima)
 
