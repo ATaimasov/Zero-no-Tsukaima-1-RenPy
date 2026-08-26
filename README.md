@@ -24,23 +24,42 @@ The game supports **English**, **Russian**, and **Japanese**.
 
 ---
 
-## 📥 Installation and Updates
+## 📥 Download and Updates
 
-⚠️ **Important:** Due to GitHub's file size limitations, the repository is divided into two parts: **scripts** and **media files**.
+### 🎮 Download the Game
 
-### 📂 Update Structure
+The easiest way to download the game is through **itch.io**:
 
-1. **Scripts (game code):** Located in this repository.
-2. **Media files (graphics, audio, video):** Stored separately in a cloud archive. The archive will be re-uploaded with every new version.
-   _Dynamic folders:_ `audio/`, `gui/`, `images/`, `video/`.
+**[Download on itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)**
 
-### 🔄 How to Update the Game
+An alternative download is available through the cloud archive:
 
-1. **Update the scripts:** Download the latest files from this repository (or run `git pull`).
-2. **Download the media archive:** Get the latest archive from [_(cloud storage link)_](https://drive.google.com/drive/folders/1PRwcO0x0QffD9x2IF46v8MRvpIVvHlOp?usp=drive_link).
-3. **Replace the files:** Extract the archive into the `game/` folder.
+**[Cloud archive](https://drive.google.com/drive/folders/1PRwcO0x0QffD9x2IF46v8MRvpIVvHlOp?usp=drive_link)**
 
-   > 💡 _It is recommended to delete the old `audio`, `gui`, `images`, and `video` folders before extracting the new archive to avoid version conflicts._
+The cloud archive contains an archive with the **original PlayStation 2 game and emulator**, as well as an archive with the **compiled remaster build**.
+
+### 🛠️ Development Files
+
+⚠️ **For developers and contributors:** Due to GitHub's file size limitations, the repository contains the **game scripts and development files**, while large media files are stored separately.
+
+The following folders contain dynamic media files:
+
+- `audio/`
+- `gui/`
+- `images/`
+- `video/`
+
+These folders are updated separately and may change between versions.
+
+### 🔄 Updating a Development Copy
+
+1. **Update the scripts:** Download the latest files from this repository or run `git pull`.
+2. **Download the latest media archive:** Use the cloud archive above.
+3. **Replace the files:** Extract the updated media files into the `game/` folder.
+
+   > 💡 _It is recommended to delete the old `audio`, `gui`, `images`, and `video` folders before extracting updated files to avoid version conflicts._
+
+For regular players, downloading the latest build from **itch.io** is recommended.
 
 ---
 
@@ -62,6 +81,7 @@ If you would like to help with translation, testing, or finding bugs:
 - 🌟 **Author's Telegram channel (Halkeginia Archives):** [@halkeginia](https://t.me/halkeginia)
 - 🗺 **Map of all Zero no Tsukaima projects and channels:** [@ZeroNoTsukaima_RU](https://t.me/ZeroNoTsukaima_RU)
 - 💬 **Contact the author:** [@timeasoff](https://t.me/timeasoff)
+- 🎮 **Download the game:** [itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)
 - 🐙 **Source code on GitHub:** https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy
 - ☕ **Support the project:** [@timeasoff_support](https://t.me/timeasoff_support)
 - 🐘 **Russian-speaking ZnT fandom:** [VK Community](https://vk.ru/zeronotsukaima)
@@ -100,23 +120,42 @@ _Made with ❤️ and sleepless nights. Welcome back to Halkeginia!_ 🌬️🔥
 
 ---
 
-## 📥 Установка и обновление
+## 📥 Скачать игру и обновления
 
-⚠️ **Важно:** Из-за ограничений GitHub по размеру файлов репозиторий разделён на две части: **скрипты** и **медиафайлы**.
+### 🎮 Скачать игру
 
-### 📂 Структура обновления
+Самый простой способ скачать игру — через **itch.io**:
 
-1. **Скрипты (код игры):** находятся в этом репозитории.
-2. **Медиафайлы (графика, аудио, видео):** хранятся отдельно в облачном архиве. Архив будет перезагружаться с каждой новой версией.
-   _Динамические папки:_ `audio/`, `gui/`, `images/`, `video/`.
+**[Скачать игру на itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)**
 
-### 🔄 Как обновить игру до новой версии
+Также доступен альтернативный вариант скачивания через облачный архив:
 
-1. **Обновите скрипты:** скачайте новые файлы из этого репозитория (или выполните `git pull`).
-2. **Скачайте медиа-архив:** возьмите актуальный архив по [_(ссылке на облачное хранилище)_](https://drive.google.com/drive/folders/1PRwcO0x0QffD9x2IF46v8MRvpIVvHlOp?usp=drive_link).
-3. **Замените файлы:** распакуйте архив в папку `game/`.
+**[Облачный архив](https://drive.google.com/drive/folders/1PRwcO0x0QffD9x2IF46v8MRvpIVvHlOp?usp=drive_link)**
 
-   > 💡 _Рекомендуется удалить старые папки `audio`, `gui`, `images` и `video` перед распаковкой нового архива, чтобы избежать конфликтов версий._
+По ссылке на облачный архив вы можете найти архив с **оригинальной игрой для PlayStation 2 и эмулятором**, а также архив с **собранной версией ремастера**.
+
+### 🛠️ Файлы для разработки
+
+⚠️ **Для разработчиков и участников проекта:** Из-за ограничений GitHub по размеру файлов репозиторий содержит **скрипты игры и файлы разработки**, а крупные медиафайлы хранятся отдельно.
+
+Следующие папки содержат динамические медиафайлы:
+
+- `audio/`
+- `gui/`
+- `images/`
+- `video/`
+
+Эти папки обновляются отдельно и могут изменяться между версиями.
+
+### 🔄 Обновление версии для разработки
+
+1. **Обновите скрипты:** скачайте последние файлы из этого репозитория или выполните `git pull`.
+2. **Скачайте актуальный медиа-архив:** используйте облачный архив выше.
+3. **Замените файлы:** распакуйте обновлённые медиафайлы в папку `game/`.
+
+   > 💡 _Рекомендуется удалить старые папки `audio`, `gui`, `images` и `video` перед распаковкой обновлённых файлов, чтобы избежать конфликтов версий._
+
+Для обычных игроков рекомендуется скачивать последнюю готовую версию игры через **itch.io**.
 
 ---
 
@@ -138,6 +177,7 @@ _Made with ❤️ and sleepless nights. Welcome back to Halkeginia!_ 🌬️🔥
 - 🌟 **Telegram-канал автора (Halkeginia Archives):** [@halkeginia](https://t.me/halkeginia)
 - 🗺 **Карта всех проектов и каналов по Zero no Tsukaima:** [@ZeroNoTsukaima_RU](https://t.me/ZeroNoTsukaima_RU)
 - 💬 **Связь с автором:** [@timeasoff](https://t.me/timeasoff)
+- 🎮 **Скачать игру:** [itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)
 - 🐙 **Исходный код на GitHub:** https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy
 - ☕ **Поддержать проект:** [@timeasoff_support](https://t.me/timeasoff_support)
 - 🐘 **Русскоязычный фендом ZnT:** [Сообщество ВКонтакте](https://vk.ru/zeronotsukaima)
@@ -178,23 +218,42 @@ _Сделано с ❤️ и бессонными ночами. Возвраща
 
 ---
 
-## 📥 インストールとアップデート
+## 📥 ダウンロードとアップデート
 
-⚠️ **重要:** GitHubのファイルサイズ制限のため、このリポジトリは**スクリプト**と**メディアファイル**の2つに分かれています。
+### 🎮 ゲームのダウンロード
 
-### 📂 アップデートの構成
+ゲームをダウンロードする最も簡単な方法は**itch.io**です。
 
-1. **スクリプト（ゲームコード）:** このリポジトリに収録されています。
-2. **メディアファイル（画像・音声・動画）:** 別途クラウドストレージのアーカイブに保存されています。新しいバージョンがリリースされるたびに、アーカイブも更新されます。
-   _対象フォルダ:_ `audio/`、`gui/`、`images/`、`video/`
+**[itch.ioからゲームをダウンロード](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)**
 
-### 🔄 ゲームを新しいバージョンへアップデートする方法
+また、クラウドストレージからもダウンロードできます。
+
+**[クラウドアーカイブ](https://drive.google.com/drive/folders/1PRwcO0x0QffD9x2IF46v8MRvpIVvHlOp?usp=drive_link)**
+
+クラウドアーカイブには、**オリジナルのPlayStation 2版ゲームとエミュレーター**を収録したアーカイブと、**リマスター版のビルド済みゲーム**を収録したアーカイブがあります。
+
+### 🛠️ 開発用ファイル
+
+⚠️ **開発者・プロジェクト参加者向け:** GitHubのファイルサイズ制限のため、このリポジトリには**ゲームスクリプトと開発用ファイル**が含まれており、大容量のメディアファイルは別途保存されています。
+
+以下のフォルダには動的に更新されるメディアファイルが含まれています。
+
+- `audio/`
+- `gui/`
+- `images/`
+- `video/`
+
+これらのフォルダは個別に更新され、バージョンによって内容が変更される場合があります。
+
+### 🔄 開発環境を更新する方法
 
 1. **スクリプトを更新:** このリポジトリから最新のファイルをダウンロードするか、`git pull`を実行してください。
-2. **メディアアーカイブをダウンロード:** [_(クラウドストレージへのリンク)_](https://drive.google.com/drive/folders/1PRwcO0x0QffD9x2IF46v8MRvpIVvHlOp?usp=drive_link)から最新のアーカイブをダウンロードしてください。
-3. **ファイルを置き換え:** アーカイブを`game/`フォルダに展開してください。
+2. **最新のメディアアーカイブをダウンロード:** 上記のクラウドアーカイブを使用してください。
+3. **ファイルを置き換え:** 更新されたメディアファイルを`game/`フォルダに展開してください。
 
-   > 💡 _バージョンの競合を避けるため、新しいアーカイブを展開する前に、古い`audio`、`gui`、`images`、`video`フォルダを削除することをおすすめします。_
+   > 💡 _バージョンの競合を避けるため、更新されたファイルを展開する前に古い`audio`、`gui`、`images`、`video`フォルダを削除することをおすすめします。_
+
+通常のプレイヤーには、**itch.ioから最新のゲームビルドをダウンロードすることをおすすめします。**
 
 ---
 
@@ -216,6 +275,7 @@ _Сделано с ❤️ и бессонными ночами. Возвраща
 - 🌟 **作者のTelegramチャンネル（Halkeginia Archives）:** [@halkeginia](https://t.me/halkeginia)
 - 🗺 **『ゼロの使い魔』関連プロジェクト・チャンネル一覧:** [@ZeroNoTsukaima_RU](https://t.me/ZeroNoTsukaima_RU)
 - 💬 **作者への連絡:** [@timeasoff](https://t.me/timeasoff)
+- 🎮 **ゲームのダウンロード:** [itch.io](https://timeasoff.itch.io/zero-no-tsukaima-remaster-1)
 - 🐙 **GitHubのソースコード:** https://github.com/ATaimasov/Zero-no-Tsukaima-1-RenPy
 - ☕ **プロジェクトへの支援:** [@timeasoff_support](https://t.me/timeasoff_support)
 - 🐘 **ロシア語圏のZnTファンダム:** [VKコミュニティ](https://vk.ru/zeronotsukaima)

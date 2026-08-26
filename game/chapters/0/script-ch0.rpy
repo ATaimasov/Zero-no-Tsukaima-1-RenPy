@@ -56,7 +56,7 @@ label ch0:
     $ flash_fx("terrorist2", type="cg")
 
     voice "ch0_soldier_009"
-    soldier "He... did he just vanish?"
+    soldier "He… did he just vanish?"
 
     voice "ch0_soldier_010"
     commander "Hey! Apprehend him immediately!"

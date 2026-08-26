@@ -27,6 +27,7 @@ define unk_k = Character(_("???"), color="#e36566") #kirche
 define th = Character(None, 
     what_italic=True,
     what_color="#3874a3",
+    #what_outlines=[(1, "#00000080", 0, 0)],
     window_style='thought_window'
 )
 

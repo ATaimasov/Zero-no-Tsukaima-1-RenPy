@@ -24,7 +24,7 @@ translate russian strings:
     new "На сегодня хватит. Поторопитесь потушить пожар."
 
     old "You—what's your objective?"
-    new "Ты... Какова твоя цель?"
+    new "Ты… Какова твоя цель?"
 
     old "Objective? To dismantle every rule this country stands on."
     new "Цель? Разрушить все устои, на которых держится эта страна."
@@ -35,14 +35,14 @@ translate russian strings:
     old "Until then, you'll just have to cherish your mundane lives, won't you?"
     new "А до тех пор вам остаётся лишь ценить свою обыденную жизнь, верно?"
 
-    old "He... did he just vanish?"
-    new "Он... только что исчез?"
+    old "He… did he just vanish?"
+    new "Он… только что исчез?"
 
     old "Hey! Apprehend him immediately!"
     new "Эй! Немедленно задержите его!"
 
-    old "……Hey, Louise-san, can you hear me?"
-    new "……Эй, Луиза-сан, ты меня слышишь?"
+    old "…Hey, Louise-san, can you hear me?"
+    new "…Эй, Луиза-сан, ты меня слышишь?"
 
     old "What?"
     new "Что?"
@@ -50,8 +50,8 @@ translate russian strings:
     old "I was wondering…"
     new "Я тут хотел поинтересоваться…"
 
-    old "……go ahead and say it"
-    new "……пожалуйста, говори."
+    old "…go ahead and say it"
+    new "…пожалуйста, говори."
 
     old "If I recall correctly, this morning you said, 'It's been forever since I've gone out shopping in town on a day off!'"
     new "Если память не изменяет, сегодня утром прозвучало: «Я так давно не выбиралась за покупками в город в выходной!»"
@@ -60,7 +60,7 @@ translate russian strings:
     new "…или что-то в этом роде, разве нет? Мне запомнилось, потому что ты выглядела довольной."
 
     old "I wonder if something like that really happened..."
-    new "Может, и случалось нечто подобное..."
+    new "Может, и случалось нечто подобное…"
 
     old "No, no, no, of course I'm curious! You seemed to be having so much fun back then—why on earth are you in such a bad mood now?"
     new "Нет-нет-нет, ещё бы меня это не интересовало! Ты тогда выглядела такой довольной — почему же сейчас ты не в духе?"
@@ -98,10 +98,10 @@ translate russian strings:
     new "По-моему, отлично! У тебя и так хорошая внешность от природы. Так что уделять больше внимания своему виду — это вполне нормально."
 
     old "I-is that so...?"
-    new "Д-да неужели...?"
+    new "Д-да неужели…?"
 
     old "But why do girls take so long just picking out clothes? I just don't get it at all..."
-    new "Но почему девушки тратят уйму времени только на то, чтобы выбрать одежду? Никак не пойму..."
+    new "Но почему девушки тратят уйму времени только на то, чтобы выбрать одежду? Никак не пойму…"
 
     old "Either one's fine. It's got nothing to do with me, anyway."
     new "Мне без разницы, любой вариант подойдёт. Меня это всё равно не касается."
@@ -162,7 +162,7 @@ translate russian strings:
     new "Ого, страшно-то как! Напарник, я пока немного вздремну — так что когда понадоблюсь, позови, ладно?"
 
     old "Sheesh..."
-    new "Эх..."
+    new "Эх…"
 
     old "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
     new "Это же очевидно плохо, разве нет? Неужели ты так хочешь нарядиться, что готова доставить мне столько хлопот, а?"
@@ -171,19 +171,19 @@ translate russian strings:
     new "Эй, Сайто? Что с тобой?"
 
     old "Over there... Isn't someone lying at the foot of that tree?"
-    new "Там... У подножия того дерева не лежит ли кто-то?"
+    new "Там… У подножия того дерева не лежит ли кто-то?"
 
     old "What? Where?"
     new "А? Где?"
 
     old "Hey, over there... nah, better to see for myself. My bad, Louise! I'm going first!"
-    new "Эй, вон там... ладно, лучше сам посмотрю. Извини, Луиза. Я побегу вперёд!"
+    new "Эй, вон там… ладно, лучше сам посмотрю. Извини, Луиза. Я побегу вперёд!"
 
     old "Ah—wait, Saito! Ugh, what is wrong with you?!"
     new "А, постой, Сайто! Блин, да, что с тобой такое?!"
 
     old "Just as I thought... There really is someone collapsed... I wonder if she is okay... wait—huh, hey!?"
-    new "Как я и думал... Тут в самом деле кто-то лежит... Надеюсь, с ней всё в порядке... хотя, э, постой!?"
+    new "Как я и думал… Тут в самом деле кто-то лежит… Надеюсь, с ней всё в порядке… хотя, э, постой!?"
 
     old "Seriously, Saito! What are you doing leaving your master behind?! ...Wait, there really is someone collapsed..."
     new "Боже, Сайто! Как можно бросить свою госпожу позади?!.. Хотя постой... тут и правда лежит человек..."
@@ -1166,7 +1166,7 @@ translate russian strings:
     old "Uh, um. In a situation like this, rather than me saying it, it's probably better to let Louise herself explain it, yeah."
     new  "Э-э, ну... В такой ситуации, пожалуй, лучше, если всё объяснит сама Луиза, а не я. Угу."
 
-    old "Hey, Louise, Louise! I'm begging you, wake up and explain this situation!  Or rather, prove my innocence!"
+    old "Hey, Louise, Louise! I'm begging you, wake up and explain this situation! Or rather, prove my innocence!"
     new "Эй, Луиза, Луиза! Умоляю, проснись и растолкуй эту ситуацию! Точнее, докажи мою невиновность!"
 
     old "Mmm... mm..."
@@ -1832,8 +1832,8 @@ translate russian strings:
     old "Huh? What's this?"
     new "А? Что это?"
 
-    old "What do you mean 'what'? It's stew. Does this look like a book to you?"
-    new "Что значит «что»? Это рагу. Неужели это похоже на книгу?"
+    old "What do you mean, 'what'? It's a stew. Doesn't it look like one?"
+    new "Что значит «что»? Это рагу. Неужели не похоже?"
 
     old "Well, it doesn't look like it."
     new "Ну, не похоже."

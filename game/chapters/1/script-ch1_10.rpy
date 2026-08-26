@@ -22,7 +22,7 @@ label ch1_10:
 
 label date_louise_1:
     if louise_sympathy == 100:
-        call sp_l1
+        call sp_l1 from _call_sp_l1_1
     else:
         $ fade_fx("louise_room", new_music="t5")
         $ show_sprites(("s 1"))
@@ -162,7 +162,7 @@ label date_louise_1:
         voice "ch1.10_s_011"
         s "Ah... yeah."
 
-        call open_door("right")
+        call open_door("right") from _call_open_door
 
         th "Did I say something wrong...?"  
 
@@ -170,7 +170,7 @@ label date_louise_1:
 
 label date_siesta_1:
     if louise_sympathy == 100:
-        call sp_l1
+        call sp_l1 from _call_sp_l1_2
     else:
         $ fade_fx("forest", new_music="t6", sprites=("si 1", "s 1"))
         voice "ch1.10_si_001"
@@ -325,7 +325,7 @@ label date_siesta_1:
 
 label date_tabitha_1:
     if louise_sympathy == 100:
-        call sp_l1
+        call sp_l1 from _call_sp_l1_3
     else:
         $ fade_fx("bg tabitha_room", new_music="t8", sprites=("s 1"))
 
@@ -563,7 +563,7 @@ label date_tabitha_1:
 
 label date_kirche_1:
     if louise_sympathy == 100:
-        call sp_l1
+        call sp_l1 from _call_sp_l1_4
     else:
         $ fade_fx("bg kirche_room", new_music="t7", sprites=("s 1"))
         voice "ch1.10_s_065"
@@ -786,7 +786,7 @@ label date_kirche_1:
 
 label date_haruna_1:
     if louise_sympathy == 100:
-        call sp_l1
+        call sp_l1 from _call_sp_l1_5
     else:
         $ fade_fx("louise_room", new_music="t18", sprites=("s 1"))
         voice "ch1.10_s_089"

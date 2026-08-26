@@ -31,7 +31,7 @@ label si_room_ch1_3:
     voice "ch1.3_si_002"
     si "Ah, Saito-san? Please, come in."
 
-    call open_door("right", "si_room_night")
+    call open_door("right", "si_room_night") from _call_open_door_1
 
     $ show_sprites(("s 1", "si 1"), anim="slide_right")
     voice "ch1.3_si_003"
@@ -171,7 +171,7 @@ label si_room_ch1_3:
     voice "ch1.3_s_034"
     s "Ah, good night, Siesta."
 
-    call open_door("left", stop_music=True)
+    call open_door("left", stop_music=True) from _call_open_door_2
 
     return
 label l_room_ch1_3:

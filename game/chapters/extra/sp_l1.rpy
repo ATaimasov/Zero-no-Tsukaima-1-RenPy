@@ -97,7 +97,7 @@ label sp_l1:
     s "Huh? What's this?"
 
     voice "sp_l1_l_012"
-    l "What do you mean 'what'? It's stew. Does this look like a book to you?"
+    l "What do you mean, 'what'? It's a stew. Doesn't it look like one?"
     ## I dunno what the hell book this is, but I've double-checked this case five times and this is indeed what it's about.
 
     voice "sp_l1_s_013"

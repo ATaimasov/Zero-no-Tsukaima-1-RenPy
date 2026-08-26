@@ -223,3 +223,5 @@ default preferences.afm_time = 15
 
 define config.save_directory = "ZnT1-1777760105"
 define config.window_icon = "gui/window_icon.png"
+
+define build.itch_project = "timeasoff.itch.io/zero-no-tsukaima-remaster-1"

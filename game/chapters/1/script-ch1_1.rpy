@@ -32,7 +32,7 @@ label ch1:
 
     l "....."
     voice "ch1_s_001"
-    s "……Hey, Louise-san, can you hear me?"
+    s "…Hey, Louise-san, can you hear me?"
 
     voice "ch1_l_001"
     l "What?"
@@ -43,7 +43,7 @@ label ch1:
     $ dissolve_fx("l_s_forest_l_speak", type="cg")
 
     voice "ch1_l_002"
-    l "……go ahead and say it"
+    l "…go ahead and say it"
 
     voice "ch1_s_003"
     s "If I recall correctly, this morning you said, 'It's been forever since I've gone out shopping in town on a day off!'"

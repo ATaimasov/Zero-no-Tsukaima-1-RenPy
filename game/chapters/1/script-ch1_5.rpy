@@ -194,7 +194,7 @@ label ch1_5:
             s "Uh, um. In a situation like this, rather than me saying it, it's probably better to let Louise herself explain it, yeah."
 
             voice "ch1.5_s_030"
-            s "Hey, Louise, Louise! I'm begging you, wake up and explain this situation!  Or rather, prove my innocence!"
+            s "Hey, Louise, Louise! I'm begging you, wake up and explain this situation! Or rather, prove my innocence!"
 
             voice "ch1.5_l_006"
             l "Mmm... mm..."

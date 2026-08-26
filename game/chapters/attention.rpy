@@ -13,5 +13,5 @@ label attention:
             return
 
         "An interactive story about the remaster ⬅️⬅️⬅️":
-            call remark
+            call remark from _call_remark
     return

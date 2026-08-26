@@ -314,7 +314,7 @@ label k_room_ch1_8:
     voice "ch1.8_s_024"
     s "Well then, excuse me!"
 
-    call open_door("right", "bg kirche_room_night")
+    call open_door("right", "bg kirche_room_night") from _call_open_door_3
 
     $ show_sprites(("k 3 happy", "s 1"), anim="slide_right")
 
@@ -477,7 +477,7 @@ label k_room_ch1_8:
     voice "ch1.8_k_014"
     k "Oh, Darling, you're so adorable when you're this innocent <3. Do come back again."
 
-    call open_door("left")
+    call open_door("left") from _call_open_door_4
 
     $ fade_fx("hallway_down_night")
     $ show_sprites(("s 1 angry"), anim="slide_left") 

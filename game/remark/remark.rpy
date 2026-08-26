@@ -257,7 +257,7 @@ label remark:
     jump remark_menu
 
 label remark_thanks_menu:
-    call remark_thanks
+    call remark_thanks from _call_remark_thanks
     jump remark_return
 
 # ============================================================
@@ -845,7 +845,7 @@ label remark_resources:
 
     tms "All that's left is to extract the audio files and images.{#r}"
 
-    call show_hacker
+    call show_hacker from _call_show_hacker
 
     tms "I'll find out how to decode PS2 files.{#r}"
 
@@ -859,7 +859,7 @@ label remark_resources:
 
     tms "They still need to be decoded separately.{#r}"
 
-    call hide_hacker
+    call hide_hacker from _call_hide_hacker
 
     tms "There were no problems unpacking the images.{#r}"
 
@@ -935,7 +935,7 @@ label remark_resources:
 
     $ dissolve_fx("cr1", bg_position="default")
 
-    call show_hacker
+    call show_hacker from _call_show_hacker_1
 
     tms "The audio decoded incorrectly.{#r}"
 
@@ -947,7 +947,7 @@ label remark_resources:
 
     tms "It seemed like something did decode...{#r}"
 
-    call hide_hacker
+    call hide_hacker from _call_hide_hacker_1
     show dog at Position(xpos=1000, ypos=500)
     play sound teeth
 
@@ -959,7 +959,7 @@ label remark_resources:
 
     hide dog
 
-    call show_hacker
+    call show_hacker from _call_show_hacker_2
 
     tms "And finally I found a way to properly decode the audio.{#r}"
 
@@ -972,7 +972,7 @@ label remark_resources:
     tms "For music — 22050 Hz.{#r}"
     tms "For sounds and voice acting — mono, 22050 Hz.{#r}"
 
-    call hide_hacker
+    call hide_hacker from _call_hide_hacker_2
 
     show enjoy at Position(xpos=1000, ypos=500)
     play sound win
@@ -1073,7 +1073,7 @@ label remark_translation:
     tms "I need to transcribe the audio into text.{#r}"
     tms "And automatically.{#r}"
     
-    call show_hacker
+    call show_hacker from _call_show_hacker_3
 
     tms "I'm breaking out the neural network again.{#r}"
 
@@ -1093,7 +1093,7 @@ label remark_translation:
 
     tms "Because that's exactly how long it needed.{#r}"
 
-    call hide_hacker
+    call hide_hacker from _call_hide_hacker_3
 
     # ЗВУК: работающий компьютер
     # ИЗОБРАЖЕНИЕ: компьютер ночью
@@ -1234,7 +1234,7 @@ label remark_translation:
     stop music fadeout 1.0
     pause(1)
 
-    call remark_thanks
+    call remark_thanks from _call_remark_thanks_1
 
     menu:
         "Continue{#r}":

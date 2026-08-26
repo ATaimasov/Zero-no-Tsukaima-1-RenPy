@@ -54,7 +54,7 @@ style window:
     ysize gui.textbox_height
 
     #background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
-    background Transform("gui/textbox.png", alpha=0.8)
+    background Transform("gui/textbox.png", alpha=0.9)
 
 style namebox:
     xpos gui.name_xpos

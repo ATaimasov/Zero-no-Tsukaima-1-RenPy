@@ -35,13 +35,13 @@ translate japanese strings:
     old "Until then, you'll just have to cherish your mundane lives, won't you?"
     new "せいぜい、その時まで、日々の生活を大切にするんだね。それじゃ。"
 
-    old "He... did he just vanish?"
+    old "He… did he just vanish?"
     new "き、消えた。"
 
     old "Hey! Apprehend him immediately!"
     new "お、追え。今すぐに捕まえろ！"
 
-    old "……Hey, Louise-san, can you hear me?"
+    old "…Hey, Louise-san, can you hear me?"
     new "……もしもし、ルイズさん。"
 
     old "What?"
@@ -50,7 +50,7 @@ translate japanese strings:
     old "I was wondering…"
     new "ちょっとお聞きしたいんですけど？"
 
-    old "……go ahead and say it"
+    old "…go ahead and say it"
     new "……言ってごらんなさい。"
 
     old "If I recall correctly, this morning you said, 'It's been forever since I've gone out shopping in town on a day off!'"
@@ -1161,7 +1161,7 @@ translate japanese strings:
     old "Uh, um. In a situation like this, rather than me saying it, it's probably better to let Louise herself explain it, yeah."
     new "え、えーと。こういう場合は俺が言うより、ルイズ本人に説明させた方がいいよな、うん。"
 
-    old "Hey, Louise, Louise! I'm begging you, wake up and explain this situation!  Or rather, prove my innocence!"
+    old "Hey, Louise, Louise! I'm begging you, wake up and explain this situation! Or rather, prove my innocence!"
     new "おい、ルイズ、ルイズ!頼むから起きてこの状況を説明してくれ!っていうか俺の冤罪を証明してくれ!"
 
     old "Mmm... mm..."
@@ -1824,7 +1824,7 @@ translate japanese strings:
     old "Huh? What's this?"
     new "へっ?なにこれ?"
 
-    old "What do you mean 'what'? It's stew. Does this look like a book to you?"
+    old "What do you mean, 'what'? It's a stew. Doesn't it look like one?"
     new "何って、シチューよ。これが本に見える?"
 
     old "Well, it doesn't look like it."
