@@ -22,6 +22,20 @@ All original voice acting, music, sprites, and CGs were carefully extracted from
 
 The game supports **English**, **Russian**, and **Japanese**.
 
+## 🕵️ Story
+
+Saito Hiraga has already spent some time living in the magical world of Halkeginia, serving as Louise's Familiar and gradually adjusting to his new life far from his home world.
+
+Despite everything that has happened, Saito still wants to return home. And an unexpected encounter with someone he knows from his past may finally give him hope.
+
+His former classmate has somehow been summoned to Halkeginia as well. However, her arrival in this world is far from ordinary. Mysterious and dangerous people are hunting her, and Saito begins to wonder: could her arrival somehow help him find a way back home?
+
+Why did she end up in Halkeginia? Who is hunting her, and why?
+
+Could his former classmate be the key to finding a way back home?
+
+The story will reveal the answers to these questions.
+
 ---
 
 ## 📥 Download and Updates
@@ -117,6 +131,20 @@ _Made with ❤️ and sleepless nights. Welcome back to Halkeginia!_ 🌬️🔥
 Вся оригинальная озвучка, музыка, спрайты и CG были бережно извлечены из образа PS2, декодированы, восстановлены и интегрированы в новый движок.
 
 Игра поддерживает **английский**, **русский** и **японский** языки.
+
+## 🕵️ Сюжет
+
+Сайто Хирага уже некоторое время живёт в магическом мире Халкегинии, будучи фамильяром Луизы и постепенно привыкая к новой жизни вдали от родного мира.
+
+Несмотря на всё произошедшее, Сайто по-прежнему хочет вернуться домой. И неожиданная встреча со знакомой из прошлого, возможно, впервые даёт ему надежду.
+
+Его бывшая одноклассница каким-то образом тоже оказалась призвана в Халкегинию. Однако её появление в этом мире далеко от обычного. За ней охотятся таинственные и опасные люди, и Сайто начинает задумываться: может ли её появление каким-то образом помочь ему самому вернуться домой?
+
+Почему она оказалась в Халкегинии? Кто за ней охотится и зачем?
+
+Может ли его одноклассница оказаться ключом к возвращению домой?
+
+История даст ответы на эти вопросы.
 
 ---
 
@@ -215,6 +243,20 @@ _Сделано с ❤️ и бессонными ночами. Возвраща
 オリジナルの音声、音楽、立ち絵、CGはPS2イメージから丁寧に抽出・デコード・修復し、新しいエンジンへ統合しています。
 
 ゲームは**英語・ロシア語・日本語**に対応しています。
+
+## 🕵️ ストーリー
+
+平賀才人は、すでにしばらくの間、ルイズの使い魔として魔法世界ハルケギニアで暮らし、故郷から遠く離れた新しい生活にも少しずつ慣れ始めていた。
+
+これまでに何があったとしても、才人は今も元の世界へ帰りたいと願っている。そんな彼の前に、かつての知り合いとの思いがけない再会が訪れ、帰還への希望をもたらすことになる。
+
+なんと、彼の元クラスメイトもまた、何らかの理由でハルケギニアへ召喚されていた。しかし、彼女のこの世界への到来は決して普通のものではなかった。彼女は謎の危険な人物たちに追われており、才人は次第に考えるようになる。彼女の召喚が、自分自身の帰還への手がかりになるのではないか、と。
+
+なぜ彼女はハルケギニアへ来ることになったのか？　彼女を追っているのは誰なのか？　そして、その目的は何なのか？
+
+彼女は、元の世界へ帰るための鍵となるのだろうか？
+
+その答えは、物語の中で明らかになります。
 
 ---
 
