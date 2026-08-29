@@ -53,8 +53,8 @@ translate russian strings:
     old "…go ahead and say it"
     new "…пожалуйста, говори."
 
-    old "If I recall correctly, this morning you said, 'It's been forever since I've gone out shopping in town on a day off!'"
-    new "Если память не изменяет, сегодня утром прозвучало: «Я так давно не выбиралась за покупками в город в выходной!»"
+    old "If I recall correctly, this morning you said, {i}'It's been forever since I've gone out shopping in town on a day off!'{/i}"
+    new "Если память не изменяет, сегодня утром прозвучало: {i}«Я так давно не выбиралась за покупками в город в выходной!»{/i}"
 
     old "…or something along those lines, didn't you say? I seem to recall it sounded like you were having quite a bit of fun."
     new "…или что-то в этом роде, разве нет? Мне запомнилось, потому что ты выглядела довольной."
@@ -348,8 +348,8 @@ translate russian strings:
     old "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
     new "Если ещё раз такое повторится, я тебе голову действительно расколю. Но ладно, Сайто. Что будем делать дальше?"
 
-    old "Huh? What do you mean, 'what do we do?'... About what, exactly?"
-    new "А? Что значит «что делать»?... В смысле, что именно?"
+    old "Huh? What do you mean, {i}'what do we do?'{/i}... About what, exactly?"
+    new "А? Что значит {i}«что делать?»{/i}... В смысле, что именно?"
 
     old "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."
     new "Если те ребята целенаправленно охотились за ней, значит, она не такая уж и простая девчонка, верно? Вполне возможно, что нам с этим не справиться."

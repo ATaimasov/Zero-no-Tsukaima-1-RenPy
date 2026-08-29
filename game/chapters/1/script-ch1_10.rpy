@@ -586,7 +586,9 @@ label date_kirche_1:
         voice "ch1.10_s_067"
         s "Ah, wait! Don't pull me so hard…"
 
-        $ fade_fx("town_square", sprites=("k 1", "s 3 sad"))
+        $ fade_fx("town_square")
+        $ show_sprites(("k 1", "s 3 sad"), anim_in="slide_right")
+        pause(0.2)
         voice "ch1.10_k_003"
         k "So, where shall we go?"
 
@@ -779,9 +781,11 @@ label date_kirche_1:
         voice "ch1.10_k_019"
         k "Anyway, let's go check out that shop over there next. There's a clothing store I like."
 
-        $ show_sprites(("k 4 happy", "s 3 sad"))
+        $ show_sprites(("s 3 sad"), side="right")
         voice "ch1.10_s_081"
         s "Ah, Kirche. Wait up."
+        $ show_sprites(None, anim_out="slide_left")
+        pause(0.5)
     return
 
 label date_haruna_1:

@@ -46,7 +46,7 @@ label ch1:
     l "…go ahead and say it"
 
     voice "ch1_s_003"
-    s "If I recall correctly, this morning you said, 'It's been forever since I've gone out shopping in town on a day off!'"
+    s "If I recall correctly, this morning you said, {i}'It's been forever since I've gone out shopping in town on a day off!'{/i}"
 
     voice "ch1_s_004"
     s "…or something along those lines, didn't you say? I seem to recall it sounded like you were having quite a bit of fun."
@@ -462,6 +462,7 @@ label ch1:
 
     # ==== BATTLE ==== 
     $ fade_fx("black")
+    call overlay_screen(None, "") from _call_overlay_screen_battle_0
     
     #call forest_battle from _call_forest_battle
 
@@ -524,7 +525,7 @@ label ch1:
     $ fade_fx("forest", sprites=("l 1 sad", "s 1 angry"))
 
     voice "ch1_s_042"
-    s "Huh? What do you mean, 'what do we do?'... About what, exactly?"
+    s "Huh? What do you mean, {i}'what do we do?'{/i}... About what, exactly?"
 
     voice "ch1_s_043"
     l "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."

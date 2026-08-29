@@ -53,7 +53,7 @@ translate japanese strings:
     old "…go ahead and say it"
     new "……言ってごらんなさい。"
 
-    old "If I recall correctly, this morning you said, 'It's been forever since I've gone out shopping in town on a day off!'"
+    old "If I recall correctly, this morning you said, {i}'It's been forever since I've gone out shopping in town on a day off!'{/i}"
     new "たしか今朝は、『休日に街に出て買い物するのって、　久しぶりー！』"
 
     old "…or something along those lines, didn't you say? I seem to recall it sounded like you were having quite a bit of fun."
@@ -346,7 +346,7 @@ translate japanese strings:
     old "If you try that again, I really will break (your head). Anyway, Saito, what do we do now?"
     new "今度やったら、本当に割るからね。それより、サイト。これからどうするの?"
 
-    old "Huh? What do you mean, 'what do we do?'... About what, exactly?"
+    old "Huh? What do you mean, {i}'what do we do?'{/i}... About what, exactly?"
     new "え、どうするって......なにが?"
 
     old "If those guys were targeting her for a reason, then she's not just an ordinary girl, right? It's not certain that we can handle this on our own."
