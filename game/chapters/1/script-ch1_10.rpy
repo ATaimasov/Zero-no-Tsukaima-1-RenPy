@@ -222,7 +222,7 @@ label date_siesta_1:
         s "I see..."
 
         menu:
-            "You'll make an excellent wife":
+            "You'll make an excellent wife.":
                 $ show_sprites(("si 1 happy", "s 3"))
                 voice "ch1.10_s_026"
                 s "I have to say, I'm impressed. Siesta, you'd make a good wife."
@@ -256,7 +256,7 @@ label date_siesta_1:
                 s "What's wrong, Siesta? Your face looks kind of red."
 
                 voice "ch1.10_si_011"
-                si "I-I... well... N-Next time, I'll make some dishes with wild mountain greens for you too, Saito-san!"
+                si "I-I… well… N-Next time, I'll make some dishes with wild mountain greens for you too, Saito-san!"
 
                 $ show_sprites(("si 4 shy", "s 1"))
                 voice "ch1.10_s_031"
@@ -290,7 +290,7 @@ label date_siesta_1:
                 $ show_sprites(("si 1", "s 1"))
 
                 voice "ch1.10_si_017"
-                si "It's not really about being thrifty... It just seems like such a waste when something is perfectly edible."
+                si "It's not really about being thrifty… It just seems like such a waste when something is perfectly edible."
 
                 $ update_sympathy(-20, char_key="siesta")
 
@@ -307,7 +307,7 @@ label date_siesta_1:
 
                 $ show_sprites(("si 4 sad", "s 1"))
                 voice "ch1.10_si_019"
-                si "I see... I thought this was just normal."
+                si "I see… I thought this was just normal."
 
         $ show_sprites(("si 1", "s 1"))
         voice "ch1.10_si_012"
@@ -319,7 +319,7 @@ label date_siesta_1:
 
         $ show_sprites(("si 1 happy", "s 3 happy"))
         voice "ch1.10_si_013"
-        si "Thank you. Ufufu... I'll pick lots of them today."
+        si "Thank you. Ufufu… I'll pick lots of them today."
 
     return
 

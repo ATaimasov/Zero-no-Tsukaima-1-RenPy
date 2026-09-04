@@ -43,7 +43,7 @@ label ch1:
     $ dissolve_fx("l_s_forest_l_speak", type="cg")
 
     voice "ch1_l_002"
-    l "…go ahead and say it"
+    l "…go ahead and say it."
 
     voice "ch1_s_003"
     s "If I recall correctly, this morning you said, {i}'It's been forever since I've gone out shopping in town on a day off!'{/i}"
@@ -124,7 +124,7 @@ label ch1:
     menu:
         "I thoughts it's good!":
             $ choise_result = "good"
-        "I don't care":
+        "I don't care.":
             $ choise_result = "neutral"
         "It's terrible!":
             $ choise_result = "bad"
@@ -282,10 +282,10 @@ label ch1:
     s "Just as I thought... There really is someone collapsed... I wonder if she is okay... wait—huh, hey!?"
 
     voice "ch1_l_020"
-    l "Seriously, Saito! What are you doing leaving your master behind?! ...Wait, there really is someone collapsed..."
+    l "Seriously, Saito! What are you doing leaving your master behind?! …Wait, there really is someone collapsed…"
 
     voice "ch1_l_021"
-    l "This girl... she's wearing such unfamiliar clothes. Just what country could she be from, I wonder?"
+    l "This girl… she's wearing such unfamiliar clothes. Just what country could she be from, I wonder?"
 
     th "That blazer she's wearing... now that I look closer, isn't that the uniform from the school I used to go to?"
     th "Why is this girl wearing these clothes? Could it be... she's from Japan too, just like me...?"
@@ -575,7 +575,7 @@ label ch1:
     # ==== CHOISE 3 ==== 
     $ choise_result = None
     menu:
-        "I don't recall":
+        "I don't recall.":
             $ choise_result = "bad"
         "I didn't do anything!":
             $ choise_result = "good"

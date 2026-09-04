@@ -170,7 +170,7 @@ init python:
 # ============================================
 
 define build.name = "ZnT1"
-define config.version = "0.1.1"
+define config.version = "0.1.2"
 define config.name = _("The Familiar Zero: The Little Devil and Spring Breeze Concerto (Unnoficial remaster)")
 
 define config.voice_filename_format = "audio/voices/{filename}.ogg"

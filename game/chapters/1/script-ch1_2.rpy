@@ -161,7 +161,7 @@ label ch1_2:
 
     $ show_sprites(("m 1", "s 1"))
     voice "ch1.2_s_009"
-    s "So... I have a favor to ask"
+    s "So... I have a favor to ask."
 
     voice "ch1.2_m_011"
     m "What is it?"
@@ -185,7 +185,7 @@ label ch1_2:
 
     $ show_sprites(("si 1", "l 3 sad"))
     voice "ch1.2_si_05"
-    si "That's a relief. Saito-san, Miss Variere"
+    si "That's a relief. Saito-san, Miss Variere."
 
     $ show_sprites(("si 1", "s 3"))
     voice "ch1.2_s_012"

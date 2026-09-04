@@ -3,14 +3,14 @@ translate russian strings:
     old "I thoughts it's good!"
     new "Думаю, неплохо!"
 
-    old "I don't care"
-    new "Мне всё равно"
+    old "I don't care."
+    new "Мне всё равно."
 
     old "It's terrible!"
     new "Ужасно!"
 
-    old "I don't recall"
-    new "Не припоминаю"
+    old "I don't recall."
+    new "Не припоминаю."
 
     old "I didn't do anything!"
     new "Я ничего не делал!"
@@ -81,11 +81,11 @@ translate russian strings:
     old "Ask Kirche"
     new "Спросить у Кирхе"
 
-    old "Yeah"
-    new "Ага"
+    old "Yeah.{#v2}"
+    new "Ага."
 
-    old "Nope"
-    new "Не-а"
+    old "Nope."
+    new "Не-а."
 
     old "Can't something be done, Headmaster?"
     new "Нельзя ли что-нибудь предпринять, директор?"
@@ -133,8 +133,8 @@ translate russian strings:
     old "I thought I might clean the room a bit..."
     new "Думал, может, немного прибрать в комнате..."
 
-    old "Nothing special"
-    new "Ничего особенного"
+    old "Nothing special."
+    new "Ничего особенного."
 
     old "There's something I want to ask Haruna right away..."
     new "Мне нужно кое-что спросить у Харуны, и поскорее..."
@@ -175,8 +175,8 @@ translate russian strings:
     old "You don't seem like Louise."
     new "Ты не похожа на Луизу."
 
-    old "You'll make an excellent wife"
-    new "Из тебя получится отличная жена"
+    old "You'll make an excellent wife."
+    new "Из тебя получится отличная жена."
 
     old "Is that delicious?"
     new "Это вкусно?"
@@ -185,13 +185,13 @@ translate russian strings:
     new "Значит, ты экономная."
 
     old "Let me turn the pages for you."
-    new "Давай я полистаю тебе книгу"
+    new "Давай я полистаю тебе книгу."
 
     old "Let me massage your shoulders."
-    new "Давай я помассирую тебе плечи"
+    new "Давай я помассирую тебе плечи."
 
     old "Let me hold you."
-    new "Давай я возьму тебя на руки"
+    new "Давай я возьму тебя на руки."
 
     old "What kind of men do you like?"
     new "Какие мужчины тебе нравятся?"

@@ -76,7 +76,7 @@ label ch1_7:
     k "Oh, I was just an observer."
 
     voice "ch1.7_t_001"
-    t "The same"
+    t "The same."
 
     $ show_sprites(("si 1 sad"), anim_in="slide_right", anim_out="slide_right")
     voice "ch1.7_si_002"

@@ -50,7 +50,7 @@ translate japanese strings:
     old "I was wondering…"
     new "ちょっとお聞きしたいんですけど？"
 
-    old "…go ahead and say it"
+    old "…go ahead and say it."
     new "……言ってごらんなさい。"
 
     old "If I recall correctly, this morning you said, {i}'It's been forever since I've gone out shopping in town on a day off!'{/i}"
@@ -186,10 +186,10 @@ translate japanese strings:
     old "Just as I thought... There really is someone collapsed... I wonder if she is okay... wait—huh, hey!?"
     new "やっぱりだ......。人が倒れてる......。大丈夫かな......って、え、おい!?"
 
-    old "Seriously, Saito! What are you doing leaving your master behind?! ...Wait, there really is someone collapsed..."
+    old "Seriously, Saito! What are you doing leaving your master behind?! …Wait, there really is someone collapsed…"
     new "もう、サイト!ご主人様を置いて何してるのよ!って、本当に人が倒れてる......。"
 
-    old "This girl... she's wearing such unfamiliar clothes. Just what country could she be from, I wonder?"
+    old "This girl… she's wearing such unfamiliar clothes. Just what country could she be from, I wonder?"
     new "この娘、見慣れない格好をしてるけど、一体、どこの国の人かしら。"
 
     old "Hey, Saito. What's with you staring at this girl so intently?"
@@ -525,6 +525,9 @@ translate japanese strings:
     old "Um... Louise, what was our story again?"
     new "えーと、どうしたんだっけルイズ?"
 
+    old "Um, th-that's right! I met her today when I went out to town. Apparently, she's a commoner from my hometown!"
+    new "ええと、そ、そう!今日、街に出たときに会ったんだけど、どうやらわたしの故郷から来た平民らしいの。"
+
     old "She said her purse was stolen on the way and she had nowhere to go, so I thought I'd take her in for a while."
     new "途中で財布を盗られたとかで、行くところがないって言うから、しばらくの間面倒を見てあげようと思って。"
 
@@ -540,7 +543,7 @@ translate japanese strings:
     old "I told you, it's Montmorency!"
     new "だから!わたしはモンモランシーだってば!"
 
-    old "So... I have a favor to ask"
+    old "So... I have a favor to ask."
     new "それで......ひとつ、頼みがあるんだ。"
 
     old "What is it?"
@@ -558,7 +561,7 @@ translate japanese strings:
     old "...Well, fine. I'll keep your secret. Now then, I'm heading back to my room."
     new "......まあ、いいわ。約束してあげる。じゃ、わたしは部屋に戻るわね。"
 
-    old "That's a relief. Saito-san, Miss Variere"
+    old "That's a relief. Saito-san, Miss Variere."
     new "良かったですね。サイトさん、ミス・ヴァリエール。"
 
     old "Well, at least her life isn't in danger, right? That's a relief."
@@ -1314,7 +1317,7 @@ translate japanese strings:
     old "Incidentally, Siesta is the one who laid you in bed, and Montmorency examined you."
     new "ちなみに、ベッドに寝かせたのはシエスタで、容態を診たのはモンモランシーよ。"
 
-    old "Oh, s-so that's how it was? My apologies, and thank you so much"
+    old "Oh, s-so that's how it was? My apologies, and thank you so much."
     new "あ、そ、そうだったんですか。すいません、ありがとうございます。"
 
     old "Ah, no, I didn't really do anything..."
@@ -1326,7 +1329,7 @@ translate japanese strings:
     old "Now, I’d like to ask you something. Where do you come from? What’s your name?"
     new "で、今度はこちらが聞きたいんだけど。あなた、どこから来たの?名前は?"
 
-    old "Y-yes. I am Haruna... Haruna Takanaqi"
+    old "Y-yes. I am Haruna... Haruna Takanaqi."
     new "は、はい。私は春奈......『高凪 春奈』と言います。"
 
     old "Just as I thought, Takanaqi-san..."
@@ -1584,7 +1587,7 @@ translate japanese strings:
     old "Oh, I was just an observer."
     new "あ、あたしは見学で。"
 
-    old "The same"
+    old "The same."
     new "......右に同じ。"
 
     old "Well, I..."
@@ -2613,7 +2616,7 @@ translate japanese strings:
     old "What did you say...?!"
     new "なんだとお......!"
 
-    old "U-Um, Saito-san, Miss Valliere, please calm down"
+    old "U-Um, Saito-san, Miss Valliere, please calm down."
     new "あのあの、サイトさんも、ミス・ヴァリエールも、落ち着いてください。"
 
     old "Hmph..."
@@ -2892,7 +2895,7 @@ translate japanese strings:
     old "What's wrong, Siesta? Your face looks kind of red."
     new "どうかしたのシエスタ?なんだか顔が赤いよ?"
 
-    old "I-I... well... N-Next time, I'll make some dishes with wild mountain greens for you too, Saito-san!"
+    old "I-I… well… N-Next time, I'll make some dishes with wild mountain greens for you too, Saito-san!"
     new "わ、わたし......、その......。こっ、今度サイトさんにも山菜料理をご馳走しますね!"
 
     old "Huh? Yeah, I'll look forward to it."
@@ -2904,7 +2907,7 @@ translate japanese strings:
     old "Got it. I'll carry the wild greens we pick, so don't hold back."
     new "分かった。摘んだ山菜は俺が持つから、遠慮しなくていいからな。"
 
-    old "Thank you. Ufufu... I'll pick lots of them today."
+    old "Thank you. Ufufu… I'll pick lots of them today."
     new "ありがとうございます。うふふ......。今日は、いっぱい摘んじゃいますね。"
 
     old "Is that tasty?"
@@ -2928,7 +2931,7 @@ translate japanese strings:
     old "You're pretty thrifty, Siesta."
     new "シエスタって節約家なんだね。"
 
-    old "It's not really about being thrifty... It just seems like such a waste when something is perfectly edible."
+    old "It's not really about being thrifty… It just seems like such a waste when something is perfectly edible."
     new "節約っていうか......。せっかく食べられるのに、なんだかもったいないじゃないですか。"
 
     old "I think that's what you call being thrifty, though."
@@ -2940,7 +2943,7 @@ translate japanese strings:
     old "Yeah.{#var2}"
     new "そうだよ。"
 
-    old "I see... I thought this was just normal."
+    old "I see… I thought this was just normal."
     new "そうですか......。わたしは、これが普通だと思っていました。"
 
     old "…What do you want?"

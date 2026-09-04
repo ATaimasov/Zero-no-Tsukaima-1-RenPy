@@ -173,7 +173,7 @@ label ch1_6:
             s "Hey, Kirche. Why are you here?"
 
             voice "ch1.6_k_006"
-            k "Oh, there's no particular reason, really"
+            k "Oh, there's no particular reason, really."
 
             $ update_sympathy(-20, char_key="louise")
             $ update_sympathy(20, char_key="kirche")
@@ -223,7 +223,7 @@ label ch1_6:
     
     $ show_sprites(("l 1", "ha 1 happy"))
     voice "ch1.6_ha_004"
-    unk_ha "Oh, s-so that's how it was? My apologies, and thank you so much"
+    unk_ha "Oh, s-so that's how it was? My apologies, and thank you so much."
     
     $ show_sprites(("si 1", "ha 1 happy"))
     voice "ch1.6_si_003"
@@ -239,7 +239,7 @@ label ch1_6:
     
     $ show_sprites(("l 1", "ha 1"))
     voice "ch1.6_ha_005"
-    unk_ha "Y-yes. I am Haruna... Haruna Takanaqi"
+    unk_ha "Y-yes. I am Haruna... Haruna Takanaqi."
     
     $ show_sprites(("s 1 happy", "ha 1"))
     voice "ch1.6_s_015"
@@ -431,7 +431,7 @@ label ch1_6:
     s "She says to get away..."
     
     menu:
-        "Yeah":
+        "Yeah.{#v2}":
             voice "ch1.6_s_023"
             s "Yes, right away."
             $ update_sympathy(20, char_key="louise")
@@ -461,7 +461,7 @@ label ch1_6:
             voice "ch1.6_l_027"
             l "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
 
-        "Nope":
+        "Nope.":
             voice "ch1.6_s_025"
             s "No, that is impossible, Master."
             

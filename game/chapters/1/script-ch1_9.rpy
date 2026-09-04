@@ -141,7 +141,7 @@ label ch1_9:
 
     $ show_sprites(("l 1 angry", "si 1 sad"))
     voice "ch1.9_si_001"
-    si "U-Um, Saito-san, Miss Valliere, please calm down"
+    si "U-Um, Saito-san, Miss Valliere, please calm down."
 
     $ show_sprites(("l 1 angry", "k 4"))
     voice "ch1.9_k_004"

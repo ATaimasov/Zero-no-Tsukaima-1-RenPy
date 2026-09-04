@@ -637,7 +637,7 @@ label l_room_ch1_8:
             voice "ch1.8_s_066"
             s "Wh-what!? Ah, no, that's not true... I'd like to think so."
 
-        "Nothing special":
+        "Nothing special.":
             voice "ch1.8_s_067"
             s "Um... nothing."
 

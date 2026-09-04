@@ -3,13 +3,13 @@ translate japanese strings:
     old "I thoughts it's good!"
     new "いいと思うぜ"
 
-    old "I don't care"
+    old "I don't care."
     new "どっちでもいい"
 
     old "It's terrible!"
     new "悪い！"
 
-    old "I don't recall"
+    old "I don't recall."
     new "記憶にありません"
 
     old "I didn't do anything!"
@@ -78,10 +78,10 @@ translate japanese strings:
     old "Ask Kirche"
     new "キュルケに訊ねる"
 
-    old "Yeah"
+    old "Yeah.{#v2}"
     new "はい"
 
-    old "Nope"
+    old "Nope."
     new "いいえ"
 
     old "Can't something be done, Headmaster?"
@@ -133,7 +133,7 @@ translate japanese strings:
     old "I thought I might clean the room a bit..."
     new "部屋の片付けでもしようかと"
 
-    old "Nothing special"
+    old "Nothing special."
     new "なんとなく"
 
     old "There's something I want to ask Haruna right away..."
@@ -175,7 +175,7 @@ translate japanese strings:
     old "You don't seem like Louise."
     new "ルイズじゃないみたいだ"
 
-    old "You'll make an excellent wife"
+    old "You'll make an excellent wife."
     new "いいお嫁さんになれるよ"
 
     old "Is that delicious?"
